@@ -47,6 +47,10 @@ export default {
 - **Sounds like:** "It's $25 a walk. Should we do the meet-and-greet on Saturday at ten? Entirely up to you."
 - **Move on when:** a yes gets the details confirmed; a no gets a thank you.
 
+## Where you will run it first: a private sale
+
+The first whole conversations you run will probably be selling your own things, and a private sale passes through the same five stages. **Open** is the first message or the greeting at the meetup. **Discover** is finding out what they will use it for. **Present** is the item in their hands, with the facts given plainly. **Objections** is the haggle. **Ask** is the price and the handover. One sale often runs across messages, a call and a meetup, and it is still one conversation.
+
 ## Two rules for every stage
 
 **Vague about experience, exact about facts.** Price, terms, dates and what the thing does are never folded into a run or blurred by a vague word. Distraction helps a weak case and hurts a strong one (Petty, Wells & Brock, 1976), so a good offer is best heard clearly.
@@ -142,7 +146,7 @@ He says, "Thursday's fine. Morning, if you can." A detail added unprompted: a gi
       title: 'Run-through: phone and video',
       body: `The stages are the same on a call. What changes is that you have only a voice to read, and a person will not let you talk for long before they drift.
 
-You run a dog-walking business. You are calling back Priya, who left a voicemail after her last walker kept canceling. It is 12:40, her lunch break. The italic notes name each pattern.
+You run a dog-walking business, the kind of side service you might start yourself. You are calling back Priya, who left a voicemail after her last walker kept canceling. It is 12:40, her lunch break. The italic notes name each pattern.
 
 ## Open
 
@@ -313,7 +317,9 @@ Ten real conversations, each logged within a day in this module's capstone assig
 
 Be vague about experience in the conversation and exact about facts in the log. "They seemed interested" is a guess. "They asked about delivery dates twice" is a fact you can review.
 
-**Bringing it to Claude.** After every second conversation, and again after all ten, open the **Log** page, choose the **In the field** tab and press **Copy as text for a review with Claude**. Paste it into a new Claude chat. It copies every field rep you have logged, so add a line such as: "Look only at the entries headed Capstone. For each one, tell me where a tool was used at the wrong stage, where a fact was blurred or buried, and where they might have felt handled rather than helped."
+**Where the ten come from.** Two arenas: selling your own things (a listing, the messages, a call, the meetup, a yard sale) and persuading friends, family or a group (a plan, a favor, a change of habit, a decision in the group chat). Mix them. A private sale counts as one conversation from the first message to the handover.
+
+**Bringing it to Claude.** After every second conversation, and again after all ten, open the **Log** page, choose the **Real stakes** filter and press **Copy as text for a review with Claude**. Paste it into a new Claude chat. It copies every real-stakes rep you have logged, so add a line such as: "Look only at the entries headed Capstone. For each one, tell me where a tool was used at the wrong stage, where a fact was blurred or buried, and where they might have felt handled rather than helped."
 
 After ten, look across them all for the stage you skip or rush. That is your next module of practice.`,
       techniques: [
@@ -556,7 +562,7 @@ After ten, look across them all for the stage you skip or rush. That is your nex
       id: 'm15-a1',
       kind: 'solo',
       title: 'Your stage map',
-      instructions: `Using the stage map in Lesson 1, write a map for two conversations you will really have: one sale (or work persuasion) and one everyday persuasion.
+      instructions: `Using the stage map in Lesson 1, write a map for two conversations you will really have: one private sale (something you are selling, or your side service) and one persuasion with friends, family or a group.
 
 For each of the five stages, write two lines you might say and label the tools they use, Milton patterns included: *link, "and as"*; *presupposition, "when you..."*. Mark every fact (price, terms, dates) and check that each one is stated plainly, outside any run or vague phrase.
 
@@ -608,10 +614,10 @@ Run it three times. After each, ask Claude to name the stage where you were weak
     {
       id: 'm15-a4',
       kind: 'chat',
-      title: 'Role-play: the practice manager on video',
-      instructions: `Run scenario **The practice manager on video**. Keep runs to 2 to 4 clauses, check in often, and calibrate from their words and pauses. End with a concrete next step and a time.
+      title: 'Role-play: the piano buyer',
+      instructions: `Run scenario **The piano buyer**: a private sale, from the buyer's phone call to the meetup in your living room. On the call, keep runs to 2 to 4 clauses, check in often, and calibrate from their words and pauses. At the meetup, let them play it, then say the price and the ask in one sentence and stay silent.
 
-Run it three times, changing one thing each time: your discovery questions, your handling of the "send me a brochure" brush-off, then your ask.`,
+Run it three times, changing one thing each time: your discovery questions, your handling of the "what's your lowest?" opener, then your ask.`,
       reps: 3,
       required: true,
       scenario: 'm15-s2',
@@ -619,7 +625,7 @@ Run it three times, changing one thing each time: your discovery questions, your
         'What did you change this run?',
         'The real objection under the stated one',
         'Your ask, word for word',
-        'Would they be glad they took the call?',
+        'Would they be glad tomorrow that they bought from you, or that they talked to you if they did not?',
       ],
     },
     {
@@ -657,17 +663,22 @@ Afterwards, log each stage in a line. Be exact about what was said and what happ
       id: 'm15-a7',
       kind: 'field',
       title: 'Capstone: ten logged conversations',
-      instructions: `Have ten real sales, calls or work persuasions, mixing face to face and phone or video. One rep is one whole conversation, opening to ask, logged here within a day while it is fresh.
+      instructions: `Have ten real conversations from your two arenas, and mix them:
 
-In the log, label the patterns you used and where: *Discover: precision question, "compared to what?"*; *Present: short run with a presupposition, "as the first showings come in"*. Write what was said, not what you meant to say.
+- **Private sales.** Something you are selling on Marketplace, Craigslist or OfferUp, a buyer at your yard sale, or a job for your side service. One sale is one conversation from the first message to the handover, even when it runs across messages, a call and a meetup. Most of the open, the discovery and the ask happen at the meetup or on the call.
+- **Friends, family or a group.** A plan, a favor, a change of habit, a decision your club, your volunteering group or the group chat has to make.
 
-After every second conversation, open the **Log** page, choose the **In the field** tab and press **Copy as text for a review with Claude**. Paste it into a new Claude chat and add: "Look only at the Capstone entries. Where did I use a tool at the wrong stage, where did I blur or bury a fact, and where might they have felt handled rather than helped?" Carry one change into the next two conversations.
+One rep is one whole conversation, open to ask, logged here within a day while it is fresh. This will take a few weeks, which is fine: a few items sold and a few plans proposed will get you there. If you later sell for a living, real sales calls count too.
 
-Never record a customer without their permission.`,
+In the log, name each stage and label the patterns you used and where: *Discover: precision question, "what will you use it for?"*; *Ask: price in one sentence, then silence*. Write what was said, not what you meant to say.
+
+After every second conversation, open the **Log** page, choose the **Real stakes** filter and press **Copy as text for a review with Claude**. Paste it into a new Claude chat and add: "Look only at the Capstone entries. Where did I use a tool at the wrong stage, where did I blur or bury a fact, and where might they have felt handled rather than helped?" Carry one change into the next two conversations.
+
+Trust is the measure here more than anywhere. A buyer can leave you a rating, and a friend or a group will remember how they were asked. Never record anyone without their permission.`,
       reps: 10,
       required: true,
       log: [
-        'Setting, and what you wanted',
+        'Arena and setting (a sale: listing, messages, call, meetup, yard sale; or friends, family, a group), and what you wanted',
         'Each stage in a line or two: what you said, what they said',
         'Patterns and tools used, each labeled with the stage and the words you said',
         'Outcome, in facts',
@@ -679,9 +690,10 @@ Never record a customer without their permission.`,
       id: 'm15-a8',
       kind: 'solo',
       title: 'Capstone review with Claude',
-      instructions: `When all ten capstone conversations are logged, open the **Log** page, choose the **In the field** tab and press **Copy as text for a review with Claude**. Paste it into one new Claude chat, tell it to look only at the ten Capstone entries, and ask for a review across the set:
+      instructions: `When all ten capstone conversations are logged, open the **Log** page, choose the **Real stakes** filter and press **Copy as text for a review with Claude**. Paste it into one new Claude chat, tell it to look only at the ten Capstone entries, and ask for a review across the set:
 
 - the stage you most often skip or rush
+- what changes between your private sales and your conversations with friends, family or a group
 - the tool you over-use, and one you never use
 - every place a fact was vague
 - any conversation where the trust answer was weak, and what it had in common with the others
@@ -722,26 +734,26 @@ Write down the three habits you will practice next. That list is the start of yo
     },
     {
       id: 'm15-s2',
-      title: 'The practice manager on video',
-      setting: 'Video call. You sell appointment-booking software to dental practices.',
-      you: 'Run the whole call: get past the brush-off, find the real problem, show the one thing that solves it, handle objections, and agree on a concrete next step with a time.',
-      them: 'The manager of a three-dentist practice, on camera between patients. Juggles phones all day; missed appointments cost the practice money every week. Was burned by a software rollout two years ago that staff hated. Not the final decision maker: the senior dentist signs off. Polite but guarded, and will try to end the call early.',
+      title: 'The piano buyer',
+      setting: 'A phone call, then the meetup. You are selling your own upright piano, twenty years old, listed on Facebook Marketplace for $1,200: last tuned in March, one sticky key in the top octave (shown in the photos). Local movers quote about $300. If the call goes well, the role-play moves to Saturday, when the buyer comes to your living room to play it.',
+      you: 'Run the whole private sale: open on the call, find out what the piano is for, present it honestly with every fact exact, handle the haggle and the doubts, and ask for a clear decision at the meetup, with the handover arranged.',
+      them: 'A parent whose nine-year-old has had six months of lessons on a keyboard and whose teacher says it is time for a real piano. Calls rather than messages because they have questions. Careful with money and a little out of their depth. Real fear, not yet said: paying for a piano and a mover and finding it will not hold a tune, so the money is gone and the child gives up. Opens with "what’s your lowest?" to see what happens. Warms to straight answers and to being asked about the child.',
       objections: [
-        'Can you just send me a brochure?',
-        'We tried software before and the staff hated it.',
-        'What’s the price per seat?',
-        'It’s not really my decision.',
-        'Now isn’t a great time, we’re short-staffed.',
+        'What’s your lowest?',
+        'People give pianos away free on Craigslist.',
+        'How do I know it’ll hold a tune?',
+        'With the movers that’s $1,500. Would you take $900?',
+        'I’d want her teacher to have a look first.',
       ],
       focus: [
-        'Calibration from voice and pauses',
-        'Precision and consequence questions',
+        'Calibration from voice and pauses on the call',
+        'Precision questions: what will you use it for?',
         'Short runs ending in a question',
-        'Utilizing the brush-off: "That’s right, and..."',
-        'Reframing a past failure',
-        'A concrete next step with a time',
+        'Utilizing the opener: "That’s right, and..."',
+        'Honest price anchors and reframing the haggle',
+        'The price, the ask and silence at the meetup',
       ],
-      win: 'They tell you what missed appointments cost them and agree to a short demo with the senior dentist at a set time. You stated price and terms exactly, and they would take your next call.',
+      win: 'They tell you what the piano is for and name the tuning fear, and you answer it with facts (the March tuning, the sticky key, an offer to let the teacher come too). At the meetup you state the price once and stay quiet. Whether or not they buy, every fact was exact, and they would leave you a good rating.',
     },
     {
       id: 'm15-s3',

@@ -306,7 +306,7 @@ One or two vague words, next to something concrete. That is the whole secret.
 
 The concrete part earns trust; the vague part lets them picture it. Lose the concrete part and you sound like a brochure. Lose the vague part and you sound like a spec sheet.
 
-## Three before-and-afters
+## Four before-and-afters
 
 **Face to face, a car dealership.** The customer said the drive to school is forty minutes each way.
 
@@ -327,6 +327,14 @@ The concrete part earns trust; the vague part lets them picture it. Lose the con
 > **Pushy:** You need to get out of the house more. You'll love it.
 
 > **Natural:** The class is Thursday at seven, it's an hour, and the first one's free. You might find it's a nice way to switch off after work.
+
+**Written, your own listing.** You are selling a hybrid bike on Marketplace.
+
+> **Brochure:** Amazing bike!! Life-changing rides, must see!
+
+> **Natural:** Trek hybrid, medium frame, about five years old. New tires and chain in May, small scratch on the top tube (photo 4). $180, pickup only. It's the kind of bike that makes a ten-minute errand something you might look forward to.
+
+The listing is where this module is easiest to practice, because you can rewrite it until it is right. Every fact a buyer will check on arrival is exact: the size, the age, the scratch, the price.
 
 In each natural version, count the vague words. Two or three, at most. Everything else they could check.
 
@@ -593,7 +601,7 @@ Then rewrite one paragraph with *no* vague words at all, only facts. Read both a
       id: 'm04-a2',
       kind: 'solo',
       title: 'Ten sentences out loud',
-      instructions: `Pick something you sell or something you want (a vacation, a new couch). Say ten sentences about it out loud and record them on your phone.
+      instructions: `Pick something on your selling list, something you sell, or something you want (a vacation, a new couch). Say ten sentences about it out loud and record them on your phone.
 
 Each sentence has one exact fact and one or two vague words: a nominalization, an unspecified verb, "people", or a missing comparison. At least three of them use can, may, might or could.
 
@@ -706,19 +714,27 @@ Run it twice. Afterwards, ask Claude which line felt like a sales technique, and
       id: 'm04-a5',
       kind: 'field',
       title: 'Concrete first, then one vague line',
-      instructions: `In six real sales or persuasion conversations, after you have stated the facts, add one sentence that is vague about the experience:
+      instructions: `In five real conversations from your practice ground, after you have stated the facts, add one sentence that is vague about the experience:
 
-> That's $180 a month, fixed for two years. And beyond the numbers, what most people tell me is it gives them a kind of breathing room.
+> It's $180, new tires in May, and there's a scratch on the frame. Honestly, it's the kind of bike that makes you want to find reasons to go out.
 
-Watch their face, or listen to their pause. Did they lean in, fill the gap with something of their own, or glaze over?`,
-      reps: 6,
+This module works at every stage of a sale:
+
+- **The listing.** Facts and condition exact, flaws included, then one vague line about what it is like to own. A listing counts as one rep once buyers have replied; log your line and what they wrote back.
+- **Messages.** Answer the question exactly first, then add your one line.
+- **The meetup or a call.** Give the facts while they look it over, then the line, then go quiet.
+
+With friends and family, give the facts of the plan first (when, where, how much), then the line: "It's two nights, $90 each, and I think we'd all come back a bit lighter." Mix arenas freely. If you later sell for a living, real sales calls count too.
+
+Watch their face, listen to their pause, or read their reply. Did they lean in, fill the gap with something of their own, or glaze over?`,
+      reps: 5,
       required: true,
       log: [
-        'The situation',
+        'The situation: which arena, which stage, who',
         'The fact you gave, and your vague line, word for word',
-        'Their response (words, pause, face)',
+        'Their response (words, pause, face, or reply)',
         'Was anything you said vague that should have been exact?',
-        'Would they be glad tomorrow that they talked to you?',
+        'Would they be glad tomorrow that they talked to you? Would a buyer who arrived and checked every fact rate you well?',
       ],
     },
   ],

@@ -103,6 +103,10 @@ Everyday, selling your old car to a friend:
 
 > The dealer offered me $4,200 as a trade-in, and the same model is listed at about $5,500 online. I'd take $4,800.
 
+In your own Marketplace listing, the anchor goes before the asking price, and both are numbers a buyer can check:
+
+> Same stroller is $380 new on the maker's site. Two similar ones nearby are listed at $200 and $220. Asking $190. One small scuff on the canopy, photo included.
+
 At work, asking for a raise:
 
 > The two similar roles advertised this month were $58,000 and $62,000. I'm asking for $60,000.
@@ -113,7 +117,7 @@ An invented "was" price, a "normally $1,500" you never charge, a made-up competi
 
 ## Their anchors pull on you
 
-When a buyer opens with "I was thinking around $500", that number is now pulling on *your* sense of what is reasonable. Notice it. Then state your real price clearly, once. If you move, move by changing what they get, not by shading the number.
+When a buyer opens with "I was thinking around $500", that number is now pulling on *your* sense of what is reasonable. Notice it. On Marketplace it usually arrives as a message: "Would you take $40?" on a $90 listing. Then state your real price clearly, once. If you move, move by changing what they get, not by shading the number.
 
 On the receiving end: the "from $99" ad, the expensive bottle at the top of the wine list, a seller's opening figure. Ask yourself what the thing is worth to you before you let their number set the ground.`,
       techniques: [
@@ -205,6 +209,10 @@ Face to face, a buyer on price:
 On the phone, someone who wants to think:
 
 > That makes sense, it's a real decision. Thinking it over is how you make sure it fits, so let's make the thinking easy: what would you want to be sure of by the time you've decided?
+
+At a Marketplace meetup, a buyer turning over the lamp you listed at $60:
+
+> Sixty's more than you wanted to spend, fair enough. Sounds like you want to know it's not going to fall apart. That's why it's heavy: it's solid brass, and the same one is $190 new. Have a look at the wiring while you're holding it.
 
 Everyday, a partner who thinks a trip is an extravagance:
 
@@ -609,17 +617,25 @@ Run it twice. The second time, try anchoring before she gives her budget.`,
     {
       id: 'm12-a7',
       kind: 'field',
-      title: 'Price the problem first',
-      instructions: `In five real sales or negotiation conversations, before you give your price, ask what the problem is costing them and let them work out the figure. Then state your price exactly, and add one true gain or loss frame.
+      title: 'An honest anchor before the price',
+      instructions: `In four real conversations, put one real, checkable number on the table before you name your price or your request. Then state yours exactly, once, and add one true gain or loss frame. Reps can mix arenas: a listing, a meetup and two friend conversations is a full set.
 
-> So the breakdowns are costing you about $1,500 a month. The service contract is $600 a month.
+**Selling your own stuff.** Two honest anchors are almost always available: the **real new price** (the maker's site, your receipt) and **a real comparable listing** near you. They belong in three places:
 
-Never supply their number for them. If they cannot put a figure on it, that is information too.`,
-      reps: 5,
+- **The listing:** "$320 new, receipt in the photos. Similar ones nearby are $150 to $175. Asking $140."
+- **The messages:** when someone asks "what's your lowest?", give the anchor before you answer.
+- **The meetup:** when they hesitate on price, say where your number came from, once, then stop.
+
+If you offer a side service (yard work, tutoring, small repairs), price the problem first: "How long does the yard take you each weekend?" Let them work out the figure. Never supply it for them.
+
+**Friends, family or a group.** Before you name what a plan costs, give the real alternative: "A hotel's about $180 a night each. If we split the cabin it's $70 each." Then the number, once.
+
+No invented "was" prices and no comparable you have not actually seen. A Marketplace buyer will check, and can leave a rating; a friend will remember. If you later sell for a living, real sales conversations count too.`,
+      reps: 4,
       required: true,
       log: [
-        'The situation',
-        'The cost they worked out (or why they could not)',
+        'The situation, and which arena (a sale or friends, family, a group)',
+        'Your anchor, and where its number came from',
         'Your price and your frame, word for word',
         'Their response',
         'If they find out everything next month, will they still trust what you said?',
@@ -629,17 +645,23 @@ Never supply their number for them. If they cannot put a figure on it, that is i
       id: 'm12-a8',
       kind: 'field',
       title: 'Reframe a real objection',
-      instructions: `In real conversations, when you hear an objection that is a frame rather than a fact, use the four steps: pace, find what it protects, offer a true frame, let them reject it.
+      instructions: `In five real conversations, when you hear an objection that is a frame rather than a fact, use the four steps: pace, find what it protects, offer a true frame, let them reject it. Mix the arenas as they come.
 
-When you hear an objection that *is* a fact, do not reframe it. Log those too: knowing the difference is half the skill.`,
+**Selling your own stuff.** The objections arrive at the meetup with the item in their hands: "that's too much", "it's got a scratch", "I can get a new one for not much more". Reframing is spoken work, so do it face to face or on a call. In messages, keep to exact facts and save the reframe for when you meet.
+
+**Friends, family or a group.** "We always go there." "That's too much work for the volunteers." "The kids will hate it." Pace first, and with people close to you pace for longer.
+
+When you hear an objection that *is* a fact ("it won't fit in my car", "we already booked somewhere"), do not reframe it. Log those too: knowing the difference is half the skill.
+
+If you later sell for a living, real sales conversations count too.`,
       reps: 5,
       required: false,
       log: [
-        'The objection, in their words',
+        'The objection, in their words, and where (a meetup, a call, friends, a group)',
         'Frame or fact?',
         'What it protected, and your reframe',
         'What they said next',
-        'Did the reframe help them see more clearly, or just make it harder to say no?',
+        'Did the reframe help them see more clearly, or just make it harder to say no? Would they be glad tomorrow they talked to you?',
       ],
     },
   ],
@@ -675,16 +697,16 @@ When you hear an objection that *is* a fact, do not reframe it. Log those too: k
     {
       id: 'm12-s3',
       title: 'The high-mileage car',
-      setting: 'Face to face on a used-car lot.',
-      you: 'Help a buyer see a high-mileage car fairly, using true reframes, without hiding any fact about it.',
-      them: 'A nurse in his twenties buying his first car on a tight budget. Has been told by his dad to "never buy anything over 100,000 miles". The car has 118,000 miles, a full service history, a new timing belt last year, and was mostly driven on highways. He likes it but feels he is being foolish.',
+      setting: 'Face to face in your driveway. You are selling your own car, listed on Facebook Marketplace for $5,900.',
+      you: 'Help a buyer see your high-mileage car fairly, using true reframes, without hiding any fact about it.',
+      them: 'A nurse in his twenties buying his first car on a tight budget, who answered your listing. Has been told by his dad to "never buy anything over 100,000 miles". The car has 118,000 miles, a full service history, a new timing belt last year, and was mostly driven on highways. He likes it but feels he is being foolish, and worries that a private seller is hiding something a dealer would have to tell him.',
       objections: [
         'My dad says anything over a hundred thousand is a money pit.',
         'Why is it so cheap? What’s wrong with it?',
-        'I’d rather pay more for something newer.',
+        'Would you take $4,500?',
       ],
       focus: ['Context reframes', 'Content reframes', 'Pacing the objection', 'Exact facts'],
-      win: 'He understands exactly what the mileage means, including the real risks, and decides for himself. If he buys, he would recommend you to a friend. If he walks, he walks feeling respected.',
+      win: 'He understands exactly what the mileage means, including the real risks, and decides for himself. If he buys, he would leave you a good rating and send a friend your way. If he walks, he walks feeling respected.',
     },
   ],
 }

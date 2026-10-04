@@ -203,6 +203,10 @@ On the phone, both assume the call.
 
 To a partner who already agreed you should get one, both assume buying it.
 
+> Would tonight after six or Saturday morning be easier to pick it up?
+
+To a Marketplace buyer who has just messaged "I'll take it", both assume the pickup, which they have already promised. Sent to someone who only asked "is this still available?", the same line skips a step.
+
 **How to do it:** wait for the *whether* (they said yes to the demo, the call, the present). Then offer two real options for *when*, *which* or *how*. Both options must be ones you are genuinely happy to give.
 
 ## Illusion of choice and double binds
@@ -215,7 +219,7 @@ Parents do it without training:
 
 ## What the research says
 
-There are no controlled studies of double binds as taught, or of the illusion of choice as a persuasion technique. It is practitioner lore. If you want to know whether it works for you, test it: in ten booking moments where the person has already said they want to go ahead, alternate between "Would you like to book a time?" and "Would Tuesday or Thursday be better?", decided in advance, and log how many book. Ten is a small sample: treat a big gap as a hint worth testing again, and a small one as noise.
+There are no controlled studies of double binds as taught, or of the illusion of choice as a persuasion technique. It is practitioner lore. If you want to know whether it works for you, test it: in ten booking moments where the person has already said they want to go ahead (a client, a buyer arranging a pickup, a friend who has agreed to a plan), alternate between "Would you like to book a time?" and "Would Tuesday or Thursday be better?", decided in advance, and log how many book. Ten is a small sample: treat a big gap as a hint worth testing again, and a small one as noise.
 
 ## The trust line
 
@@ -593,34 +597,50 @@ Each one is a step they have already taken for granted. In at least three conver
       id: 'm07-a6',
       kind: 'field',
       title: 'One presupposed next step',
-      instructions: `In five real sales or persuasion conversations, listen for a step the person signals ("I'd need to run it past my boss", "we're looking to move in spring"). Then presuppose that step, and only that step:
+      instructions: `Five real conversations, from either arena or a mix (two buyers and three friends counts). Listen for a step the person signals, then presuppose that step, and only that step.
 
-> Before you run it past your boss, what do you think she'll ask?
+**Selling your own stuff.** The messages are full of signals, and so is the meetup:
 
-Write the signal down the moment you hear it, so the log is honest about what they said.`,
+- "Can I come see it this weekend?" signals a visit. "When you come by, it'll be in the garage, so you can try it there" presupposes the visit and nothing more.
+- "My wife will want to see it first." "Before you show her, do you want a couple of photos of the back too?"
+- "I'm moving into a new place next month." "Once you're in, where do you think it'll go?"
+
+Never presuppose the sale ("when you take it home") until they have said they want it. A question about the price is interest, not a yes. The listing itself can presuppose experience ("the first thing you'll notice is how quiet it runs") but must state every fact and flaw plainly. A side job works the same way: "When you're ready to get the yard done, would mornings suit you?" only after they said they want it done.
+
+**Friends, family and groups.** "I keep meaning to start running." "When you start, do you want company the first week?" In a group chat deciding a trip, presuppose only what the group has already agreed.
+
+Write the signal down the moment you can, in their words, so the log is honest about what they said. If you later sell for a living, real sales calls count too.`,
       reps: 5,
       required: true,
       log: [
+        'Which arena and stage (listing, messages, meetup, call, friend, group)?',
         'What did they signal, in their words?',
         'Your presupposing line',
         'Their response (words, pause, face)',
-        'Would they be glad tomorrow that they talked to you?',
+        'Would they be glad tomorrow that they talked to you? (A buyer can leave you a rating.)',
       ],
     },
     {
       id: 'm07-a7',
       kind: 'field',
       title: 'Test the choice',
-      instructions: `The "or" close is unproven, so test it in your own work. Pick ten booking moments where the person has already said they want to go ahead. Before each one, flip a coin: heads, ask "Would you like to book a time?"; tails, ask "Would Tuesday or Thursday be better?"
+      instructions: `The "or" close is unproven, so test it on real stakes. Use moments where the person has already said yes to the *whether* and only the *when* is left:
 
-Log every outcome, including the flat ones, and only look at the totals after all ten. Ten is a hint, not proof: if the gap is big, run ten more.`,
-      reps: 10,
+- **A buyer** who has messaged "I'll take it" or "can I come see it?" Heads: "When would you like to come by?" Tails: "Would tonight after six or Saturday morning be better?"
+- **A side-job client** who wants the work done. Heads: "When would suit you?" Tails: "Would Tuesday or Thursday be better?"
+- **A friend or family member** who has agreed to the plan (dinner, a visit, helping you move). Same two versions.
+
+Before each one, flip a coin, and write the side down before you send or say anything. Count it a success only if they name a specific time *and turn up*: a no-show counts as a no, which makes this a useful test for anyone selling on Marketplace.
+
+Mix arenas freely. The assignment counts as done at six reps, but the test needs ten before the totals mean anything, so keep logging to ten, running alongside later modules, and only look at the totals then. Ten is a hint, not proof: if the gap is big, run ten more. If you later sell for a living, real booking moments on sales calls count too.`,
+      reps: 6,
       required: false,
       log: [
-        'Heads or tails (which version)?',
-        'Did they book?',
-        'Anything else that might explain it (mood, time of day)?',
-        'Did the question feel like a convenience to them or a squeeze?',
+        'Heads or tails (which version), written down before you asked?',
+        'Which arena (buyer, side job, friend, family, group)?',
+        'Did they name a time, and did they turn up?',
+        'Anything else that might explain it (mood, time of day, how keen they already were)?',
+        'Did the question feel like a convenience to them or a squeeze? Would they be glad tomorrow that you asked it that way?',
       ],
     },
   ],

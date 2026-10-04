@@ -166,6 +166,12 @@ On a call, backtracking also tells them you are still there and following, which
 
 > You: "Simple for the team. Who on the team is going to be using it most?"
 
+It works the same way when someone comes to look at a desk you are selling:
+
+> Buyer: "I need something sturdy. My son leans on everything."
+
+> You: "Something sturdy. Give it a good push and see what you think."
+
 ## Naming the emotion
 
 When you hear a feeling under the words, say what you hear, tentatively.
@@ -523,17 +529,21 @@ Notice how the call feels compared with your usual calls.`,
       id: 'm01-a7',
       kind: 'field',
       title: 'Rapport in real conversations',
-      instructions: `In five real sales conversations or calls, do three things:
+      instructions: `In four real conversations from your practice ground, do three things:
 
 - match their voice within the first minute
 - backtrack at least two key words, especially the need and the worry
 - if you hear a feeling, name it tentatively, then pause
 
+All three need a voice, so use the stages where you can hear one: a buyer who calls about something you listed, the meetup when they come to see it, a yard-sale customer who stops to chat, or a friend or family member talking something through with you. Text messages do not count for this one.
+
+Mix arenas freely: one Marketplace meetup and three talks with family is four reps. With friends and family the trust question matters even more, because you will see them next week. If you later sell for a living, real sales calls count too.
+
 Do not add anything else from later modules yet. Log right after.`,
-      reps: 5,
+      reps: 4,
       required: true,
       log: [
-        'The situation in one line',
+        'The situation in one line: which arena, which stage, who',
         'How they sounded, and how you matched',
         'The words you backtracked',
         'Any emotion you named, and their response',
@@ -543,14 +553,16 @@ Do not add anything else from later modules yet. Log right after.`,
     {
       id: 'm01-a8',
       kind: 'field',
-      title: 'Loosely and late, on video or in person',
-      instructions: `In five more real meetings, in person or on video, add the body. Match the general shape of their posture and the size of their gestures, a little later and a little looser than feels necessary.
+      title: 'Loosely and late, in person',
+      instructions: `In three more real conversations face to face, or on a video call with family, add the body. Match the general shape of their posture and the size of their gestures, a little later and a little looser than feels necessary.
+
+Good places for it: a buyer looking over the item you are selling, a yard-sale customer who lingers, a friend over dinner, a club or volunteer meeting where you want the group to go along with an idea. Mix them as you like. If you later sell for a living, real sales meetings count too.
 
 If at any point you catch yourself tracking their movements, drop it and just listen. Log whether it ever felt noticed.`,
-      reps: 5,
+      reps: 3,
       required: false,
       log: [
-        'In person or on video?',
+        'Where, and with whom?',
         'What you matched, and how late',
         'Did it ever feel like they noticed?',
         'Would they trust you more or less if they had noticed?',

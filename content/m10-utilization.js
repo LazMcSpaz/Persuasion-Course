@@ -114,6 +114,8 @@ The value: not wasting money, or not feeling foolish for overpaying.
 
 > Everyday, a roommate on splitting a house cleaner: "Twenty a week does add up. And I'd only want it if it ends the Sunday fights. Try a month and see?"
 
+> Selling your own things, a Marketplace buyer offering $40 on a $60 chair: "Forty is fair for a lot of used chairs, and you don't want to overpay. This one's barely been sat in. Come try it, and if it isn't worth sixty to you, tell me then."
+
 ## Timing
 
 The value: not taking on more right now, or doing it at the right moment.
@@ -600,16 +602,25 @@ Run it twice. The second time, aim to have them ask you a question (not make a c
       id: 'm10-a8',
       kind: 'field',
       title: 'Pace the pushback first',
-      instructions: `In five real sales or persuasion conversations, the moment you meet pushback, run the recipe: let them finish, say it back, say what is true about it, find the value underneath, and lead from inside it with a question.
+      instructions: `Five real conversations with pushback in them, from either arena or a mix (two buyers and three friends counts). The moment you meet pushback, run the recipe: let them finish, say it back, say what is true about it, find the value underneath, and lead from inside it with a question.
 
-If you can, add one sincere freedom reminder after the ask.`,
+**Selling your own stuff.** The obvious rep is the lowball, or "would you take less?" Decide your lowest price *before* the conversation, so pacing the offer never slides into accepting it.
+
+- **In messages:** "Would you take $40?" on a $60 listing. "Forty makes sense for a used one, nobody wants to overpay. It runs like new, though, and I'm at $60. Want to come see it before you decide?"
+- **At the meetup**, where most haggling really happens: "It's smaller than I thought." "It is smaller than the photos make it look, they always do. Where were you planning to put it?" Then state the price plainly and stop.
+- **A side job:** "That's more than the kid down the street charges." "It probably is, and you want to know what the extra gets you. Can I show you what I'd do in the first hour?"
+
+**Friends, family and groups.** Pace the pushback *fully* before you lead: their words, what is fair about it, and only then where you would like to go. A partner who does not want to drive that far, a relative who thinks your plan is a waste of money, a club member who says "we tried that in 2019". The test is that they feel you heard the whole objection, not just the part you had an answer to.
+
+If you can, add one sincere freedom reminder after the ask ("if sixty doesn't work, no hard feelings"), and mean it: be ready to let the buyer walk. If you later sell for a living, real sales calls count too.`,
       reps: 5,
       required: true,
       log: [
-        'The pushback, in their words, and which kind it was',
+        'Which arena and stage (messages, meetup, call, side job, friend, family, group)?',
+        'The pushback, in their words, and which kind it was (price, timing, trust, "think about it")',
         'Your pace and your lead',
         'What they said next: a question, or the same objection?',
-        'Would they be glad tomorrow that they talked to you?',
+        'Would they be glad tomorrow that they talked to you? (A buyer can leave you a rating; family remembers longer.)',
       ],
     },
   ],

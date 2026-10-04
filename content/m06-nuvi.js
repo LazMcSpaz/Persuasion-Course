@@ -188,6 +188,10 @@ And here is the fix: the run for the experience, then a period, a change of voic
 
 > And as you think about how much easier mornings could be, and you picture the kids piling in without the usual fight over seats... *(voice comes down)* So, the numbers. It's $81 a month over 60 months, $4,860 in total. Do you want me to write that down?
 
+The same shape at a Marketplace meetup, selling your old desk:
+
+> You've seen it in daylight now, and you've tried the drawers, and as you picture it under that window you mentioned, you can probably tell how it'd be to work at. *(voice comes down)* I'm asking $80. The top has a ring mark on the right, there.
+
 ## Why the landing matters
 
 Davis & Knowles (1999) found that a moment of confusion *followed by a clear frame* is what raised sales. The confusion alone did nothing useful; the clarity afterwards did the work. That is the right model for a run-on: the run opens the experience up, and the landing gives them something solid to stand on. A run with no landing is all confusion and no frame.`,
@@ -217,7 +221,11 @@ In ordinary conversation, link two, three or four clauses, then finish with a no
 
 > I can hear it's been a long day on your end, and while we've only got twenty minutes, we can get the main thing taken care of. What's the main thing?
 
-That is pace, pace, lead, land on a question. Most of your runs at work should look like this.
+> You've driven over, and you've had a good look at it, and as you're checking the tires, I'm guessing you've got a feel for whether it's right for you. What do you think?
+
+The third is a buyer looking at a used bike you are selling. The run is about their experience; the price comes after, in its own sentence.
+
+All three are pace, pace, lead, land on a question. Most of your runs at work, or at a meetup, should look like this.
 
 ## Long runs: three places only
 
@@ -499,7 +507,7 @@ Move on when two reps in a row have no more than two ums and no accidental endin
       title: 'Rung 2: 1 minute, with all three landings',
       instructions: `**Talk timer** at **1 min**, recorded. Now add delivery: pause where a period would go, keep the linkage, keep your voice level through the pause, and breathe at each pause.
 
-Rotate the landing: rep 1 on an embedded suggestion, rep 2 on a question, rep 3 on a plain fact (a real price or date from something you sell or plan), then round again. Stop talking a few seconds before the bell so the landing is deliberate, not the clock's.
+Rotate the landing: rep 1 on an embedded suggestion, rep 2 on a question, rep 3 on a plain fact (a real price or date: something you are selling, or a plan you are making), then round again. Stop talking a few seconds before the bell so the landing is deliberate, not the clock's.
 
 Listen back right away. The landing should sound like shifting gears, not like running out of words.`,
       reps: 6,
@@ -515,7 +523,7 @@ Listen back right away. The landing should sound like shifting gears, not like r
       id: 'm06-a3',
       kind: 'solo',
       title: 'Rung 3: 2 minutes, the long run',
-      instructions: `**Talk timer** at **2 min**, recorded, about 300 words. Use the card topic or pick one where a long run belongs: walking someone through a calm morning, a story about a past customer, someone using what you sell.
+      instructions: `**Talk timer** at **2 min**, recorded, about 300 words. Use the card topic or pick one where a long run belongs: walking someone through a calm morning, a story about a past buyer or friend, someone enjoying something on your selling list.
 
 Try both pause placements: link-then-pause ("and as... ") in the first minute, pause-then-link in the second. Decide which sounds more like you.
 
@@ -605,17 +613,25 @@ Watch whether they lean in, drift or start to interrupt. If they start to interr
       id: 'm06-a8',
       kind: 'field',
       title: 'Short run, then plain facts',
-      instructions: `In five real sales or persuasion conversations, use one short run (2 to 4 clauses) about the *experience* at the point where they are picturing using what you offer. Then shift gears and state the relevant facts (price, terms, timing) in plain, short sentences.
+      instructions: `Five real conversations where something is at stake, from either arena, mixed however your month allows: one Marketplace meetup and two friends counts.
 
-If a long run fits, such as a story or a visualization they agreed to, try one of up to a minute. Do not record a customer without their permission.`,
+**Selling your own stuff.** The meetup is the place for this, not the messages. When the buyer has the item in their hands (sitting on the chair, turning the bike over, flicking through the books), give one short run of 2 to 4 clauses about the *experience* of owning it:
+
+> You've had a good look at it now, and you've sat in it, and as you picture it in that corner you mentioned, you can probably already tell how it'd feel at the end of the day.
+
+Then shift gears and state the facts in short, plain sentences: the price, the condition, anything wrong with it. "It's $60. There's a small scratch on the left arm, here." Never carry the price, or a flaw, inside a run. A phone call with a buyer works the same way. A side job (yard work, tutoring, a repair) works too: the run for what it will be like when it is done, then the price and the timing plainly.
+
+**Friends, family and groups.** A short run to calm or encourage someone (a friend nervous about an interview, a relative stuck on a decision), or a long run of up to a minute for a story you tell a friend or a group, then land on a plain fact or an honest question.
+
+If a long run fits at a meetup, such as a quick picture they agreed to, keep it under a minute and land it on a question. Do not record anyone without their permission. If you later sell for a living, real sales calls count too.`,
       reps: 5,
       required: true,
       log: [
-        'The situation',
+        'Which arena and stage (meetup, call, side job, friend, group)?',
         'Your run (as close as you remember) and its rough length',
-        'How you stated the facts afterwards',
+        'How you stated the facts afterwards, and was the price outside the run?',
         'Their response (words, pause, face or voice)',
-        'Would they be glad tomorrow that they talked to you?',
+        'Would they be glad tomorrow that they talked to you? (A buyer can leave you a rating; a friend remembers longer.)',
       ],
     },
   ],

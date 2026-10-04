@@ -180,6 +180,8 @@ You cannot see an inner state, so you pace it from what they have given you:
 
 > You want something the kids won't wreck in a month.
 
+> **Selling your old stroller:** You said the baby's due in March, and you'd rather not spend a fortune on something you'll use for a year.
+
 Each of those comes from something they said or showed you. That is what makes it a pace and not a guess.
 
 **How:** listen for the feeling word or the want ("nervous", "don't want to get it wrong", "just want it to work"). Give it back in their words, not a bigger one: if they said "a bit worried", do not say "terrified". Then pause, and let them add to it.
@@ -235,6 +237,12 @@ Pacing "it's expensive" does not mean saying "yes, it's overpriced". It means ac
 "I understand, but..." erases the pace. Everybody has heard it, and everybody knows the real sentence starts after the "but". Pace, pause, then lead. Module 5 looks at the words that join a pace to a lead, and Module 10 goes further, working from inside the objection itself.
 
 > **On a call:** You said it's too slow for your team. That matters, so let's check it properly. What speed would you need it to hit?
+
+Selling your own things, the objection often arrives by message:
+
+> **Buyer:** Would you take $40?
+
+> **You:** Forty is what you'd like to pay, and that's fair to ask. I've got it at $60 because it's two years old and the charger's included. Want to come and see it first?
 
 ## When the objection is right
 
@@ -459,7 +467,7 @@ Sometimes pacing an objection properly shows you that they are correct. It reall
       id: 'm03-a1',
       kind: 'solo',
       title: 'A bank of truisms',
-      instructions: `Pick a real situation you will be in this week: a sales call, a meeting, a talk with your landlord.
+      instructions: `Pick a real situation you will be in this week: a buyer coming to see something you are selling, a family dinner where you want to suggest a plan, a meeting, a talk with your landlord.
 
 Write twenty truisms you could use in it, in three columns: **what is happening now**, **what they have told you** (or are likely to have told you by then), and **true for nearly everyone**.
 
@@ -476,7 +484,7 @@ Then cross out any that are opinions, flattery or claims they would have to take
       id: 'm03-a2',
       kind: 'solo',
       title: 'Pace three, lead one, out loud',
-      instructions: `Choose a lead you want to make: book a demo, try the product, agree on a date. Say it out loud preceded by three paces. Record it on your phone.
+      instructions: `Choose a lead you want to make: book a demo, come and see the item, agree on a date. Say it out loud preceded by three paces. Record it on your phone.
 
 Do five different versions. Listen back and ask of each pace: would *they* nod at this? Ask of each lead: is it the next step, or the whole journey?`,
       reps: 5,
@@ -543,7 +551,7 @@ Run it three times. Each time, count your paces before your first lead, and note
       id: 'm03-a6',
       kind: 'chat',
       title: 'Role-play: the price objection',
-      instructions: `Run scenario **The price objection on video**. Every time an objection comes, pace it in their words before you do anything else. No "but" allowed. If you catch yourself saying it, restart.
+      instructions: `Run scenario **The price objection at the meetup**. Every time an objection comes, pace it in their words before you do anything else. No "but" allowed. If you catch yourself saying it, restart.
 
 Run it twice.`,
       reps: 2,
@@ -560,15 +568,23 @@ Run it twice.`,
       id: 'm03-a7',
       kind: 'field',
       title: 'Pace before you lead',
-      instructions: `In eight real sales or persuasion conversations, before each lead that matters (the demo, the price, the ask), say three true things about where they are first.
+      instructions: `In five real conversations from your practice ground, before each lead that matters (the price, the test ride, the ask, the plan), say three true things about where they are first.
 
-> You've had the current system since 2019. You said the team works around it most days. And you've got budget sign-off in June. Would it help to see it running with your own data?
+This works at every stage of a sale. In a message to a buyer:
+
+> You asked about the tires, you're getting it for your son, and you said Saturday works. Would ten o'clock at the library parking lot suit you?
+
+At the meetup, before you name a price or suggest they try it. With friends and family, before you suggest the plan:
+
+> We've both had a long week, you said you're sick of the usual place, and the new Thai place is five minutes away. Want to try it tonight?
+
+In a group chat or a volunteer meeting, pace where the group already is before you propose anything. Mix arenas freely: two buyers and three friends is five reps. If you later sell for a living, real sales calls count too.
 
 Log whether they followed the lead. When they did not, note what you paced and how big the lead was.`,
-      reps: 8,
+      reps: 5,
       required: true,
       log: [
-        'The situation',
+        'The situation: which arena, which stage, who',
         'Your paces and your lead',
         'Did they follow? What signals told you?',
         'If not, was the lead too big or the paces too thin?',
@@ -579,10 +595,12 @@ Log whether they followed the lead. When they did not, note what you paced and h
       id: 'm03-a8',
       kind: 'field',
       title: 'Pace an objection first',
-      instructions: `In five real conversations, when an objection comes, do three things before answering it: say it back in their words, agree with what is true in it, and lead one small step.
+      instructions: `In four real conversations, when an objection comes, do three things before answering it: say it back in their words, agree with what is true in it, and lead one small step.
 
-If pacing it shows you they are right, say so.`,
-      reps: 5,
+Selling your own things hands you objections every week: "Would you take $40?", "I've seen one cheaper", "It's a long drive for me". They come by message and at the meetup, and both count. Friends and family hand you just as many: "I'm too tired to go out", "We always do it your way". Mix them as you like. If you later sell for a living, real sales calls count too.
+
+If pacing it shows you they are right, say so, even when that means your price was too high. A buyer can leave you a rating, and a friend remembers.`,
+      reps: 4,
       required: false,
       log: [
         'The objection, in their words',
@@ -615,14 +633,14 @@ If pacing it shows you they are right, say so.`,
     },
     {
       id: 'm03-s2',
-      title: 'The price objection on video',
-      setting: 'Video call. You lease electric vans to small trades businesses. He test-drove one last week.',
+      title: 'The price objection at the meetup',
+      setting: 'A grocery store parking lot on a Saturday. You are selling your used e-bike on Facebook Marketplace for $900. The battery is three years old and still gives about 30 miles on a charge. The buyer has just ridden it around the lot.',
       you: 'Pace each objection fully before leading, and find out whether price is the real issue.',
-      them: 'Owner of a three-person plumbing company. Liked the test drive, then said "It’s too expensive." That is the easiest way out of the conversation; the real worry is running out of charge between jobs and losing a day’s work, and looking foolish in front of his guys. Hates being argued with. Respects straight answers, including "it won’t suit you".',
+      them: 'A food-delivery rider in his thirties. Liked the ride, then said "It’s too expensive." That is the easiest way out of the conversation; the real worry is the battery dying halfway through a shift and losing a day’s pay, and he got burned on a used phone last year. Hates being argued with. Respects straight answers, including "it might not suit you".',
       objections: [
-        'It’s too expensive for what it is.',
-        'My diesel van works fine.',
-        'I haven’t got time to be hunting for chargers.',
+        'Nine hundred is too much for a used one.',
+        'I can get a new one online for not much more.',
+        'How do I know the battery isn’t shot?',
       ],
       focus: [
         'Pacing objections',
@@ -630,7 +648,7 @@ If pacing it shows you they are right, say so.`,
         'Pacing what they feel',
         'Small leads',
       ],
-      win: 'He names the real worry himself. You never said "but", and every figure you gave on range and cost was exact. If the van genuinely does not suit his work, you told him so.',
+      win: 'He names the real worry himself. You never said "but", and every fact you gave about the battery, the range and the condition was exact. If the bike genuinely does not suit his work, you told him so, and whether he buys or not, he would leave you a good rating.',
     },
     {
       id: 'm03-s3',

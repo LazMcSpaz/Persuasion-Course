@@ -38,6 +38,8 @@ Easy openers that give you two minutes of relaxed talk:
 
 > (On a call) Is now still a good time? Sounds like a busy office.
 
+> (Meeting a Marketplace buyer) Find the place all right? That lot's always full on a Saturday.
+
 > (Everyday) How was the trip back?
 
 ## Common mistakes
@@ -176,6 +178,10 @@ Never accuse anyone on the strength of a signal, out loud or in your head.
 ## It cannot tell you what they think
 
 A shift tells you *that* something changed and *when*. It cannot tell you what or why. The pause after the price might be shock, or might be them working out whether it fits this quarter's budget or next. Only they know. So ask.
+
+The same goes when you sell your own things. A buyer looking over your old bike goes quiet when you say $150. Shock? Doing the math? Wondering whether their daughter will actually ride it? You cannot tell from the silence.
+
+> You went quiet on the price there. Is it more than you had in mind?
 
 ## You will see what you expect
 
@@ -495,7 +501,7 @@ Note what their yes and no look and sound like. Notice how different the three p
 
 > You went a bit quiet there. Everything OK?
 
-Log a hit or a miss each time. This assignment asks for ten, and the field assignment adds five more. Keep going past that if you can: around twenty is where a pattern in your hits starts to show.`,
+Log a hit or a miss each time. This assignment asks for ten, and the Real stakes assignment adds four more. Keep going past that if you can: around twenty is where a pattern in your hits starts to show.`,
       reps: 10,
       required: true,
       log: [
@@ -510,17 +516,21 @@ Log a hit or a miss each time. This assignment asks for ten, and the field assig
       id: 'm02-a7',
       kind: 'field',
       title: 'Calibrate a real conversation',
-      instructions: `In five real sales conversations or calls:
+      instructions: `In four real conversations from your practice ground:
 
 - use the first two minutes to learn their baseline
-- watch closely when you mention price, terms and timing
+- watch closely at the moments that matter: the price, the condition, the timing, who does what
 - when you notice a shift, write down your prediction, then check it with a question
 
+Calibration needs a face or a voice, so use meetups and phone calls, not text. When a buyer comes to see something you are selling, the easy talk while they find a parking spot is your baseline; the moment you name the price, or they spot the scratch you listed, is where to watch. With friends and family, take the baseline over small talk, then watch when you bring up the date, the cost or the favor. A yard sale gives you many short reads in a morning.
+
+Mix arenas freely: two meetups and two family conversations is four reps. If you later sell for a living, real sales calls count too.
+
 Log the prediction and what they told you. Add these to your running count of hits and misses.`,
-      reps: 5,
+      reps: 4,
       required: true,
       log: [
-        'The situation in one line',
+        'The situation in one line: which arena, which stage, who',
         'Their baseline in a few observations',
         'The shift, and what you said just before it',
         'Your prediction, and what they told you',
@@ -531,12 +541,16 @@ Log the prediction and what they told you. Add these to your running count of hi
       id: 'm02-a8',
       kind: 'field',
       title: 'Notice discomfort and ease off',
-      instructions: `In five more real conversations, watch specifically for signs that the other person is uncomfortable or feeling pushed. When you see them, ease off out loud:
+      instructions: `In three more real conversations, face to face or on the phone, watch specifically for signs that the other person is uncomfortable or feeling pushed. When you see them, ease off out loud:
 
-> No rush on any of this. Would it help to think it over and talk again Thursday?
+> No pressure at all. Take it around the block and see how it feels.
 
-Log what happened next, including whether the deal survived.`,
-      reps: 5,
+> Honestly, no is fine. Have a think and tell me Thursday.
+
+The first fits a buyer at a meetup, the second a friend or family member you have asked for something. A buyer who felt pushed can leave you a poor rating; a friend who felt pushed remembers it far longer. If you later sell for a living, real sales calls count too.
+
+Log what happened next, including whether the sale or the plan survived.`,
+      reps: 3,
       required: false,
       log: [
         'What you noticed',

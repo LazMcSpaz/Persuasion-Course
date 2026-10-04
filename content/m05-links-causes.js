@@ -115,7 +115,11 @@ Never use it to slip in a result the product does not reliably deliver. "This wi
 
 > Could we leave at six, because the traffic gets awful after?
 
-Both reasons are true, both are short, and both are the actual reason. That is all "because" needs.`,
+Both reasons are true, both are short, and both are the actual reason. That is all "because" needs.
+
+When you sell your own things, the first "because" a buyer wants is why you are selling. Give the real one, early:
+
+> I'm selling the couch because we're moving somewhere smaller, not because anything's wrong with it.`,
       techniques: [
         {
           name: 'Because, with a real reason',
@@ -259,6 +263,8 @@ On general truths of experience, where "everyone" is close enough to true that n
 > Everyone's had a car let them down at the worst possible moment.
 
 > Nobody wants to spend their Saturday on hold to a call center.
+
+> **Selling your old bike:** Nobody wants to get a used bike home and find the brakes are shot. Take it around the block first.
 
 These are truisms with the volume turned up, and they pace beautifully.
 
@@ -527,7 +533,7 @@ Listen back. Which link sounds natural for which pair? Which ones sound like a t
       id: 'm05-a2',
       kind: 'solo',
       title: 'Pattern hunting',
-      instructions: `Take a print ad, a sales page, a podcast ad, or better, a recording of one of your own calls. Tally every cause and effect, complex equivalence, mind-read, lost performative and universal.
+      instructions: `Take a print ad, a sales page, a podcast ad, or better, your own listings and messages to buyers, or a recording of your side of a call. Tally every cause and effect, complex equivalence, mind-read, lost performative and universal.
 
 Then mark each one honest or not. An honest one is about experience, values or a real reason. A dishonest one states a fact about the product or the person that may not be true.`,
       reps: 3,
@@ -580,7 +586,7 @@ Notice whether they agree, correct you, or tell you something new. Pace whatever
       id: 'm05-a5',
       kind: 'chat',
       title: 'Role-play: the three-quote homeowner',
-      instructions: `Run scenario **The three-quote homeowner** with Claude. Use at least one implied causative, one real "because" and one soft mind-read in every few exchanges, and never let a cause-and-effect claim about the roof go further than the truth.
+      instructions: `Run scenario **The three-quote homeowner** with Claude. Use at least one implied causative, one real "because" and one soft mind-read in every few exchanges, and never let a cause-and-effect claim about the job go further than the truth.
 
 Run it three times. On the last run, ask Claude afterwards which line felt like a sales technique.`,
       reps: 3,
@@ -589,8 +595,8 @@ Run it three times. On the last run, ask Claude afterwards which line felt like 
       log: [
         'Which link landed best?',
         'Did any read get corrected? What did you do?',
-        'Was every claim about the roof true?',
-        'Would they trust you enough to let you on the roof?',
+        'Was every claim about the job true?',
+        'Would they trust you enough to let you into their yard?',
       ],
     },
     {
@@ -613,19 +619,27 @@ Run it twice: once where they join, once where they say no. Both can be a win.`,
       id: 'm05-a7',
       kind: 'field',
       title: 'One linked lead per conversation',
-      instructions: `In eight real sales or persuasion conversations, join at least one important lead to its pace with a link, and give at least one real "because".
+      instructions: `In five real conversations from your practice ground, join at least one important lead to its pace with a link, and give at least one real "because".
 
-> You've had the trial for a week, and as you think about how the team's been using it, which part would you hate to lose?
+At a meetup, with a buyer looking over what you are selling:
+
+> You've checked the brakes and the gears, and while you take it around the block, notice how it shifts on the hill.
+
+In a message, the "because" a buyer wants most is why you are selling, and it has to be the real reason:
+
+> I'm selling it because we moved to a third-floor walk-up and it lives in the hallway now.
+
+With friends, family or a group, the same shape works for a plan: "You've said you're tired of cooking, and as you look at the menu, what sounds good?" Mix arenas freely: one meetup, one buyer message thread and three family conversations is five reps. If you later sell for a living, real sales calls count too.
 
 After each one, log the exact words. A link you cannot remember using is a link you have not learned yet.`,
-      reps: 8,
+      reps: 5,
       required: true,
       log: [
-        'The situation',
+        'The situation: which arena, which stage, who',
         'Your linked lead, word for word',
         'Your "because", and was it the real reason?',
         'How did they respond?',
-        'Did you say anything about the product or about them that was not true?',
+        'Did you say anything about the item or about them that was not true?',
         'Would they be glad tomorrow that they talked to you?',
       ],
     },
@@ -633,14 +647,18 @@ After each one, log the exact words. A link you cannot remember using is a link 
       id: 'm05-a8',
       kind: 'field',
       title: 'Permission to slow down',
-      instructions: `In five real conversations where someone is hesitating, offer a lost performative that gives them room:
+      instructions: `In three real conversations where someone is hesitating, offer a lost performative that gives them room:
 
-> It's worth seeing it working before you decide anything.
+> It's worth seeing it in person before you decide anything.
 
-> It's fine to take it home and think.
+> It's fine to take it around the block first.
+
+> It's okay to say no. I'd rather you were sure.
+
+The first suits a buyer's message, the second a meetup, the third a friend or family member you have asked for something. Mix them as you like. A buyer given room tends to rate you well even when they walk away, and a friend given room says yes more freely next time. If you later sell for a living, real sales calls count too.
 
 Notice whether giving them room makes them relax and keep talking, or end the conversation.`,
-      reps: 5,
+      reps: 3,
       required: false,
       log: [
         'What did you say?',
@@ -654,12 +672,12 @@ Notice whether giving them room makes them relax and keep talking, or end the co
     {
       id: 'm05-s1',
       title: 'The three-quote homeowner',
-      setting: 'Phone call. You run a small roofing company and are following up on a quote you sent.',
-      you: 'Get them to agree to a site visit, using links, honest reasons and soft mind-reads.',
-      them: 'A retired teacher with three quotes; yours is in the middle. Tired of contractors who all sound the same. Most afraid of being ripped off, and of the mess. Will pounce on any claim that sounds too good to be true, and warms to anyone who seems to guess what they are thinking without overdoing it.',
+      setting: 'Phone call. You do weekend yard work as a side service and are following up on a quote you texted for clearing an overgrown backyard.',
+      you: 'Get them to agree to let you come and look at the yard, using links, honest reasons and soft mind-reads.',
+      them: 'A retired teacher with three quotes for the cleanup; yours is in the middle. Tired of people who all sound the same. Most afraid of being ripped off, of someone who never shows up, and of the mess left behind. Will pounce on any claim that sounds too good to be true, and warms to anyone who seems to guess what they are thinking without overdoing it.',
       objections: [
         'You’re all saying the same thing.',
-        'The other guys said they could start next week.',
+        'The other fellow said he could do it this Saturday.',
         'Why should I pay more than the cheapest?',
       ],
       focus: [
@@ -668,7 +686,7 @@ Notice whether giving them room makes them relax and keep talking, or end the co
         'Soft mind-reading',
         'Complex equivalence, said lightly',
       ],
-      win: 'They agree to a visit. Every cause-and-effect claim about the roof was true, every read was soft, and you followed their correction when a read was wrong.',
+      win: 'They agree to a visit. Every cause-and-effect claim about the job was true, every read was soft, and you followed their correction when a read was wrong. Even if they choose someone else, they would recommend you to a neighbor.',
     },
     {
       id: 'm05-s2',

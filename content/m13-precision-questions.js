@@ -50,6 +50,18 @@ That one question often finds the real decision maker and saves you a month of p
 > **A colleague:** Communication is the problem.
 > When you say communication, who isn't hearing about what?
 
+## Selling your own things
+
+When you sell something of your own, the most useful precision question is the plainest one: **what will you use it for?** The answer tells you which facts matter to this buyer, and sometimes that the item is wrong for them, which is worth saying.
+
+> **A buyer at the meetup, looking over your old road bike:** I just want something decent.
+> Decent for what? Where will you mostly ride it?
+
+> **A message:** Is the desk still available? Is it a good size?
+> It is. What are you hoping to fit on it?
+
+Then give the exact measurement that answers *their* question, not the one you would have guessed.
+
 ## Common mistakes
 
 - **Questioning every vague word.** You will sound like an auditor. Pick the one with feeling.
@@ -567,13 +579,19 @@ Run it twice. The second time, count your questions and aim for every one to fol
       id: 'm13-a6',
       kind: 'field',
       title: 'Discovery before pitch',
-      instructions: `In five real sales or persuasion conversations, ask at least three precision questions before you describe anything you offer. Pace before each. As soon as you can afterwards, write down what they first said they wanted and what they turned out to want.`,
-      reps: 5,
+      instructions: `In four real conversations, ask at least two precision questions before you describe anything you are offering or proposing. Pace before each. As soon as you can afterwards, write down what they first said they wanted and what they turned out to want. Reps can mix arenas: one meetup, one call and two friend conversations is a full set.
+
+**Selling your own stuff.** Discovery belongs in **calls and meetups**, where you can pace and wait. Start with "what will you use it for?", then follow the word with feeling in it: "for my daughter" leads to "how old is she, and how tall?"; "just for weekends" leads to "what kind of weekends?". In **messages**, one question before your sales paragraph is enough, and it counts as a rep if you log what it changed. If you offer a side service, the first call with a new client is all discovery: what the yard, the tutoring or the repair is really for.
+
+**Friends, family or a group.** Before you argue for your plan, find out what they actually want from it. "Somewhere nice for dinner" might mean quiet enough to talk, or close to home, or cheap this month. In a group chat, one question to the person who is hesitating often does more than a vote.
+
+If the answer shows that what you are selling or proposing is wrong for them, say so. A Marketplace buyer can leave you a rating, and a friend will trust your next suggestion more. If you later sell for a living, real sales conversations count too.`,
+      reps: 4,
       required: true,
       log: [
-        'The situation',
+        'The situation, and which arena (a sale or friends, family, a group)',
         'What they first said',
-        'Your three questions',
+        'Your questions',
         'What they turned out to need',
         'Would they be glad tomorrow that they talked to you?',
       ],
@@ -598,14 +616,20 @@ For a second rep, run **The beginners’ night** and find what really stands in 
       id: 'm13-a8',
       kind: 'field',
       title: 'Find the real objection',
-      instructions: `In real conversations where you hear "it's the budget", "not right now" or "I need to think about it", pace it and ask one softened question to find what is behind it before you answer anything. If it turns out to be exactly what they said, accept it.`,
+      instructions: `In three real conversations where you hear a polite objection, pace it and ask one softened question to find what is behind it before you answer anything. If it turns out to be exactly what they said, accept it. Any mix of arenas counts.
+
+**Selling your own stuff.** At the **meetup**, "I need to think about it" or "it's a bit more than I wanted" is often a doubt about condition: "Of course. What would you want to be sure of?" In **messages**, "would you take $40?" can mean a hard budget or a worry about the item: "Could be. Is that your limit, or is there something about it you're unsure of?"
+
+**Friends, family or a group.** "Maybe, I'll see" about a plan, or "it's just not a good time" from someone you are asking a favor of. With people close to you, ask once, gently, and take the answer you get.
+
+If you later sell for a living, real sales conversations count too.`,
       reps: 3,
       required: false,
       log: [
-        'The stated objection',
+        'The stated objection, and where you heard it (a meetup, messages, friends, a group)',
         'Your question',
         'What was behind it (or was it what they said?)',
-        'Did finding it help them, or only help you?',
+        'Did finding it help them, or only help you? Would they be glad tomorrow they talked to you?',
       ],
     },
   ],

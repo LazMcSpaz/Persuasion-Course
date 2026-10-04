@@ -42,6 +42,15 @@ Everyday, with a friend:
 
 > Would you take a quick look at the first page of my application? Just tell me if it reads all right.
 
+In a Marketplace message thread, selling your own things, the small yeses are a time and then a place:
+
+> **Buyer:** Is this still available?
+> It is. Could you see it Saturday morning?
+> **Buyer:** Yes, works for me.
+> Great. Ten o'clock at the library parking lot on Main? It's public and easy to park.
+
+Each step is worth something to the buyer on its own. A buyer who has agreed on a time and a place has made a plan; "maybe this weekend" is not one.
+
 ## Where it turns into a trap
 
 A small yes engineered only to pull a big one out of someone is a manipulation, and people often feel it when the second request arrives. The test: **if they stopped after this step, would they be better off for having taken it?** If yes, it is a real step. If the only value of the step is to you, drop it.
@@ -78,6 +87,10 @@ A more useful habit is to **check agreement at each stage** of a conversation. E
 2. Before presenting, check the priority: "If we could get refunds down to a day, would that be worth looking at?"
 3. After presenting, check the fit: "How does that match what you'd need?"
 4. Then ask (next lesson).
+
+At a meetup for something you are selling, the same checks are shorter:
+
+> So it's mainly for the commute, and it has to fit in your apartment hallway. Have I got that right?
 
 On a video call these checks matter more, because you have less to read. A clear "yes, that's it" is information. So is a pause.
 
@@ -123,6 +136,8 @@ Name exactly what you are asking for and what happens next.
 
 > Can you take the kids on Thursday evenings, so I can do the course?
 
+> **At a meetup, once they've looked the bike over:** It's $180, as listed. Would you like to take it today?
+
 Not "would you maybe like to think about possibly moving forward". The vagueness of Modules 4 to 6 is for experience. A request is a fact about what you want, and facts are exact.
 
 ## 2. A real reason
@@ -134,6 +149,8 @@ Langer, Blank and Chanowitz (1978) found that for a small request almost any rea
 ## 3. Then stop
 
 Say nothing. No discount, no second option, no nervous joke. Silence after a clear question is room to think; filling it is usually the asker's discomfort. On the phone silence feels longer than it is, so count slowly in your head. Most people answer before five.
+
+At a meetup this is the moment a buyer turns the item over in their hands and says nothing. Let them. Filling the quiet with "or I could do $160" is bargaining against yourself before they have said a word.
 
 ## 4. After the answer
 
@@ -452,7 +469,7 @@ If you notice you are about to say "fine" just to end a conversation, that is yo
       id: 'm14-a1',
       kind: 'solo',
       title: 'Your one-sentence ask',
-      instructions: `Write the ask for what you sell, or for something you want from someone in your life, as one clear sentence: what, and when. Add a real reason and a freedom phrase.
+      instructions: `Write the ask for something on your selling list, or for something you want from someone in your life, as one clear sentence: what, and when. Add a real reason and a freedom phrase.
 
 One rep is one session: record yourself saying the ask ten times. After each, stay silent for a slow count of five. The silence is the hard part; practice it until it feels normal.
 
@@ -473,7 +490,7 @@ Then say your reply to a no out loud three times: thank them, ask one curious qu
       id: 'm14-a2',
       kind: 'solo',
       title: 'The ladder of steps',
-      instructions: `List every step between first contact and a decision for what you sell (or for a change you want at home or work). For each step, ask: if they stopped here, would they be better off for having taken it?
+      instructions: `List every step between first contact and a decision for something on your selling list (or for a change you want at home or work). For each step, ask: if they stopped here, would they be better off for having taken it?
 
 Mark any step whose only value is to you. Replace it or remove it.`,
       reps: 2,
@@ -553,14 +570,23 @@ Run it twice. The second time, cut your ask to one sentence if it was longer.`,
       id: 'm14-a6',
       kind: 'field',
       title: 'The clear ask',
-      instructions: `In five real sales or persuasion conversations, end with a clear one-sentence ask, a real reason, and a freedom phrase. Then stay silent.
+      instructions: `In four real conversations, end with a clear one-sentence ask, a real reason, and a freedom phrase. Then stay silent. Log who spoke first, and whether the answer sounded given or extracted. Reps can mix arenas: one meetup, one message thread and two asks of friends is a full set.
 
-Log who spoke first, and whether the answer sounded given or extracted.`,
-      reps: 5,
+**Selling your own stuff.** There are two kinds of ask here, and both count:
+
+- **The price moment at the meetup.** Once they have looked it over, say the price and the ask in one breath, then be quiet while they think: "It's $180, as listed. Would you like to take it today? Totally fine if it's not right for you." Silence is spoken work, so this rep is face to face or on a call.
+- **Small yeses in the message thread.** A time, then a place, each as its own clear question: "Could you do Saturday at ten?" then "The library parking lot on Main?" A buyer who never turns up is the message version of an extracted yes, so log no-shows too.
+
+If you offer a side service, the ask is the first booking: "Shall I come Saturday at nine to do the front yard? It's $60, and no obligation if the date doesn't suit."
+
+**Friends, family or a group.** A clear ask with a real reason, theirs where possible: "Could you take the Sunday shift at the food bank? You said you wanted to do more with the kids, and they'd love sorting the cans. Say no if it's a bad week." Then stop. With people close to you, a no taken well matters more than the yes.
+
+A buyer you pressured can leave you a rating; a friend you pressured will remember. If you later sell for a living, real sales conversations count too.`,
+      reps: 4,
       required: true,
       log: [
-        'The situation',
-        'Your ask',
+        'The situation, and which arena (a meetup, a message thread, friends, a group)',
+        'Your ask, word for word',
         'Who spoke first, and what they said',
         'Given or extracted? What told you?',
         'Would they be glad tomorrow that they said yes, or that they said no to you?',
@@ -570,10 +596,13 @@ Log who spoke first, and whether the answer sounded given or extracted.`,
       id: 'm14-a7',
       kind: 'field',
       title: 'The one-week check',
-      instructions: `A week after each yes you logged in the last assignment, check what happened. Did it hold? Did they follow through, cancel, go quiet, or refer someone?
+      instructions: `A week after each yes you logged in the last assignment, check what happened. Did it hold?
 
-Compare the yeses you marked "given" with the ones you marked "extracted". This is the trust ledger in numbers.`,
-      reps: 5,
+- **A sale:** did the buyer turn up when they said they would? Is the item doing what they wanted? Did they leave a rating, message with a problem, or ask for their money back?
+- **Friends, family or a group:** did they follow through, quietly back out, or offer more than they agreed to?
+
+Compare the yeses you marked "given" with the ones you marked "extracted". This is the trust ledger in numbers. If you later sell for a living, real sales count too.`,
+      reps: 4,
       required: false,
       log: [
         'The original yes, and whether you marked it given or extracted',

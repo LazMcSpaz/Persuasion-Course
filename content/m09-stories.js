@@ -34,6 +34,8 @@ One sentence moves the conversation from a claim to a person:
 
 > My cousin had this same argument with herself about going back to college at forty.
 
+> We bought it for my son's first apartment, and he's just moved somewhere furnished. *(to a buyer at a Marketplace meetup, asking why you are selling)*
+
 On a call you cannot see them lean in, but you can often hear it: the next question is about the plumber, not about your price.
 
 ## Hearing it used on you
@@ -580,29 +582,42 @@ Run it twice. The second time, wait until they have described their problem in t
       id: 'm09-a6',
       kind: 'field',
       title: 'One true story per conversation',
-      instructions: `In five real sales calls, meetings or persuasion conversations, tell one true story from your bank, in the five-part shape, under 90 seconds, with no moral. Wait until they have described the problem, then borrow their words for it.
+      instructions: `Five real conversations, from either arena or a mix (one meetup and four friends counts). In each, tell one true story, under 90 seconds, with no moral, after they have said what is on their mind, and borrow their words for it.
 
-Listen to what comes back. A question about the person in the story ("what did they do about...?") is the sign it landed.`,
+**Selling your own stuff.** The natural story is *why you are selling it*, and buyers nearly always want to know, because it answers the question they are too polite to ask: what is wrong with it?
+
+> We bought it when we had the big yard. Then we moved to an apartment last spring, and it's been sitting in my brother's garage since. He wants his garage back.
+
+Tell it at the meetup or on the phone when they ask, or when they hesitate. A one-line version belongs in the listing too ("Selling because we moved and have no yard"). A story about how you used it is fine as long as every fact about condition is stated plainly beside it, never carried by the story. If you have a side job, a true story about a past client does the same work when someone asks about it.
+
+**Friends, family and groups.** When you want someone to try something (a plan, a habit, a decision you think is right for them), tell a true story instead of giving the advice, then stop and let them speak. In a group (a club, a volunteer committee, a group chat), one person's true story often moves a decision further than your argument for it.
+
+Listen to what comes back. A question about the person in the story ("so what did he do with it?") is the sign it landed. If you later sell for a living, real sales calls count too.`,
       reps: 5,
       required: true,
       log: [
-        'The situation',
+        'Which arena and stage (listing, meetup, call, side job, friend, group)?',
         'Which story, and what triggered it',
         'What they said or asked next',
-        'Would they be glad tomorrow that they talked to you?',
+        'Was every fact stated plainly, outside the story?',
+        'Would they be glad tomorrow that they talked to you? (A buyer can leave you a rating; a friend can check the story with you next week.)',
       ],
     },
     {
       id: 'm09-a7',
       kind: 'field',
       title: 'Test it: the number or the person',
-      instructions: `For six conversations, alternate. In odd ones, lead with your best statistic. In even ones, lead with one person, and give the statistic only if they ask.
+      instructions: `For six real conversations, alternate, deciding the order before you start. In odd ones, lead with your best true statistic. In even ones, lead with one true person, and give the statistic only if they ask. Mix arenas freely:
 
-Log what comes back. You are testing whether Small and colleagues’ finding carries into your own conversations, so log honestly even if the statistic wins.`,
+- **Selling your own stuff**, at a meetup or on a call. Number: "It's rated 4.6 out of 5 from about two thousand reviews." Person: "My neighbor has had the same one for eight years." Both must be true, and you must be able to show the number.
+- **Friends and family.** Number: a real figure you can source. Person: someone you actually know who did the thing.
+- **A group** deciding something: the same two openings, at a meeting or in the group chat.
+
+Log what comes back. You are testing whether Small and colleagues' finding carries into your own conversations, so log honestly even if the statistic wins. If you later sell for a living, real sales calls count too.`,
       reps: 6,
       required: false,
       log: [
-        'Number first or person first?',
+        'Number first or person first, and which arena?',
         'What did they ask next, if anything?',
         'How long did they stay on the topic?',
         'Did you give every fact they asked for, exactly?',

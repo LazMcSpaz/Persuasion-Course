@@ -2,7 +2,7 @@ export default {
   id: 'm00',
   title: 'How to Practice',
   tagline:
-    'Set up the loop that turns reading into skill: drill, role-play, field, log, and a trust check on every rep.',
+    'Set up the loop that turns reading into skill: drill, role-play, real stakes, log, and a trust check on every rep.',
   part: 'Foundations',
   lessons: [
     {
@@ -23,7 +23,7 @@ Every module has four tabs. Work through them left to right.
 
 A rep is one go at an assignment, logged: one recording, one conversation, one role-play run. You do it, then press **Log a rep** and answer the questions. A go you do not log does not count, because the log is where you learn from it.
 
-Assignments run from private to public: **solo** (alone, out loud or on paper), **role-play** with Claude, **everyday** (a barista, a friend, a landlord) and **field** (a real sale or call). Get the awkwardness out where it is cheap. Use one new thing per conversation; try five and you will remember none of them.
+Assignments run from private to public: **solo** (alone, out loud or on paper), **role-play** with Claude, **everyday** (a barista, a store clerk, a landlord) and **real stakes** (selling your own things, or a real persuasion with friends, family or a group; the third lesson sets these up). Get the awkwardness out where it is cheap. Use one new thing per conversation; try five and you will remember none of them.
 
 ## Running a role-play
 
@@ -33,7 +33,7 @@ Assignments run from private to public: **solo** (alone, out loud or on paper), 
 4. Type **debrief**. Claude steps out of character and scores the outcome and the trust, quotes where you used the techniques, and gives you a better line for your two weakest moments.
 5. Back in the app, log the rep under Practice.
 
-A role-play costs nothing, so fail freely and try one moment five ways. But Claude is not a customer: there is no face, and it can be more patient or more stubborn than a real person. The chat is where you find your words. The field is where you test them.
+A role-play costs nothing, so fail freely and try one moment five ways. But Claude is not a customer: there is no face, and it can be more patient or more stubborn than a real person. The chat is where you find your words. Real stakes are where you test them.
 
 ## Passing
 
@@ -41,9 +41,9 @@ A module is **passed**, and the next one opens, when:
 
 - your graded drills stand at **80% or higher**
 - every rewrite drill is checked off
-- every **required** assignment that is not field work has all its reps logged
+- every **required** assignment that is not Real stakes work has all its reps logged
 
-Field reps wait on real conversations turning up, so they never hold you back. They keep running while you move on, and the module shows **Mastered** once they are logged. Optional assignments are extra reps for when something has not settled. A pass stays passed: redo the drills as often as you like.
+Real stakes reps wait on real conversations turning up, so they never hold you back. They keep running while you move on, and the module shows **Mastered** once they are logged. Optional assignments are extra reps for when something has not settled. A pass stays passed: redo the drills as often as you like.
 
 ## The rest of the app
 
@@ -73,13 +73,13 @@ The second question is the trust ledger. A yes that someone regrets the next mor
 
 The same rule runs through the whole course: be vague about **experience** if you like, but always be exact about **facts**. Price, terms, dates and what the thing does are never fuzzy.
 
-## The field log
+## The log
 
 Every rep you log under Practice lands on the **Log** page, newest first, and can be filtered by kind. Write each entry within the hour, while you still remember the words. Memory tidies conversations up: within a day you recall what you meant to say, not what you said.
 
 A good entry has:
 
-- **The situation** in one line. "Phone call, second meeting, office manager, renewal."
+- **The situation** in one line. "Marketplace meetup, my old bike, buyer in his fifties, wanted it for his grandson." Or, one day: "Phone call, second meeting, office manager, renewal."
 - **What you said, word for word**, at the moment that mattered.
 - **What they did next**: their words, a pause, a laugh, a change in their voice.
 - **What you would change.**
@@ -95,7 +95,7 @@ Every week or two, press **Copy as text for a review with Claude** on the Log pa
 
 You cannot hear yourself while you talk. A recording can. Most people find, on first listen, that they talk faster than they thought, fill pauses with "um" and "so", and answer questions nobody asked.
 
-Record **yourself**: practicing lines, explaining what you sell, your side of a role-play read aloud. Recording another person needs their permission, and in many places the law requires everyone on a call to agree. When in doubt, record only your own voice, or log the conversation from memory instead.
+Record **yourself**: practicing lines, describing something you are selling, your side of a role-play read aloud. Recording another person needs their permission, and in many places the law requires everyone on a call to agree. When in doubt, record only your own voice, or log the conversation from memory instead.
 
 Your first assignment is a **baseline**: a recording of how you talk now, before any technique. Keep it. In a few modules you will listen to it again, and it is the clearest measure of progress you will get.`,
       techniques: [
@@ -108,6 +108,48 @@ Your first assignment is a **baseline**: a recording of how you talk now, before
           name: 'Recording yourself',
           evidence: 'unproven',
           note: 'No controlled studies cited in this course. Test it on yourself: compare what you remember saying with what the recording shows.',
+        },
+      ],
+    },
+    {
+      id: 'm00-l3',
+      title: 'Your practice ground',
+      body: `You are preparing for sales without a sales job yet. That is fine. You do not need a quota to practice selling. You need real people, something real at stake and something real to ask for, and you already have two places to find them.
+
+## Arena one: selling your own things
+
+Look around your home: the bike nobody rides, the spare desk, the camera in a drawer. List them on Facebook Marketplace, Craigslist or OfferUp, or hold a yard sale. If you can offer a small side service (yard work, tutoring, odd jobs), that counts too.
+
+These are real buyers, with real haggling, real objections and real money. Every sale runs through stages, and each stage suits different skills:
+
+- **The listing.** Written, so it is where you practice wording: exact about the facts and the condition, flaws included, and vague, if you like, about the experience. "New tires in May, small scratch on the frame, rides smoothly" is the shape.
+- **Messages.** "Is this still available?", "Would you take $40?", the buyer who goes quiet. Text is good for wording: honest reasons, links, pacing an objection before you answer it. It is no use for voice or calibration, because there is nothing to hear or see.
+- **Phone calls.** Some buyers call instead of texting. Now you have a voice to match and to listen to.
+- **The meetup.** Where most of the work happens: rapport, calibration, pacing and leading, the price conversation and the silence after it, the story of why you are selling.
+- **The yard sale.** Dozens of short face-to-face conversations in one morning. Openers, quick matching and the ask, many times over.
+
+Meet buyers in a public place, bring someone along if it helps, and settle the price before anything changes hands. Practice is no reason to be careless.
+
+## Arena two: friends, family and groups
+
+Most of the persuading in your life has nothing to do with money: where to eat, which weekend to visit, a favor, a change of habit, getting your brother to finally see a doctor. Groups too: a volunteer team, a club, a church or community group, a group chat trying to decide something.
+
+These suit the slower skills: pacing before you lead, honest reasons, good questions, framing a choice, stories. Groups add one of their own: saying back where everyone stands before you suggest anything.
+
+## How the app uses them
+
+From Module 1 on, every module has at least one assignment labeled **Real stakes**. One rep is one real conversation in either arena, at whichever stage suits that module's technique, and each assignment says which. Mix them freely: one Marketplace meetup and two talks with friends is three reps.
+
+Real stakes assignments run alongside the later modules. They never block the next module; they only count toward **Mastered**. If you have nothing listed this week, keep going and catch up when a buyer turns up. If you later sell for a living, your real sales calls count too.
+
+## The trust check matters more here
+
+A buyer you never see again can still leave you a rating on Marketplace, and the next buyer reads it. Your sister, your neighbor and your volunteer group are with you for years. A yes you squeezed out of a friend costs far more than a lost sale. So ask the trust question after every rep, and ask it hardest with the people you will see again.`,
+      techniques: [
+        {
+          name: 'Practicing in real arenas',
+          evidence: 'unproven',
+          note: 'No controlled studies cited in this course. Your log is the test: compare your Real stakes entries from Module 1 with the ones from Module 10.',
         },
       ],
     },
@@ -142,20 +184,20 @@ Your first assignment is a **baseline**: a recording of how you talk now, before
     {
       id: 'm00-d2',
       type: 'choice',
-      prompt: 'In Module 1 your drills are at 87%, the rewrites are checked off and every required non-field assignment is logged. The field assignment has 1 of 5 reps. What happens?',
+      prompt: 'In Module 1 your drills are at 87%, the rewrites are checked off and every other required assignment is logged. The Real stakes assignment has 1 of 4 reps. What happens?',
       options: [
-        'Module 2 stays locked until all five field reps are logged',
-        'Module 1 is passed and Module 2 opens; the field reps keep running toward Mastered',
+        'Module 2 stays locked until all four Real stakes reps are logged',
+        'Module 1 is passed and Module 2 opens; the Real stakes reps keep running toward Mastered',
         'You lose the pass if a later drill retry drops you below 80%',
         'You must redo the drills to 100% first',
       ],
       answer: 1,
-      explain: 'Field work waits on real conversations, so it never blocks you. The module is passed now and shows Mastered once the field reps are in. A pass stays passed, whatever later retries score.',
+      explain: 'Real stakes work waits on real conversations, a buyer replying or a family dinner coming up, so it never blocks you. The module is passed now and shows Mastered once the Real stakes reps are in. A pass stays passed, whatever later retries score.',
     },
     {
       id: 'm00-d3',
       type: 'multi',
-      prompt: 'Tap everything that belongs in a field log entry.',
+      prompt: 'Tap everything that belongs in a log entry.',
       options: [
         'What you said, word for word, at the key moment',
         'A general sense that it went well',
@@ -181,9 +223,35 @@ Your first assignment is a **baseline**: a recording of how you talk now, before
       explain: 'The trust ledger is about the other person’s tomorrow, not your scoreboard. A signature they regret is a cancellation waiting to happen.',
     },
     {
+      id: 'm00-d11',
+      type: 'choice',
+      prompt: 'You are selling your old bike on Marketplace. Which stage is the best place to practice matching someone’s voice?',
+      options: [
+        'Writing the listing',
+        'Replying to "is this still available?"',
+        'A buyer’s phone call, or the meetup',
+        'Reading the rating they leave afterwards',
+      ],
+      answer: 2,
+      explain: 'Voice needs a voice. The listing and the messages are for wording; calls and meetups are where you can hear someone and match them.',
+    },
+    {
+      id: 'm00-d12',
+      type: 'choice',
+      prompt: 'Why does the trust check matter even more with friends and family than with a Marketplace buyer?',
+      options: [
+        'Friends cannot leave a rating',
+        'Techniques do not work on people who know you',
+        'You will see them again, and a yes they regret costs you far more than a lost sale',
+        'Friends and family do not count as Real stakes',
+      ],
+      answer: 2,
+      explain: 'A buyer can leave a rating, so trust matters there too. But a friend or a sister is with you for years, and a pushed yes is remembered.',
+    },
+    {
       id: 'm00-d5',
       type: 'choice',
-      prompt: 'You want to review your sales calls. What is the right way to record?',
+      prompt: 'You want to review your phone calls with buyers. What is the right way to record?',
       options: [
         'Record the whole call quietly; it is only for your own learning',
         'Record your own voice in practice, and record a real call only with everyone’s permission and within the law where you are',
@@ -196,15 +264,15 @@ Your first assignment is a **baseline**: a recording of how you talk now, before
     {
       id: 'm00-d6',
       type: 'choice',
-      prompt: 'Why rehearse with Claude before trying a technique in the field?',
+      prompt: 'Why rehearse with Claude before trying a technique with real people?',
       options: [
         'Claude reacts exactly as a real buyer would',
         'It is cheap to fail, so you can find your words and try one moment several ways',
-        'It replaces the need for field practice',
+        'It replaces the need for Real stakes practice',
         'Claude will tell you the correct line to use with every customer',
       ],
       answer: 1,
-      explain: 'The role-play is for reps and wording at no cost. Claude is not a real person, so the field is still where you find out what works.',
+      explain: 'The role-play is for reps and wording at no cost. Claude is not a real person, so real conversations are still where you find out what works.',
     },
     {
       id: 'm00-d7',
@@ -212,7 +280,7 @@ Your first assignment is a **baseline**: a recording of how you talk now, before
       prompt: 'Rewrite this practice plan so it follows the loop.',
       given: 'I’ll read the whole course this weekend and try all of it on Monday’s big client call.',
       models: [
-        'This week I’ll read the rapport lessons, drill them to 80%, run the role-play twice, try backtracking with friends and a couple of phone calls, then use it on two real sales calls and log each one within the hour.',
+        'This week I’ll read the rapport lessons, drill them to 80%, run the role-play twice, try backtracking with friends and on a couple of phone calls, then use it with the two buyers coming to see my desk and log each one within the hour.',
       ],
       checklist: [
         'One module or technique at a time, not everything at once',
@@ -258,7 +326,7 @@ Your first assignment is a **baseline**: a recording of how you talk now, before
       id: 'm00-a1',
       kind: 'solo',
       title: 'Record your baseline',
-      instructions: `Set your phone to record. For two minutes, explain what you sell, or something you want someone to agree to, as if to a person who has never heard of it. Do not prepare, and do not use anything from this course. This is how you talk now.
+      instructions: `Set your phone to record. For two minutes, explain something you could sell (a thing you own, or a service you could offer), or something you want someone to agree to, as if to a person who has never heard of it. Do not prepare, and do not use anything from this course. This is how you talk now.
 
 Save the file somewhere you will find it again. Name it with today's date.`,
       reps: 1,
@@ -287,6 +355,32 @@ At the end of the week, record a second two minutes on a different topic and sco
         'Longest stretch without a pause for them',
         'One thing that surprised you about how you sound',
         'Would a listener trust what you said? What made it sound trustworthy or not?',
+      ],
+    },
+    {
+      id: 'm00-a8',
+      kind: 'solo',
+      title: 'Map your practice ground',
+      instructions: `Build the two lists your Real stakes reps will come from. Read the lesson **Your practice ground** first.
+
+**Your selling list.** Five to ten things you own and could sell over the next few months: furniture, tools, a bike, electronics, clothes, books, the kids' outgrown gear. Or a small side service you could offer instead or as well: yard work, tutoring, pet sitting, handyman jobs. For each one, write:
+
+- where you will list it (Facebook Marketplace, Craigslist, OfferUp, a yard sale, a neighborhood group)
+- a fair asking price, and the lowest you would take
+- one honest flaw you will put in the listing
+
+Spread them out. One or two listings a month keeps a steady trickle of buyers coming for the rest of the course.
+
+**Your people list.** Three to five friends, family members or groups where a real persuasion is coming up: choosing a holiday plan with your parents, getting a friend to start running with you, a volunteer group deciding on its next event, a group chat picking a restaurant. For each one, write the person or group and what you want them to agree to.
+
+Keep both lists somewhere you will see them. When an assignment asks for a Real stakes rep, this is where you look.`,
+      reps: 1,
+      required: true,
+      log: [
+        'What is on your selling list, and where will you list each one?',
+        'Any side service you could offer, and to whom?',
+        'Who is on your people list, and what persuasion is coming up with each?',
+        'Which person on your list would you least want to feel pushed by you, and why?',
       ],
     },
     {
@@ -361,18 +455,20 @@ Look at the week as a whole. Notice whether the two columns ever disagree.`,
     {
       id: 'm00-a7',
       kind: 'field',
-      title: 'Field baseline',
-      instructions: `Log three real sales conversations or calls exactly as you run them today, before any technique from this course. If you can record your own side legally and with consent, do. If not, log from memory within the hour.
+      title: 'Real stakes baseline',
+      instructions: `Log three real conversations from your two lists, run exactly as you would today, before any technique from this course. Any stage counts: a message thread with a buyer, a buyer's phone call, a meetup to show or hand over an item, a haggle at your yard sale, or a persuasion with a friend, family member or group. Mix arenas if you like: one meetup and two family conversations is three reps.
 
-These entries are your baseline in the field, the way the recording is your baseline on your own. You will compare later modules against them.`,
+If you can record your own side legally and with consent, do. If not, log from memory within the hour. For a message thread, copy your opening message and the line where it turned.
+
+These entries are your baseline for real stakes, the way the recording is your baseline on your own. You will compare later modules against them. This assignment never holds up Module 1, so if no buyer has replied yet, move on and log these when one does. If you later sell for a living, real sales calls count too.`,
       reps: 3,
       required: true,
       log: [
-        'The situation in one line',
+        'The situation in one line: which arena, which stage, who',
         'Your opening line, word for word',
         'The moment it turned, for better or worse',
         'Outcome',
-        'Would they be glad tomorrow that they talked to you?',
+        'Would they be glad tomorrow that they talked to you? Would a buyer rate you well, or a friend ask you again?',
       ],
     },
   ],

@@ -30,6 +30,12 @@ Fine, if the thermostat does that.
 
 Not fine, unless it is true.
 
+The same line runs through a listing for something you are selling yourself:
+
+> Fits two adults and a picnic blanket in the shade, folds flat into the trunk of a small car.
+
+Fine, if you measured it. "Perfect for every beach day" is a promise about weather you do not control.
+
 Module 4’s rule extends here: vague and vivid about experience, exact about facts.
 
 ## Hearing it used on you
@@ -128,6 +134,14 @@ The same shape on a phone call:
 
 > You said Mondays start with everyone at your door asking about shifts. So picture the first Monday after go-live, nine o'clock: the schedule's already on their phones and your door's quiet. What do you do with that first hour?
 
+At a Marketplace meetup, with someone looking over the used bike you are selling, after they told you it is for getting to work:
+
+> You said the bus takes forty minutes. So picture next Monday, eight o'clock, you're rolling past the stop. How long's the ride, do you think?
+
+With friends, pacing to a plan:
+
+> Picture Saturday, about ten, we're at the trailhead with coffee and nobody's in a hurry. Who else do you want there?
+
 And in everyday life, pacing to *doing it again*:
 
 > Your manager dropped that on you at five, and you said yes when you meant no. Next time it happens, picture yourself at your desk, the clock just past five. What are the words you say?
@@ -164,6 +178,10 @@ Gregory, Cialdini & Carpenter (1982) supports imagining using the product. Futur
 > Imagine it's six months from now and the switch-over is long done. Looking back, how big does that first week look?
 
 > Picture next spring, when the landscaping's in and the mess is a memory. Is the three weeks of digging still the thing you think about?
+
+With a friend weighing up a new habit, the same move:
+
+> Picture three weeks in, when getting up for the run is just what Tuesday is. How hard does that first morning look from there?
 
 The objection is not argued with. You pace it first (Module 10), then move the listener to a point of view where it shrinks on its own.
 
@@ -410,7 +428,7 @@ There are no controlled studies of future pacing an objection away. Test it on y
       id: 'm11-a1',
       kind: 'solo',
       title: 'Feature to picture',
-      instructions: `Take five features of what you sell (or five reasons for something you want: a vacation, a move, a change at work).
+      instructions: `Take five features of something on your selling list (or five reasons for something you want: a vacation, a move, a change at work).
 
 For each, write:
 
@@ -503,15 +521,25 @@ If the answer reveals something that really would still matter in six months, de
       id: 'm11-a6',
       kind: 'field',
       title: 'One picture per conversation',
-      instructions: `In five real sales or persuasion conversations, after you understand their situation, ask one question that gets them to picture owning it, using it or having solved it. Then be quiet.
+      instructions: `In four real conversations, after you understand what the other person wants, ask one question that gets them to picture owning it, using it or having solved it. Then be quiet. Mix the two arenas however your month allows: one meetup and three friends is fine.
 
-If an objection about a temporary cost comes up, try future pacing past it. Log whether it comes back.`,
-      reps: 5,
+**Selling your own stuff.** The picture has two places to live:
+
+- **The listing.** Write one line that helps a buyer picture using the item, with every fact exact: "Fits a queen mattress with room for two nightstands. 60 by 80 inches, measured." Vague and vivid about the experience, exact about size, condition and flaws.
+- **The meetup or a call.** When they have the item in front of them, ask what it is for, then pace them to the first time they use it: "So the first Saturday you take it out, where are you headed?" This is spoken work, so save it for meetups and calls, not messages.
+
+**Friends, family or a group.** When you are proposing a plan (a trip, a dinner, a volunteering day, a change to the group's routine), ask them to picture it before you argue for it: "Picture us there on Saturday morning. What's the first thing you want to do?"
+
+If an objection about a temporary cost comes up ("it's a pain to haul home", "the first week will be hard"), try future pacing past it, and log whether it comes back. Only pace past what will really not matter in six months.
+
+Trust matters more here than in a sales job. A Marketplace buyer can leave you a rating, and a friend will remember the picture you painted the next time you suggest something. If you later sell for a living, real sales conversations count too.`,
+      reps: 4,
       required: true,
       log: [
-        'The situation',
-        'Your picture question, and what they described',
+        'The situation, and which arena (a sale or friends, family, a group)',
+        'Your picture question or listing line, and what they described',
         'Any objection you future paced, and whether it came back',
+        'Was every fact in the picture exact?',
         'Would they be glad tomorrow that they talked to you?',
       ],
     },

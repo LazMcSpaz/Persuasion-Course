@@ -22,6 +22,8 @@ Erickson did this constantly, and Bandler and Grinder wrote it down as one of th
 
 > I'm not going to tell you to [[sleep on it]], but some people do.
 
+> You're welcome to [[pick it up and try it]]. *(to someone at your yard sale)*
+
 ## Analog marking
 
 On paper, nothing separates the command from the rest of the sentence. In speech, practitioners mark it out with something nonverbal. That is **analog marking**, and it should be small:
@@ -65,7 +67,7 @@ Only embed what the person would be glad they did: *take your time, look closely
 ## The plan
 
 1. **Pick one command and one moment.** For example, at the end of a demo: "You might want to [[take a minute and look it over]]." Same words every time.
-2. **Choose an outcome you can see, in advance.** Did they pick up the brochure, handle the product, or ask a question within a minute? On a call: did they ask a question before you moved on? Write it down before you start.
+2. **Choose an outcome you can see, in advance.** Did they pick up the brochure, handle the product, or ask a question within a minute? On a call: did they ask a question before you moved on? Selling your own things works too: at a meetup, "Feel free to [[ask me anything]] about it", and did they ask a question within a minute? Write it down before you start.
 3. **Run two versions.** Same sentence, marked and unmarked. A third version is worth adding: the plain direct request, "Take a minute and look it over." The Lynn reviews suggest direct may do just as well.
 4. **Decide by coin flip, before the conversation.** Not in the moment. If you choose when it "feels right", you will mark it with the people who were already interested and fool yourself.
 5. **Log every one**, the flat ones included. Aim for at least ten of each version before you look at the totals.
@@ -642,47 +644,56 @@ Notice whether they answer, how much they say, and whether the talk feels lighte
       id: 'm08-a6',
       kind: 'field',
       title: 'The A/B test',
-      instructions: `This is the test plan from Lesson 2, run in real conversations. Twenty conversations, logged, is one complete test.
+      instructions: `This is the test plan from Lesson 2, run in real conversations, and it is the heart of this module. Twenty conversations, at least ten of each condition, is one complete test. At a few sales a month plus everyday life, that takes weeks: start it now and let it run alongside the later modules.
+
+**Which conversations count.** Spoken ones only, because the marking is in your voice and a written line has no marking to test. So: Marketplace or Craigslist **meetups**, **phone calls** with buyers, a **yard sale** (the fastest way to fill the test: a dozen short conversations in one morning), spoken inquiries about a **side job**, and conversations with **friends, family and groups**. Messages and the listing do not count. Mix arenas freely, as long as the line and the outcome stay the same.
 
 **Before you start (once):**
 
-1. **The line.** Pick one embedded command and one moment, and write the exact words. Example, at the end of a demo: "You might want to [[take a minute and look it over]]." Same words every time.
-2. **The outcome.** Write down what you will count as a yes, something you can see: they pick up the brochure, handle the product, or ask a question within a minute. On a call: they ask a question before you move on.
+1. **The line.** Pick one embedded command and one moment, and write the exact words. One that works in every arena: "Feel free to [[ask me anything]] about it", said once you have shown the item or explained the plan. Or, for meetups and the yard sale only: "You're welcome to [[pick it up and try it]]." Same words every time.
+2. **The outcome.** Write down what you will count as a yes, something you can see. For "ask me anything": they ask a question within a minute. For "pick it up": they handle the item within a minute. If you run two lines, keep two separate tallies and never pool them.
 3. **The ear test.** Check your marking is subtle (Lesson 2). If a friend can pick out your marked clips, scale it down first.
+4. **The coin list.** Flip twenty coins now and write the results in order: heads **marked**, tails **unmarked**. Take the next one off the list for each new conversation. That keeps the choice made before you have met the person, which matters most at a yard sale, where there is no time to flip.
 
 **Each conversation (one rep):**
 
-1. Before it starts, flip a coin: heads **marked**, tails **unmarked**. Write the condition in the log before you speak.
+1. Write the condition in the log before you speak.
 2. Say the line, exactly, at the chosen moment.
 3. Log the outcome, yes or no, even when nothing happened.
 
 **After twenty:** keep going until you have at least ten of each condition. Then count hits out of tries for each, for example marked 6 of 11, unmarked 5 of 10. A gap of one or two in ten is noise.
 
-Optional third arm: the plain direct request ("Take a minute and look it over"). Roll a die instead (1 or 2 marked, 3 or 4 unmarked, 5 or 6 direct) and aim for ten of each.`,
+Optional third arm: the plain direct request ("Ask me anything about it"). Roll a die instead (1 or 2 marked, 3 or 4 unmarked, 5 or 6 direct) and aim for ten of each. If you later sell for a living, real sales calls count too, with the same line and outcome.`,
       reps: 20,
       required: true,
       log: [
         'Condition (marked / unmarked / direct), written before you spoke',
+        'Arena and stage (meetup, call, yard sale, side job, friend, family, group)',
         'Your exact line, and the moment you said it',
         'Outcome: did the thing you are counting happen (yes / no)?',
         'Anything that might explain it (already interested, in a hurry, interrupted)',
-        'Would they be glad tomorrow that they talked to you?',
+        'Would they be glad tomorrow that they talked to you? (A buyer can leave you a rating.)',
       ],
     },
     {
       id: 'm08-a7',
       kind: 'field',
       title: 'A real quote',
-      instructions: `For a week, write down good lines that customers, friends or colleagues say, word for word, the day they say them.
+      instructions: `For a week, write down good lines that buyers, friends, family or colleagues say, word for word, the day they say them. A buyer who tells you "I wish I'd bought one of these years ago" has handed you a line.
 
-Then, in five conversations, use one of those real quotes where it fits, with a command inside it if it has one. Never adjust the words to make them stronger.`,
+Then, in five real conversations from either arena or a mix, use one of those real quotes where it fits, with a command inside it if it has one:
+
+- **Selling your own stuff.** At a meetup or on a call: "The last person who bought one of my bikes said, '[[Ride it around the block]] first, that's how you know.'" A side-job client's words work the same way. In the listing, only quote a buyer who has agreed to it.
+- **Friends, family and groups.** "My grandmother always said, '[[Sleep on it]], it'll look different in the morning.'" A quote is gentler than advice, which is why it suits people close to you.
+
+Never adjust the words to make them stronger, and never invent a buyer. If you later sell for a living, real sales calls count too.`,
       reps: 5,
       required: false,
       log: [
         'The quote, and who said it',
-        'Where you used it',
+        'Which arena and where you used it',
         'How the listener responded',
-        'If they met the person you quoted, would that person recognize their words?',
+        'If they met the person you quoted, would that person recognize their words? Would your listener be glad tomorrow they heard it?',
       ],
     },
   ],
