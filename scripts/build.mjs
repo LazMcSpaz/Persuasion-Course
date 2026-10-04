@@ -16,6 +16,7 @@ const files = [
   ...walk('src'),
   ...walk('content').filter((f) => f.endsWith('.js')),
   ...walk('icons'),
+  ...walk('fonts').filter((f) => f.endsWith('.woff2')),
 ].sort()
 
 const hash = createHash('sha256')

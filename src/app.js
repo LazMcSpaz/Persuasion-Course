@@ -19,6 +19,7 @@ import {
 } from './progress.js'
 import { nominalizations, verbs, linkages, topics, pick } from './words.js'
 import { reference } from '../content/reference.js'
+import { icon, spiral } from './icons.js'
 
 const $app = document.getElementById('app')
 const st = () => store.get()
@@ -49,10 +50,31 @@ function commit(fn) {
 function toast(text) {
   const t = document.createElement('div')
   t.className = 'toast'
+  t.setAttribute('role', 'status')
   t.textContent = text
   document.body.appendChild(t)
   setTimeout(() => t.remove(), 3200)
 }
+
+/** A small burst of colour for a module passed. Decoration only. */
+function celebrate() {
+  if (matchMedia('(prefers-reduced-motion: reduce)').matches) return
+  const b = document.createElement('div')
+  b.className = 'burst'
+  b.setAttribute('aria-hidden', 'true')
+  const n = 22
+  b.innerHTML = Array.from(
+    { length: n },
+    (_, k) => `<i style="--a:${Math.round((k / n) * 360 + Math.random() * 12)}deg;--d:${70 + Math.round(Math.random() * 70)}px;--s:${0.7 + Math.random() * 0.6};--c:var(--fx${k % 4})"></i>`
+  ).join('')
+  document.body.appendChild(b)
+  setTimeout(() => b.remove(), 1600)
+}
+
+// The drill just answered and the assignment just logged, so a re-render can
+// mark them for a moment of feedback. Read once, then cleared.
+let justAnswered = null
+let justLogged = null
 
 function status(m, i) {
   const s = st()
@@ -65,6 +87,17 @@ const STATUS = { locked: 'Locked', open: 'In progress', passed: 'Passed', master
 
 const bar = (f) =>
   `<div class="bar" role="progressbar" aria-valuenow="${Math.round(f * 100)}" aria-valuemin="0" aria-valuemax="100"><span style="width:${Math.round(f * 100)}%"></span></div>`
+
+/** The same figure as a ring, which starts at twelve o'clock. */
+function ring(f) {
+  const p = Math.round(f * 100)
+  return `<svg class="ring" viewBox="0 0 36 36" role="progressbar" aria-valuenow="${p}" aria-valuemin="0" aria-valuemax="100"><g transform="rotate(-90 18 18)"><circle class="track" cx="18" cy="18" r="15"/>${
+    p ? `<circle class="fill" cx="18" cy="18" r="15" pathLength="100" stroke-dasharray="${p} 100"/>` : ''
+  }</g></svg>`
+}
+
+const KICON = { solo: 'solo', everyday: 'everyday', field: 'field', chat: 'chat' }
+const chip = (ev) => `<span class="chip ${ev}">${icon(ev)}${EVIDENCE[ev] ?? ev}</span>`
 
 const when = (iso) =>
   new Date(iso).toLocaleDateString(undefined, { day: 'numeric', month: 'short', year: 'numeric' })
@@ -85,29 +118,34 @@ function viewHome() {
     .filter((m) => hasPassed(m, s))
     .flatMap((m) => m.assignments.filter((a) => a.required && a.kind === 'field' && !assignmentDone(a, s)).map((a) => ({ m, a })))
 
-  let html = `<header class="hero">
+  let html = `<header class="hero home">
+    <div class="art">${spiral()}</div>
     <p class="eyebrow">Conversational hypnosis and influence</p>
     <h1>The Course</h1>
-    <p class="muted">${done} of ${modules.length} modules passed</p>
-    ${bar(done / modules.length)}
+    <div class="summary">${ring(done / modules.length)}<p><strong>${done} of ${modules.length}</strong> modules passed</p></div>
   </header>`
 
-  if (next)
+  if (next) {
+    const f = fraction(next, s)
+    const r = lessonsRead(next, s)
     html += `<a class="card continue" href="#/m/${next.id}">
-      <p class="eyebrow">Continue</p>
+      <span class="go">${icon('arrow')}</span>
+      <p class="eyebrow">Continue · Module ${modules.indexOf(next)}</p>
       <h2>${esc(next.title)}</h2>
       <p class="muted">${esc(next.tagline)}</p>
-      ${bar(fraction(next, s))}
+      ${bar(f)}
+      <p class="meta"><span>${r.done} of ${r.total} lessons read</span><span>${Math.round(f * 100)}%</span></p>
     </a>`
+  }
 
-  html += `<div class="row twin"><a class="card mini" href="#/review"><strong>Review</strong><span class="muted">Ten drills from passed modules</span></a><a class="card mini" href="#/reference"><strong>Pattern reference</strong><span class="muted">Every technique on one page</span></a></div>`
+  html += `<div class="twin"><a class="card mini" href="#/review"><span class="icw">${icon('review')}</span><strong>Review</strong><span class="muted">Ten drills from passed modules</span></a><a class="card mini" href="#/reference"><span class="icw">${icon('reference')}</span><strong>Pattern reference</strong><span class="muted">Every technique on one page</span></a></div>`
 
   if (fieldOpen.length)
-    html += `<section class="card">
-      <h2 class="small">Real-stakes reps running</h2>
+    html += `<section class="card field">
+      <div class="cardhead"><span class="icw warn">${icon('field')}</span><h2 class="small">Real-stakes reps running</h2></div>
       <p class="muted">These wait on real conversations: a sale of your own, a friend, a group. Keep logging them as you go on.</p>
       <ul class="plain">${fieldOpen
-        .map(({ m, a }) => `<li><a href="#/m/${m.id}/practise">${esc(a.title)}</a> <span class="muted">${repsOf(a, s)}/${a.reps}</span></li>`)
+        .map(({ m, a }) => `<li><a href="#/m/${m.id}/practise"><span>${esc(a.title)}</span><span class="count">${repsOf(a, s)}/${a.reps}</span>${icon('chev', 'chev')}</a></li>`)
         .join('')}</ul>
     </section>`
 
@@ -120,11 +158,11 @@ function viewHome() {
     }
     const k = status(m, i)
     const inner = `<span class="num">${i}</span>
-      <span class="body"><span class="title">${esc(m.title)}</span>
-      <span class="muted tag">${esc(m.tagline)}</span>
-      ${k === 'locked' ? '' : bar(fraction(m, s))}</span>
-      <span class="badge ${k}">${STATUS[k]}</span>`
-    html += k === 'locked' ? `<li class="locked">${inner}</li>` : `<li><a href="#/m/${m.id}">${inner}</a></li>`
+      <span class="title">${esc(m.title)}</span>
+      <span class="tag">${esc(m.tagline)}</span>
+      ${k === 'locked' ? '' : bar(fraction(m, s))}
+      <span class="end"><span class="badge ${k}">${k === 'locked' ? icon('lock') : ''}${STATUS[k]}</span>${k === 'locked' ? '' : icon('chev', 'chev')}</span>`
+    html += k === 'locked' ? `<li class="locked">${inner}</li>` : `<li class="${k}"><a href="#/m/${m.id}">${inner}</a></li>`
   })
   html += '</ol>'
   $app.innerHTML = html
@@ -145,26 +183,29 @@ function moduleHeader(m, i, tab) {
   const k = status(m, i)
   const summary =
     k === 'mastered'
-      ? '<p class="ok">Mastered. Every required rep is logged.</p>'
+      ? `<p class="ok">${icon('seal')}Mastered. Every required rep is logged.</p>`
       : hasPassed(m, s)
-        ? `<p class="ok">Passed. The next module is open.</p>${
+        ? `<p class="ok">${icon('checkCircle')}Passed. The next module is open.</p>${
             m.assignments.some((a) => a.required && !assignmentDone(a, s))
               ? '<p class="muted">Real-stakes reps still running toward mastery.</p>'
               : ''
           }`
-        : `<details class="left"><summary>To pass: ${left.length} thing${left.length === 1 ? '' : 's'} left</summary><ul>${left
+        : `<details class="left"><summary>To pass: ${left.length} thing${left.length === 1 ? '' : 's'} left${icon('chev', 'disc')}</summary><ul>${left
             .map((l) => `<li>${esc(l)}</li>`)
             .join('')}</ul></details>`
+  const f = fraction(m, s)
   return `<header class="modhead">
-    <a class="back" href="#/">‹ Course</a>
+    <a class="back" href="#/">${icon('back')}Course</a>
     <p class="eyebrow">Module ${i} · ${esc(m.part)}</p>
     <h1>${esc(m.title)}</h1>
-    <p class="muted">${esc(m.tagline)}</p>
-    ${bar(fraction(m, s))}
-    ${summary}
-    ${m.id === 'm06' ? '<a class="button ghost" href="#/timer">Open the talk timer</a>' : ''}
+    <p class="muted tagline">${esc(m.tagline)}</p>
+    <div class="card status ${k}">
+      <div class="dial">${ring(f)}<span>${Math.round(f * 100)}<small>%</small></span></div>
+      <div class="said">${summary}</div>
+    </div>
+    ${m.id === 'm06' ? `<a class="button ghost wide" href="#/timer">${icon('timer')}Open the talk timer</a>` : ''}
   </header>
-  <nav class="tabs">${TABS.map(
+  <nav class="tabs seg">${TABS.map(
     ([id, label]) => `<a href="#/m/${m.id}/${id}" class="${tab === id ? 'on' : ''}">${label}</a>`
   ).join('')}</nav>`
 }
@@ -186,12 +227,12 @@ function viewModule(id, tab = 'learn') {
 function learnHtml(m) {
   const s = st()
   const r = lessonsRead(m, s)
-  return `<p class="muted">${r.done} of ${r.total} lessons read</p>
+  return `<p class="muted note">${r.done} of ${r.total} lessons read</p>
   <ol class="lessons">${m.lessons
     .map(
-      (l, n) => `<li><a href="#/m/${m.id}/l/${l.id}"><span class="num">${n + 1}</span><span>${esc(l.title)}</span>${
-        s.read[l.id] ? '<span class="tick" aria-label="read">✓</span>' : ''
-      }</a></li>`
+      (l, n) => `<li class="${s.read[l.id] ? 'read' : ''}"><a href="#/m/${m.id}/l/${l.id}"><span class="num">${n + 1}</span><span class="title">${esc(l.title)}</span>${
+        s.read[l.id] ? `<span class="tick" aria-label="read">${icon('checkCircle')}</span>` : ''
+      }${icon('chev', 'chev')}</a></li>`
     )
     .join('')}</ol>`
 }
@@ -205,22 +246,26 @@ function viewLesson(mid, lid) {
   if (n < 0) return viewModule(mid)
   const l = m.lessons[n]
   const next = m.lessons[n + 1]
-  $app.innerHTML = `<article class="lesson">
-    <a class="back" href="#/m/${m.id}">‹ ${esc(m.title)}</a>
+  const s = st()
+  $app.innerHTML = `<div class="readbar" aria-hidden="true"></div><article class="lesson">
+    <a class="back" href="#/m/${m.id}">${icon('back')}${esc(m.title)}</a>
     <p class="eyebrow">Lesson ${n + 1} of ${m.lessons.length}</p>
+    <div class="steps" aria-hidden="true">${m.lessons
+      .map((x, k) => `<i class="${k === n ? 'on' : s.read[x.id] ? 'read' : ''}"></i>`)
+      .join('')}</div>
     <h1>${esc(l.title)}</h1>
     <div class="prose">${render(l.body)}</div>
     ${
       l.techniques?.length
-        ? `<aside class="evidence"><h3>What the evidence says</h3>${l.techniques
+        ? `<aside class="evidence card"><h3>${icon('flask')}What the evidence says</h3>${l.techniques
             .map(
-              (t) => `<div class="tech"><p><strong>${esc(t.name)}</strong> <span class="chip ${t.evidence}">${EVIDENCE[t.evidence] ?? t.evidence}</span></p><p class="muted">${inline(t.note)}</p></div>`
+              (t) => `<div class="tech"><p class="techname"><strong>${esc(t.name)}</strong> ${chip(t.evidence)}</p><p class="muted">${inline(t.note)}</p></div>`
             )
             .join('')}</aside>`
         : ''
     }
     <div class="row">
-      <button class="button" id="readnext">${next ? 'Done, next lesson' : 'Done, go to the drills'}</button>
+      <button class="button wide" id="readnext">${next ? 'Done, next lesson' : 'Done, go to the drills'}${icon('arrow')}</button>
     </div>
   </article>`
   window.scrollTo(0, 0)
@@ -238,12 +283,13 @@ function drillsHtml(m) {
   const rw = rewritesDone(m, s)
   const auto = m.drills.filter(isAuto)
   const wrong = auto.filter((d) => s.drills[d.id] && !s.drills[d.id].correct).length
-  return `<div class="scorebox">
-      <p><strong>${Math.round(score * 100)}%</strong> of graded drills right <span class="muted">(pass at ${Math.round(PASS_MARK * 100)}%)</span></p>
+  return `<div class="scorebox card">
+      <p class="score"><strong>${Math.round(score * 100)}%</strong> of graded drills right <span class="muted">(pass at ${Math.round(PASS_MARK * 100)}%)</span></p>
+      <div class="meter ${score >= PASS_MARK ? 'pass' : ''}" aria-hidden="true"><span style="width:${Math.round(score * 100)}%"></span><i style="left:${Math.round(PASS_MARK * 100)}%"></i></div>
       <p class="muted">${rw.done} of ${rw.total} rewrites checked off</p>
       <div class="row">
-        ${wrong ? `<button class="button ghost" data-act="retry">Retry the ${wrong} wrong</button>` : ''}
-        <button class="button ghost" data-act="redo">Run them all again</button>
+        ${wrong ? `<button class="button ghost" data-act="retry">${icon('retry')}Retry the ${wrong} wrong</button>` : ''}
+        <button class="button ghost" data-act="redo">${icon('review')}Run them all again</button>
       </div>
     </div>
     ${m.drills.map((d, n) => drillCard(d, n, s)).join('')}`
@@ -270,22 +316,23 @@ function drillCard(d, n, s, result, label) {
   const head = `<p class="eyebrow">${label ?? `Drill ${n + 1}`}${d.type === 'rewrite' ? ' · rewrite' : ''}</p>
     <p class="prompt">${inline(d.prompt)}</p>
     ${d.quote ? `<blockquote>${inline(d.quote)}</blockquote>` : ''}`
+  const just = justAnswered === d.id ? ' just' : ''
   if (d.type === 'rewrite') {
     const r = s.rewrites[d.id] ?? {}
     const checks = r.checks ?? []
-    return `<div class="card drill" data-id="${d.id}">${head}
+    return `<div class="card drill rewrite${r.done ? ' done' : ''}${just}" data-id="${d.id}">${head}
       ${d.given ? `<p class="given"><span class="muted">Start from:</span> ${inline(d.given)}</p>` : ''}
       <textarea rows="3" placeholder="Write yours, then say it out loud." data-rw="${d.id}">${esc(r.text ?? '')}</textarea>
-      <details ${r.shown ? 'open' : ''} data-show="${d.id}"><summary>Compare and check off</summary>
+      <details ${r.shown ? 'open' : ''} data-show="${d.id}"><summary>Compare and check off${icon('chev', 'disc')}</summary>
         <p class="muted">Examples:</p>
-        <ul>${d.models.map((x) => `<li>${inline(x)}</li>`).join('')}</ul>
+        <ul class="models">${d.models.map((x) => `<li>${inline(x)}</li>`).join('')}</ul>
         <p class="muted">Does yours…</p>
         ${d.checklist
           .map(
-            (c, k) => `<label class="check"><input type="checkbox" data-ck="${d.id}" data-k="${k}" ${checks[k] ? 'checked' : ''}> ${inline(c)}</label>`
+            (c, k) => `<label class="check"><input type="checkbox" data-ck="${d.id}" data-k="${k}" ${checks[k] ? 'checked' : ''}> <span>${inline(c)}</span></label>`
           )
           .join('')}
-        ${r.done ? '<p class="ok">Checked off.</p>' : ''}
+        ${r.done ? `<p class="ok verdict">${icon('checkCircle')}Checked off.</p>` : ''}
       </details>
     </div>`
   }
@@ -299,18 +346,19 @@ function drillCard(d, n, s, result, label) {
       const o = d.options[k]
       let cls = ''
       if (answered) {
-        if (right.includes(k)) cls = 'right'
+        if (right.includes(k)) cls = chosen.includes(k) || !multi ? 'right' : 'right missed'
         else if (chosen.includes(k)) cls = 'wrong'
       }
+      const mark = cls.startsWith('right') ? icon('check', 'mark') : cls === 'wrong' ? icon('x', 'mark') : ''
       return multi
-        ? `<label class="opt ${cls}"><input type="checkbox" data-opt="${k}" ${chosen.includes(k) ? 'checked' : ''} ${answered ? 'disabled' : ''}> ${inline(o)}</label>`
-        : `<button class="opt ${cls}" data-opt="${k}" ${answered ? 'disabled' : ''}>${inline(o)}</button>`
+        ? `<label class="opt ${cls}"><input type="checkbox" data-opt="${k}" ${chosen.includes(k) ? 'checked' : ''} ${answered ? 'disabled' : ''}> <span class="t">${inline(o)}</span>${mark}</label>`
+        : `<button class="opt ${cls}" data-opt="${k}" ${answered ? 'disabled' : ''}><span class="t">${inline(o)}</span>${mark}</button>`
     })
     .join('')
-  return `<div class="card drill" data-id="${d.id}">${head}
+  return `<div class="card drill${answered ? ' answered' : ''}${just}" data-id="${d.id}">${head}
     <div class="opts">${opts}</div>
-    ${multi && !answered ? '<button class="button" data-act="check">Check</button>' : ''}
-    ${answered ? `<p class="${res.correct ? 'ok' : 'bad'}">${res.correct ? 'Right.' : 'Not quite.'}</p><p class="explain">${inline(d.explain)}</p>` : ''}
+    ${multi && !answered ? '<button class="button wide" data-act="check">Check</button>' : ''}
+    ${answered ? `<p class="verdict ${res.correct ? 'ok' : 'bad'}">${icon(res.correct ? 'checkCircle' : 'xCircle')}${res.correct ? 'Right.' : 'Not quite.'}</p><p class="explain">${inline(d.explain)}</p>` : ''}
   </div>`
 }
 
@@ -319,6 +367,7 @@ function wireDrills(m) {
   const rerender = () => {
     const y = window.scrollY
     viewModule(m.id, 'drill')
+    justAnswered = null
     window.scrollTo(0, y)
   }
   root.addEventListener('click', (e) => {
@@ -345,6 +394,7 @@ function wireDrills(m) {
     if (d.type === 'choice' && t.dataset.opt !== undefined) {
       const k = Number(t.dataset.opt)
       commit((s) => (s.drills[d.id] = { answer: k, correct: k === d.answer, at: new Date().toISOString() }))
+      justAnswered = d.id
       return rerender()
     }
     if (d.type === 'multi' && t.dataset.act === 'check') {
@@ -352,6 +402,7 @@ function wireDrills(m) {
       if (!ks.length) return toast('Tap at least one.')
       const want = [...d.answers].sort().join()
       commit((s) => (s.drills[d.id] = { answer: ks, correct: [...ks].sort().join() === want, at: new Date().toISOString() }))
+      justAnswered = d.id
       return rerender()
     }
   })
@@ -374,7 +425,9 @@ function wireDrills(m) {
       e.target.checked = false
       return toast('Write your version first.')
     }
-    commit((s) => (s.rewrites[id] = { ...(s.rewrites[id] ?? {}), text, shown: true, checks, done: checks.length === d.checklist.length && checks.every(Boolean) }))
+    const done = checks.length === d.checklist.length && checks.every(Boolean)
+    if (done && !st().rewrites[id]?.done) justAnswered = id
+    commit((s) => (s.rewrites[id] = { ...(s.rewrites[id] ?? {}), text, shown: true, checks, done }))
     rerender()
   })
 }
@@ -387,21 +440,27 @@ function practiseHtml(m) {
     .map((a) => {
       const reps = s.reps[a.id] ?? []
       const done = reps.length >= a.reps
+      const dots = Array.from(
+        { length: a.reps },
+        (_, k) => `<i class="${k < reps.length ? 'on' : ''}${justLogged === a.id && k === Math.min(reps.length, a.reps) - 1 ? ' new' : ''}"></i>`
+      ).join('')
       return `<div class="card assign ${done ? 'done' : ''}" data-id="${a.id}">
-        <p class="eyebrow">${KIND[a.kind] ?? a.kind}${a.required ? ' · required' : ' · optional'}</p>
+        <p class="eyebrow">${icon(KICON[a.kind] ?? 'solo')}${KIND[a.kind] ?? a.kind}${a.required ? ' · required' : ' · optional'}</p>
         <h3>${esc(a.title)}</h3>
-        <p class="reps"><strong>${reps.length}</strong> of ${a.reps} reps ${done ? '<span class="ok">done</span>' : ''}</p>
-        ${bar(Math.min(1, reps.length / a.reps))}
+        <div class="repline">
+          <span class="dots" role="progressbar" aria-valuenow="${Math.round(Math.min(1, reps.length / a.reps) * 100)}" aria-valuemin="0" aria-valuemax="100">${dots}</span>
+          <p class="reps"><strong>${reps.length}</strong> of ${a.reps} reps ${done ? '<span class="ok">done</span>' : ''}</p>
+        </div>
         <div class="prose">${render(a.instructions)}</div>
-        ${a.scenario ? `<a class="button ghost" href="#/m/${m.id}/roleplay#${a.scenario}">Open the scenario card</a>` : ''}
-        <button class="button" data-act="log">Log a rep</button>
+        ${a.scenario ? `<a class="button ghost wide" href="#/m/${m.id}/roleplay#${a.scenario}">${icon('cards')}Open the scenario card</a>` : ''}
+        <button class="button wide" data-act="log">${icon('plus')}Log a rep</button>
         <form class="logform" hidden>
           ${a.log.map((q, k) => `<label>${inline(q)}<textarea rows="2" name="q${k}"></textarea></label>`).join('')}
           <div class="row"><button class="button" type="submit">Save rep</button><button class="button ghost" type="button" data-act="cancel">Cancel</button></div>
         </form>
         ${
           reps.length
-            ? `<details><summary>Past reps (${reps.length})</summary>${reps
+            ? `<details class="past"><summary>Past reps (${reps.length})${icon('chev', 'disc')}</summary>${reps
                 .slice()
                 .reverse()
                 .map((r) => repHtml(a, r))
@@ -444,10 +503,14 @@ function wirePractise(m) {
     if (!answers.some(Boolean)) return toast('Write at least one answer.')
     const was = hasPassed(m, st())
     commit((s) => (s.reps[a.id] = [...(s.reps[a.id] ?? []), { at: new Date().toISOString(), answers }]))
-    if (!was && hasPassed(m, st())) toast('Module passed. The next one is open.')
-    else toast('Rep saved.')
+    if (!was && hasPassed(m, st())) {
+      toast('Module passed. The next one is open.')
+      celebrate()
+    } else toast('Rep saved.')
     const y = window.scrollY
+    justLogged = a.id
     viewModule(m.id, 'practise')
+    justLogged = null
     window.scrollTo(0, y)
   })
 }
@@ -455,18 +518,18 @@ function wirePractise(m) {
 // ── Role-play ────────────────────────────────────────────────────────
 
 function roleplayHtml(m) {
-  return `<p class="muted">Copy a card, paste it into a chat with Claude, and play it out. Type <strong>debrief</strong> at the end for your scores, then log the rep under Practice.</p>
+  return `<div class="tip">${icon('chat')}<p>Copy a card, paste it into a chat with Claude, and play it out. Type <strong>debrief</strong> at the end for your scores, then log the rep under Practice.</p></div>
   ${m.scenarios
     .map(
       (sc) => `<div class="card scenario" id="${sc.id}">
       <h3>${esc(sc.title)}</h3>
-      <p><span class="muted">Setting</span><br>${inline(sc.setting)}</p>
-      <p><span class="muted">Your aim</span><br>${inline(sc.you)}</p>
-      <p><span class="muted">Who Claude plays</span><br>${inline(sc.them)}</p>
-      <p><span class="muted">Expect</span></p><ul>${sc.objections.map((o) => `<li>${inline(o)}</li>`).join('')}</ul>
-      <p><span class="muted">Practice</span><br>${sc.focus.map(esc).join(' · ')}</p>
-      <p><span class="muted">A win</span><br>${inline(sc.win)}</p>
-      <div class="row"><button class="button" data-copy="${sc.id}">Copy for Claude</button><a class="button ghost" href="https://claude.ai/new" target="_blank" rel="noopener">Open Claude</a></div>
+      <p><span class="label">Setting</span>${inline(sc.setting)}</p>
+      <p><span class="label">Your aim</span>${inline(sc.you)}</p>
+      <p><span class="label">Who Claude plays</span>${inline(sc.them)}</p>
+      <p><span class="label">Expect</span></p><ul class="says">${sc.objections.map((o) => `<li>${inline(o)}</li>`).join('')}</ul>
+      <p><span class="label">Practice</span></p><p class="pills">${sc.focus.map((x) => `<span>${esc(x)}</span>`).join('')}</p>
+      <p class="win"><span class="label">A win</span>${inline(sc.win)}</p>
+      <div class="row"><button class="button" data-copy="${sc.id}">${icon('copy')}Copy for Claude</button><a class="button ghost" href="https://claude.ai/new" target="_blank" rel="noopener">Open Claude${icon('external')}</a></div>
     </div>`
     )
     .join('')}`
@@ -515,7 +578,7 @@ function viewLog(kind = 'all') {
   setNav('log')
   const reps = allReps().filter((x) => kind === 'all' || x.a.kind === kind)
   $app.innerHTML = `<header class="hero"><h1>Log</h1><p class="muted">Every rep you have logged, newest first.</p></header>
-    <nav class="tabs">${[['all', 'All'], ...Object.entries(KIND)]
+    <nav class="tabs chips">${[['all', 'All'], ...Object.entries(KIND)]
       .map(([k, label]) => `<a href="#/log/${k}" class="${k === kind ? 'on' : ''}">${label}</a>`)
       .join('')}</nav>
     <div class="row"><button class="button ghost" id="copylog">Copy as text for a review with Claude</button></div>
@@ -523,10 +586,10 @@ function viewLog(kind = 'all') {
       reps.length
         ? reps
             .map(
-              ({ m, a, r }) => `<div class="card"><p class="eyebrow">${esc(m.title)} · ${KIND[a.kind]}</p><h3>${esc(a.title)}</h3>${repHtml(a, r)}</div>`
+              ({ m, a, r }) => `<div class="card logged"><p class="eyebrow">${icon(KICON[a.kind] ?? 'solo')}${esc(m.title)} · ${KIND[a.kind]}</p><h3>${esc(a.title)}</h3>${repHtml(a, r)}</div>`
             )
             .join('')
-        : '<p class="muted">Nothing logged yet. Reps are logged from each module’s Practice tab.</p>'
+        : `<div class="empty"><span class="art">${icon('log')}</span><p class="muted">Nothing logged yet. Reps are logged from each module’s Practice tab.</p></div>`
     }`
   document.getElementById('copylog').onclick = async () => {
     const text = reps
@@ -578,19 +641,24 @@ function viewReview() {
     <p class="muted">Ten drills from the modules you have passed, the ones you missed and the ones you have not seen for a while first. Nothing here changes a module’s score.</p></header>
     ${
       reviewSet.length
-        ? `<div class="scorebox"><p><strong>${right}</strong> of ${done} right so far, ${reviewSet.length - done} to go</p>
-           <div class="row"><button class="button ghost" data-act="newset">New set</button></div></div>
+        ? `<div class="scorebox card"><p><strong>${right}</strong> of ${done} right so far, ${reviewSet.length - done} to go</p>
+           <div class="segs" aria-hidden="true">${reviewSet
+             .map(({ d }) => `<i class="${reviewAnswers[d.id] ? (reviewAnswers[d.id].correct ? 'ok' : 'bad') : ''}"></i>`)
+             .join('')}</div>
+           <div class="row"><button class="button ghost" data-act="newset">${icon('shuffle')}New set</button></div></div>
            ${reviewSet.map(({ d, m }, n) => drillCard(d, n, s, reviewAnswers[d.id] ?? null, `${esc(m.title)}`)).join('')}`
-        : '<p class="card">Pass your first module and its drills start turning up here.</p>'
+        : `<div class="card empty"><span class="art">${spiral('spiral still')}</span><p>Pass your first module and its drills start turning up here.</p></div>`
     }`
   const root = $app
   const rerender = () => {
     const y = window.scrollY
     viewReview()
+    justAnswered = null
     window.scrollTo(0, y)
   }
   const record = (d, answer, correct) => {
     reviewAnswers[d.id] = { answer, correct }
+    justAnswered = d.id
     commit((x) => {
       x.review ??= {}
       const r = x.review[d.id] ?? { right: 0, wrong: 0 }
@@ -635,11 +703,11 @@ function viewReference() {
             const hit = byId.get(it.module)
             const open = hit && unlocked(hit.i, modules, s)
             return `<div class="card ref">
-              <p class="eyebrow">${open ? `<a href="#/m/${it.module}">Module ${hit.i}</a>` : `Module ${hit?.i ?? ''}`} <span class="chip ${it.evidence}">${EVIDENCE[it.evidence]}</span></p>
+              <p class="eyebrow">${open ? `<a href="#/m/${it.module}">Module ${hit.i}${icon('chev')}</a>` : `<span>${icon('lock')}Module ${hit?.i ?? ''}</span>`} ${chip(it.evidence)}</p>
               <h3>${esc(it.name)}</h3>
               <p>${inline(it.what)}</p>
               <blockquote>${inline(it.example)}</blockquote>
-              ${it.undo ? `<p class="muted"><strong>Undo it:</strong> ${inline(it.undo)}</p>` : ''}
+              ${it.undo ? `<p class="muted undo"><strong>Undo it:</strong> ${inline(it.undo)}</p>` : ''}
             </div>`
           })
           .join('')}`
@@ -660,20 +728,28 @@ function viewTimer() {
     <p class="muted">For the run-on sentence (Module 6). Pick a length, press start, and talk without ending a sentence until the bell. Use the cards when you run dry: a nominalization, a verb, a linkage.</p></header>
     <div class="card timer">
       <p class="topic" id="topic">Topic: ${esc(pick(topics))}</p>
-      <div class="lengths">${[30, 60, 120, 180].map((n) => `<button class="opt" data-len="${n}">${n < 60 ? n + ' s' : n / 60 + ' min'}</button>`).join('')}</div>
-      <p class="clock" id="clock">0:30</p>
+      <div class="lengths seg">${[30, 60, 120, 180].map((n) => `<button class="opt" data-len="${n}">${n < 60 ? n + ' s' : n / 60 + ' min'}</button>`).join('')}</div>
+      <div class="face">
+        <svg viewBox="0 0 120 120" aria-hidden="true"><circle class="track" cx="60" cy="60" r="54"/><circle class="fill" id="dial" cx="60" cy="60" r="54" pathLength="100"/></svg>
+        <p class="clock" id="clock">0:30</p>
+      </div>
       <div class="cards" id="cards" aria-live="polite"></div>
-      <label class="check"><input type="checkbox" id="rec"> Record myself (stays on this device, gone when you leave)</label>
-      <div class="row"><button class="button" id="go">Start</button><button class="button ghost" id="newtopic">New topic</button></div>
+      <div class="row"><button class="button" id="go">Start</button><button class="button ghost" id="newtopic">${icon('shuffle')}New topic</button></div>
+      <label class="check switchrow">${icon('mic')}<span>Record myself (stays on this device, gone when you leave)</span><input type="checkbox" id="rec" class="switch"></label>
       <audio id="play" controls hidden></audio>
     </div>
     <p class="muted">${runs.length} runs logged${best ? `, longest ${best} s` : ''}.</p>`
   let len = 30
   const clock = document.getElementById('clock')
+  const face = $app.querySelector('.timer')
+  const dial = document.getElementById('dial')
   const fmt = (n) => `${Math.floor(n / 60)}:${String(n % 60).padStart(2, '0')}`
+  // The ring empties as the time runs down: 0 is full, 100 is empty.
+  const setDial = (gone) => (dial.style.strokeDashoffset = String(gone * 100))
   const pickLen = (n) => {
     len = n
     clock.textContent = fmt(n)
+    setDial(0)
     for (const b of $app.querySelectorAll('[data-len]')) b.classList.toggle('right', Number(b.dataset.len) === n)
   }
   pickLen(30)
@@ -684,7 +760,8 @@ function viewTimer() {
     (cards.innerHTML = `<span>${esc(pick(nominalizations))}</span><span>${esc(pick(verbs))}</span><span>${esc(pick(linkages))}</span>`)
   deal()
   document.getElementById('go').onclick = async (e) => {
-    if (timer) return stop(false)
+    // Stop belongs to the run that started the timer, not to this click.
+    if (timer) return viewTimer.stop(false)
     let recorder = null
     let chunks = []
     if (document.getElementById('rec').checked) {
@@ -706,11 +783,14 @@ function viewTimer() {
     }
     let left = len
     e.target.textContent = 'Stop'
+    face.classList.remove('finished')
+    face.classList.add('running')
     let tick = 0
     timer = setInterval(() => {
       left -= 1
       tick += 1
       clock.textContent = fmt(left)
+      setDial(1 - left / len)
       if (tick % 8 === 0) deal()
       if (left <= 0) stop(true)
     }, 1000)
@@ -720,6 +800,9 @@ function viewTimer() {
       recorder?.state === 'recording' && recorder.stop()
       const btn = document.getElementById('go')
       if (btn) btn.textContent = 'Start'
+      face.classList.remove('running')
+      face.classList.toggle('finished', finished)
+      setDial(0)
       if (finished) {
         navigator.vibrate?.(200)
         commit((s) => (s.runs = [...(s.runs ?? []), { at: new Date().toISOString(), secs: len }]))
@@ -737,26 +820,28 @@ function viewSettings() {
   setNav('settings')
   const s = st()
   $app.innerHTML = `<header class="hero"><h1>Settings</h1></header>
-  <div class="card">
+  <section class="group">
     <h3>Appearance</h3>
-    <div class="row">${['auto', 'light', 'dark'].map((t) => `<button class="opt ${(s.settings.theme ?? 'auto') === t ? 'right' : ''}" data-theme="${t}">${t[0].toUpperCase() + t.slice(1)}</button>`).join('')}</div>
-  </div>
-  <div class="card">
+    <div class="card"><div class="seg themes">${['auto', 'light', 'dark'].map((t) => `<button class="opt ${(s.settings.theme ?? 'auto') === t ? 'right' : ''}" data-theme="${t}">${icon(t)}${t[0].toUpperCase() + t.slice(1)}</button>`).join('')}</div></div>
+  </section>
+  <section class="group">
     <h3>Unlocking</h3>
-    <label class="check"><input type="checkbox" id="unlockall" ${s.settings.unlockAll ? 'checked' : ''}> Open every module now (for browsing ahead; passing still counts)</label>
-  </div>
-  <div class="card">
+    <div class="card"><label class="check switchrow"><span>Open every module now (for browsing ahead; passing still counts)</span><input type="checkbox" class="switch" id="unlockall" ${s.settings.unlockAll ? 'checked' : ''}></label></div>
+  </section>
+  <section class="group">
     <h3>Backup</h3>
-    <p class="muted">Your progress lives on this device only. Copy a backup now and then, and paste it back on a new phone.</p>
-    <div class="row"><button class="button" id="export">Copy backup</button><button class="button ghost" id="download">Download file</button></div>
-    <textarea id="importtext" rows="3" placeholder="Paste a backup here to restore it"></textarea>
-    <button class="button ghost" id="import">Restore from pasted backup</button>
-  </div>
-  <div class="card">
+    <div class="card">
+      <p class="muted">Your progress lives on this device only. Copy a backup now and then, and paste it back on a new phone.</p>
+      <div class="row"><button class="button" id="export">${icon('copy')}Copy backup</button><button class="button ghost" id="download">${icon('download')}Download file</button></div>
+      <textarea id="importtext" rows="3" placeholder="Paste a backup here to restore it"></textarea>
+      <button class="button ghost wide" id="import">${icon('restore')}Restore from pasted backup</button>
+    </div>
+  </section>
+  <section class="group">
     <h3>Start over</h3>
-    <button class="button danger" id="reset">Erase all progress</button>
-  </div>
-  <p class="muted small">Content version ${esc(document.documentElement.dataset.version ?? '')}</p>`
+    <div class="card"><button class="button danger wide" id="reset">${icon('trash')}Erase all progress</button></div>
+  </section>
+  <p class="muted small version">${spiral('spiral still')}Content version ${esc(document.documentElement.dataset.version ?? '')}</p>`
   $app.querySelectorAll('[data-theme]').forEach(
     (b) =>
       (b.onclick = () => {
@@ -798,10 +883,34 @@ function viewSettings() {
 
 // ── Shell ────────────────────────────────────────────────────────────
 
+const THEME_BG = { light: '#f2f2f7', dark: '#000000' }
+
 function applyTheme() {
   const t = st().settings.theme ?? 'auto'
   if (t === 'auto') delete document.documentElement.dataset.theme
   else document.documentElement.dataset.theme = t
+  // Keep the status bar in step with a theme chosen by hand.
+  for (const meta of document.querySelectorAll('meta[name="theme-color"]'))
+    meta.content = THEME_BG[t === 'auto' ? (meta.media.includes('dark') ? 'dark' : 'light') : t]
+}
+
+/**
+ * A new screen rises into place; a new tab of the same module only fades its
+ * body. Only the elements there on arrival are marked, so re-rendering after
+ * a tap (a drill answered, a rep saved) never replays the entrance, and
+ * progress rings and bars fill once.
+ */
+let lastKey = null
+function enter(key) {
+  const tab = key === lastKey && key.startsWith('m/')
+  lastKey = key
+  if (tab) return $app.querySelector('.tabbody')?.classList.add('in-tab')
+  ;[...$app.children]
+    .filter((el) => !el.classList.contains('readbar'))
+    .forEach((el, i) => {
+      el.style.setProperty('--i', Math.min(i, 5))
+      el.classList.add('in')
+    })
 }
 
 function route() {
@@ -816,6 +925,7 @@ function route() {
   else if (parts[0] === 'settings') viewSettings()
   else viewHome()
   if (!(parts[0] === 'm' && parts[2] === 'roleplay')) window.scrollTo(0, 0)
+  enter(parts[0] === 'm' && parts[2] !== 'l' ? `m/${parts[1]}` : parts.join('/'))
 }
 
 applyTheme()
