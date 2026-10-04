@@ -30,7 +30,11 @@ Fine, if the thermostat does that.
 
 Not fine, unless it is true.
 
-Module 4’s rule extends here: vague and vivid about experience, exact about facts.`,
+Module 4’s rule extends here: vague and vivid about experience, exact about facts.
+
+## Hearing it used on you
+
+When a seller asks you to picture something, enjoy the picture, then ask: "Which part of that is in the contract?" Whatever is not, you imagined on their behalf.`,
       techniques: [
         {
           name: 'Imagining using it',
@@ -44,35 +48,43 @@ Module 4’s rule extends here: vague and vivid about experience, exact about fa
       title: 'Their picture, every sense',
       body: `The strongest picture is one *they* build. Your job is to start it and hand it over.
 
-## Ask, don't describe
+## How to do it
 
-A description gives them your picture. A question makes them build their own.
+1. **Ask first.** A question about a specific moment in their life makes them build the picture to answer it.
+2. **Be quiet** while they build it. What they describe tells you what they actually want, which is worth more than any feature list.
+3. **Add a detail or two only if they stall**, and borrow it from something they told you earlier.
+4. **Reach past sight.** One detail of sound, touch, smell or taste, where it fits.
 
-> Walk me through a Monday morning once this is set up. What's different?
+## Questions that start the picture
 
-> Where would you put it?
+> Face to face: "When you've got the family over for Sunday lunch, where is everyone standing?"
 
-> Who's the first person you'd show?
+> Phone: "Walk me through a Monday morning once this is set up. What's different?"
 
-On a call, these do even more work, because you cannot show anything. Ask, then be quiet and let them talk. What they describe tells you what they actually want, which is worth more than any feature list.
+> Everyday: "When we get there, what's the first thing you want to do?"
 
-## Add the senses
+On a call these do even more work, because you cannot show anything. Ask, then wait through the pause.
 
-When you do describe, reach across all the senses, not just sight. What they would see, hear, feel on their skin, smell, even taste where it fits.
+## Details across the senses
 
-> The first evening out on the new deck: the boards still warm from the day, the smell of whatever's on the grill, the kids' voices coming from the garden.
+When you do describe, one detail per sense is plenty:
 
-> On the call, imagine hearing the client say "yes, send it over" and the quiet afterwards while you write it down.
+> Face to face, selling decks: "The first evening out there, the boards still warm from the day, the smell of whatever's on the grill, the kids' voices from the back of the yard."
 
-One detail per sense is plenty. Five details about the colour of the deck is a brochure.
+> Phone, selling a home car charger: "The first winter morning, you unplug it, the screen says full, and it filled up overnight while you slept."
 
-## Not typing people
-
-You may have come across the idea that people are "visual", "auditory" or "kinesthetic" and should be spoken to in their type. That idea is not part of this course. You do not need to diagnose anyone. Offer every sense, lightly, and let them take what catches.
+> Everyday, to a friend about a walking weekend: "Cold air first thing, bacon at the cabin, and legs aching in the good way by lunch."
 
 ## Use their details, not yours
 
-The best sensory details come from what they told you earlier. If they mentioned their daughter learning piano, the quiet room is where she practises. If they mentioned dreading the drive, the picture includes the drive they no longer make. Vague language from Module 4 helps here: "a certain kind of quiet" lets them supply which quiet.`,
+The best sensory details come from what they told you. If they mentioned their daughter learning piano, the quiet room is where she practices. If they mentioned dreading the commute, the picture includes the drive they no longer make. Vague language from Module 4 helps here: "a certain kind of quiet" lets them supply which quiet.
+
+## Common mistakes
+
+- **The brochure.** Five details about the color of the deck. One per sense, then stop.
+- **Describing when you could ask.** Your picture, however vivid, is still yours.
+- **Promising through the picture.** Every detail must be something the product actually delivers (Lesson 1).
+- **Diagnosing the listener.** You do not need to work out what kind of person they are. Offer every sense lightly and let them take what catches.`,
       techniques: [
         {
           name: 'Questions that build the picture',
@@ -91,29 +103,51 @@ The best sensory details come from what they told you earlier. If they mentioned
       title: 'Future pacing',
       body: `Future pacing is taking someone forward in time to a specific moment after the decision, and letting them live it briefly before they decide.
 
-The trick is *specific*. "In the future you'll be happier" is not a moment. These are:
+The key word is *specific*. "In the future you'll be happier" is not a moment. "Tuesday, you get in from work, and the table is clear" is.
 
-> Think about the first week. Tuesday, you get in from work, and instead of the pile on the table, there's nothing to deal with.
+## The shape
 
-> Six months from now, when someone asks how the move went, what do you want to be able to tell them?
+1. **Pace now.** One or two true things about where they are, in their words (Module 3).
+2. **Bridge** with a time marker: "So imagine... a month from now", "the first Monday", "next January".
+3. **Set the moment.** A day, a time, a place, who is there.
+4. **Add one or two details**, ideally theirs, ideally past sight.
+5. **Hand it over** with a question: "What's different?" "What do you notice first?" "What are you telling them?"
+6. **Stop and listen.** Their answer is the real picture, and often the real reason to go ahead.
 
-> Next time your manager drops a task on you at five o'clock, picture yourself saying what you actually want to say.
+## A worked example
+
+Face to face, selling a bookkeeping service to someone who mentioned the kitchen table:
+
+- **Pace:** "You're doing the books at the kitchen table after the kids are in bed, and you're tired of it."
+- **Bridge:** "So imagine a Sunday a couple of months from now."
+- **Moment:** "Seven o'clock, kids in the bath."
+- **Detail:** "The laptop stays shut, and the table's just a table again."
+- **Hand over:** "What do you do with that evening?"
+
+The same shape on a phone call:
+
+> You said Mondays start with everyone at your door asking about shifts. So picture the first Monday after go-live, nine o'clock: the schedule's already on their phones and your door's quiet. What do you do with that first hour?
+
+And in everyday life, pacing to *doing it again*:
+
+> Your manager dropped that on you at five, and you said yes when you meant no. Next time it happens, picture yourself at your desk, the clock just past five. What are the words you say?
 
 ## Three futures to pace to
 
 - **Owning it.** The first day, the first use, the first time it saves them trouble.
-- **Having solved it.** Not the product at all, but the problem gone. Often stronger, because the problem is what they actually care about.
-- **Doing it again.** In everyday persuasion and coaching: the next time the hard situation comes up, and them handling it well. This is how a conversation turns into a change that lasts beyond it.
+- **Having solved it.** The problem gone. Often stronger, because the problem is what they care about.
+- **Doing it again.** The next time the hard situation comes up, and them handling it well.
 
-## Pacing first
+## Common mistakes
 
-Future pacing works best after pacing the present (Module 3). A leap into the future from a present they have not felt heard about sounds like a pitch. Pace where they are, then take them forward:
-
-> You're spending most Sunday evenings on the invoices, and you're tired of it. So imagine a Sunday evening a couple of months from now...
+- **No moment.** "You'll love it" has no day, place or person in it.
+- **Leaping before pacing.** A jump into the future from a present they have not felt heard about sounds like a pitch.
+- **The monologue.** If you talk for a minute, it is your picture, not theirs. Two sentences, then the question.
+- **Trance theater.** "Close your eyes and imagine..." in a sales meeting is odd. Ask the question in your normal voice.
 
 ## What is known
 
-Gregory, Cialdini & Carpenter (1982) supports imagining using the product. Future pacing as NLP teaches it, with its specific moments and time jumps, has no controlled studies of its own. Test it: in some conversations ask a future pacing question, in others do not, and log whether the ones that did produce more detail from them about what they want.`,
+Gregory, Cialdini & Carpenter (1982) supports imagining using the product. Future pacing as NLP teaches it has no controlled studies of its own. Test it: in some conversations ask a future pacing question, in others do not, and log whether it brings out more about what they want.`,
       techniques: [
         {
           name: 'Future pacing',
@@ -129,7 +163,7 @@ Gregory, Cialdini & Carpenter (1982) supports imagining using the product. Futur
 
 > Imagine it's six months from now and the switch-over is long done. Looking back, how big does that first week look?
 
-> Picture next spring, when the garden's in and the mess is a memory. Is the three weeks of digging still the thing you think about?
+> Picture next spring, when the landscaping's in and the mess is a memory. Is the three weeks of digging still the thing you think about?
 
 The objection is not argued with. You pace it first (Module 10), then move the listener to a point of view where it shrinks on its own.
 
@@ -170,18 +204,18 @@ There are no controlled studies of future pacing an objection away. Test it on y
       options: [
         'Homeowners asked to imagine themselves enjoying cable TV were more likely to subscribe later than those told its benefits',
         'Homeowners shown a video of cable TV subscribed more',
-        'Visual people responded better to imagery than auditory people',
+        'Homeowners given a printed list of benefits subscribed more than those who heard them',
         'Imagining a product made people less likely to buy it',
       ],
       answer: 0,
-      explain: 'Same benefits, different builder of the picture. The study says nothing about personality types, and no video was involved.',
+      explain: 'Same benefits, different builder of the picture: the homeowner, not the seller. No video or printed list was involved.',
     },
     {
       id: 'm11-d2',
       type: 'choice',
       prompt: 'Which line gets them to build the picture themselves?',
       options: [
-        '“This kitchen has soft-close drawers and a quartz worktop.”',
+        '“This kitchen has soft-close drawers and a quartz countertop.”',
         '“You’ll love cooking in here.”',
         '“When you’ve got the family over for Sunday lunch, where is everyone standing?”',
         '“Most people find it very practical.”',
@@ -206,22 +240,22 @@ There are no controlled studies of future pacing an objection away. Test it on y
     {
       id: 'm11-d4',
       type: 'choice',
-      prompt: 'A colleague says you should find out if the buyer is “visual” and then use only visual words. What does this course say?',
+      prompt: 'Which future pace follows the whole shape: pace, bridge, moment, detail, question?',
       options: [
-        'Do it; it is a proven technique',
-        'Do it, but only on the phone',
-        'Use only feeling words, because everyone is kinesthetic',
-        'That idea is not part of this course. Offer every sense lightly and let them take what catches',
+        '“You’ll love it once it’s in. Everyone does.”',
+        '“Imagine the future with this system. It’s going to make everything easier.”',
+        '“You said Mondays are chaos at the front desk. So picture the first Monday after the switch, nine o’clock, the phones quiet. What are your team doing?”',
+        '“Picture the first Monday after the switch. The system sends reminders, syncs calendars, builds reports and links to your billing.”',
       ],
-      answer: 3,
-      explain: 'Typing people by sense is cut from the course. You do not need to diagnose anyone to describe a moment richly.',
+      answer: 2,
+      explain: 'It paces their words, bridges to a specific time, sets a moment with a sensory detail, and hands it over with a question. The last one has a moment but turns into a feature list with no question, so it stays your picture.',
     },
     {
       id: 'm11-d5',
       type: 'choice',
       prompt: 'Which is an honest invitation to imagine?',
       options: [
-        '“Picture never having to think about your pension again.”',
+        '“Picture never having to think about your retirement savings again.”',
         '“Imagine this investment doubling in five years.”',
         '“Picture opening your statement each spring and seeing exactly where it’s going.”',
         '“Imagine retiring at fifty.”',
@@ -248,7 +282,7 @@ There are no controlled studies of future pacing an objection away. Test it on y
       prompt: 'A buyer says, “Switching systems would be a nightmare for my team.” Tap every response that future paces fairly.',
       options: [
         '“It’ll be fine, don’t worry about it.”',
-        '“It would be a hard couple of weeks, no question. Imagine it’s six months on and the switch is long done. How big does that fortnight look from there?”',
+        '“It would be a hard couple of weeks, no question. Imagine it’s six months on and the switch is long done. How big do those two weeks look from there?”',
         '“Suppose it’s six months from now and the switch was a mistake. What went wrong?”',
         '“Picture never having a single problem with software again.”',
       ],
@@ -284,23 +318,23 @@ There are no controlled studies of future pacing an objection away. Test it on y
     {
       id: 'm11-d10',
       type: 'choice',
-      prompt: 'Which comes first, according to the lesson?',
+      prompt: 'Which future pace is most likely to sound like a pitch?',
       options: [
-        'Future pace immediately, before they raise anything',
-        'Pace the present, then take them forward',
-        'Give all the facts, then never mention the future',
-        'Ask them to close their eyes',
+        '“Picture yourself next month, loving your new kitchen!” said as they walk through the door',
+        '“You said Sunday lunch is a squeeze. Picture next Easter with everyone around the island. Where are you standing?”',
+        '“You’re tired of the fights about cleaning. Imagine the first Sunday with a house cleaner booked. What do you do with the morning?”',
+        '“Six months from now, when someone asks how the move went, what do you want to be able to tell them?”',
       ],
-      answer: 1,
-      explain: 'A leap forward from a present they have not felt heard about sounds like a pitch. Pace where they are first (Module 3), then lead into the future.',
+      answer: 0,
+      explain: 'No pacing, no specific moment, no question, and before you know anything about them. The others start from what they said, or ask them to build the picture themselves.',
     },
     {
       id: 'm11-d11',
       type: 'rewrite',
       prompt: 'Turn this feature line into a question that gets them to build their own picture.',
-      given: 'The car has a 600-kilometre range on a full charge.',
+      given: 'The car has a 370-mile range on a full charge.',
       models: [
-        'You mentioned visiting your mum up north. Walk me through that drive. Where would you stop now, and where would you stop in this?',
+        'You mentioned visiting your mom up north. Walk me through that drive. Where would you stop now, and where would you stop in this?',
       ],
       checklist: [
         'A question, not a description',
@@ -312,8 +346,8 @@ There are no controlled studies of future pacing an objection away. Test it on y
     {
       id: 'm11-d12',
       type: 'rewrite',
-      prompt: 'Describe the first evening in a new garden room using at least three senses, in two sentences or fewer. Keep it to what the room can deliver.',
-      given: 'It’s an insulated, soundproofed garden office.',
+      prompt: 'Describe the first evening in a new backyard office using at least three senses, in two sentences or fewer. Keep it to what the room can deliver.',
+      given: 'It’s an insulated, soundproofed backyard office.',
       models: [
         'The first evening you close the door, the house noise just stops, and it’s still warm in there from the afternoon. You can smell the cedar and hear nothing but the rain on the roof.',
       ],
@@ -330,7 +364,7 @@ There are no controlled studies of future pacing an objection away. Test it on y
       prompt: 'Pace this objection, then future pace past it. It is a temporary cost.',
       given: 'Video call: “The installation means three days without a working kitchen.”',
       models: [
-        'It is three days, and three days without a kitchen with kids is real. Picture a month after: you’re cooking on the new hob and someone asks how the fit went. What do you think you’ll say about those three days?',
+        'It is three days, and three days without a kitchen with kids is real. Picture a month after: you’re cooking on the new stove and someone asks how the install went. What do you think you’ll say about those three days?',
       ],
       checklist: [
         'States the cost exactly (three days)',
@@ -354,13 +388,29 @@ There are no controlled studies of future pacing an objection away. Test it on y
         'Ends with a question that has them rehearse doing it well',
       ],
     },
+    {
+      id: 'm11-d15',
+      type: 'rewrite',
+      prompt: 'On the phone, a prospect says this. You sell van tracking. Write a future pace using the whole shape: pace, bridge, moment, detail, question.',
+      given: 'I spend half an hour every morning calling the guys to find out where they are.',
+      models: [
+        'Half an hour every morning, chasing calls before you’ve even started. So picture a Tuesday a month from now: seven-thirty, coffee in hand, and every van’s already on the map on your phone. What do you do with that half hour?',
+      ],
+      checklist: [
+        'Paces their situation in their words (half an hour, calling around)',
+        'A time marker that bridges forward',
+        'A specific moment: a day, a time, a place',
+        'One or two concrete details, nothing the product cannot do',
+        'Ends with a question that hands the picture over',
+      ],
+    },
   ],
   assignments: [
     {
       id: 'm11-a1',
       kind: 'solo',
       title: 'Feature to picture',
-      instructions: `Take five features of what you sell (or five reasons for something you want: a holiday, a move, a change at work).
+      instructions: `Take five features of what you sell (or five reasons for something you want: a vacation, a move, a change at work).
 
 For each, write:
 
@@ -384,14 +434,15 @@ Then cross out anything in step 3 the product cannot actually deliver.`,
       title: 'Record a future pace',
       instructions: `Record yourself pacing the present for one buyer situation, then taking them forward to a specific moment: the first week, six months on, or the next time the problem would have come up. Keep it under a minute.
 
-Listen back. Is the moment specific (a day, a time, a place)? Did you pace before you leaped? Record again until both are yes.`,
+Use the shape: pace now, bridge with a time marker, set the moment, add one or two details, hand it over with a question.
+
+Listen back. Is the moment specific (a day, a time, a place)? Did you pace before you leaped? Did you end on a question? Record again until all three are yes.`,
       reps: 3,
       required: true,
       log: [
         'What moment did you pace to?',
         'Was it specific enough to live in?',
         'Did you promise anything in the picture you cannot deliver?',
-        'Would you trust the person on the recording?',
       ],
     },
     {
@@ -418,7 +469,7 @@ Then listen. Notice how much more they tell you about what they want than if you
       id: 'm11-a4',
       kind: 'chat',
       title: 'Role-play: the kitchen table office',
-      instructions: `Run scenario **The kitchen table office** with Claude. Your goal is to get them describing a specific morning in the garden room in their own words. Use questions first, sensory description only lightly, and keep every fact exact.
+      instructions: `Run scenario **The kitchen table office** with Claude. Your goal is to get them describing a specific morning in the backyard studio in their own words. Use questions first, sensory description only lightly, and keep every fact exact.
 
 Run it twice. The second time, use one detail they gave you earlier inside your description.`,
       reps: 2,
@@ -467,8 +518,8 @@ If an objection about a temporary cost comes up, try future pacing past it. Log 
     {
       id: 'm11-a7',
       kind: 'chat',
-      title: 'Role-play: the holiday that keeps getting postponed',
-      instructions: `Run scenario **The holiday that keeps getting postponed**. No selling, just a partner you would like to take a break with. Use questions that build the picture, sensory detail, and a future pace to the trip itself. Respect a no.`,
+      title: 'Role-play: the vacation that keeps getting postponed',
+      instructions: `Run scenario **The vacation that keeps getting postponed**. No selling, just a partner you would like to take a break with. Use questions that build the picture, sensory detail, and a future pace to the trip itself. Respect a no.`,
       reps: 1,
       required: false,
       scenario: 'm11-s3',
@@ -484,12 +535,12 @@ If an objection about a temporary cost comes up, try future pacing past it. Log 
     {
       id: 'm11-s1',
       title: 'The kitchen table office',
-      setting: 'Face to face at a show site. You sell insulated garden rooms used as home offices.',
-      you: 'Get them to describe, in their own words, a specific working morning in a garden room, while giving every fact (price, size, planning rules, install time) exactly.',
-      them: 'A graphic designer who has worked from the kitchen table for three years. Two school-age children, a partner who also works from home. Likes the idea but cannot picture it and keeps returning to price. Worried it is an indulgence and that the install will wreck the garden.',
+      setting: 'Face to face at your display yard. You sell insulated backyard studios used as home offices.',
+      you: 'Get them to describe, in their own words, a specific working morning in a backyard studio, while giving every fact (price, size, permit rules, install time) exactly.',
+      them: 'A graphic designer who has worked from the kitchen table for three years. Two school-age children, a partner who also works from home. Likes the idea but cannot picture it and keeps returning to price. Worried it is an indulgence and that the install will wreck the yard.',
       objections: [
         'It’s a lot of money for a shed.',
-        'I can’t really picture it in our garden.',
+        'I can’t really picture it in our yard.',
         'The install would wreck the lawn.',
       ],
       focus: ['Questions that build the picture', 'Detail across the senses', 'Future pacing', 'Exact facts'],
@@ -498,7 +549,7 @@ If an objection about a temporary cost comes up, try future pacing past it. Log 
     {
       id: 'm11-s2',
       title: 'Switching would be a nightmare',
-      setting: 'Video call. You sell a scheduling and booking system to physiotherapy clinics.',
+      setting: 'Video call. You sell a scheduling and booking system to physical therapy clinics.',
       you: 'Handle the switching objection by pacing it, future pacing past the temporary disruption, and using the look-back to surface the real concern.',
       them: 'Practice manager of a four-person clinic. Current system is clunky but familiar. Front desk staff are long-serving and resistant to change. Real fear, not yet said: a double-booking disaster during migration that patients complain about, which she would be blamed for.',
       objections: [
@@ -511,10 +562,10 @@ If an objection about a temporary cost comes up, try future pacing past it. Log 
     },
     {
       id: 'm11-s3',
-      title: 'The holiday that keeps getting postponed',
+      title: 'The vacation that keeps getting postponed',
       setting: 'At home in the evening. Everyday persuasion with your partner.',
       you: 'Get a week away actually booked, or find out honestly why it keeps not happening.',
-      them: 'Your partner, who works long hours and keeps saying "after this project". Loves the sea, misses swimming, feels guilty taking time off. Responds badly to pressure and well to being asked what they would enjoy.',
+      them: 'Your partner, who works long hours and keeps saying "after this project". Loves the beach, misses swimming, feels guilty taking time off. Responds badly to pressure and well to being asked what they would enjoy.',
       objections: [
         'Now’s just not a good time.',
         'We can’t really afford it this year.',

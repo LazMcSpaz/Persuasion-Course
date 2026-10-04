@@ -7,31 +7,54 @@ export default {
   lessons: [
     {
       id: 'm13-l1',
-      title: 'Why precision in discovery',
-      body: `People talk in summaries. "We need something better." "It's too much hassle." "They won't go for it." Each of those sentences leaves out most of what the speaker means.
+      title: 'Find the gap they left',
+      body: `People talk in summaries. "We need something better." "It's too much hassle." "They won't go for it." Each sentence leaves out most of what the speaker means.
 
-In Module 4 you learned that this is exactly what makes vague language powerful: the listener fills in the gaps with their own meaning. In discovery that power runs the wrong way. When a buyer says "we need something better", *you* fill the gap, and you fill it with whatever your product does best. Now you are answering a question they did not ask.
+In Module 4 you left gaps on purpose so the listener could fill them with their own meaning. In discovery a gap works against you. When a buyer says "something better", *you* fill it, usually with whatever your product does best, and you end up answering a question they never asked. A **precision question** gets them to fill the gap with *their* meaning.
 
-## The Meta Model
+## Where this comes from
 
-Before they wrote down Erickson's patterns, Bandler and Grinder built a set of questions for recovering what a speaker has left out. They called it the Meta Model. This module teaches a compact version: four families of question, enough for a sales call or a hard conversation at home.
+Bandler and Grinder built a set of questions for recovering what a speaker leaves out and called it the Meta Model. This module keeps the handful you will actually use in a sales call or a hard conversation at home.
 
-- **What was left out:** "Compared to what?"
-- **Who and how:** "Who specifically?" "How specifically?"
-- **Always and never:** "Always?"
-- **Can't and must:** "What stops you?" "What would happen if you did?"
+Rackham (1988) studied some 35,000 sales calls. In larger sales, the successful sellers asked more questions about the buyer's problems and what those problems led to, and they pitched less. That is observational: it shows what good sellers did, not that the questions caused the sales. The Meta Model itself has no controlled studies. Test it: log what someone first said they wanted, and what they wanted once you had asked.
 
-The Milton Model is the Meta Model run backwards. Erickson's vague patterns are the very gaps these questions fill. You will see the full pairing in the last lesson.
+## How to do it
 
-## What the research says
+1. **Listen for the word with feeling in it.** The one they stress, repeat, or sigh over. That gap is worth filling; let the rest go by.
+2. **Give that word back** (Module 1).
+3. **Ask one question that fills it.** Then stop talking.
+4. **If the answer is still a summary, ask for a scene:** "What happened the last time?" "What does that look like on a normal Tuesday?" A scene has a cost you can talk about.
 
-Rackham (1988) studied some 35,000 sales calls. In larger sales, the successful sellers asked more questions about the buyer's problems and what those problems led to, and they pitched less. That was an observational study: it shows what the good sellers did, not proof that the questions caused the sales. Still, it points firmly in one direction.
+## Three questions that cover most gaps
 
-There are no controlled studies of the Meta Model itself. Treat it as a well organised checklist, and test it: log what a buyer first said they wanted, and what they wanted once you had asked.
+**"Compared to what?"** for anything left out, especially comparisons.
 
-## Precision serves them too
+> **Buyer, in a showroom:** I want something more reliable.
+> More reliable. Than the one you've got now? What does it do that drives you crazy?
 
-A good question often helps people see their own problem for the first time. When an office manager says "it's chaos" and, three questions later, says "actually, it's that nobody knows who approves refunds", she has learned something she can use whether or not she buys from you.`,
+> **On the phone:** We need faster turnaround.
+> Faster than now. What's it at today, and what would make a real difference?
+
+**"Who specifically?"** for *they, people, management, the team*.
+
+> **On a video call:** They'll never sign off on this.
+> Who would need to sign off?
+
+That one question often finds the real decision maker and saves you a month of pitching to someone who cannot say yes.
+
+**"How specifically?"** for vague verbs, and for nominalizations (a process frozen into a noun). Turn the noun back into people doing something.
+
+> **On a call:** It's messing us up.
+> Messing you up how? What happened the last time?
+
+> **A colleague:** Communication is the problem.
+> When you say communication, who isn't hearing about what?
+
+## Common mistakes
+
+- **Questioning every vague word.** You will sound like an auditor. Pick the one with feeling.
+- **Answering for them.** "Is it the price?" fills the gap with your guess. Ask, then wait.
+- **Pitching the moment you hear a need.** Ask one more question first; the second answer is usually the real one.`,
       techniques: [
         {
           name: 'Problem and consequence questions',
@@ -39,118 +62,74 @@ A good question often helps people see their own problem for the first time. Whe
           note: 'Successful sellers in larger sales asked more of them and pitched less (Rackham, 1988). Observational, not an experiment.',
         },
         {
-          name: 'The Meta Model',
+          name: 'Compared to what, who and how specifically',
           evidence: 'unproven',
-          note: 'No controlled studies. Test it: compare the need they first stated with the need you found.',
+          note: 'Meta Model questions; no controlled studies. Test it: compare the need they first stated with the need you found, and note how often "who specifically" changed who you were talking to.',
         },
       ],
     },
     {
       id: 'm13-l2',
-      title: 'What was left out, who, and how',
-      body: `Three kinds of gap turn up in almost every discovery conversation.
+      title: 'Always, can’t and must: where the objection lives',
+      body: `Some words mark the edges of what a person thinks is possible: the rules they believe they are bound by. That is where real objections live.
 
-## Deletions: "compared to what?"
+## Universals: ask for the exception
 
-A deletion drops part of the meaning. A comparative deletion drops what something is compared to.
+*Always, never, every, nobody, everyone.* People use them when they are frustrated, and they are rarely literally true. The exception is where the useful information is, because it shows what is different when things go well.
 
-> **Buyer:** We need faster turnaround.
-> Faster than what you're getting now? What's it at today?
+Do not echo "*Always?*" back. With a raised eyebrow it sounds sarcastic. Ask about the exception instead.
 
-> **Buyer:** I'm just not happy with it.
-> Not happy with which part of it?
+> **On the phone:** It always crashes on a Monday.
+> When was the last Monday it didn't? What was different?
 
-Once you have the comparison, ask how much would matter: "From ten days to what would make a real difference?" Now you know the target, and whether you can hit it.
+> **Face to face:** Contractors always run over.
+> That's been your experience. Has anyone ever finished on time for you? What did they do differently?
 
-## Unspecified nouns: "who specifically?"
+> **Your partner:** You never help with dinner.
+> That sounds like it's been building. When did it last feel like I did?
 
-"They", "people", "management", "the team", "everyone here". These hide the person whose opinion actually counts.
+## Modal operators: what stops you, what would happen
 
-> **On a call:** They'll never sign off on this.
-> Who specifically would need to sign off?
+*Can't, impossible, unable* describe a limit. *Should, must, have to, need to* describe a rule. Both can be examined.
 
-That one question often finds the real decision maker, and saves you a month of pitching to someone who cannot say yes.
-
-## Unspecified verbs: "how specifically?"
-
-"It's messing us up." "They handle it badly." "I want to improve things." The verb says something happens without saying what.
-
-> It's messing you up how? What does that actually look like on a normal Tuesday?
-
-Asking for a concrete picture ("on a normal Tuesday", "the last time it happened") turns a vague complaint into a scene, and a scene has a cost you can talk about.
-
-## Nominalizations: turn the noun back into a verb
-
-"Communication is the problem." Communication is a process frozen into a noun (Module 4). Unfreeze it: who isn't communicating what, to whom?
-
-> When you say communication, who's not hearing about what?
-
-Everyday, with a colleague: "There's no support from above." Who isn't supporting you with what?
-
-## What the research says
-
-No controlled studies of these questions as such. Rackham's finding about problem questions is the nearest evidence, and it is observational.`,
-      techniques: [
-        {
-          name: 'Recovering deletions',
-          evidence: 'unproven',
-          note: 'No controlled studies.',
-        },
-        {
-          name: 'Specifying nouns and verbs',
-          evidence: 'unproven',
-          note: 'No controlled studies. Often finds the real decision maker, which is easy to check in your own log.',
-        },
-      ],
-    },
-    {
-      id: 'm13-l3',
-      title: 'Always, can’t and must',
-      body: `The last two families find the edges of someone's thinking: the rules they believe they are bound by. These are where real objections live.
-
-## Universals: "always?"
-
-*Always, never, every, nobody, everyone, all.* People use them when they are frustrated, and they are rarely literally true. The exceptions are where the useful information is.
-
-> **Buyer:** It always crashes on a Monday.
-> When was the last Monday it didn't?
-
-Asking about the exception tells you what is different on the good days, which is often the real cause. Said with a raised eyebrow, "*Always?*" sounds sarcastic. Ask about the exception instead.
-
-Everyday:
-
-> **Partner:** You never help with dinner.
-> That sounds like it's been building. When did it last feel like I did help?
-
-## Modal operators: "what stops you?"
-
-*Can't, unable, impossible* are modal operators of possibility. *Should, must, have to, need to, ought to* are modal operators of necessity. Both describe a rule, and a rule can be examined.
-
-For "can't", ask what is in the way:
+For a limit, ask what is in the way:
 
 > **Buyer:** We can't change suppliers mid-year.
 > What stops you?
 
-The answer is usually more specific and more solvable: a contract clause, a busy season, a person who would be upset.
+The answer is usually smaller and more solvable: a contract clause, a busy season, a person who would be upset.
 
-For "must", ask what would happen:
+For a rule, ask who it serves, and occasionally what would happen if it were broken:
 
-> **Buyer:** We have to get three quotes.
-> Who needs to see three quotes, and what are they looking for in them?
+> **On a video call:** We have to get three quotes.
+> Of course. Who needs to see them, and what will they be looking for?
 
-> What would happen if you didn't?
+> **A friend:** I can't ask my boss for that.
+> What do you think would happen if you did?
 
-That second question is strong. Save it for when rapport is good, and ask it with real curiosity.
+That last question is strong. Save it for when rapport is good, and ask it with real curiosity.
 
 ## Finding the real objection
 
-The first objection is often the polite one. "It's the budget" can mean the budget, or it can mean "I don't trust this will work", or "my boss hasn't agreed". Precision questions let you find out without accusing anyone.
+The first objection is often the polite one. "It's the budget" can mean the budget, or "I don't trust this will work", or "my partner hasn't agreed".
+
+1. **Pace it.** Agree with what is true in it.
+2. **Ask one question that invites what is behind it.**
+3. **Go quiet.** Whatever comes next is closer to the real concern.
 
 > It's the budget. Of course. What would need to be true for it to feel like money well spent?
 
-Then go quiet, and let them think. Whatever they say is closer to the real concern than "budget" was.
+> **On the phone:** Not right now.
+> That's fair. What would make later a better time than now?
 
-## What the research says
+> **A friend:** I can't make the weekend away.
+> No problem at all. Can I ask what's making it tricky?
+
+## Common mistakes
+
+- "Why can't you?" sounds like a challenge. Use "what stops you?"
+- "Is it *really* the budget?" calls them a liar.
+- And sometimes it really is the budget. Believe them. You are looking for the truth, not for a crack to lever open.
 
 No controlled studies of these questions. Test it: log the first objection you heard and the one you ended up dealing with.`,
       techniques: [
@@ -162,60 +141,57 @@ No controlled studies of these questions. Test it: log the first objection you h
         {
           name: 'Questioning modal operators',
           evidence: 'unproven',
-          note: 'No controlled studies. Log first stated objection against the real one you found.',
+          note: 'No controlled studies. Log the first stated objection against the real one you found.',
         },
       ],
     },
     {
-      id: 'm13-l4',
+      id: 'm13-l3',
       title: 'Softening: questions, not an interrogation',
-      body: `Every question in this module, fired off bluntly, sounds like a cross-examination. "Compared to what? Who says? How specifically?" is a fast way to lose rapport. The skill is not in knowing the questions, it is in asking them so that the person feels listened to rather than tested.
+      body: `Fired off bluntly, every question in this module sounds like a cross-examination. "Compared to what? Who says? How specifically?" is a fast way to lose rapport. The skill is asking so that the person feels listened to, not tested.
 
-## Precede every question with a pace
+## The recipe
 
-Give their words back first (Module 1), then ask. The pace tells them you heard; the question tells them you care about the detail.
-
-> Too much hassle. Yes. What's the worst bit of the hassle?
-
-> So the team's stretched. Who's feeling it most?
-
-## One question at a time
-
-Ask one, then stop. Do not stack three questions in a row, and do not rescue the silence with a suggested answer. If they need a moment to think, that moment is the question working.
-
-## Tone
-
-Curious, a little slower, a little lower at the end. On the phone, tone is all you have, so a precise question asked warmly sounds caring and the same words asked flatly sound like an audit.
-
-## Soft openers
-
-The embedded questions from Module 8 are made for this:
-
-> I'm curious what "better" would look like for you.
-
-> Help me understand what happens when it breaks.
-
-> When you say "chaos", what does that look like day to day?
-
-## Ask permission once
-
-At the start of a discovery call:
+**1. Ask permission once, at the start.**
 
 > Would it be all right if I asked a few questions first, so I don't waste your time on things that don't fit?
 
 Almost everyone says yes, and now your questions are something they agreed to.
 
-## Prefer "what" and "how" to "why"
+**2. Pace before every question.** Give their words back first. The pace says you heard; the question says you care about the detail.
 
-"Why did you do that?" is often heard as "justify yourself". "What led to that?" asks for the same information without the accusation.
+> Too much hassle. Yes. What's the worst bit of it?
 
-## Pick the one that matters
+> So the team's stretched. Who's feeling it most?
 
-Not every vague word needs a question. Listen for the words they stress, repeat, or say with feeling. Those carry the need. Let the rest go by.
+**3. One question, then silence.** Do not stack two, and do not rescue the pause with a suggested answer. If they need a moment, that moment is the question working.
 
-## What the research says
+**4. "What" and "how", not "why".** "Why did you do that?" is heard as "justify yourself". "What led to that?" asks for the same thing without the accusation.
 
-No controlled studies of softening as described here. Test it on yourself: record a call, count your questions, and note how many came straight after a pace.`,
+**5. Tone: curious, a little slower, dropping at the end.** On the phone tone is all you have. The same words asked warmly sound caring, asked flatly they sound like an audit.
+
+## Soft openers
+
+The embedded questions from Module 8 turn a question into an invitation:
+
+> I'm curious what "better" would look like for you.
+
+> Help me understand what happens when it breaks.
+
+> **To a friend:** I'd love to know what "a disaster" actually looked like.
+
+## What overdoing it sounds like
+
+- Three questions in a row with no pace between them.
+- Repeating their word back with a raised eyebrow: "*Always?*"
+- Every vague word picked up, so a simple chat becomes a deposition.
+- Questions that are really arguments: "Don't you think you should...?"
+
+If they start giving shorter answers or asking "why do you want to know?", you have tipped into interrogation. Pace, say something about yourself, and slow down.
+
+The test for every question: would they be glad you asked it, or relieved when you stopped?
+
+No controlled studies of softening as described here. Test it: record a call, count your questions, and note how many came straight after a pace.`,
       techniques: [
         {
           name: 'Softening precision questions',
@@ -225,36 +201,51 @@ No controlled studies of softening as described here. Test it on yourself: recor
       ],
     },
     {
-      id: 'm13-l5',
+      id: 'm13-l4',
       title: 'The Milton Model run backwards',
-      body: `You have spent eight modules learning to create gaps on purpose. This module teaches the questions that fill them. Every Milton pattern has a Meta Model question that undoes it.
+      body: `For eight modules you have learned to leave gaps on purpose. Every Milton pattern has a precision question that fills its gap again. Read this list as review: say each Milton line out loud, then the question that undoes it.
 
-## The pairing
+### Module 4: vague words
 
-- **Nominalization** ("a real sense of relief") is undone by: "Relief from what, specifically? How would you know you felt it?"
-- **Unspecified verb** ("you'll notice the difference") is undone by: "Notice it how, specifically?"
-- **Unspecified referential index** ("people find it takes a weight off") is undone by: "Which people, specifically?"
-- **Simple deletion** ("I know you're curious") is undone by: "Curious about what?"
-- **Comparative deletion** ("it's easier") is undone by: "Easier than what?"
-- **Universal quantifier** ("everyone loves it") is undone by: "Everyone? Who doesn't?"
-- **Modal operator** ("you can relax now") is undone by: "What would let me?"
-- **Mind-reading** ("you might be wondering") is undone by: "How do you know what I'm wondering?"
-- **Lost performative** ("it's good to take your time") is undone by: "Good according to whom?"
-- **Cause and effect** ("this makes it easier") is undone by: "How, specifically, does it make it easier?"
-- **Complex equivalence** ("you're here, which means you're serious") is undone by: "How does being here mean that?"
-- **Presupposition** ("before you decide") is undone by: "What makes you assume I'll decide?"
+- **Nominalization:** "a real sense of relief". *Relief from what? How would you know you had it?*
+- **Unspecified verb:** "you'll notice the difference". *Notice it how?*
+- **Unnamed people:** "people find it takes a weight off". *Which people?*
+- **Simple deletion:** "I know you're curious". *Curious about what?*
+- **Comparative deletion:** "it's so much easier". *Easier than what?*
+- **Modal operator of possibility:** "you might find it settles after a week". *What would make that possible? What would stop it?*
+
+### Module 5: links, causes and readings
+
+- **Link or implied cause:** "as you look at the figures, you can see the saving". *How does looking show me that?*
+- **Cause and effect:** "this makes it easier". *How, specifically?*
+- **Complex equivalence:** "you're here, which means you're serious". *How does being here mean that?*
+- **Mind-reading:** "you might be wondering about delivery". *How do you know what I'm wondering?*
+- **Lost performative:** "it's good to take your time". *Good according to whom?*
+- **Universal:** "everyone loves it". *Everyone? Who doesn't?*
+
+### Module 7: presuppositions and choices
+
+- **Presupposition:** "before you decide", "the first thing you'll notice", "you may already realize how much it saves". *What is this taking for granted, and is it true?*
+- **Choice or double bind:** "Tuesday or Thursday?" *Are those the only options? What about neither?*
+
+### Module 8: commands, questions and ambiguity
+
+- **Embedded command:** "you might want to [[look it over tonight]]". *Hear the marked words alone: what am I being asked to do?*
+- **Embedded question:** "I'm curious what would make this work for you". *What do you want to know?* Then answer it or not, as you choose.
+- **Conversational postulate:** "can you picture it in the hallway?" *I can. Do I want it there?*
+- **Tag question:** "that's what you were after, isn't it?" *Is it?*
+- **Quote:** "my old manager used to say, 'just try it'". *Does that apply to me?*
+- **Ambiguity:** a line that can be heard two ways. *Which do you mean?*
 
 ## Three uses
 
-**Know when to switch.** Discovery is precise: you want their meaning, not yours. Presenting is where artful vagueness comes back, so they can imagine their own version (Modules 4 and 11). Facts and terms are exact throughout.
+**Know when to switch.** Discovery is precise: you want their meaning, not yours. Presenting is where artful vagueness comes back, so they can picture their own version (Modules 4 and 11). Price, terms and facts are exact throughout.
 
-**Know what not to undo.** When a buyer is describing, in their own words, how they would use the thing, do not interrupt with "how specifically?" Let them have the picture they are building.
+**Know what not to undo.** When a buyer is describing, in their own words, how they would use the thing, do not interrupt with "how specifically?" Let them build the picture.
 
-**Know when it is being done to you.** When a salesperson, a landlord or an advert uses these patterns on you, the question on the right is your defence. Ask it silently, or out loud. "Easier than what?" has saved many people from a purchase they would have regretted.
+**Know when it is being done to you.** When a salesperson, a landlord or an ad uses these patterns on you, the question is your defense. Ask it silently or out loud. "Easier than what?" has stopped many purchases that would have been regretted.
 
-## What the research says
-
-The pairing is a way of organising the patterns, not a finding. No controlled studies.`,
+The pairing is a way of organizing the patterns, not a finding. No controlled studies.`,
       techniques: [
         {
           name: 'Milton and Meta Model pairing',
@@ -296,16 +287,16 @@ The pairing is a way of organising the patterns, not a finding. No controlled st
     {
       id: 'm13-d3',
       type: 'choice',
-      prompt: 'What is the pattern in this sentence?',
-      quote: '"It always crashes on a Monday."',
+      prompt: 'This offer can be read two ways. Which response is best?',
+      quote: '"Free delivery on sofas and chairs over $500."',
       options: [
-        'A modal operator',
-        'A nominalization',
-        'A universal quantifier',
-        'An unspecified referential index',
+        '"Which do you mean: free delivery on any sofa, or only on sofas over $500?"',
+        '"Great, so delivery is free on the sofa."',
+        '"Who specifically gets free delivery?"',
+        '"What stops you making delivery free on everything?"',
       ],
-      answer: 2,
-      explain: '"Always" is a universal. The useful question asks for the exception: when was the last Monday it didn’t?',
+      answer: 0,
+      explain: 'Scope ambiguity (Module 8): does "over $500" cover the sofas or only the chairs? The precision question is simply "which do you mean?" Assuming the reading you prefer is how people get surprised at the register.',
     },
     {
       id: 'm13-d4',
@@ -316,10 +307,10 @@ The pairing is a way of organising the patterns, not a finding. No controlled st
         '"Compared to what?"',
         '"What stops you?"',
         '"Who specifically?"',
-        '"Always?"',
+        '"Why not?"',
       ],
       answer: 1,
-      explain: '"Can’t" is a modal operator of possibility. "What stops you?" turns the rule into something specific: a contract, a person, a season.',
+      explain: '"Can’t" is a modal operator. "What stops you?" turns the rule into something specific: a contract, a person, a season. "Why not?" asks for the same thing but sounds like a challenge.',
     },
     {
       id: 'm13-d5',
@@ -327,34 +318,38 @@ The pairing is a way of organising the patterns, not a finding. No controlled st
       prompt: 'Tap every modal operator.',
       options: ['should', 'can’t', 'invoice', 'have to', 'quickly', 'must'],
       answers: [0, 1, 3, 5],
-      explain: 'Should, have to and must express necessity; can’t expresses (im)possibility. Invoice is a noun and quickly an adverb.',
+      explain: 'Should, have to and must describe a rule; can’t describes a limit. Invoice is a noun and quickly an adverb.',
     },
     {
       id: 'm13-d6',
       type: 'choice',
-      prompt: 'What did Rackham (1988) find?',
+      prompt: 'Which question undoes this Milton pattern?',
+      quote: '"You might find it settles down after a week or so."',
       options: [
-        'A controlled experiment proved that asking questions causes larger sales',
-        'In small sales, the best sellers pitched more and asked less',
-        'In larger sales, successful sellers asked more about problems and consequences, and pitched less',
-        'The Meta Model doubled closing rates',
+        '"What would make that possible, and what would stop it?"',
+        '"Which people, specifically?"',
+        '"Compared to what?"',
+        '"Good according to whom?"',
       ],
-      answer: 2,
-      explain: 'An observational study of some 35,000 calls. It shows what the successful sellers did, not proof that the questions caused the sales. It did not test the Meta Model.',
+      answer: 0,
+      explain: '"Might" is a modal operator of possibility (Module 4). It offers a possibility without saying what it depends on, so the question asks what it depends on. "Good according to whom?" undoes a lost performative.',
     },
     {
       id: 'm13-d7',
-      type: 'choice',
-      prompt: 'Which question undoes this Milton pattern?',
-      quote: '"People find it takes a weight off."',
+      type: 'multi',
+      prompt: 'A salesperson says this to you. Tap every pattern in it.',
+      quote: '"People find that as you use it, you’ll notice how much easier everything gets."',
       options: [
-        '"Easier than what?"',
-        '"What stops you?"',
-        '"Which people, specifically?"',
-        '"Good according to whom?"',
+        'Unspecified referential index',
+        'Implied causative',
+        'Unspecified verb',
+        'Comparative deletion',
+        'Universal quantifier',
+        'Tag question',
+        'Double bind',
       ],
-      answer: 2,
-      explain: '"People" is an unspecified referential index. "Which people?" fills it. "Good according to whom?" undoes a lost performative, a different pattern.',
+      answers: [0, 1, 2, 3, 4],
+      explain: 'Which people? ("people"). How does using it cause that? ("as"). Notice how? ("notice"). Easier than what? ("easier"). Everything? ("everything"). There is no tag on the end and no choice offered.',
     },
     {
       id: 'm13-d8',
@@ -367,7 +362,7 @@ The pairing is a way of organising the patterns, not a finding. No controlled st
         '"Ours is much better, let me show you."',
       ],
       answer: 2,
-      explain: 'A pace (giving back "useless"), then one concrete question. The first stacks three questions like an interrogation, "why" invites a defence, and the last skips discovery.',
+      explain: 'A pace (giving back "useless"), then one concrete question. The first stacks three questions like an interrogation, "why" invites a defense, and the last skips discovery.',
     },
     {
       id: 'm13-d9',
@@ -431,6 +426,7 @@ The pairing is a way of organising the patterns, not a finding. No controlled st
       given: '"Too slow compared to what? Who says? Why haven’t you fixed it?"',
       models: [
         'Too slow, yes, I can hear that’s frustrating. What’s it taking at the moment, from order to delivery?',
+        'Too slow. Help me understand what “slow” looks like on a busy day.',
       ],
       checklist: [
         'Gives their words back first',
@@ -442,14 +438,14 @@ The pairing is a way of organising the patterns, not a finding. No controlled st
     {
       id: 'm13-d14',
       type: 'rewrite',
-      prompt: 'Write three precision questions you would ask, one at a time, in response to this. Pace before each.',
+      prompt: 'Write three precision questions you would ask, one at a time, in response to this. Pace before each, and imagine their answer between them.',
       given: '"Honestly, our systems are a mess and we need something better."',
       models: [
-        '1. A mess. Where does it hurt most day to day? 2. So passwords and lost files. Who ends up sorting that out? 3. Sarah, every time. And better would look like what, for her?',
+        '1. A mess. Where does it hurt most day to day? (They: passwords and lost files.) 2. Passwords and lost files. Who ends up dealing with that? (They: Sarah, every time.) 3. Sarah, every time. And better would look like what, for her?',
       ],
       checklist: [
         'Each question follows a short pace using their words',
-        'Covers at least two families (what was left out, who, how)',
+        'Covers at least two kinds of gap (left out, who, how)',
         'Ends with a concrete picture of what they want',
         'No pitching',
       ],
@@ -465,16 +461,17 @@ The pairing is a way of organising the patterns, not a finding. No controlled st
       checklist: [
         'Acknowledges the feeling first',
         'Asks for the exception rather than saying "never?"',
-        'No defence or counter-example from you',
+        'No defense or counter-example from you',
       ],
     },
     {
       id: 'm13-d16',
       type: 'rewrite',
-      prompt: 'Write a Milton line about your product, then write the Meta Model question that would undo it.',
+      prompt: 'Write a Milton line about something you sell or want, then the precision question that would undo it.',
       given: 'Any product or idea you care about.',
       models: [
-        'Milton: "People tell me it gives them a real sense of control." Meta: "Which people? Control over what, specifically?"',
+        'Milton: "People tell me it gives them a real sense of control." Undo: "Which people? Control over what, specifically?"',
+        'Milton: "You might find the first week is the easiest." Undo: "Easier than what? And what would make that possible?"',
       ],
       checklist: [
         'The Milton line uses at least one named pattern',
@@ -488,23 +485,22 @@ The pairing is a way of organising the patterns, not a finding. No controlled st
       id: 'm13-a1',
       kind: 'solo',
       title: 'Spot the gaps',
-      instructions: `Take a podcast interview, a work email thread or a customer review. Mark every deletion, unspecified noun or verb, universal and modal operator.
+      instructions: `Take a podcast interview, a work email thread or a customer review. Mark every gap: a missing comparison, an unnamed "they", a vague verb, an always or never, a can't or must.
 
-For the five that seem to carry the most meaning, write the precision question you would ask, softened with a pace.`,
+For the five that seem to carry the most meaning, write the question you would ask, with a pace in front of it.`,
       reps: 3,
       required: true,
       log: [
         'The source',
         'The five gaps you chose and your question for each',
         'Which gap hid the most important information?',
-        'Would the speaker feel listened to by your questions, or audited?',
       ],
     },
     {
       id: 'm13-a2',
       kind: 'solo',
       title: 'Blunt, then soft',
-      instructions: `Write down ten vague things buyers or people in your life often say. Record yourself asking a precision question for each, twice: once bluntly, once with a pace, one question and a curious tone.
+      instructions: `Write down ten vague things buyers or people in your life often say ("it's too much hassle", "they'd never agree", "I can't right now"). Record yourself asking a precision question for each, twice: once bluntly, once with a pace, one question and a curious tone.
 
 Listen back. Which soft versions still sound like a cross-examination? Redo those.`,
       reps: 3,
@@ -512,18 +508,18 @@ Listen back. Which soft versions still sound like a cross-examination? Redo thos
       log: [
         'Your best softened question',
         'Which ones still sounded like an interrogation, and why?',
-        'If someone asked you that question in that tone, would you want to answer?',
+        'What did you change on the redo?',
       ],
     },
     {
       id: 'm13-a3',
       kind: 'everyday',
-      title: 'One "how specifically" a day',
-      instructions: `Once a day, when a friend, partner or colleague tells you about a problem, pace it and ask one precision question. Then wait.
+      title: 'One question a day',
+      instructions: `Once a day, when a friend, partner or colleague tells you about a problem, pace it and ask one precision question. Then wait, even if the pause feels long.
 
-> The new manager's driving you mad. What's she doing that gets to you most?
+> The new manager's driving you crazy. What's she doing that gets to you most?
 
-Notice how the conversation changes once the complaint has a concrete scene in it.`,
+One rep is one pace, one question, and listening to the answer without offering advice. Notice how the conversation changes once the complaint has a concrete scene in it.`,
       reps: 5,
       required: true,
       log: [
@@ -537,7 +533,7 @@ Notice how the conversation changes once the complaint has a concrete scene in i
       id: 'm13-a4',
       kind: 'everyday',
       title: 'Questions as a shield',
-      instructions: `For a week, notice when Milton patterns are used on you: in adverts, by salespeople, by anyone wanting something. For each, think of the question that undoes it. Ask it out loud at least once.
+      instructions: `For a week, notice when Milton patterns are used on you: in ads, by salespeople, by anyone wanting something. For each, name the pattern and the question that undoes it (the list in the last lesson). Ask it out loud at least once.
 
 > "It's so much easier." Easier than what I've got now? In what way?`,
       reps: 3,
@@ -553,7 +549,7 @@ Notice how the conversation changes once the complaint has a concrete scene in i
       id: 'm13-a5',
       kind: 'chat',
       title: 'Role-play: the vague brief',
-      instructions: `Run scenario **The vague brief** with Claude. Do not mention your service until you can say, in their words, what the real problem is, who it affects, and who decides.
+      instructions: `Run scenario **The vague brief** with Claude. Do not mention your service until you can say, in their words, what the real problem is, what it costs, who it affects and who decides.
 
 Run it twice. The second time, count your questions and aim for every one to follow a pace.`,
       reps: 2,
@@ -571,15 +567,14 @@ Run it twice. The second time, count your questions and aim for every one to fol
       id: 'm13-a6',
       kind: 'field',
       title: 'Discovery before pitch',
-      instructions: `In five real sales or persuasion conversations, ask at least three precision questions before you describe anything you offer. Pace before each. Write down, as soon as you can afterwards, what they first said they wanted and what they turned out to want.`,
+      instructions: `In five real sales or persuasion conversations, ask at least three precision questions before you describe anything you offer. Pace before each. As soon as you can afterwards, write down what they first said they wanted and what they turned out to want.`,
       reps: 5,
       required: true,
       log: [
         'The situation',
         'What they first said',
         'Your three questions',
-        'What they turned out to need, or object to',
-        'Did they understand their own situation better by the end?',
+        'What they turned out to need',
         'Would they be glad tomorrow that they talked to you?',
       ],
     },
@@ -587,27 +582,29 @@ Run it twice. The second time, count your questions and aim for every one to fol
       id: 'm13-a7',
       kind: 'chat',
       title: 'Role-play: it’s the budget',
-      instructions: `Run scenario **It’s the budget**. Use precision questions to find the objection behind the stated one, without accusing them of hiding anything.`,
+      instructions: `Run scenario **It’s the budget**. Use precision questions to find the objection behind the stated one, without accusing her of hiding anything and without offering a discount.
+
+For a second rep, run **The beginners’ night** and find what really stands in the way.`,
       reps: 2,
       required: false,
       scenario: 'm13-s2',
       log: [
         'The first objection',
         'The real objection, and the question that found it',
-        'Did they ever feel accused?',
+        'Did they ever feel accused or cornered?',
       ],
     },
     {
       id: 'm13-a8',
       kind: 'field',
       title: 'Find the real objection',
-      instructions: `In real conversations where you hear "it's the budget", "not right now" or "I need to think about it", ask one softened precision question to find what is behind it before you answer anything.`,
+      instructions: `In real conversations where you hear "it's the budget", "not right now" or "I need to think about it", pace it and ask one softened question to find what is behind it before you answer anything. If it turns out to be exactly what they said, accept it.`,
       reps: 3,
       required: false,
       log: [
         'The stated objection',
         'Your question',
-        'What was behind it',
+        'What was behind it (or was it what they said?)',
         'Did finding it help them, or only help you?',
       ],
     },
@@ -616,44 +613,44 @@ Run it twice. The second time, count your questions and aim for every one to fol
     {
       id: 'm13-s1',
       title: 'The vague brief',
-      setting: 'Video call. You sell managed IT support to small offices.',
-      you: 'Find the real problem, who it affects, what it costs, and who decides, using softened precision questions, before saying anything about your service.',
-      them: 'The co-owner of a twelve-person architecture practice. Friendly, talks in generalities: "it’s a mess", "we need something better". The real problems: the office manager, Sarah, loses hours a week resetting passwords and fixing the printer, and a laptop with client drawings was stolen last year with no backup. His business partner holds the budget and thinks IT is "just overheads".',
+      setting: 'Video call. You run a small agency that builds websites and handles online inquiries for local businesses.',
+      you: 'Find the real problem, what it costs, who it affects and who decides, using softened precision questions, before saying anything about your service.',
+      them: 'The co-owner of a twelve-person architecture firm. Friendly, talks in generalities: "we need more leads", "the website is a bit of a mess". The real problem is not leads: inquiries from the website go to a shared inbox nobody owns, and last month they found a hotel renovation inquiry three weeks late, after the client had gone elsewhere. It would have been their biggest job of the year. The office manager, Sarah, got the blame. His business partner holds the budget and thinks marketing is "just overhead". He is a little embarrassed about the missed inquiry and will only mention it if asked about specific recent examples.',
       objections: [
-        'I don’t really know the details, it’s just a mess.',
+        'I don’t really know the details, we just need more people finding us.',
         'We’ve always managed somehow.',
-        'My partner would never pay for something like this.',
+        'My partner would never pay for marketing.',
       ],
-      focus: ['Recovering deletions', 'Who specifically and how specifically', 'Universals and modal operators', 'Softening'],
-      win: 'You can state the real problem, who it hurts and who decides, in his words, and he says something like "that’s actually helpful to think about". You pitched nothing until then.',
+      focus: ['Compared to what', 'Who specifically and how specifically', 'Universals and modal operators', 'Softening'],
+      win: 'You can state the real problem (lost inquiries, not too few), what it cost, who it hurts and who decides, in his words, and he says something like "that’s actually helpful to think about". You pitched nothing until then, and if the honest answer is that he needs a shared inbox rule rather than your agency, you said so.',
     },
     {
       id: 'm13-s2',
       title: 'It’s the budget',
-      setting: 'Face to face, in the customer’s home. You sell kitchen renovations.',
+      setting: 'Face to face, at the customer’s home. You design and build attic conversions.',
       you: 'Find the objection behind "it’s the budget" without accusing her of anything, and without discounting.',
-      them: 'A homeowner in her forties who loves the design you showed her. Says it is the budget. The real concern: a builder walked off a bathroom job of hers two years ago and left it half finished for months. She is afraid of being stuck without a kitchen. She will only say this if asked gently and specifically.',
+      them: 'A homeowner in her forties with two teenagers sharing a room. She loves the plans you drew. Says it is the budget. The real concern: a contractor walked off a bathroom job of hers two years ago and left it half finished for four months, and she is afraid of a hole in her roof and a family living in dust. She will only say this if asked gently and specifically, for example about past remodeling work or what would worry her most.',
       objections: [
         'It’s just more than we budgeted.',
         'We should probably wait until next year.',
-        'Builders always overrun anyway.',
+        'Contractors always run over anyway.',
       ],
       focus: ['Modal operators', 'Universals', 'Softening', 'Finding the real objection'],
-      win: 'She tells you about the half-finished bathroom in her own words. You did not offer a discount, and she feels understood rather than handled.',
+      win: 'She tells you about the half-finished bathroom in her own words. You did not offer a discount, you answered the real fear with real facts (schedule, payment stages, references), and she feels understood rather than handled.',
     },
     {
       id: 'm13-s3',
-      title: 'The rota that can’t change',
-      setting: 'At work, in the staff kitchen. Everyday persuasion with a colleague.',
-      you: 'Get a colleague who coordinates the shift rota to consider letting you swap to four longer days, by finding out what actually stands in the way.',
-      them: 'A conscientious team lead who has run the rota for six years. Says it cannot change and that management would never allow it. Underneath: she once approved a swap that went badly and was blamed for it, and she does not know what the policy actually says.',
+      title: 'The beginners’ night',
+      setting: 'After a training session at your amateur running club, chatting to the club secretary. Everyday persuasion.',
+      you: 'Get the secretary to consider a monthly beginners’ night, by finding out what actually stands in the way.',
+      them: 'A long-serving volunteer who has kept the club going for eight years. Says the club cannot do it: insurance would not allow it and the members would never go for it. Underneath: she ran a beginners’ group once, the other volunteers drifted away, and she ended up doing every session alone for a year. She has not looked at the insurance policy since. Warm, tired, protective of the club.',
       objections: [
-        'We can’t change the rota, it’s how it’s always been done.',
-        'Management would never go for it.',
-        'If I do it for you, everyone will want it.',
+        'We can’t, the insurance won’t cover it.',
+        'The members would never go for it.',
+        'Everyone says they’ll help and then nobody does.',
       ],
-      focus: ['Who specifically', 'What stops you', 'What would happen if you did', 'Softening'],
-      win: 'She names the real obstacle and agrees to check the actual policy or to try it for a month. She does not feel cornered.',
+      focus: ['Who specifically', 'What stops you', 'Asking for the exception', 'Softening'],
+      win: 'She names the real obstacle (doing it alone) in her own words and agrees to check the policy, or to try it for two months with named helpers. She does not feel cornered, and you did not volunteer her for anything.',
     },
   ],
 }

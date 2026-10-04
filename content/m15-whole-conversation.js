@@ -7,34 +7,55 @@ export default {
   lessons: [
     {
       id: 'm15-l1',
-      title: 'The shape of a whole conversation',
-      body: `You have spent every module so far learning tools one at a time. A real conversation does not arrive one tool at a time. It arrives as a person, in a mood, with a need they may not have put into words, and it moves.
+      title: 'The stage map',
+      body: `You have learned every tool one at a time. A real conversation arrives as a person, in a mood, with a need they may not have put into words, and it moves. What makes it manageable is that almost every persuasive conversation passes through the same five stages, in roughly this order. Keep this map; the rest of the module is it in action.
 
-What makes it manageable is that almost every persuasive conversation passes through the same five stages, in roughly the same order:
+## The stage map
 
-1. **Open.** Rapport and calibration.
-2. **Discover.** Find out what they actually need, and what is in the way.
-3. **Present.** Show how what you offer meets that need.
-4. **Handle objections.** Take doubts seriously and lead past them.
-5. **Ask.** Request a clear next step, and leave them free to say no.
+### 1. Open
 
-## Which tools belong where
+- **Goal:** they are at ease, and you know their baseline.
+- **Tools:** match pace and energy loosely, name what you hear (Module 1). Notice their normal voice and posture (Module 2). Two or three truisms, then a small lead (Module 3).
+- **Sounds like:** "Take your time, there's a lot to look at."
+- **Move on when:** they are talking freely.
 
-- **Open:** matching tempo and energy loosely (Module 1), naming what you hear, and learning their baseline (Module 2). A few truisms to pace the moment (Module 3).
-- **Discover:** precision questions (Module 13), backtracking their exact words, short runs that end in a question (Module 6), leaving gaps with vague questions (Module 4).
-- **Present:** Milton language (Modules 4 and 5), presuppositions (Module 7), embedded suggestions (Module 8), a story (Module 9), imagery and future pacing (Module 11), and a NUVI run where they have agreed to picture something. Facts, always plain.
-- **Handle objections:** pace the objection first (Module 3), utilize it (Module 10), reframe it (Module 12), and use a precision question to find the real objection under the stated one.
-- **Ask:** a summary of the small yeses already given (Module 14), a plain statement of terms, a specific request, and a reminder that they are free to decide (Module 10).
+### 2. Discover
 
-## Two rules that run through every stage
+- **Goal:** their need, in their words, and what it costs them.
+- **Tools:** precision questions, "what specifically?", "compared to what?" (Module 13), and questions about consequences. Give their key words back exactly (Module 1). Open, vague questions that leave room (Module 4). A short run that ends in a question (Module 6).
+- **Sounds like:** "Every weekend for eight months. What specifically made that so hard?"
+- **Move on when:** you can say their problem back and they say "exactly".
 
-**Exact about facts.** Price, terms, dates and what the thing does are stated plainly at every stage, never buried in a run or blurred by a vague word. Distraction helps a weak case and hurts a strong one (Petty, Wells & Brock, 1976), so a good offer is always better heard clearly.
+### 3. Present
 
-**The trust ledger.** At every stage, the question is not only "is this working?" but "would they be glad tomorrow that they talked to me?" A yes they regret is a refund, a bad review, or a friend who stops calling.
+- **Goal:** they can picture the need met, and they know the facts.
+- **Tools:** facts first, plainly. Then the experience in Milton language: vague words and links (Modules 4 and 5), a short NUVI run (Module 6), presuppositions (Module 7), an embedded command or question (Module 8), one story about one person (Module 9), imagery and future pacing, with permission (Module 11).
+- **Sounds like:** "And as you picture the first Monday, you might notice how easily it all fits."
+- **Move on when:** they add details of their own.
+
+### 4. Objections
+
+- **Goal:** the real doubt, found and met.
+- **Tools:** pace it (Module 3), "that's right, and..." (Module 10), a precision question for the objection under the stated one (Module 13), then a reframe (Module 12).
+- **Sounds like:** "That's fair. More than you wanted compared to what?"
+- **Move on when:** their questions run out, not their energy.
+
+### 5. Ask
+
+- **Goal:** a clear decision they own.
+- **Tools:** summarize the small yeses, state the terms exactly, one sentence with their reason, then silence (Module 14). A freedom phrase you mean (Modules 10 and 14).
+- **Sounds like:** "It's $25 a walk. Should we do the meet-and-greet on Saturday at ten? Entirely up to you."
+- **Move on when:** a yes gets the details confirmed; a no gets a thank you.
+
+## Two rules for every stage
+
+**Vague about experience, exact about facts.** Price, terms, dates and what the thing does are never folded into a run or blurred by a vague word. Distraction helps a weak case and hurts a strong one (Petty, Wells & Brock, 1976), so a good offer is best heard clearly.
+
+**The trust ledger.** At each stage ask not only "is this working?" but "would they be glad tomorrow that they talked to me?"
 
 ## What the research says about the whole
 
-No controlled study has tested this five-stage sequence, or the full toolkit used together. What exists is evidence for some of the parts: mimicry and rapport (Chartrand & Bargh, 1999), asking more about problems in larger sales (Rackham, 1988), imagining an outcome (Gregory, Cialdini & Carpenter, 1982), reminders of freedom (Carpenter, 2013). Many other tools in the kit, embedded commands and run-ons among them, have no controlled studies. Your ten logged conversations in this module are your own test of how the whole works for you.`,
+No controlled study has tested this sequence or the full toolkit together. Some parts have evidence, such as mimicry (Chartrand & Bargh, 1999), problem questions in larger sales (Rackham, 1988), imagining an outcome (Gregory, Cialdini & Carpenter, 1982) and freedom reminders (Carpenter, 2013). Many Milton tools, embedded commands and run-ons among them, have none. Your ten logged conversations are your own test.`,
       techniques: [
         {
           name: 'The five-stage conversation',
@@ -51,65 +72,58 @@ No controlled study has tested this five-stage sequence, or the full toolkit use
     {
       id: 'm15-l2',
       title: 'Run-through: face to face',
-      body: `A used-car lot on a Saturday. A parent of two walks over to a seven-seat family car, alone, and starts reading the window sticker. Here is one way the whole conversation can go. Read it for which tool appears where, not as a script.
+      body: `A listing appointment. You are a real estate agent, and a couple in their fifties are selling the family house now the children have left. Two other agents have been by this week. Read it for which tool appears where; the italic notes name each pattern. It is not a script.
 
 ## Open
 
-You walk over at their pace, not yours. They are reading quietly, so you start quietly.
+They are tired of agents. You slow down to their pace and keep your voice lower than usual.
 
-> Morning. Take your time with that, it's a lot of numbers. Are you looking for yourself, or is this a family car?
+> **You:** Thanks for having me. You've probably seen a few of us this week, and you've lived here a long time, and you know this house better than any of us will. So can I start with you rather than the rooms?
 
-You notice their baseline: arms folded, short answers, glancing at the price. That is not "no", it is just how they are at the start. You will watch for change from it.
+*Rapport: matched pace. Three truisms, then a lead (pacing and leading). A first small yes.*
+
+Calibration: she talks, he stands by the window with his arms folded. That is his baseline, not a no. You watch for change from it.
 
 ## Discover
 
-> Family. Two kids, and the current one's too small.
+> **You:** What's prompting the move?
+> **Her:** The kids have gone. It's too big. But we've been here twenty-two years.
+> **You:** Twenty-two years. What matters most to you about how the sale goes?
+> **Her:** Not having it drag on. Friends of ours had showings every weekend for eight months.
+> **You:** Every weekend for eight months. What specifically made that so hard?
 
-You give their words back and ask for specifics:
-
-> Too small how? Is it the seats, the boot, or something else?
-
-> The boot. Every weekend it's football kit and a pram and the dog won't fit.
-
-> So football kit, a pram, and the dog. What happens at the moment, when it doesn't all fit?
-
-That last question is about the consequence of the problem, which is where larger sales turn (Rackham, 1988). They tell you about two trips every Saturday and a partner who is fed up with it. Now you know what you are selling: not seven seats, but one trip.
+*An open, vague question first. Their exact words back. A precision question and a consequence question.* They tell you about tidying every Saturday and two buyers pulling out. You are not selling a price; you are selling a sale that does not drag on.
 
 ## Present
 
-Facts first, plainly: the boot size with the third row down, the price, the mileage. Then the experience, with permission:
+Facts first, plainly: three sales on their street this year at $612,000, $640,000 and $655,000, and your advice to list at $635,000. Then the experience, with permission:
 
-> Can I give you a quick picture of a Saturday with this?
+> **You:** Can I tell you how I'd want the first month to go?
+> **Him:** Go on.
+> **You:** Photos on a weekday, and the listing live by Friday, and as the first showings come in at that one open house on Saturday, you'll notice the people coming through have already seen the price, so you can [[let the house do the work]]... How does that sound against what your friends went through?
 
-> Go on.
+*A short NUVI run: links ("and", "as", "so"), vague language ("the people coming through", "do the work"), a presupposition ("as the first showings come in", "you'll notice"), an embedded command with a slight pause and a drop in tone. No figures inside it. It lands on a question.*
 
-A short NUVI run, using their words:
+> **You:** A couple two streets over had the same worry last spring. One open house, and they had two offers by Monday. I can't promise that, but it's what I'd aim for.
 
-> So it's Saturday morning, and the football kit's going in the back, and the pram folds in beside it, and as the dog jumps in on top, you might notice there's still room, and when you all pull away together in one trip, you can [[enjoy that first quiet ten minutes]]... How would that go down at home?
+*A story about one couple (Module 9), true and with its limit stated.* He unfolds his arms and asks, "Only one open house?" That is the change from baseline you were waiting for.
 
-Their arms unfold and they smile at the dog bit. That is the change from baseline you were watching for.
+## Objections
 
-## Handle objections
+> **Her:** The first agent said $680,000.
+> **You:** That's right, and anyone would want to hear that about their home. What sales did he base it on?
+> **Her:** He didn't really say.
+> **You:** So the real question is which price ends the weekends soonest. A high price can mean months of showings before it comes down. You're the ones who know how long you want this to take.
 
-> It's more than we wanted to spend.
-
-Pace it, utilize it, find what is under it:
-
-> That's fair, and it's right to be careful with a number like that. When you say more than you wanted, more compared to what?
-
-> The other place had one for two thousand less.
-
-> That's worth knowing. Can I ask what mileage it had? *(they tell you: 30,000 more.)* So the question is whether two thousand now is worth 30,000 fewer miles on a car you're keeping for years. You're the one who knows how long you keep cars.
-
-That is a reframe built on a fact they gave you, and a reminder that the judgement is theirs.
+*Utilization ("that's right, and"), a precision question, then a reframe from "who values us highest" to "which price ends the weekends". Their first number is an anchor (Module 12); you answer it with facts, not a bigger number.*
 
 ## Ask
 
-Summarise the small yeses, state the terms, ask plainly, leave them free:
+> **You:** So: listed at $635,000, photos this week, one open house on Saturday. My listing commission is 2.5% of the sale price, paid at closing and nothing if it doesn't sell, on a 90-day listing agreement you can cancel with two weeks' notice. Should I book the photographer for Thursday? It's entirely your decision, and I know you have two others to weigh up.
 
-> So it fits the kit, the pram and the dog, it's one trip on a Saturday, and you've seen the history. It's $18,400, with the twelve-month warranty. Would you like to take it for a drive with the family this afternoon? No pressure either way, it's your decision.
+*Their yeses summarized in their words, terms exact, one ask tied to their reason, a freedom phrase. Then silence.*
 
-A test drive, not a signature. That is a commitment they can give freely, and it leads naturally to the next.`,
+He says, "Thursday's fine. Morning, if you can." A detail added unprompted: a given yes. Confirm the time and stop selling.`,
       techniques: [
         {
           name: 'Problem and consequence questions in discovery',
@@ -117,75 +131,77 @@ A test drive, not a signature. That is a commitment they can give freely, and it
           note: 'Successful sellers asked more about problems and their consequences in larger sales (Rackham, 1988). Observational, not an experiment.',
         },
         {
-          name: 'A small first commitment before the big one',
-          evidence: 'supported',
-          note: 'Agreeing to a small request raised agreement to a larger one later (Freedman & Fraser, 1966). Real but modest and variable.',
+          name: 'Milton language in the present stage',
+          evidence: 'unproven',
+          note: 'No controlled studies of embedded commands or run-ons, and lab comparisons found no advantage for indirect over direct suggestion (Lynn and colleagues). Presupposition has the cleanest evidence of the set (Loftus, 1975). Log what changes when you use them.',
         },
       ],
     },
     {
       id: 'm15-l3',
       title: 'Run-through: phone and video',
-      body: `The stages are the same on a call. What changes is what you can see, and how long a person will let you talk before they drift.
+      body: `The stages are the same on a call. What changes is that you have only a voice to read, and a person will not let you talk for long before they drift.
 
-A video call with a café owner who filled in a form about bookkeeping software. Camera on, but they are clearly between customers.
+You run a dog-walking business. You are calling back Priya, who left a voicemail after her last walker kept canceling. It is 12:40, her lunch break. The italic notes name each pattern.
 
 ## Open
 
-On a call, rapport is almost all voice. Match their pace. They are rushed, so you are brief:
+> **You:** Hi Priya, it's Dan from Muddy Paws, returning your call. I know it's your lunch break, so I'll keep it to ten minutes. Is now still good?
 
-> Hi Sam, thanks for making time, I can see you're mid-service. I'll keep this to fifteen minutes. Is that still all right?
-
-Asking how long you have is pacing their reality, and it is a first small yes.
-
-Calibrate from the voice: speed, pauses, breath, the little "mm"s. Note how they sound when they are relaxed, so you can hear when that changes.
+*Rapport is all voice: she sounds quick, so you are brief. Pacing her reality, and a first small yes.* Calibrate: note her speed and how she sounds when relaxed, so you hear when that changes.
 
 ## Discover
 
-Precision questions do even more work on a call, because you cannot watch them look around a showroom.
+> **You:** Your message said the last walker was "unreliable". What happened, specifically?
+> **Priya:** She canceled by text at eight in the morning, about once a week. I'd have to come home at lunch.
+> **You:** Once a week, at eight in the morning. And what happens to Biscuit on the days nobody comes?
+> **Priya:** He's alone nine hours. He chews the door frame. I feel awful.
+> **You:** That sounds like it's been really wearing.
 
-> You mentioned on the form that the books are "a nightmare". What specifically is the nightmare part?
-
-> Receipts. I've got a shoebox of them and I do it all on a Sunday night.
-
-> A shoebox, on a Sunday night. How long does that take?
-
-> Three hours, if I'm lucky.
-
-You now have their words (shoebox, Sunday night, nightmare) and a number.
+*A precision question, her exact words back, a consequence question, and naming the emotion (Module 1).* Her voice slows and drops on "I feel awful". That is where the need is.
 
 ## Present
 
-Keep runs short on a call: 2 to 4 clauses, then a question. Long runs lose people who cannot see your face. Share your screen for the one picture that matters:
+Facts first: $25 for an hour's walk, weekdays, the same walker every day, a photo by text after each walk, and a named backup who meets the dog before you start. Then keep runs to two to four clauses and end on a question, because nobody can see your face to stay with you:
 
-> Let me show you one screen. You take a photo of the receipt at the till, and it's filed, and as the week goes on it all adds up on its own, so by Sunday night there's no shoebox. Does that match how you'd want to use it?
+> **You:** So you come home on a Wednesday, and Biscuit's tired and happy, and the door frame's had a quiet day... How would that change your evenings?
 
-Then the facts in plain words: $29 a month, cancel any time, the first month free.
+*A short NUVI run: links ("and"), vague language ("tired and happy", "a quiet day"), imagery and future pacing (Module 11), landing on a question.*
 
-## Handle objections
+> **You:** I'm curious how soon you'll [[stop checking your phone at eight]].
 
-> I tried an app like this before and gave up after a week.
+*An embedded question with an embedded command inside it, and a presupposition ("how soon" takes it for granted). One line, then let her answer.*
 
-> That's useful to know, and plenty of people have had that. What made you give up?
+## Objections
 
-> Too many settings.
+> **Priya:** That's more than she charged.
+> **You:** That's true, it's five dollars more. Compared to what she charged, what did the cancellations cost you?
+> **Priya:** Three half-days off work since Christmas, probably.
+> **You:** So the question is whether five dollars a walk is worth never coming home at lunch. You know your time off better than I do.
 
-> So it needs to be simple enough that you'd still be using it after a week. That's a fair test. If you tried it for the free month and it wasn't, you'd cancel and you'd have lost nothing but the time to try it.
+*Pacing, a precision question ("compared to what?"), and a reframe built on her own number.*
 
-Pace, find the real objection with a question, then reframe it as the test the product has to pass.
+> **Priya:** I just don't want to be let down again.
+> **You:** That's fair, and you shouldn't trust anyone with him until they've shown up. That's why I'd start with a meet-and-greet.
+
+*Utilization: her doubt becomes the reason for the next step.*
 
 ## Ask
 
-On a call, always end with a concrete next step and a time, and put the terms in writing:
+> **You:** So: the same walker each weekday, a photo after every walk, a backup who knows him, $25 an hour, cancel with 24 hours' notice. Should I come and meet Biscuit on Saturday at ten? No charge, and if he doesn't take to us, that's the end of it.
 
-> So it's photos at the till, no shoebox, $29 a month after the free month. Shall I send you the sign-up link now, and we check in next Friday to see if it's still simple enough? Entirely up to you.
+*Summary, exact terms, one ask, a freedom phrase.* Then silence. On the phone it feels long, so count to five.
 
-Then follow up by email with the price and terms, exactly as you said them.`,
+> **Priya:** Saturday's good. Should I have his leash ready?
+
+A question about next steps: a given yes. After the call, text her the price and terms exactly as you said them.
+
+On video, the same applies, plus at most one shared screen or photo for the picture that matters.`,
       techniques: [
         {
           name: 'Calibrating from voice alone',
           evidence: 'mixed',
-          note: 'Brief samples of behaviour carry real information (Ambady & Rosenthal, 1992), but reading minds is unreliable (Bond & DePaulo, 2006). Notice change; do not decode.',
+          note: 'Brief samples of behavior carry real information (Ambady & Rosenthal, 1992), but reading minds is unreliable (Bond & DePaulo, 2006). Notice change; do not decode.',
         },
         {
           name: 'Reminding them they are free to decide',
@@ -197,63 +213,63 @@ Then follow up by email with the price and terms, exactly as you said them.`,
     {
       id: 'm15-l4',
       title: 'Run-through: everyday persuasion',
-      body: `The same shape works when nothing is for sale. The stakes are often higher, because you will see this person again.
+      body: `The same shape works when nothing is for sale. The stakes are often higher, because you will live with the answer, and with the person.
 
-You rent a flat. The lease ends in two months and you want to renew for a year without a rent increase. You meet your landlord, who has come round about a dripping tap.
+You want your fifteen-year-old, Sam, to leave their phone charging in the kitchen from 10:30 on school nights. They are tired all day and math grades have slipped. You could simply make the rule. The reason to persuade instead is that a rule they helped design is one they keep when you are not there.
 
 ## Open
 
-You pick a moment that suits them, not you: after the tap, not as they arrive.
+Pick the moment: not at 10:29 and not mid-argument. Saturday morning, in the car.
 
-> Thanks for sorting that so quickly. Have you got five minutes before you go? I wanted to ask you about the lease.
+> **You:** Can I run something by you? It's not a lecture, and you get a say.
 
-Notice their baseline. They check their watch and lean on the counter. Relaxed, a little busy.
+*Pacing what they expect (a lecture), then a lead. "You get a say" is a freedom phrase, so it has to be true.* Calibration: short answers, eyes on the window. That is Sam's normal on this subject, not a refusal.
 
 ## Discover
 
-You do not start with what you want. You find out what they want:
+> **You:** How have mornings been lately?
+> **Sam:** Fine. Tired. Whatever.
+> **You:** Tired how, specifically? Hard to get up, or tired all day?
+> **Sam:** All day. Math is the worst.
+> **You:** Math is the worst. What's the phone at night actually for, for you?
+> **Sam:** Everyone's on the group chat. If I'm not there I miss everything.
 
-> Before I ask anything, what matters most to you in a tenant?
-
-> Honestly? Rent on time and no hassle. The last ones left the place in a state.
-
-> So rent on time and no hassle. And what's been the hardest part of letting it out?
-
-> The gaps. Every time someone leaves, it's a month or two empty and then decorating.
-
-Their words: on time, no hassle, the gaps.
+*A vague, open question first, then precision questions, their words back.* The need is not the phone. It is not missing out.
 
 ## Present
 
-Facts first, exact and checkable: "I've paid on the first of the month for two years, and I've reported every repair the day I found it." Then a short run that lets them picture it:
+Facts first: 10:30 on school nights only, weekends as now. Then, short:
 
-> So if I stay on another year, there's no gap, and no decorating, and as the rent comes in on the first like it has for two years, you can just not think about this flat for a while.
+> **You:** And I wonder how much easier math gets after a proper night's sleep, and as the mornings stop being awful, you might find you [[feel more like yourself]] by Friday.
 
-That is pacing (true things they know), then a lead (not thinking about the flat), built from their own words.
+*An embedded question ("I wonder how..."), a presupposition ("how much easier"), links ("and as"), vague language ("more like yourself"), an embedded command. One breath, then stop: with a teenager, a long run is a lecture.*
 
-## Handle objections
+> **You:** Your cousin tried something like it before her exams. She said the first week was the worst and then she stopped noticing.
 
-> Everyone else round here has put their rent up.
+*A story about one person (Module 9), with no moral attached. It has to be true; if you have no true one, leave it out.*
 
-Pace and utilize it:
+## Objections
 
-> That's true, rents have gone up round here. And that's exactly why I wanted to ask you early, before you'd have to advertise. If you raised it and I moved, how long would it take to fill, do you think?
+> **Sam:** Everyone else has their phone all night.
+> **You:** That's right, lots of them do, and that's exactly why this feels unfair. What would make it work for you?
+> **Sam:** If I could tell people I'm off, so they don't think I'm ignoring them.
+> **You:** So it's not really the phone, it's not looking rude. That's easy to fix.
 
-> A month, maybe two.
-
-You do not do the sum for them. You let them hold their own number for a moment. Then a reframe they can check:
-
-> So the question is whether an increase is worth the risk of a gap. I'm not saying it isn't; you know the numbers better than I do.
+*Utilization: agree with what is true ("lots of them", without arguing about "everyone"), lead from inside it, and hand them part of the design. Then a content reframe: from losing the phone to not looking rude (Module 12).*
 
 ## Ask
 
-Specific, plain, free:
+> **You:** So, phone in the kitchen at 10:30 on school nights, weekends as now, and you send a goodnight message first. Will you try it for two weeks, and then we look at how math is going together? You pick the start: Sunday or Monday.
 
-> Would you be willing to renew for twelve months at the current rent? If you need to think about it, that's completely fine.
+*Their yeses summarized, terms exact, one ask with their reason (math), and a choice between two yeses (Module 7) offered only after they have had a real say.*
+
+> **Sam:** Monday. And I pick the goodnight message.
+
+A detail added unprompted: a given yes.
 
 ## Where everyday persuasion differs
 
-You will live with the answer, and with them. So the trust ledger matters more, not less. If they say no, thank them and mean it; you may want to ask again next year, and they will remember how you took it.`,
+If Sam says no, no ultimatum in the same breath: "OK. What would you try instead?" Will they be glad tomorrow? Perhaps not about the rule. The honest version of the trust question at home is whether they felt asked rather than told, and whether you kept your side of the deal.`,
       techniques: [
         {
           name: 'Utilizing an objection ("that’s true, and that’s why...")',
@@ -280,30 +296,26 @@ You will live with the answer, and with them. So the trust ledger matters more, 
 - **They are picturing it.** Help them picture more: imagery, a story, a short run, or a long one if they agreed to it.
 - **They ask a factual question.** Answer it plainly and exactly. No run, no vagueness.
 - **They push back.** Agree with what is true in it, find the real objection with a question, then reframe.
-- **They have said yes to the parts.** Summarise the small yeses and ask for the whole.
+- **They have said yes to the parts.** Summarize the small yeses and ask for the whole.
 - **You are lost.** Go back one stage. An objection you cannot answer usually means a need you did not discover.
 
-## Fewer tools, better placed
+## Common mistakes
 
-A conversation with three tools in the right places beats one with twelve crammed in. If you find yourself thinking about which pattern to use while they are speaking, you have stopped listening, and they will feel it. In the debrief, not during the conversation, is where you work out what you used.
+- **Twelve patterns crammed in.** Three in the right places beat twelve. If you are choosing a pattern while they speak, you have stopped listening, and they will feel it. Work out what you used in the debrief.
+- **Milton language on a fact.** A run, a vague word or a presupposition wrapped around a price or a term. Facts go outside the pattern, always.
+- **A long run at the wrong person.** Someone rushed, upset or asking a straight question wants a straight answer.
+- **Marking so heavy it is noticed.** An embedded command they hear as a command has stopped being embedded.
+- **Pushing forward.** A new objection at the ask usually means going back to discovery: "Before we go on, can I ask what's behind that?" Going back is not failure.
 
-## Backing up a stage
+## The capstone
 
-Stages are not one-way. A new objection in the ask often means going back to discovery: "Before we go on, can I ask what's behind that?" Going back is not failure. Pushing forward through a need you have not found is.
+Ten real conversations, each logged within a day in this module's capstone assignment. The log asks for the setting, each stage in a line or two, the tools you used and where, the outcome in facts, and the trust question. Label your Milton patterns the way the run-throughs do: *presupposition, "as the first showings come in"*. A label you cannot fill is a pattern you did not actually use.
 
-## The capstone review
+Be vague about experience in the conversation and exact about facts in the log. "They seemed interested" is a guess. "They asked about delivery dates twice" is a fact you can review.
 
-The capstone is ten real conversations, logged and reviewed with Claude. For each one, write down:
+**Bringing it to Claude.** After every second conversation, and again after all ten, open the **Log** page, choose the **In the field** tab and press **Copy as text for a review with Claude**. Paste it into a new Claude chat. It copies every field rep you have logged, so add a line such as: "Look only at the entries headed Capstone. For each one, tell me where a tool was used at the wrong stage, where a fact was blurred or buried, and where they might have felt handled rather than helped."
 
-1. The setting and what you wanted.
-2. Each stage in a line or two: what you said, what they said.
-3. The tools you used, and where.
-4. The outcome, in facts.
-5. The trust question: would they be glad tomorrow that they talked to you, and why?
-
-Then paste the log into a Claude chat and ask for three things: where a tool was used at the wrong stage, where a fact was blurred or buried, and where they might have felt handled rather than helped. After ten, look across all of them for the stage you skip or rush. That is your next module of practice.
-
-Be vague about experience in your conversations, and exact about facts in your log. "They seemed keen" is a guess. "They asked about delivery dates twice" is a fact you can review.`,
+After ten, look across them all for the stage you skip or rush. That is your next module of practice.`,
       techniques: [
         {
           name: 'Matching the tool to the stage',
@@ -325,7 +337,7 @@ Be vague about experience in your conversations, and exact about facts in your l
         'Discover, open, present, ask, handle objections',
       ],
       answer: 1,
-      explain: 'Rapport first, then find the need, then show how you meet it, then deal with doubts, then ask. Presenting before discovery is the commonest mistake.',
+      explain: 'Rapport first, then find the need, then show how you meet it, then deal with doubts, then ask. Presenting before discovery is the most common mistake.',
     },
     {
       id: 'm15-d2',
@@ -349,7 +361,7 @@ Be vague about experience in your conversations, and exact about facts in your l
         'An embedded command: "you can feel good about changing" (with the last words marked)',
         'A precision question: "What specifically isn’t working?"',
         'A story about a happy client',
-        'The ask: "So shall we get you started?"',
+        'The ask: "So should we get you started?"',
       ],
       answer: 1,
       explain: '"It doesn’t work" is a deletion. In discovery you recover it with a precision question (Module 13). Stories and the ask come later, once you know the need.',
@@ -374,13 +386,13 @@ Be vague about experience in your conversations, and exact about facts in your l
       options: [
         'Precision questions ("compared to what?")',
         'Giving back their exact words',
-        'Summarising small yeses before the ask',
+        'Summarizing small yeses before the ask',
         'Short runs that end in a question',
-        'A long visualisation of owning it',
+        'A long visualization of owning it',
         'Questions about the consequences of the problem',
       ],
       answers: [0, 1, 3, 5],
-      explain: 'Discovery is questions and listening. Summarising yeses belongs to the ask, and a long visualisation to presenting, once you know what to picture.',
+      explain: 'Discovery is questions and listening. Summarizing yeses belongs to the ask, and a long visualization to presenting, once you know what to picture.',
     },
     {
       id: 'm15-d6',
@@ -393,7 +405,7 @@ Be vague about experience in your conversations, and exact about facts in your l
         'Raise a possible objection so you can handle it',
       ],
       answer: 1,
-      explain: 'That is a change from baseline towards interest, and they are picturing it themselves. Let them build their own picture; their words are better material than yours. The ask comes after.',
+      explain: 'That is a change from baseline toward interest, and they are picturing it themselves. Let them build their own picture; their words are better material than yours. The ask comes after.',
     },
     {
       id: 'm15-d7',
@@ -401,7 +413,7 @@ Be vague about experience in your conversations, and exact about facts in your l
       prompt: 'They say: "It’s too expensive." Which reply paces, utilizes and keeps the facts plain?',
       options: [
         '"It’s really not, when you think about everything you get."',
-        '"And as you think about the value, and while you consider the peace of mind, you might realise..."',
+        '"And as you think about the value, and while you consider the peace of mind, you might realize..."',
         '"That’s fair, it’s a real amount. When you say too expensive, compared to what?"',
         '"I can probably knock a bit off if you sign today."',
       ],
@@ -423,16 +435,19 @@ Be vague about experience in your conversations, and exact about facts in your l
     },
     {
       id: 'm15-d9',
-      type: 'choice',
-      prompt: 'Which ask best fits the trust ledger?',
+      type: 'multi',
+      prompt: 'Tap every Milton pattern in this line from the present stage.',
+      quote: 'And as you picture the first Saturday, you might notice how easily it all fits in, and you can [[enjoy the drive home]].',
       options: [
-        '"Shall we just get the paperwork done?"',
-        '"Everyone signs up on the first visit, so..."',
-        '"It’s $1,200 for the year. Would you like to go ahead today? It’s completely your call."',
-        '"You’ll want to go ahead before the price goes up, won’t you?"',
+        'A link that implies cause ("as")',
+        'A presupposition ("how easily" takes "easily" for granted)',
+        'An embedded command ("enjoy the drive home", underlined)',
+        'A universal quantifier ("everyone", "always")',
+        'A precision question',
+        'A price stated exactly',
       ],
-      answer: 2,
-      explain: 'Exact terms, a clear request, and a reminder of freedom, which raised compliance across many studies (Carpenter, 2013). The others assume, invent a crowd, or pressure.',
+      answers: [0, 1, 2],
+      explain: 'Three patterns in one breath, which is plenty: an implied causative, a presupposition, and an embedded command delivered with a slight pause and tone drop. There is no universal, no question, and rightly no price: facts stay outside the run.',
     },
     {
       id: 'm15-d10',
@@ -455,11 +470,11 @@ Be vague about experience in your conversations, and exact about facts in your l
       options: [
         'In the opening, to relax them before you know what they need',
         'When stating the contract terms',
-        'In presenting, as a visualisation they have agreed to, or to calm someone upset',
+        'In presenting, as a visualization they have agreed to, or to calm someone upset',
         'In the ask, so the request slips by gently',
       ],
       answer: 2,
-      explain: 'Long runs are for experience: visualisations and calming. Never in terms or the ask, where the words must be plain, and not before discovery, when you do not yet know what to picture.',
+      explain: 'Long runs are for experience: visualizations and calming. Never in terms or the ask, where the words must be plain, and not before discovery, when you do not yet know what to picture.',
     },
     {
       id: 'm15-d12',
@@ -478,7 +493,7 @@ Be vague about experience in your conversations, and exact about facts in your l
       id: 'm15-d13',
       type: 'rewrite',
       prompt: 'This opening pitches before it discovers. Rewrite it as an opening that builds rapport and asks one discovery question.',
-      given: 'Hi! So this is our premium model, it has the best warranty on the market and it’s on offer this week only.',
+      given: 'Hi! So this is our premium model, it has the best warranty on the market and it’s on sale this week only.',
       models: [
         'Morning. Take your time, there’s a lot to look at. What’s brought you in today?',
         'Hi, thanks for coming in. Are you replacing something you’ve got, or is this something new for you?',
@@ -508,13 +523,13 @@ Be vague about experience in your conversations, and exact about facts in your l
     {
       id: 'm15-d15',
       type: 'rewrite',
-      prompt: 'Write the ask for this conversation: summarise the small yeses, state the terms exactly, make a specific request, and remind them they are free.',
-      given: 'They agreed it would save them the Sunday paperwork, they like that it works on their phone, and they want to start before the tax deadline. It is $29 a month, first month free, cancel any time.',
+      prompt: 'Write the ask for this conversation: summarize the small yeses, state the terms exactly, make a specific request, and remind them they are free.',
+      given: 'You run a dog-walking service. They agreed the dog is alone too long, they like having the same walker every day, and they want it running before their new job starts on the 3rd. It is $25 an hour-long walk, weekdays, cancel with 24 hours’ notice.',
       models: [
-        'So it gets rid of the Sunday paperwork, it works from your phone, and you’d be set up before the tax deadline. It’s $29 a month after a free first month, and you can cancel any time. Would you like me to send the sign-up link now? Entirely up to you.',
+        'So he won’t be alone all day, it’s the same walker every time, and you’d be set up before you start on the 3rd. It’s $25 a walk, weekdays, and you can cancel with 24 hours’ notice. Should I come and meet him on Saturday at ten? Entirely up to you.',
       ],
       checklist: [
-        'Summarises at least two of their yeses in their words',
+        'Summarizes at least two of their yeses in their words',
         'States price and terms exactly',
         'Makes one specific request',
         'Includes a reminder that they are free to decide',
@@ -524,7 +539,7 @@ Be vague about experience in your conversations, and exact about facts in your l
       id: 'm15-d16',
       type: 'rewrite',
       prompt: 'Write a one-line plan for each of the five stages for this situation.',
-      given: 'You want your manager to let you work from home two days a week. You meet them for your monthly one-to-one.',
+      given: 'You want your manager to let you work from home two days a week. You meet them for your monthly one-on-one.',
       models: [
         'Open: thank them, pace their busy week, ask if there is time for one request. Discover: ask what they need most from you and what worries them about remote work. Present: plain facts about your output, then a short run picturing the extra focused hours. Objections: agree with any fair concern, ask what specifically worries them, reframe as a trial. Ask: a four-week trial on Tuesdays and Thursdays, with a review, and "it’s your call".',
       ],
@@ -541,9 +556,11 @@ Be vague about experience in your conversations, and exact about facts in your l
       id: 'm15-a1',
       kind: 'solo',
       title: 'Your stage map',
-      instructions: `Write a stage map for two conversations you will really have: one sale (or work persuasion) and one everyday persuasion.
+      instructions: `Using the stage map in Lesson 1, write a map for two conversations you will really have: one sale (or work persuasion) and one everyday persuasion.
 
-For each of the five stages, write two lines you might say and the tools they use. Mark every fact (price, terms, dates) and check that each one is stated plainly, outside any run or vague phrase.`,
+For each of the five stages, write two lines you might say and label the tools they use, Milton patterns included: *link, "and as"*; *presupposition, "when you..."*. Mark every fact (price, terms, dates) and check that each one is stated plainly, outside any run or vague phrase.
+
+Keep the map on one card or one phone screen. Read it before the conversation, never during.`,
       reps: 2,
       required: true,
       log: [
@@ -640,9 +657,11 @@ Afterwards, log each stage in a line. Be exact about what was said and what happ
       id: 'm15-a7',
       kind: 'field',
       title: 'Capstone: ten logged conversations',
-      instructions: `Have ten real sales, calls or work persuasions, mixing face to face and phone or video. Log each one within a day while it is fresh, using the five-part log from Lesson 5.
+      instructions: `Have ten real sales, calls or work persuasions, mixing face to face and phone or video. One rep is one whole conversation, opening to ask, logged here within a day while it is fresh.
 
-After every second conversation, paste the logs into a Claude chat and ask: where did I use a tool at the wrong stage, where did I blur or bury a fact, and where might they have felt handled rather than helped? Carry one change into the next two.
+In the log, label the patterns you used and where: *Discover: precision question, "compared to what?"*; *Present: short run with a presupposition, "as the first showings come in"*. Write what was said, not what you meant to say.
+
+After every second conversation, open the **Log** page, choose the **In the field** tab and press **Copy as text for a review with Claude**. Paste it into a new Claude chat and add: "Look only at the Capstone entries. Where did I use a tool at the wrong stage, where did I blur or bury a fact, and where might they have felt handled rather than helped?" Carry one change into the next two conversations.
 
 Never record a customer without their permission.`,
       reps: 10,
@@ -650,7 +669,7 @@ Never record a customer without their permission.`,
       log: [
         'Setting, and what you wanted',
         'Each stage in a line or two: what you said, what they said',
-        'Tools used, and at which stage',
+        'Patterns and tools used, each labeled with the stage and the words you said',
         'Outcome, in facts',
         'Would they be glad tomorrow that they talked to you, and why?',
         'The one change you will carry into the next conversation',
@@ -660,19 +679,19 @@ Never record a customer without their permission.`,
       id: 'm15-a8',
       kind: 'solo',
       title: 'Capstone review with Claude',
-      instructions: `When all ten capstone conversations are logged, paste every log into one Claude chat. Ask for a review across the set:
+      instructions: `When all ten capstone conversations are logged, open the **Log** page, choose the **In the field** tab and press **Copy as text for a review with Claude**. Paste it into one new Claude chat, tell it to look only at the ten Capstone entries, and ask for a review across the set:
 
 - the stage you most often skip or rush
 - the tool you over-use, and one you never use
 - every place a fact was vague
 - any conversation where the trust answer was weak, and what it had in common with the others
 
-Write down the three habits you will practise next. That list is the start of your own next module.`,
+Write down the three habits you will practice next. That list is the start of your own next module.`,
       reps: 1,
       required: false,
       log: [
         'The stage you most often skip or rush',
-        'Your three habits to practise next',
+        'Your three habits to practice next',
         'In how many of the ten were you confident they would be glad they talked to you?',
       ],
     },
@@ -686,8 +705,8 @@ Write down the three habits you will practise next. That list is the start of yo
       them: 'A homeowner in their sixties who lives alone since their partner died. Two houses on the street were broken into last month and they booked the visit after a bad night. Practical, a bit embarrassed to be scared, careful with money. Responds well to being taken seriously and given straight numbers; shuts down at fear-mongering or anything that feels like a hard sell.',
       objections: [
         'I’ve got a dog, isn’t that enough?',
-        'My neighbour got a camera online for fifty quid.',
-        'What’s the monthly cost, and am I tied in?',
+        'My neighbor got a camera online for fifty bucks.',
+        'What’s the monthly cost, and am I locked in?',
         'I’d want to talk to my son about it first.',
         'I don’t want my house looking like a fortress.',
       ],
@@ -695,6 +714,7 @@ Write down the three habits you will practise next. That list is the start of yo
         'Rapport and naming the emotion',
         'Precision questions in discovery',
         'Imagery of a calm night, with permission',
+        'Milton language in presenting: links, a presupposition, an embedded command',
         'Utilization and reframing of objections',
         'Plain facts and an ask with freedom',
       ],
@@ -704,7 +724,7 @@ Write down the three habits you will practise next. That list is the start of yo
       id: 'm15-s2',
       title: 'The practice manager on video',
       setting: 'Video call. You sell appointment-booking software to dental practices.',
-      you: 'Run the whole call: get past the brush-off, find the real problem, show the one thing that solves it, handle objections, and agree a concrete next step with a time.',
+      you: 'Run the whole call: get past the brush-off, find the real problem, show the one thing that solves it, handle objections, and agree on a concrete next step with a time.',
       them: 'The manager of a three-dentist practice, on camera between patients. Juggles phones all day; missed appointments cost the practice money every week. Was burned by a software rollout two years ago that staff hated. Not the final decision maker: the senior dentist signs off. Polite but guarded, and will try to end the call early.',
       objections: [
         'Can you just send me a brochure?',
@@ -717,6 +737,7 @@ Write down the three habits you will practise next. That list is the start of yo
         'Calibration from voice and pauses',
         'Precision and consequence questions',
         'Short runs ending in a question',
+        'Utilizing the brush-off: "That’s right, and..."',
         'Reframing a past failure',
         'A concrete next step with a time',
       ],
@@ -725,7 +746,7 @@ Write down the three habits you will practise next. That list is the start of yo
     {
       id: 'm15-s3',
       title: 'Two days from home',
-      setting: 'Your monthly one-to-one with your manager, in person. Everyday persuasion at work.',
+      setting: 'Your monthly one-on-one with your manager, in person. Everyday persuasion at work.',
       you: 'Ask to work from home two days a week, by first finding out what they need, then presenting, handling objections and asking for something they can agree to.',
       them: 'A fair but cautious manager who came up through the office and values seeing the team. Worried about setting a precedent and about how it looks to their own boss. Likes you and your work. Does not like being cornered, and will say "let’s revisit next quarter" to escape.',
       objections: [
@@ -738,6 +759,7 @@ Write down the three habits you will practise next. That list is the start of yo
         'Discovery before the request',
         'Pacing and utilizing objections',
         'Plain facts about your work',
+        'A short run and a story about one person in presenting',
         'A small first commitment, such as a trial',
         'An ask that leaves them free',
       ],

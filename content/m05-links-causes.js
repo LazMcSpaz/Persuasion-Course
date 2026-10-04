@@ -44,6 +44,22 @@ Every link is a bridge from a pace to a lead. The pace has to be true. The lead 
 
 > You've driven three of these today, **and** you've had a feel for each. **As** you think back over them, which one did you miss when you got out?
 
+## How to do it
+
+1. **Start with a pace that is true right now**, ideally something they are doing: looking, reading, sitting, listening.
+2. **Pick the link.** "And" to keep going; "as", "while" or "when" to tie the lead to what they are doing.
+3. **Add one small lead**: a question, something to notice, a next step.
+
+> **Video call:** You've got the proposal open, **and** while you scroll down to page three, take a look at the timeline.
+
+> **Everyday:** **When** you've finished your coffee, can we look at the calendar for August?
+
+## Where it goes wrong
+
+- **A false pace.** "As you can see, this is the best option" links to something they cannot see. The pace has to be true or the whole bridge falls.
+- **Too big a lead.** "As you're sitting here, let's get the paperwork done" uses a small link to carry a big step. They will notice the weight.
+- **Links everywhere.** Five "and as"es in a row stops being conversation. Use one link per lead for now.
+
 In Module 6 you will chain these joints into one long, unbroken sentence. For now, one joint at a time, until each link comes out without thinking.`,
       techniques: [
         {
@@ -67,11 +83,15 @@ In Module 6 you will chain these joints into one long, unbroken sentence. For no
 
 > Having the numbers in front of you **lets** you relax about it.
 
-> I'd book the survey first, **because** it tells us what we're dealing with.
+> I'd book the inspection first, **because** it tells us what we're dealing with.
+
+**How:** put a step they could take on one side and an experience or a real reason on the other. "[Doing the step] makes [their experience] easier." Or "[the request], because [the actual reason]."
+
+> **Phone:** I'd send the photos first, **because** then the quote is for your roof and not a guess.
 
 ## What the research says
 
-"Because" is behind one of the best-known studies in persuasion. Langer, Blank and Chanowitz (1978) had people ask to jump the queue at a photocopier. Asking with a reason worked better than asking without one, even when the reason was empty: "because I have to make copies".
+"Because" is behind one of the best-known studies in persuasion. Langer, Blank and Chanowitz (1978) had people ask to cut in line at a photocopier. Asking with a reason worked better than asking without one, even when the reason was empty: "because I have to make copies".
 
 The second half of the study matters just as much. When the request was bigger, the empty reason stopped working. Only a real reason helped.
 
@@ -83,7 +103,7 @@ This is where the honesty rule bites hardest. A cause-and-effect claim about the
 
 Keep cause and effect for:
 
-- **real reasons**: "because the survey shows us any damp before we quote"
+- **real reasons**: "because the inspection shows us any moisture damage before we quote"
 - **experience, which is theirs**: "seeing it in your own room makes it easier to picture"
 - **what you will do**: "I'll call on Thursday, because that's when the stock comes in"
 
@@ -118,9 +138,20 @@ Both reasons are true, both are short, and both are the actual reason. That is a
 
 > You're asking about the warranty, **so** you're thinking long term.
 
-> You're still here at half past five, **which tells me** this matters to you.
+> You're still here at five-thirty, **which tells me** this matters to you.
 
 When the meaning fits, it feels as if you understand them. And the meaning you offer is usually a lead.
+
+## How to do it
+
+1. **Notice something they did or said** that you can both see: they measured, they asked, they came back, they stayed late.
+2. **Add the joint**: "which means", "so", "which tells me".
+3. **Attach a generous, likely meaning** that points toward your lead.
+4. **Pause**, and let them confirm or correct it.
+
+> **Phone:** You've called back the same day, **which tells me** this has been on your mind. What's changed since we spoke?
+
+> **Everyday:** You've asked about the apartment twice now, **so** I'm guessing you'd really like to move.
 
 ## Why it works
 
@@ -154,7 +185,7 @@ People hand you complex equivalences all day. "You're the third person to call t
 
 ## Mind-reading
 
-Mind-reading claims to know what someone thinks or feels. "You're probably wondering about the price." "I know you're keen to get this sorted."
+Mind-reading claims to know what someone thinks or feels. "You're probably wondering about the price." "I know you're eager to get this settled."
 
 Done well, it shows you have been paying attention. Done badly, it is presumptuous and often wrong. People are only slightly better than chance at telling what others are keeping hidden (Bond & DePaulo, 2006), so a confident, specific read of someone's mind is a gamble.
 
@@ -170,13 +201,15 @@ Two things make it safe.
 
 > Anyone on their third quote is probably a bit tired of hearing the same pitch.
 
+So the recipe is: soft opener, plus what anyone in their shoes would wonder, then go quiet.
+
 In Module 3 you paced feelings only from evidence. Mind-reading is the step past that: a soft guess when you have none. If they correct you, pace the correction. A corrected guess still tells you something.
 
 **A read must never assert a false fact about them.** "I know you've been overpaying" said to someone whose bills you have not seen is not a read. It is an invented claim about their life. Read the common experience, never their circumstances.
 
 ## Lost performatives
 
-A lost performative is a judgement with nobody making it. "It's good to take your time." "It's important to get the foundations right." Who says? Nobody named. It sounds like a fact about the world.
+A lost performative is a judgment with nobody making it. "It's good to take your time." "It's important to get the foundations right." Who says? Nobody named. It sounds like a fact about the world.
 
 > It's sensible to see it working before you commit.
 
@@ -186,7 +219,13 @@ A lost performative is a judgement with nobody making it. "It's good to take you
 
 With no speaker, there is nobody to argue with. It is a gentle way to give permission, set a standard or slow someone down.
 
-The honesty rule again: a lost performative about values is fine ("it's good to ask questions"). One about facts is not ("it's well known these last forever"). The second is a claim with its source deleted, and it is one of the oldest tricks in a bad salesperson's book.`,
+**How:** "It's [good / fine / worth / sensible] to [something you would honestly back]." It works best for slowing down, permission and asking questions.
+
+> **Phone:** It's worth getting a second quote. I'd want you to.
+
+> **Everyday:** It's okay not to have decided yet.
+
+**Where it goes wrong.** About values, it is fine ("it's good to ask questions"). About facts, it is not ("it's well known these last forever"): that is a claim with its source deleted, one of the oldest tricks in a bad salesperson's book. And too many sound like a parent: "it's important to... it's sensible to..." Use one, then stop.`,
       techniques: [
         {
           name: 'Mind-reading',
@@ -219,9 +258,13 @@ On general truths of experience, where "everyone" is close enough to true that n
 
 > Everyone's had a car let them down at the worst possible moment.
 
-> Nobody wants to spend their Saturday on hold to a call centre.
+> Nobody wants to spend their Saturday on hold to a call center.
 
 These are truisms with the volume turned up, and they pace beautifully.
+
+**How:** take a truism about shared experience and put "everyone", "nobody" or "we've all" in front. Then use it as the pace before your lead.
+
+> **Video call:** Nobody enjoys chasing invoices. Can I show you how the reminders work?
 
 ## Where they lie
 
@@ -272,7 +315,7 @@ Module 13 covers how to question a universal gently. For now, hearing one is eno
       id: 'm05-d3',
       type: 'choice',
       prompt: 'What pattern is this?',
-      quote: 'While you’re looking at the colours, you can start to imagine it in your hallway.',
+      quote: 'While you’re looking at the colors, you can start to imagine it in your hallway.',
       options: ['Cause and effect', 'Implied causative', 'Complex equivalence', 'Lost performative'],
       answer: 1,
       explain: '"While" ties the imagining to something they are already doing, without claiming one causes the other.',
@@ -294,15 +337,15 @@ Module 13 covers how to question a universal gently. For now, hearing one is eno
     {
       id: 'm05-d5',
       type: 'choice',
-      prompt: 'In Langer, Blank & Chanowitz (1978), what happened when the request was larger?',
+      prompt: 'You are asking a client to sign a twelve-month contract today. Which "because" fits what Langer, Blank & Chanowitz (1978) found about bigger requests?',
       options: [
-        'Any reason still helped, even an empty one',
-        'Only a real reason helped',
-        'Giving a reason made people less likely to agree',
-        'Reasons made no difference at all',
+        '"Can we get this signed today, because I need to get it signed?"',
+        '"Can we sign today, because that’s how it works?"',
+        '"Can we sign today, because the installer has a slot on the 14th and the next one is in March?"',
+        '"Can we sign today, because everyone does?"',
       ],
-      answer: 1,
-      explain: 'The empty "because" worked for a small request only. For anything bigger, people needed an actual reason, which is what a sale usually is.',
+      answer: 2,
+      explain: 'An empty reason only helped with a small request. For anything bigger, people needed a real one, and a real one is also the only kind you can stand behind tomorrow.',
     },
     {
       id: 'm05-d6',
@@ -310,7 +353,7 @@ Module 13 covers how to question a universal gently. For now, hearing one is eno
       prompt: 'Which line uses cause and effect honestly?',
       options: [
         '"This supplement makes you lose weight."',
-        '"I’d do the survey first, because it shows any damp before we quote."',
+        '"I’d do the inspection first, because it shows any moisture damage before we quote."',
         '"Switching to us causes your bills to drop."',
         '"This lock makes a break-in impossible."',
       ],
@@ -338,7 +381,7 @@ Module 13 covers how to question a universal gently. For now, hearing one is eno
         'Insist that cost is usually the real issue',
         'Pace the correction and ask about the mess',
         'Say "but" and bring it back to cost',
-        'Apologise at length for getting it wrong',
+        'Apologize at length for getting it wrong',
       ],
       answer: 1,
       explain: 'A soft read is built to be corrected. The correction is better information than your guess was, so pace it and follow it.',
@@ -355,7 +398,7 @@ Module 13 covers how to question a universal gently. For now, hearing one is eno
         'When they will buy',
       ],
       answer: 1,
-      explain: 'A lost performative: a judgement with nobody making it. It sounds like a fact about the world, so there is no one to argue with.',
+      explain: 'A lost performative: a judgment with nobody making it. It sounds like a fact about the world, so there is no one to argue with.',
     },
     {
       id: 'm05-d10',
@@ -408,7 +451,7 @@ Module 13 covers how to question a universal gently. For now, hearing one is eno
       prompt: 'Phone call. Add a real reason to this request.',
       given: 'Can we book the follow-up for Tuesday?',
       models: [
-        'Can we book the follow-up for Tuesday, because that’s when the survey results come back?',
+        'Can we book the follow-up for Tuesday, because that’s when the inspection results come back?',
       ],
       checklist: [
         'The reason is true',
@@ -446,6 +489,21 @@ Module 13 covers how to question a universal gently. For now, hearing one is eno
         'Anything said about the gym is something you could prove',
       ],
     },
+    {
+      id: 'm05-d16',
+      type: 'rewrite',
+      prompt: 'At a car dealership. Turn this cornering complex equivalence into a generous one they can easily correct.',
+      given: 'You haven’t signed yet, which means you’re not serious.',
+      models: [
+        'You’ve come back for a second look, which tells me you’re giving this proper thought. What are you still weighing up?',
+      ],
+      checklist: [
+        'Starts from something they actually did',
+        'The meaning attached is generous and likely',
+        'Easy for them to correct',
+        'Leads to a small question, not a push',
+      ],
+    },
   ],
   assignments: [
     {
@@ -469,7 +527,7 @@ Listen back. Which link sounds natural for which pair? Which ones sound like a t
       id: 'm05-a2',
       kind: 'solo',
       title: 'Pattern hunting',
-      instructions: `Take an advert, a sales page, a podcast ad, or better, a recording of one of your own calls. Tally every cause and effect, complex equivalence, mind-read, lost performative and universal.
+      instructions: `Take a print ad, a sales page, a podcast ad, or better, a recording of one of your own calls. Tally every cause and effect, complex equivalence, mind-read, lost performative and universal.
 
 Then mark each one honest or not. An honest one is about experience, values or a real reason. A dishonest one states a fact about the product or the person that may not be true.`,
       reps: 3,
@@ -484,7 +542,7 @@ Then mark each one honest or not. An honest one is about experience, values or a
       id: 'm05-a3',
       kind: 'everyday',
       title: 'Small asks, real reasons',
-      instructions: `In five small requests this week (a colleague, a neighbour, a partner, someone in a queue), add a short, true "because".
+      instructions: `In five small requests this week (a colleague, a neighbor, a partner, someone in line), add a short, true "because".
 
 > Could you send it before lunch, because I'm out this afternoon?
 
@@ -539,7 +597,7 @@ Run it three times. On the last run, ask Claude afterwards which line felt like 
       id: 'm05-a6',
       kind: 'chat',
       title: 'Role-play: the trial member',
-      instructions: `Run scenario **The trial member**. No universal and no cause and effect about results. Use universals only on shared experience, and lost performatives to give permission.
+      instructions: `Run scenario **The trial member**. Never put a universal or a cause and effect on results. Use universals only on shared experience, and lost performatives to give permission.
 
 Run it twice: once where they join, once where they say no. Both can be a win.`,
       reps: 2,
@@ -596,12 +654,12 @@ Notice whether giving them room makes them relax and keep talking, or end the co
     {
       id: 'm05-s1',
       title: 'The three-quote homeowner',
-      setting: 'Phone call. You run a small roofing firm and are following up a quote you sent.',
+      setting: 'Phone call. You run a small roofing company and are following up on a quote you sent.',
       you: 'Get them to agree to a site visit, using links, honest reasons and soft mind-reads.',
-      them: 'A retired teacher with three quotes; yours is in the middle. Tired of tradespeople who all sound the same. Most afraid of being ripped off, and of the mess. Will pounce on any claim that sounds too good to be true, and warms to anyone who seems to guess what they are thinking without overdoing it.',
+      them: 'A retired teacher with three quotes; yours is in the middle. Tired of contractors who all sound the same. Most afraid of being ripped off, and of the mess. Will pounce on any claim that sounds too good to be true, and warms to anyone who seems to guess what they are thinking without overdoing it.',
       objections: [
         'You’re all saying the same thing.',
-        'The other lot said they could start next week.',
+        'The other guys said they could start next week.',
         'Why should I pay more than the cheapest?',
       ],
       focus: [
@@ -610,7 +668,7 @@ Notice whether giving them room makes them relax and keep talking, or end the co
         'Soft mind-reading',
         'Complex equivalence, said lightly',
       ],
-      win: 'They agree a visit. Every cause-and-effect claim about the roof was true, every read was soft, and you followed their correction when a read was wrong.',
+      win: 'They agree to a visit. Every cause-and-effect claim about the roof was true, every read was soft, and you followed their correction when a read was wrong.',
     },
     {
       id: 'm05-s2',

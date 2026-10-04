@@ -10,119 +10,167 @@ export default {
       title: 'Gain and loss frames',
       body: `Every fact arrives inside a frame. "You keep $40 a month" and "you're losing $40 a month" describe the same money. They do not feel the same.
 
-## What the research says
+A **gain frame** describes what they get by acting. A **loss frame** describes what they lose, or keep losing, by staying where they are.
 
-Tversky and Kahneman (1981) gave people the same outcomes described two ways: as lives saved, or as lives lost. The choices people made shifted with the wording, even though the numbers underneath were identical. This is one of the best replicated findings in the study of decisions, and it is the solid ground under this whole module.
+## Why it works
 
-## The two frames
+Tversky and Kahneman (1981) described the same outcomes to people in two ways, as lives saved or as lives lost. The choices people made shifted with the wording, although the numbers underneath were identical. That is the solid ground under this module.
 
-A **gain frame** describes what they get by acting:
+What the study does not tell you is which frame will move *this* person. Loss frames tend to make the cost of standing still visible; gain frames tend to make the future feel inviting. You find out which one fits by watching (Module 2).
 
-> With the new boiler, you keep about $40 a month that's currently going up the flue.
+## How to do it
 
-A **loss frame** describes what they lose by staying where they are:
+1. **Pick one true fact with a number in it:** a saving, a cost, a time, a risk.
+2. **Say it as a gain:** "you keep...", "you'd get back...", "you'd have...".
+3. **Say it as a loss:** "right now...", "at the moment...", "every month...".
+4. **Use one, and watch.** If they lean in, stay with it. If they go defensive, try the other frame next time.
 
-> At the moment, about $40 a month is going up the flue.
+## Examples
+
+Face to face, selling a furnace:
+
+> With the new furnace, you keep about $40 a month that's currently going up the chimney.
+
+> At the moment, about $40 a month is going up the chimney.
 
 On a video call with a business owner:
 
-> Right now, the late invoices are costing you roughly two days a month of chasing.
+> Right now, chasing late invoices is costing you about two days a month.
 
-With a partner, about a weekend away:
+> You'd get those two days back.
+
+With your partner, about a weekend away:
 
 > If we book it, we get two days with no laundry and no phones.
 
-## Which one to use
+## Common mistakes
 
-The research shows that the frame moves choices. It does not tell you which frame will move *this* person. Loss frames tend to make the cost of standing still visible; gain frames tend to make the future feel inviting. Try both across a few conversations and calibrate (Module 2): watch which one makes them lean in and which one makes them defend.
+- **Stretching the number.** "Up to $60 a month" when most people save $40 is not a frame, it is a different fact. A frame changes the angle, never the figure.
+- **Piling on loss.** "Every day you wait you're throwing money away" sounds like a threat, and people defend against threats.
+- **Hiding a cost.** "Only $2 a day" is a fair frame for $60 a month. Said without mentioning the three-year contract that comes with it, it is a misrepresentation, because the frame is doing the job of hiding a cost.
 
-## The rule that keeps it honest
+## Hearing it used on you
 
-Both frames must describe the **same true numbers**. A frame is a choice of angle, never a choice of facts. "Only $2 a day" is a fair frame for a $60 monthly cost. The same line said to someone who has not been told it comes with a three-year contract is a misrepresentation, because the frame is doing the job of hiding a cost.
+"Don't miss out." "You're losing money every day." Translate it back into the plain number, over a year, with every cost included, and decide from that.
 
-The test: if they saw the full numbers tomorrow, would your frame embarrass you? If yes, add the missing number now. Vague about experience, exact about facts, and a frame never gets to change a fact.`,
+The test for your own frames: if they saw the full numbers tomorrow, would your frame embarrass you? If yes, add the missing number now. Vague about experience, exact about facts.`,
       techniques: [
         {
           name: 'Gain and loss framing',
           evidence: 'supported',
-          note: 'The same outcomes framed as gains or losses shift choices (Tversky & Kahneman, 1981). Which frame works best for a given buyer is not predictable; test both.',
+          note: 'The same outcomes framed as gains or losses shift choices (Tversky & Kahneman, 1981). Which frame works best for a given person is not predictable; test both.',
         },
       ],
     },
     {
       id: 'm12-l2',
       title: 'Price anchors',
-      body: `First, a warning about a word. In NLP, "anchoring" means linking a feeling to a touch or a gesture. That is cut from this course and is not what this lesson is about. A **price anchor** is something else entirely, with real research behind it.
+      body: `Two different things share the word "anchor", and this lesson is about only one of them.
 
-## What the research says
+- **NLP anchoring** links a feeling to a touch or a gesture so it can be triggered later. It is cut from this course.
+- **A price anchor** is the first number in a conversation, which pulls everyone's sense of "high" and "low" toward it. That is what this lesson teaches.
 
-Tversky and Kahneman (1974) found that an arbitrary first number pulls later estimates toward it. Even a number people know is irrelevant leaves a mark. The first figure in the room shapes what feels high and what feels low afterwards.
+## Why it works
 
-## Using it honestly
+Tversky and Kahneman (1974) found that an arbitrary first number pulls later estimates toward it, even a number people know is irrelevant. Whatever figure comes first shapes what feels reasonable afterwards.
 
-Since some number will come first, choose a **true** one that helps them judge fairly.
+The research used arbitrary numbers. You will not. Some number is going to come first, so make it a **real reference price**: one you can say where it came from.
 
-- **The cost of the problem, in their own figures.** Ask what the problem costs them, let them work it out, then give your price. A $3,000 fix lands differently after they have said the downtime costs $2,000 a month.
-- **The real range of options.** Mention the fuller option before the basic one, if it genuinely exists and genuinely suits some people.
-- **The real alternative.** What it costs to hire someone, to do it themselves, to keep patching it.
+## How to do it
+
+1. **Before you name your price, put one real number on the table** (the three honest sources are below).
+2. **Let it register.** A beat of silence.
+3. **State your price exactly, once.**
+4. **Stop.** No apology, no rounding down before they have said a word.
+
+Three sources of an honest anchor:
+
+- **The cost of the problem,** worked out by them.
+- **A fuller option** that real customers actually buy.
+- **The real alternative:** hiring someone, doing it themselves, a quote they already have.
+
+## Examples
 
 On the phone, with a small business owner:
 
-> Before I give you a number, can I ask roughly what a missed delivery costs you? ... So around $800 each time, and it's happened three times this quarter. The service is $450 a month.
+> Before I give you a number, roughly what does a missed delivery cost you? ... So around $800 each time, three times this quarter. The service is $450 a month.
+
+Face to face, in a bike shop:
+
+> Most commuters go for the full service, which is $280. The safety check you asked about is $90, and for your mileage I think that's enough.
+
+Everyday, selling your old car to a friend:
+
+> The dealer offered me $4,200 as a trade-in, and the same model is listed at about $5,500 online. I'd take $4,800.
+
+At work, asking for a raise:
+
+> The two similar roles advertised this month were $58,000 and $62,000. I'm asking for $60,000.
 
 ## Where it becomes a lie
 
-An invented "was" price, a made up competitor quote, a premium tier nobody can actually buy: these are fake anchors. They work for a moment and they are exactly the kind of thing a buyer checks later. If you cannot point to where the number came from, do not say it.
+An invented "was" price, a "normally $1,500" you never charge, a made-up competitor quote, a premium tier nobody can buy. These are fake anchors. They work for a moment, and they are exactly what a buyer checks later. If you cannot point to where a number came from, do not say it.
 
-## Their anchors pull on you too
+## Their anchors pull on you
 
-When a buyer opens with "I was thinking around $500", that number is now pulling on *your* sense of what is reasonable. Notice it. Then state your real price clearly, once, without apologising or rounding it down in your head first. The same goes for a landlord who opens with a rent rise, or for you, opening a salary conversation: whoever says a reasonable, true number first often sets the ground the conversation stands on.`,
+When a buyer opens with "I was thinking around $500", that number is now pulling on *your* sense of what is reasonable. Notice it. Then state your real price clearly, once. If you move, move by changing what they get, not by shading the number.
+
+On the receiving end: the "from $99" ad, the expensive bottle at the top of the wine list, a seller's opening figure. Ask yourself what the thing is worth to you before you let their number set the ground.`,
       techniques: [
         {
           name: 'Price anchoring',
           evidence: 'supported',
-          note: 'An arbitrary first number pulls later estimates toward it (Tversky & Kahneman, 1974). Not the same thing as NLP anchoring. Use only real numbers.',
+          note: 'An arbitrary first number pulls later estimates toward it (Tversky & Kahneman, 1974). Not the same thing as NLP anchoring. Use only real reference numbers.',
         },
       ],
     },
     {
       id: 'm12-l3',
       title: 'Context and content reframes',
-      body: `A frame shapes how a fact is seen. A **reframe** offers a different way to see something a person has already made up their mind about. NLP describes two kinds, and each has a question that finds it.
+      body: `A frame shapes how a fact is seen. A **reframe** offers a different way to see something a person has already made their mind up about. NLP describes two kinds, and each has a question that finds it.
+
+- **Context reframe:** "In what situation would this be useful?" The quality stays; you move it to a setting where it helps.
+- **Content reframe:** "What else could this mean?" The situation stays; the meaning changes.
+
+## How to do it
+
+1. **Pace first.** Give their words back and agree with what is true (Modules 1 and 3). A reframe thrown at someone who does not feel heard sounds like being corrected.
+2. **Ask yourself the question,** silently: where would this help, or what else could it mean?
+3. **Check it.** Is it true? Is it plausible to *them*, not only to you?
+4. **Offer it lightly,** with "and", "although" or "or", never "but".
+5. **Stop and listen.** If they repeat the new meaning in their own words, it landed. If they push back, drop it.
 
 ## Context reframes
 
-The question: **"In what situation would this be useful?"**
+> **Buyer, in a showroom:** It's heavier than the other one.
+> It is. That weight is what keeps it steady on uneven ground, so on your patio it's the one I'd want.
 
-Almost every quality that is a problem in one place is an advantage in another. The reframe moves the quality to a setting where it helps.
+> **On a video call:** Your onboarding takes three weeks; the other firm does it in one.
+> Three weeks, yes. That's the time we spend setting it up around how your team already works, which matters most if you've got people who hate change.
 
-> **Buyer:** It's heavier than the other one.
-> That weight is what keeps it steady on uneven ground. If you were using it on the patio, that's the one I'd want.
-
-> **Friend:** My daughter is so stubborn.
-> That stubbornness is going to serve her the first time someone pressures her to do something she doesn't want to.
+> **A friend:** My daughter is so stubborn.
+> She really knows her own mind. That's going to serve her the first time someone pressures her into something.
 
 ## Content reframes
 
-The question: **"What else could this mean?"**
+> **A colleague:** The client keeps sending us questions. I think they're losing faith.
+> Lots of questions. Or they're reading every word, which people only do when they're serious.
 
-The situation stays where it is; the meaning changes.
+> **On the phone:** We've had three suppliers in two years.
+> Three in two years, that's a lot of change. It also means you know exactly what doesn't work, which will make it quick to tell whether we fit.
 
-> **Colleague:** The client keeps sending us questions. I think they're losing faith.
-> Or they're reading every word, which people only do when they're serious.
+> **Your partner:** I didn't get the job. I'm obviously not good enough.
+> That's a real blow. They did shortlist you out of everyone who applied, though.
 
-> **On a call:** We've had three suppliers in two years.
-> So you know exactly what doesn't work. That's going to make it quick to tell whether we fit.
+## Common mistakes
 
-## Three rules
+- **Reframing pain too soon.** "Look on the bright side" to someone who is hurting tells them their feeling is wrong. Pace for longer, or do not reframe at all.
+- **A reframe that is really a claim.** If the weight does not actually help on uneven ground, you have not reframed anything, you have said something false.
+- **Insisting.** A reframe is an offer. Arguing for it turns it into a debate you will lose.
 
-1. **Pace first.** Give their words back and agree with what is true in them before offering anything new (Modules 1, 3 and 10). A reframe thrown at someone who does not feel heard sounds like being corrected.
-2. **It must be true.** If the weight does not actually help on uneven ground, you have not reframed anything, you have made a claim. If the new meaning is not plausible to *them*, it bounces off.
-3. **Offer, do not insist.** A reframe is a suggestion. If they push back, drop it. Arguing for your reframe turns it into a debate you will lose.
+## Why it works
 
-## What the research says
-
-There are no controlled studies of context or content reframing as NLP teaches them. Test it on yourself: log each reframe you offer and whether the other person repeats the new meaning in their own words. That repeat is the sign it landed.`,
+No controlled studies of context or content reframing as NLP teaches them. Test it: log each reframe you offer and whether the other person repeats the new meaning in their own words.`,
       techniques: [
         {
           name: 'Context reframing',
@@ -141,34 +189,40 @@ There are no controlled studies of context or content reframing as NLP teaches t
       title: 'Reframing objections',
       body: `An objection is usually a frame: a way of seeing the decision that makes "no" look sensible. Sometimes the frame is complete and correct, and then the answer is no. Often it leaves something out, and a reframe can put it back.
 
-## A four-step shape
+## The four steps
 
 1. **Pace it.** Give their words back. "Too expensive. Yes, it's not a small number."
 2. **Find what the objection protects.** Behind "too expensive" is usually "I want to be sure it's worth it" or "I can't afford a mistake". Behind "I need to think about it" is often "I don't want to feel rushed".
-3. **Offer a frame where that value points forward.** Speak to the thing they care about.
+3. **Offer a frame where that value points forward.** Speak to the thing they care about, with true facts.
 4. **Let them reject it.** Then listen, because whatever they say next is closer to the real concern.
 
 ## Examples
 
 Face to face, a buyer on price:
 
-> Fair, it's not cheap. It sounds like what matters is that whatever you spend actually lasts. That's the reason this one costs more: the frame is steel, not aluminium, and it's guaranteed for ten years.
+> Fair, it's not cheap. It sounds like what matters is that whatever you spend actually lasts. That's the reason this one costs more: the frame is steel, not aluminum, and it's guaranteed for ten years.
 
 On the phone, someone who wants to think:
 
-> That makes sense, it's a real decision and you should take it seriously. Taking time over it usually means you'll actually use it once you start.
+> That makes sense, it's a real decision. Thinking it over is how you make sure it fits, so let's make the thinking easy: what would you want to be sure of by the time you've decided?
 
 Everyday, a partner who thinks a trip is an extravagance:
 
 > You're right that it's money we could save. I keep thinking it's also the only week this year we'd both actually stop.
 
-Notice that the facts in each are exact (steel, ten years, the price is not denied). Only the meaning moves.
+The facts in each are exact (steel, ten years, the price is not denied). Only the meaning moves.
+
+## What overdoing it sounds like
+
+- A comeback for every objection, delivered instantly. It tells them you were not listening, you were waiting.
+- "I hear you, but..." The "but" cancels the pace.
+- A second reframe after they have rejected the first. Now you are arguing.
 
 ## When not to reframe
 
-Some objections are not frames at all. "It won't fit through my door" is a measurement. "We've signed with someone else" is a fact. Reframing a true and decisive "no" is not skill, it is pushing, and pushing provokes the pushback you will meet in Module 14. Thank them and leave the door open.
+Some objections are not frames at all. "It won't fit through my door" is a measurement. "We've signed with someone else" is a fact. Reframing a true and decisive "no" is not skill, it is pushing, and pushing provokes the reactance you met in Module 10. Thank them and leave the door open.
 
-## What the research says
+## Why it works
 
 No controlled studies of reframing objections as such. The honest test is the trust question: if they said yes after your reframe, would they still be glad of it next week?`,
       techniques: [
@@ -184,32 +238,40 @@ No controlled studies of reframing objections as such. The honest test is the tr
       title: 'Disrupt, then reframe',
       body: `In Module 6 you met this as part of the evidence for the run-on sentence. It belongs here too, because what does the work is the frame that comes after the disruption.
 
-## What the research says
+## Why it works
 
 Davis and Knowles (1999) sold note cards door to door. When the price was given in an odd way ("300 pennies") and then immediately reframed ("that's three dollars, it's a bargain"), more people bought. A brief moment of confusion followed by a clear frame raised sales.
 
-## The shape
+## How to do it
 
-1. **A small disruption.** An unusual unit, an unexpected angle, a number put in a strange way. One beat, no more.
-2. **The plain fact.** The exact figure, said clearly.
-3. **The frame.** A short, true description of what that figure means.
+1. **A small disruption.** The price in an unusual unit that is exactly equal to it: per day, per use, in days of cover. One beat, no more.
+2. **The plain fact.** The exact figure and what it covers, said clearly.
+3. **The frame.** A short, true description of what that figure means for them.
+
+## Examples
 
 On a call:
 
-> It works out at about one coffee a working day. So $95 a month, and that covers the whole team.
+> It works out to about four dollars fifty a working day. So $95 a month, and that covers the whole team.
 
 Face to face, with a customer looking at a warranty:
 
-> Think of it as 1,095 days of not worrying about it. It's $180 for three years, all parts and labour.
+> Think of it as 1,095 days of not worrying about it. It's $180 for three years, all parts and labor.
 
 Everyday, suggesting a gym membership to your partner:
 
-> It's cheaper than the takeaway we had on Friday. It's $35 a month, and we'd actually go together.
+> It's about a dollar fifteen a day. So $35 a month, and we'd actually go together.
 
-## Two cautions
+## Common mistakes
 
-- **The frame must be true.** "It's a bargain" was a fair description of three dollars for cards. If your offer is not a bargain, do not call it one. Always land on the exact figure; the disruption never replaces it.
-- **Do not muddy a strong case.** Petty, Wells and Brock (1976) found that distraction helps weak arguments and hurts strong ones. If your offer is clearly good, say so plainly. The odd unit is seasoning, not the meal.
+- **A disruption that never resolves.** The odd unit never replaces the exact figure. Always land on the real price and what it includes.
+- **A frame that is not true.** "It's a bargain" was a fair description of three dollars for cards. If your offer is not a bargain, do not call it one.
+- **A unit that hides the total.** "Pennies a day" for something with a two-year minimum term must be followed by the full commitment.
+- **Muddying a strong case.** Petty, Wells and Brock (1976) found that distraction helps weak arguments and hurts strong ones. If your offer is clearly good, say so plainly. The odd unit is seasoning, not the meal.
+
+## Hearing it used on you
+
+When a price arrives in a strange unit, do the sum yourself and ask for the total: "So what is that a year, all in?"
 
 The study tested cheap purchases at the door. Whether the effect holds for large, considered decisions has not been shown, so test it and log it.`,
       techniques: [
@@ -225,15 +287,15 @@ The study tested cheap purchases at the door. Whether the effect holds for large
     {
       id: 'm12-d1',
       type: 'choice',
-      prompt: 'What did Tversky and Kahneman (1981) show about framing?',
+      prompt: 'Drafty windows cost this homeowner about $25 a month in extra heating. Which line is a fair loss frame?',
       options: [
-        'People always prefer a gain frame to a loss frame',
-        'Loss frames are more persuasive than gain frames in sales',
-        'The same outcomes described as gains or as losses shifted people’s choices',
-        'Framing only works when people are distracted',
+        '"Right now, about $25 a month of heating is going out through those windows."',
+        '"New windows will save you up to $60 a month."',
+        '"You’ll keep about $25 a month with new windows."',
+        '"Every day you wait, you’re throwing money out of the window."',
       ],
-      answer: 2,
-      explain: 'Same numbers, different wording, different choices. The study does not say which frame wins in a sale; that is for you to test.',
+      answer: 0,
+      explain: 'Same true number, described as what they lose now. The second changes the figure, the third is the gain frame of the same fact, and the fourth piles on loss until it sounds like a threat.',
     },
     {
       id: 'm12-d2',
@@ -256,7 +318,7 @@ The study tested cheap purchases at the door. Whether the effect holds for large
         '"It’s $60 a month, which is about $2 a day."',
         '"Right now, the old system is costing you two hours a week."',
         '"Only $2 a day," said without mentioning the three-year contract that comes with it',
-        '"It’s $180 for three years, all parts and labour."',
+        '"It’s $180 for three years, all parts and labor."',
       ],
       answer: 2,
       explain: 'The frame is fair; leaving out the contract is not. A frame that does the job of concealing a cost is a misrepresentation.',
@@ -264,15 +326,15 @@ The study tested cheap purchases at the door. Whether the effect holds for large
     {
       id: 'm12-d4',
       type: 'choice',
-      prompt: 'In this module, what is a price anchor?',
+      prompt: 'Which of these is a price anchor in this module’s sense?',
       options: [
-        'A feeling linked to a touch so you can trigger it later',
-        'A first number that pulls later judgements of price toward it',
-        'The lowest price you are willing to accept',
-        'A discount offered to close the sale',
+        'Mentioning the $4,800 full system, which real customers buy, before the $1,900 core you think suits them',
+        'Touching their arm each time they laugh, so the good feeling comes back when you touch it again',
+        'Saying the price quickly so it does not have time to register',
+        'Offering 10 percent off if they sign today',
       ],
-      answer: 1,
-      explain: 'Tversky and Kahneman (1974). The first option is NLP anchoring, a different thing that is cut from this course.',
+      answer: 0,
+      explain: 'A real first number that sets the reference for the next one (Tversky & Kahneman, 1974). The touch is NLP anchoring, a different thing that is cut from this course.',
     },
     {
       id: 'm12-d5',
@@ -332,15 +394,15 @@ The study tested cheap purchases at the door. Whether the effect holds for large
     {
       id: 'm12-d9',
       type: 'choice',
-      prompt: 'What is the right order for disrupt-then-reframe?',
+      prompt: 'A friend says, "I failed my driving test again. I’m useless." Which response is the best first move?',
       options: [
-        'The frame, then the odd unit, then the price',
-        'A brief odd unit, then the exact figure, then a short true frame',
-        'The exact figure, then several minutes of confusing language',
-        'A long run-on sentence, then ask for the sale',
+        '"Look on the bright side, at least you get more practice!"',
+        '"Again, after all those lessons. That’s rough."',
+        '"Lots of people fail twice, it doesn’t mean anything."',
+        '"Think of it as an investment in becoming a safer driver."',
       ],
       answer: 1,
-      explain: 'One beat of disruption, then clarity. The disruption never replaces the exact figure, and the frame must be true.',
+      explain: 'Pace first. Every reframe offered before they feel heard sounds like being told their feeling is wrong. Once they have been heard, a light reframe (they got further this time, say, if it is true) has a chance.',
     },
     {
       id: 'm12-d10',
@@ -359,37 +421,37 @@ The study tested cheap purchases at the door. Whether the effect holds for large
     {
       id: 'm12-d11',
       type: 'choice',
-      prompt: 'A buyer opens with "I was thinking about $300." Your real price is $480. What does the anchoring research suggest?',
+      prompt: 'A client opens with "Our budget is about $1,200." Your real price for the job is $2,600. What is the best response?',
       options: [
-        'Their $300 is now pulling on your sense of what is reasonable, so state $480 clearly and without apology',
-        'You should immediately offer $400 to meet them halfway',
-        'Anchors only work on buyers, so it has no effect on you',
-        'You should invent a higher competitor price to cancel it out',
+        'State $2,600 clearly, once, and if you move, move by changing what they get rather than the number',
+        'Offer $1,900 right away to meet them halfway',
+        'Ignore it; anchors only work on buyers, not sellers',
+        'Mention an agency quote of $9,000 you have not actually seen',
       ],
       answer: 0,
-      explain: 'Anchors pull on everyone, including the seller. Notice it, then say your true number once, plainly.',
+      explain: 'Their $1,200 is pulling on your sense of what is reasonable. Notice it, say your true number plainly, and trade scope rather than shading the price. An invented quote is a fake anchor.',
     },
     {
       id: 'm12-d12',
       type: 'choice',
-      prompt: 'Why is disrupt-then-reframe a poor fit when your offer is clearly strong?',
+      prompt: 'Your offer beats the alternative clearly on both price and quality. How should you give the price?',
       options: [
-        'Because Davis and Knowles found it never works for expensive items',
-        'Because distraction helps weak arguments and hurts strong ones (Petty, Wells & Brock, 1976)',
-        'Because it is illegal to state prices in unusual units',
-        'Because buyers only respond to loss frames',
+        'Plainly: the exact figure, then the one or two strong reasons',
+        'In an odd unit inside a long run-on sentence, so they do not pick at it',
+        'Always with disrupt-then-reframe, because it is backed by research',
+        'Leave it until the paperwork so it does not spoil the mood',
       ],
-      answer: 1,
-      explain: 'Distraction stops people appreciating a good argument. Large purchases were simply not tested, which is different from "never works".',
+      answer: 0,
+      explain: 'Distraction helps weak arguments and hurts strong ones (Petty, Wells & Brock, 1976), and disrupt-then-reframe was only tested on cheap purchases. A strong case deserves to be heard clearly.',
     },
     {
       id: 'm12-d13',
       type: 'rewrite',
       prompt: 'Write the same true fact in a gain frame and then in a loss frame. Keep the numbers identical.',
-      given: 'Switching to the new tariff would cut their bill from $140 to $110 a month.',
+      given: 'Switching to the new rate plan would cut their bill from $140 to $110 a month.',
       models: [
-        'Gain: On the new tariff you keep $30 a month, so $360 a year back in your pocket.',
-        'Loss: At the moment, about $30 a month is going on a tariff you don’t need, which is $360 a year.',
+        'Gain: On the new plan you keep $30 a month, so $360 a year back in your pocket.',
+        'Loss: At the moment, about $30 a month is going on a plan you don’t need, which is $360 a year.',
       ],
       checklist: [
         'Both versions use the same figures',
@@ -401,9 +463,9 @@ The study tested cheap purchases at the door. Whether the effect holds for large
       id: 'm12-d14',
       type: 'rewrite',
       prompt: 'Pace this complaint, then offer a true context reframe.',
-      given: '"This van is slow off the line."',
+      given: '"This van is slow off the line." (It has low gearing for carrying heavy loads.)',
       models: [
-        'It is, it’s not quick away from the lights. That gearing is what lets it pull a full load up a hill without straining, which is where most of your days are.',
+        'It is, it’s not quick at a green light. That gearing is what lets it pull a full load up a hill without straining, which is where most of your days are.',
       ],
       checklist: [
         'Agrees with what is true in the complaint first',
@@ -429,15 +491,15 @@ The study tested cheap purchases at the door. Whether the effect holds for large
     {
       id: 'm12-d16',
       type: 'rewrite',
-      prompt: 'Write a disrupt-then-reframe line for this price. One beat of oddness, then the exact figure, then a true frame.',
-      given: 'A home water filter: $240 a year including all replacement cartridges.',
+      prompt: 'Fix this fake anchor. Keep the price, and replace the invented number with a real one.',
+      given: '"These normally go for $1,500, but for you, $900." (It has never been sold for $1,500. The store down the road sells the same model for $1,050, and yours includes installation.)',
       models: [
-        'That’s about sixty-five cents a day. So $240 a year, cartridges included, and you stop buying bottled water.',
+        'The same model is $1,050 at the store down the road. Ours is $900, and that includes installation.',
       ],
       checklist: [
-        'The odd unit is one short phrase',
-        'The exact figure is stated plainly',
-        'The frame is true for this buyer',
+        'Every number has a source you could show them',
+        'The price is stated exactly',
+        'No "normally" or "was" price that was never charged',
       ],
     },
   ],
@@ -446,7 +508,7 @@ The study tested cheap purchases at the door. Whether the effect holds for large
       id: 'm12-a1',
       kind: 'solo',
       title: 'Frame flips',
-      instructions: `Take five facts about something you sell or something you want (a price, a saving, a time cost, a risk). Write each one twice: once as a gain frame, once as a loss frame.
+      instructions: `Take five facts about something you sell or something you want (a price, a saving, a time cost, a risk). Write each one twice: once as a gain frame, once as a loss frame. Then say both out loud.
 
 Check every pair: are the numbers identical? Does either version leave out a cost, a contract or a condition? If it does, add it, and notice how the line changes.`,
       reps: 3,
@@ -462,9 +524,9 @@ Check every pair: are the numbers identical? Does either version leave out a cos
       id: 'm12-a2',
       kind: 'solo',
       title: 'Reframe notebook',
-      instructions: `For a week, write down complaints you hear or say yourself: about work, a product, a person, the weather. For each, write one context reframe ("in what situation would this be useful?") and one content reframe ("what else could this mean?").
+      instructions: `For a week, write down complaints you hear or say yourself: about work, a product, a person, the weather. For each, write a pace, then one context reframe ("in what situation would this be useful?") and one content reframe ("what else could this mean?").
 
-Cross out any reframe that is not actually true. Say the survivors out loud.`,
+Cross out any reframe that is not actually true. Say the survivors out loud, pace first.`,
       reps: 5,
       required: true,
       log: [
@@ -483,7 +545,7 @@ Cross out any reframe that is not actually true. Say the survivors out loud.`,
 
 > Three meetings moved in one day, that's annoying. Although it does sound like they really want you in the room.
 
-Notice whether they take it up in their own words, argue with it, or ignore it. All three tell you something.`,
+Notice whether they take it up in their own words, argue with it, or ignore it. All three tell you something. Skip anything that is really hurting them; that needs listening, not reframing.`,
       reps: 5,
       required: true,
       log: [
@@ -497,9 +559,9 @@ Notice whether they take it up in their own words, argue with it, or ignore it. 
       id: 'm12-a4',
       kind: 'everyday',
       title: 'Watch the first number',
-      instructions: `For a week, notice every price anchor that is used on you: the expensive bottle at the top of the wine list, the "from" price, the rent figure a landlord opens with, the first number in any negotiation.
+      instructions: `For a week, notice every price anchor that is used on you: the expensive bottle at the top of the wine list, the "from" price, the asking price on a house or a car, the first number in any negotiation. Write each one down.
 
-Then, once, set an honest anchor yourself: before you name a figure (a quote, a price, a request for time), mention a true number that gives it context.`,
+Then, at least once, set an honest anchor yourself: before you name a figure (a quote, a price, a request for time), mention one real number that gives it context, and be ready to say where it came from.`,
       reps: 3,
       required: false,
       log: [
@@ -513,22 +575,39 @@ Then, once, set an honest anchor yourself: before you name a figure (a quote, a 
       id: 'm12-a5',
       kind: 'chat',
       title: 'Role-play: too expensive',
-      instructions: `Run scenario **The too-expensive quote** with Claude. Get the buyer to work out what the problem costs them before you state the price. Use one gain or loss frame, and reframe the price objection once using the four steps.
+      instructions: `Run scenario **The too-expensive quote** with Claude. Get the buyer to work out what the problem costs her before you state the price. Use one gain or loss frame, and reframe the price objection once using the four steps.
 
 Run it twice. The second time, try the other frame (gain if you used loss, or the reverse) and compare.`,
       reps: 2,
       required: true,
       scenario: 'm12-s1',
       log: [
-        'What number did they give for the cost of the problem?',
-        'Which frame did you use, and how did they react?',
-        'Your reframe of the objection, and what they said next',
+        'What number did she give for the cost of the problem?',
+        'Which frame did you use, and how did she react?',
+        'Your reframe of the objection, and what she said next',
         'Did you ever let a frame stand in for a fact?',
-        'Would they be glad tomorrow that they talked to you?',
+        'Would she be glad tomorrow that she talked to you?',
       ],
     },
     {
       id: 'm12-a6',
+      kind: 'chat',
+      title: 'Role-play: the day rate',
+      instructions: `Run scenario **The day rate**. When the client opens with her budget, notice the pull of her number. Put one real anchor on the table, state your rate once, and if you move, move on scope, never on the number itself. Reframe one objection.
+
+Run it twice. The second time, try anchoring before she gives her budget.`,
+      reps: 2,
+      required: false,
+      scenario: 'm12-s2',
+      log: [
+        'Her opening number, and how it pulled on you',
+        'The real anchor you used, and where it came from',
+        'Did you hold your rate, or trade scope? What did she get for what?',
+        'Would she be glad she booked you, or that she talked to you if she did not?',
+      ],
+    },
+    {
+      id: 'm12-a7',
       kind: 'field',
       title: 'Price the problem first',
       instructions: `In five real sales or negotiation conversations, before you give your price, ask what the problem is costing them and let them work out the figure. Then state your price exactly, and add one true gain or loss frame.
@@ -547,7 +626,7 @@ Never supply their number for them. If they cannot put a figure on it, that is i
       ],
     },
     {
-      id: 'm12-a7',
+      id: 'm12-a8',
       kind: 'field',
       title: 'Reframe a real objection',
       instructions: `In real conversations, when you hear an objection that is a frame rather than a fact, use the four steps: pace, find what it protects, offer a true frame, let them reject it.
@@ -563,56 +642,42 @@ When you hear an objection that *is* a fact, do not reframe it. Log those too: k
         'Did the reframe help them see more clearly, or just make it harder to say no?',
       ],
     },
-    {
-      id: 'm12-a8',
-      kind: 'chat',
-      title: 'Role-play: the rent rise',
-      instructions: `Run scenario **The rent rise**. No selling, but a real negotiation. Use a true loss frame (what an empty flat costs the landlord), anchor with a real number, and reframe the landlord's objection once.`,
-      reps: 1,
-      required: false,
-      scenario: 'm12-s2',
-      log: [
-        'Which numbers did you put on the table first?',
-        'What frame moved the landlord, if any?',
-        'Was there a moment you were tempted to stretch a fact?',
-      ],
-    },
   ],
   scenarios: [
     {
       id: 'm12-s1',
       title: 'The too-expensive quote',
-      setting: 'Video call. You sell a bookkeeping service for small businesses at $350 a month.',
-      you: 'Get the buyer to put a figure on what doing the books themselves costs, state your price exactly, frame it truthfully, and reframe the price objection once.',
-      them: 'A café owner in her thirties who does the books herself on Sunday evenings. Sharp, busy, suspicious of monthly fees. Has missed two VAT deadlines and paid penalties she is embarrassed about. What she really wants is her Sundays back with her kids, though she leads with money.',
+      setting: 'Video call. You sell refrigeration maintenance contracts to restaurants and cafés: $350 a month on a twelve-month contract, covering quarterly servicing and free priority service calls.',
+      you: 'Get the owner to put a figure on what her fridge failures cost, state your price and terms exactly, frame them truthfully, and reframe the price objection once.',
+      them: 'A café owner in her thirties. Her walk-in cooler has failed twice this year: each time she threw away about $1,800 of stock and paid a $400 emergency service call, and the second time she closed for a day. Sharp, busy, and wary of contracts since a cleaning firm locked her into one. What she really wants is to stop getting the 6am call from her chef saying the fridge is warm again, though she leads with money. She will push to see if you claim servicing means it will never break.',
       objections: [
-        '$350 a month? I can do it myself for free.',
-        'That’s more than my coffee supplier costs.',
-        'I’ll just be more organised this year.',
+        '$350 a month? It’s only broken twice.',
+        'My cousin’s handy, he looks at it for free.',
+        'I’m not getting locked into another contract.',
       ],
       focus: ['Price anchors from the cost of the problem', 'Gain and loss frames', 'Reframing objections', 'Exact facts'],
-      win: 'She states, in her own words, what the Sunday evenings and the penalties cost her before hearing the price. You quoted $350 exactly and never shaded it. Whether she buys or not, she would take your next call.',
+      win: 'She works out, in her own words, what the two failures cost her before hearing the price. You quoted $350 and the twelve-month term exactly, never claimed it would stop every breakdown, and whether she signs or not she would take your next call.',
     },
     {
       id: 'm12-s2',
-      title: 'The rent rise',
-      setting: 'Phone call with your landlord. Everyday persuasion.',
-      you: 'Keep your rent increase smaller than the 12 percent the landlord has proposed, using true frames and real numbers.',
-      them: 'A landlord in his sixties who owns three flats and has just had his mortgage rate go up. Not greedy, just worried. Has had a bad tenant before and dreads an empty flat. Opens firmly but listens to numbers.',
+      title: 'The day rate',
+      setting: 'Phone call. You are a freelance video editor quoting for a two-minute product video: four days at your real rate of $650 a day, so $2,600.',
+      you: 'Hold your real rate against the client’s lower opening number, using an honest anchor and a true frame, and if anything changes, change the scope rather than the price.',
+      them: 'The marketing manager at a mid-sized outdoor furniture company. Friendly but under pressure. Her last freelancer was cheap and delivered a week late, the spring launch slipped, and her boss has not forgotten it. She has a real agency quote of $7,000 that she thought was too high. She opens with "our budget is about $1,200" to see what happens. What she really wants is something on time that makes her look good; what she fears is another late delivery on her watch.',
       objections: [
-        'Everyone’s putting rents up, it’s the market.',
-        'My costs have gone up, I can’t absorb it.',
-        'There are other people who’d take the flat tomorrow.',
+        'Our budget is about $1,200 for this.',
+        'I can find someone online for half that.',
+        'Could you do it for less if we skip the second round of changes?',
       ],
-      focus: ['Loss frames', 'Price anchors', 'Content reframes', 'Pacing his concern'],
-      win: 'He agrees to a smaller rise or to discuss it again with real figures, and the call ends warmly. Every number you used was one you could show him.',
+      focus: ['Their anchor pulling on you', 'Honest price anchors', 'Loss frames', 'Reframing objections'],
+      win: 'You state $650 a day and $2,600 once, without apology. Any reduction is a reduction in what she gets, said plainly. She understands exactly what she is paying for, and whether or not she books, she would call you for the next job.',
     },
     {
       id: 'm12-s3',
       title: 'The high-mileage car',
-      setting: 'Face to face on a used-car forecourt.',
+      setting: 'Face to face on a used-car lot.',
       you: 'Help a buyer see a high-mileage car fairly, using true reframes, without hiding any fact about it.',
-      them: 'A nurse in his twenties buying his first car on a tight budget. Has been told by his dad to "never buy anything over 100,000 miles". The car has 118,000 miles, a full service history, a new cambelt last year, and was mostly driven on motorways. He likes it but feels he is being foolish.',
+      them: 'A nurse in his twenties buying his first car on a tight budget. Has been told by his dad to "never buy anything over 100,000 miles". The car has 118,000 miles, a full service history, a new timing belt last year, and was mostly driven on highways. He likes it but feels he is being foolish.',
       objections: [
         'My dad says anything over a hundred thousand is a money pit.',
         'Why is it so cheap? What’s wrong with it?',

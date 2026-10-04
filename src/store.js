@@ -5,7 +5,7 @@
  */
 const KEY = 'persuasion-course.v1'
 
-const empty = () => ({ read: {}, drills: {}, rewrites: {}, reps: {}, latched: {}, runs: [], settings: {} })
+const empty = () => ({ read: {}, drills: {}, rewrites: {}, reps: {}, latched: {}, runs: [], review: {}, settings: {} })
 
 let state = load()
 

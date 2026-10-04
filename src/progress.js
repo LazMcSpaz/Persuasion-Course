@@ -88,7 +88,7 @@ export function fraction(m, st) {
 /** The role-play brief a learner pastes into a Claude chat. */
 export function rolePlayPrompt(s, m) {
   return [
-    `Let's run a sales and persuasion role-play. I'm practising "${m.title}" from my course.`,
+    `Let's run a sales and persuasion role-play. I'm practicing "${m.title}" from my course.`,
     '',
     `Setting: ${s.setting}`,
     `What I'm trying to do: ${s.you}`,
@@ -102,7 +102,7 @@ export function rolePlayPrompt(s, m) {
     `When I type "debrief", step out of character and give me:`,
     '1. Outcome, 0 to 10: did I get where I was trying to go?',
     '2. Trust, 0 to 10: would this person be glad tomorrow that they talked to me? Did anything feel like pressure or a trick?',
-    `3. Techniques I was practising (${s.focus.join(', ')}): quote each place I used one and say whether it landed.`,
+    `3. Techniques I was practicing (${s.focus.join(', ')}): quote each place I used one and say whether it landed.`,
     '4. The two weakest moments, each with a line I could have said instead.',
     `5. What counts as a win here: ${s.win} Did I get it?`,
     '',

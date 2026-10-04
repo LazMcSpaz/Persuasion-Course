@@ -50,18 +50,18 @@ Matching is not a trick laid over not listening. You cannot match someone's pace
 
 ## What to match
 
-- **Tempo.** A slow, careful talker often hears a fast talker as pushy. A fast talker often hears a slow one as dull. Move toward their speed.
-- **Volume.** Quiet people find loud people overwhelming. Bring yours into their range.
-- **Energy.** Excited, flat, tired, brisk. Meet them roughly where they are before you try to take the conversation anywhere.
-- **Turn length.** If they answer in five words, do not reply in fifty. If they tell long stories, you can take a little longer too.
+- **Tempo.** A slow, careful talker often hears a fast talker as pushy. A fast talker often hears a slow one as dull.
+- **Volume.** Quiet people find loud people overwhelming.
+- **Energy.** Excited, flat, tired, brisk.
+- **Turn length.** If they answer in five words, do not reply in fifty.
 
-Match within your own range. If they are very loud, get somewhat louder, not as loud. If they are upset, match the *intensity* with concern, never with anger. You are joining their level, not acting their part.
+## How to do it on a phone call
 
-Never copy an accent or a dialect. That is not matching; it is mockery, and it is noticed every time.
-
-## On the phone
-
-With no face to read, your voice carries everything. Listen to their first two or three sentences before you settle into your own pace.
+1. **Let them talk first.** Open with one short question and listen to their first two or three sentences before you settle into your own pace.
+2. **Ask yourself three things.** Fast or slow? Loud or quiet? Long turns or short?
+3. **Move about halfway toward them.** Slow down or speed up, drop or lift your volume, and cut or stretch your replies to roughly their length.
+4. **Hold it for the first minute,** then check: are their answers getting longer, their voice easier? That is the sign it is working.
+5. **If it feels like acting, ease back** toward your own voice. Halfway is enough.
 
 > (They speak slowly, with long pauses) "Well... we've been... thinking about it for a while."
 
@@ -69,13 +69,32 @@ With no face to read, your voice carries everything. Listen to their first two o
 
 On a video call it is still mostly voice, because the picture is small and slightly delayed. Get the voice right first.
 
+## Face to face
+
+A customer in a phone store talks quickly: "Yeah, yeah, I've seen the reviews. What's the battery like?" Give it back brisk and short:
+
+> Two days on a charge. What do you use it for most?
+
+A long, slow walk through the specifications would tell them you were not listening to how they asked.
+
 ## Everyday
 
-Your partner comes home drained and speaks quietly. Bursting in with high energy about your day, however good the news, will land badly. Drop your voice and slow down for the first minute. The news will keep.
+Your partner comes home drained and speaks quietly. Bursting in with high energy about your day, however good the news, will land badly.
+
+> (Softly) Long one? Sit down, I'll make you some tea.
+
+The news will keep for ten minutes.
+
+## Common mistakes
+
+- **Overshooting.** If they are very loud, get somewhat louder, not as loud. You are joining their level, not acting their part.
+- **Matching anger with anger.** With an upset caller, match the *intensity* with concern: quicker, more focused, never sharp.
+- **Copying an accent or dialect.** That is not matching, it is mockery, and it is noticed every time.
+- **Your "sales voice".** The bright, fixed tone many people use on calls matches nobody.
 
 ## What the research says
 
-The studies in this course are about copying posture, mannerisms and words. Matching voice has not been tested on its own as taught, so treat it as a close cousin of those findings, not a proven technique. Test it yourself: on your next few calls, match the caller's pace for the first minute on some calls and not on others, and log which calls felt easier.`,
+The studies in this course are about copying posture, mannerisms and words. Matching voice has not been tested on its own as taught, so treat it as a close cousin of those findings, not a proven technique. Test it yourself: match the caller's pace for the first minute on some calls and not on others, and log which felt easier.`,
       techniques: [
         {
           name: 'Matching voice tempo, volume and energy',
@@ -105,7 +124,7 @@ The video version of posture is how you sit in the frame. If they sit back from 
 
 ## Everyday
 
-A friend sits slumped on the sofa telling you about a bad week. You do not need to slump. Just do not perch on the edge of your seat looking keen. Settle back, slow down, and match the weight of the moment.
+A friend sits slumped on the sofa telling you about a bad week. You do not need to slump. Just do not perch on the edge of your seat looking eager. Settle back, slow down, and match the weight of the moment.
 
 ## How to tell if you are overdoing it
 
@@ -133,7 +152,13 @@ Not "dependable", not "good quality". Their word. To them, a paraphrase is a sma
 
 There is direct research on this. Waitresses who repeated customers' orders back word for word received larger tips than those who paraphrased (van Baaren and colleagues, 2003).
 
-Pick the **key** words, the ones with weight: the need, the worry, the thing they repeat. Echoing every sentence sounds like a parrot. One or two backtracks in a stretch of conversation is plenty.
+How to do it:
+
+1. Listen for the word with weight: the need, the worry, or the word they repeat.
+2. Say it back exactly, in a normal tone, as if confirming you have it.
+3. Follow with a short open question, or just pause and let them carry on.
+
+Echoing every sentence sounds like a parrot. One or two backtracks in a stretch of conversation is plenty. And say it flatly or warmly, never with a rising "*reliable*?", which can sound like disbelief.
 
 On a call, backtracking also tells them you are still there and following, which a nod does in person.
 
@@ -151,7 +176,7 @@ When you hear a feeling under the words, say what you hear, tentatively.
 
 > Seems like you're pretty excited about this.
 
-Putting a feeling into words reduced the brain's alarm response to it in research by Lieberman and colleagues (2007). That study was about people labelling their own feelings, so naming someone else's in conversation is a related use rather than the thing tested. What you can see for yourself is that people usually relax a little when they feel understood.
+Putting a feeling into words reduced the brain's alarm response to it in research by Lieberman and colleagues (2007). That study was about people labeling their own feelings, so naming someone else's in conversation is a related use rather than the thing tested. What you can see for yourself is that people usually relax a little when they feel understood.
 
 Three rules:
 
@@ -161,11 +186,11 @@ Three rules:
 
 ## Everyday
 
-> Partner: "The landlord still hasn't sent anyone about the boiler."
+> Partner: "The shop still can't look at the car till Friday."
 
-> You: "Still nobody. That's maddening."
+> You: "Till Friday? That's maddening."
 
-That is often the whole job. The plan for chasing the landlord can come after.`,
+That is often the whole job. The plan for getting through the week can come after.`,
       techniques: [
         {
           name: 'Backtracking (their key words, exactly)',
@@ -175,7 +200,7 @@ That is often the whole job. The plan for chasing the landlord can come after.`,
         {
           name: 'Naming the emotion you hear',
           evidence: 'mixed',
-          note: 'Labelling a feeling reduced the brain’s alarm response (Lieberman and colleagues, 2007). That was self-labelling; naming another person’s feeling in conversation has not been tested as such.',
+          note: 'Labeling a feeling reduced the brain’s alarm response (Lieberman and colleagues, 2007). That was self-labeling; naming another person’s feeling in conversation has not been tested as such.',
         },
       ],
     },
@@ -184,15 +209,16 @@ That is often the whole job. The plan for chasing the landlord can come after.`,
     {
       id: 'm01-d1',
       type: 'choice',
-      prompt: 'What did Chartrand & Bargh (1999) find?',
+      prompt: 'A caller speaks slowly, with long pauses. Which reply matches them best?',
+      quote: 'Caller: "I\'m... not sure... it\'s a lot of money for us."',
       options: [
-        'Deliberate mirroring makes any buyer more likely to buy',
-        'People unconsciously copy each other’s mannerisms, and being subtly copied raised liking',
-        'People can tell when they are being copied and dislike it every time',
-        'Copying someone’s voice is more powerful than copying their posture',
+        '"Totally get it! Lots of our customers say that, but honestly, once you see the savings you\'ll wonder why you waited!"',
+        '"Mm. It is a lot... What would it need to do... to feel worth it?"',
+        '"I understand. Let me run through the three payment options quickly so you can compare."',
+        '"Money\'s tight for everyone right now, so we\'ve built in a lot of flexibility."',
       ],
       answer: 1,
-      explain: 'The chameleon effect: copying happens naturally, and people whose mannerisms were quietly copied liked their partner more. It said nothing about sales or about voice.',
+      explain: 'Slower, shorter and with room in it, like theirs. The bright, fast reply and the quick run-through both pull away from their pace, and the last one answers a worry they did not quite say.',
     },
     {
       id: 'm01-d2',
@@ -210,15 +236,16 @@ That is often the whole job. The plan for chasing the landlord can come after.`,
     {
       id: 'm01-d3',
       type: 'choice',
-      prompt: 'What does Maddux, Mullen & Galinsky (2008) warn about?',
+      prompt: 'Which reply has tipped into parroting?',
+      quote: 'Customer: "We want something sturdy, because the kids wreck everything, and it has to fit the alcove."',
       options: [
-        'Mimicry only works in face-to-face sales',
-        'Mimicry that is noticed backfires',
-        'Mimicry makes negotiations take longer',
-        'Mimicry works only between people of the same age',
+        '"Sturdy. How old are the kids?"',
+        '"So you want something sturdy, because the kids wreck everything, and it has to fit the alcove."',
+        '"The kids wreck everything? Fair enough. Do you have the alcove measurements?"',
+        '"Sturdy and it fits the alcove. Let me show you two that do both."',
       ],
       answer: 1,
-      explain: 'Subtle mimicry helped negotiators reach deals, and mimicry that was noticed backfired. That is why this course teaches matching loosely and late.',
+      explain: 'Giving back the whole sentence sounds like a parrot, or like a training course. Pick the one or two words with weight and move on with a question.',
     },
     {
       id: 'm01-d4',
@@ -252,15 +279,15 @@ That is often the whole job. The plan for chasing the landlord can come after.`,
     {
       id: 'm01-d6',
       type: 'choice',
-      prompt: 'What did van Baaren and colleagues (2003) find about waitresses?',
+      prompt: 'You said "That sounds frustrating." The customer replies: "Not frustrated. Just tired of chasing it." What now?',
       options: [
-        'Those who paraphrased orders got larger tips',
-        'Those who smiled more got larger tips',
-        'Those who repeated orders back word for word got larger tips',
-        'Repeating orders made no difference to tips',
+        '"Well, it would frustrate me."',
+        '"Tired of chasing it. How many times have you had to chase?"',
+        '"Sorry, I didn\'t mean to put words in your mouth."',
+        '"OK. So, the good news is we can fix it today."',
       ],
-      answer: 2,
-      explain: 'Word-for-word repetition beat paraphrasing. It is the direct evidence for backtracking with their exact words.',
+      answer: 1,
+      explain: 'Being corrected is a gift: take their word ("tired of chasing it") and use it. Arguing, over-apologizing or jumping to the fix all ignore what they just told you.',
     },
     {
       id: 'm01-d7',
@@ -278,15 +305,15 @@ That is often the whole job. The plan for chasing the landlord can come after.`,
     {
       id: 'm01-d8',
       type: 'choice',
-      prompt: 'What did Lieberman and colleagues (2007) find about affect labelling?',
+      prompt: 'A colleague says: "I\'ve rewritten this report four times and he still wants changes." Which reply names the emotion and stops?',
       options: [
-        'Naming another person’s feeling makes them agree with you',
-        'Putting a feeling into words reduced the brain’s alarm response to it',
-        'Labelling feelings makes them stronger',
-        'People dislike having their feelings named',
+        '"Four times? That sounds exhausting."',
+        '"Four times? Have you tried asking him exactly what he wants before you start?"',
+        '"Don\'t worry, he does that to everyone."',
+        '"You\'re furious with him, aren\'t you?"',
       ],
-      answer: 1,
-      explain: 'Labelling a feeling calmed the brain’s alarm response. The study was about labelling your own feelings; naming someone else’s is a related use, which is why it is tagged mixed.',
+      answer: 0,
+      explain: 'It backtracks "four times", names a feeling tentatively and leaves space. The advice and the reassurance skip past the feeling, and "you\'re furious" tells them what they feel.',
     },
     {
       id: 'm01-d9',
@@ -296,7 +323,7 @@ That is often the whole job. The plan for chasing the landlord can come after.`,
         'Touching your chin a second after they touch theirs',
         'Speaking a little more slowly because they speak slowly',
         'Picking up their regional accent',
-        'Shifting your posture every time they shift theirs, straight away',
+        'Shifting your posture every time they shift theirs, right away',
         'Sitting back a minute or two after they sat back',
       ],
       answers: [0, 2, 3],
@@ -313,7 +340,7 @@ That is often the whole job. The plan for chasing the landlord can come after.`,
         'Lift your own energy and pace toward theirs, without matching the volume completely',
       ],
       answer: 3,
-      explain: 'Join their level within your own range. Calming them straight away tells them you are not with them, and matching full volume looks like an act.',
+      explain: 'Join their level within your own range. Calming them right away tells them you are not with them, and matching full volume looks like an act.',
     },
     {
       id: 'm01-d11',
@@ -361,11 +388,11 @@ That is often the whole job. The plan for chasing the landlord can come after.`,
     {
       id: 'm01-d14',
       type: 'rewrite',
-      prompt: 'Your partner says this. Write a reply that names the emotion tentatively and does not try to fix anything yet.',
-      given: 'That’s the third time this month the landlord’s ignored my email about the boiler.',
+      prompt: 'A friend says this. Write a reply that names the emotion tentatively and does not try to fix anything yet.',
+      given: 'That’s the third time my manager has moved my review. Third time.',
       models: [
-        'Third time this month. That sounds infuriating.',
-        'Ignored again? I’m guessing you’re pretty fed up by now.',
+        'Third time. That sounds infuriating.',
+        'Moved again? I’m guessing you’re pretty fed up by now.',
       ],
       checklist: [
         'Names a feeling with a tentative phrase ("sounds", "guessing", "seems")',
@@ -379,7 +406,7 @@ That is often the whole job. The plan for chasing the landlord can come after.`,
       prompt: 'This prospect answers in short, clipped sentences. Rewrite your long reply to match their turn length.',
       given: 'Prospect: "Busy. Ten minutes. What is it?" You: "Thanks so much for taking the time, I really appreciate it, I know how busy things get this time of year, so what I wanted to do today was walk you through a little about who we are and what we do and then maybe hear a bit about you."',
       models: [
-        'Ten minutes, got it. We help small firms cut payroll admin. Is payroll a headache for you right now?',
+        'Ten minutes, got it. We help small businesses cut payroll paperwork. Is payroll a headache for you right now?',
       ],
       checklist: [
         'Three short sentences or fewer',
@@ -393,9 +420,9 @@ That is often the whole job. The plan for chasing the landlord can come after.`,
       id: 'm01-a1',
       kind: 'solo',
       title: 'Spot natural matching',
-      instructions: `Watch a long, friendly interview or a chat show segment where two people get on well. Watch the first five minutes and the last five.
+      instructions: `Watch a long, friendly interview or a talk show segment where two people get along well. Watch the first five minutes and the last five.
 
-Note every time they move into step: posture, gestures, laughing at the same pace, speed of talking. Then find an interview where the two clearly do not get on and look for the difference.`,
+Note every time they move into step: posture, gestures, laughing at the same pace, speed of talking. Then find an interview where the two clearly do not get along and look for the difference.`,
       reps: 3,
       required: true,
       log: [
@@ -411,7 +438,7 @@ Note every time they move into step: posture, gestures, laughing at the same pac
       title: 'Widen your voice range',
       instructions: `You can only match a pace or volume you can comfortably reach. Read the same short paragraph aloud and record it three ways: slow and quiet, your normal speed, and fast and bright.
 
-Listen back. Which one sounded least like you? That is the one to practise, because some of the people you talk to live there.`,
+Listen back. Which one sounded least like you? That is the one to practice, because some of the people you talk to live there.`,
       reps: 3,
       required: true,
       log: [
@@ -536,7 +563,7 @@ If at any point you catch yourself tracking their movements, drop it and just li
       title: 'The rushed prospect',
       setting: 'Phone call. You sell payroll software to small businesses.',
       you: 'Build enough rapport in a short, brisk call that the prospect starts talking about what is going wrong with payroll.',
-      them: 'The owner of a twelve-person building firm, answering between site visits. Talks in short, clipped sentences. Hates being "sold to" and hangs up on people who waffle. Quietly spends every second Sunday doing payroll and resents it.',
+      them: 'The owner of a twelve-person construction company, answering between site visits. Talks in short, clipped sentences. Hates being "sold to" and hangs up on people who ramble. Quietly spends every other Sunday doing payroll and resents it.',
       objections: [
         'I’ve got five minutes. Go.',
         'We use a spreadsheet. It’s fine.',
@@ -550,10 +577,10 @@ If at any point you catch yourself tracking their movements, drop it and just li
       title: 'The damaged sofa',
       setting: 'In a furniture showroom. You work the customer service desk.',
       you: 'Calm a customer whose new sofa arrived damaged, by matching their intensity with concern, backtracking and naming the feeling, before you offer a fix.',
-      them: 'A customer who took a day off work for the delivery and found a torn arm on the sofa. Speaks loudly and fast. Expects to be fobbed off. Wants to feel taken seriously before hearing any solution. Fears losing another day off.',
+      them: 'A customer who took a day off work for the delivery and found a torn arm on the sofa. Speaks loudly and fast. Expects to be brushed off. Wants to feel taken seriously before hearing any solution. Fears losing another day off.',
       objections: [
         'I took a whole day off for this.',
-        'Don’t tell me to fill in a form.',
+        'Don’t tell me to fill out a form.',
         'Every time I call, it’s someone different.',
       ],
       focus: ['Matching energy with concern, not anger', 'Backtracking', 'Naming the emotion and pausing'],
@@ -561,16 +588,17 @@ If at any point you catch yourself tracking their movements, drop it and just li
     },
     {
       id: 'm01-s3',
-      title: 'The tired flatmate',
-      setting: 'At home in the evening. Everyday persuasion.',
-      you: 'Agree a fairer split of the cleaning with your flatmate without it becoming a row.',
-      them: 'A flatmate who has just finished a twelve-hour shift. Speaks slowly and quietly, sits slumped. Knows they have been slack about cleaning and feels guilty, which makes them defensive if pushed. Wants to feel understood, not lectured.',
+      title: 'The exhausted sister',
+      setting: 'Phone call with your sister at nine in the evening. Everyday persuasion.',
+      you: 'Agree on how the two of you will split organizing your mom’s seventieth birthday lunch, without it turning into an argument about who does more.',
+      them: 'Your sister, who has a four-month-old baby and has not slept properly in weeks. Speaks slowly and quietly, with long pauses, and sighs a lot. Feels guilty she has done nothing for the party so far, which makes her prickly if she feels rushed or judged. Wants to help and wants to be told it is fine to do a small part.',
       objections: [
-        'Can we not do this now?',
-        'I’ve been working constantly.',
+        'Can we do this another time? I’m wiped out.',
+        'You’re better at this stuff than me anyway.',
+        'I just don’t have the headspace right now.',
       ],
-      focus: ['Matching low energy and slow tempo', 'Backtracking', 'Naming the emotion'],
-      win: 'You agree a simple plan, or agree a better time to talk, and they leave the conversation feeling understood rather than told off.',
+      focus: ['Matching low energy, slow tempo and short turns', 'Backtracking', 'Naming the emotion'],
+      win: 'She takes on one small, clear job she chose herself, or you agree on a better time to talk, and she ends the call feeling understood rather than guilty.',
     },
   ],
 }

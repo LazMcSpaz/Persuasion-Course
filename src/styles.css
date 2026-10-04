@@ -534,3 +534,27 @@ details summary {
   max-width: calc(100% - 32px);
   z-index: 10;
 }
+
+.twin {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 0;
+}
+.card.mini {
+  margin: 4px 0;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 0.95rem;
+}
+.card.mini .muted {
+  font-size: 0.82rem;
+}
+.ref h3 {
+  margin-top: 6px;
+}
+.ref .eyebrow a {
+  text-decoration: none;
+}

@@ -30,7 +30,7 @@ Ask: *what has to be true for this sentence to make sense?*
 
 Then use the negation test. A presupposition survives when you turn the sentence negative.
 
-> I didn't realise you'd moved.
+> I didn't realize you'd moved.
 
 The sentence is negative, and it still assumes you moved. That is how you know "you moved" is presupposed, not stated.
 
@@ -38,7 +38,7 @@ The sentence is negative, and it still assumes you moved. That is how you know "
 
 A presupposition about a fact is still a claim, just one slipped past the listener's checking. "Since this will halve your bills" assumes it will halve their bills. If you have not shown that, it is a misrepresentation, and the quiet kind that comes back as a complaint.
 
-So the same rule as Module 4 holds. Presuppose **experiences** ("when you start to feel more settled") and **next steps they have signalled** ("before you show it to your partner"). State facts out loud, where they can be checked.`,
+So the same rule as Module 4 holds. Presuppose **experiences** ("when you start to feel more settled") and **next steps they have signaled** ("before you show it to your partner"). State facts out loud, where they can be checked.`,
       techniques: [
         {
           name: 'Presuppositions',
@@ -52,11 +52,19 @@ So the same rule as Module 4 holds. Presuppose **experiences** ("when you start 
       title: 'Time and order',
       body: `The two easiest presuppositions to use are about *when* and *in what order*. They let you talk about the next step as something that is going to happen, while the conversation stays on the details.
 
+## How to build any presupposition
+
+1. Decide what you want taken for granted: an **experience** (feeling settled, getting used to it) or a **step they have signaled** (showing their partner, a spring move).
+2. Put it after a presupposing word, so it becomes the background.
+3. Make the part in the foreground an easy question or a small suggestion. That is where their attention goes.
+
 ## Time
+
+**Formula:** *Before / once / when you [the step], [small question].*
 
 Words that place something in time assume that it happens: *before, after, during, while, when, once, since, as soon as, again, still, already, yet, start, stop, continue.*
 
-> Before you decide, have a look at the other model too.
+> Before you decide, take a look at the other model too.
 
 That assumes they will decide. The question in front of them is only whether to look at the other model.
 
@@ -64,13 +72,15 @@ That assumes they will decide. The question in front of them is only whether to 
 
 On a call, this assumes they will read it, and invites them to start reading it in their head now.
 
-> Are you still doing the school run yourself?
+> Are you still doing school drop-off yourself?
 
 To a friend, this assumes they were. A tiny "still" or "already" carries a whole history.
 
 You met "when", "as" and "while" in Module 5 as links. They do both jobs at once: they link two clauses, and they take the event they introduce for granted.
 
 ## Order
+
+**Formula:** *The first thing you'll [notice / want / do] is [a true detail].*
 
 Ordinals assume a sequence: *first, second, next, another, the last thing, one of the things.*
 
@@ -109,11 +119,13 @@ Asked of a partner holding three paint samples, it assumes they will try more th
 
 ## Awareness predicates
 
-Some verbs assume that what follows them is true, and only ask whether the person is aware of it: *know, realise, notice, be aware, understand, find, discover, see, recognise, appreciate.*
+Some verbs assume that what follows them is true, and only ask whether the person is aware of it: *know, realize, notice, be aware, understand, find, discover, see, recognize, appreciate.*
 
-> I don't know if you've realised yet how much time this frees up.
+**Formula:** *You may already [know / have noticed] [something true].*
 
-Whether they have realised is the open part. That it frees up time is taken as given. Since it is close to a fact, only say it once you have shown it.
+> I don't know if you've realized yet how much time this frees up.
+
+Whether they have realized is the open part. That it frees up time is taken as given. Since it is close to a fact, only say it once you have shown it.
 
 > You might already have noticed the kids are calmer since we stopped the screens at dinner.
 
@@ -125,6 +137,8 @@ Awareness predicates are also a clean way to deliver a true fact gently. "You ma
 
 Ask *how* something will happen and you assume it will: *how easily, how quickly, how much, how deeply, how comfortable.*
 
+**Formula:** *[I wonder / You might be surprised] how [easily / quickly] [the experience].*
+
 > You might be surprised how quickly the team takes to it.
 
 Taking to it is assumed. Only the speed is in question. This is the Loftus and Palmer finding in miniature: one loaded word sets the frame for the estimate.
@@ -133,15 +147,23 @@ Taking to it is assumed. Only the speed is in question. This is the Loftus and P
 
 A friend answers with *how much*, having accepted "easier" without noticing.
 
+> I'm curious how comfortable you'll find the first week of using it.
+
+On a follow-up call, the first week of using it is the background; comfort is the only question.
+
 ## Commentary adverbs
 
 Words that comment on the rest of the sentence assume the comment is fair: *fortunately, luckily, happily, naturally, surprisingly, interestingly, of course.*
+
+**Formula:** *[Fortunately / Luckily], [a true fact].* The fact must be exact; only the "good news" is a frame.
 
 > Fortunately, the install only takes a morning.
 
 The listener processes the fact, and "this is good news" comes along with it.
 
-> Happily, you don't need to sort all of this out today.
+> Happily, you don't need to figure all of this out today.
+
+> Luckily, the forecast's good for Saturday, so the move should be easy.
 
 Two to avoid: *obviously* and *of course* on something they did not know. Both suggest they should have known, and a buyer who feels slow stops asking questions.`,
       techniques: [
@@ -177,6 +199,12 @@ Both answers assume starting. The listener is choosing a date, not deciding whet
 
 On the phone, both assume the call.
 
+> Should we get your sister's present this weekend, or after payday?
+
+To a partner who already agreed you should get one, both assume buying it.
+
+**How to do it:** wait for the *whether* (they said yes to the demo, the call, the present). Then offer two real options for *when*, *which* or *how*. Both options must be ones you are genuinely happy to give.
+
 ## Illusion of choice and double binds
 
 When every option leads the same way, it is called an **illusion of choice**. Erickson used this deliberately and called the stronger forms **double binds**: a choice of *how* or *when* that takes the *whether* off the table. He might let a patient choose to go into trance quickly or slowly, in this chair or that one.
@@ -187,7 +215,7 @@ Parents do it without training:
 
 ## What the research says
 
-There are no controlled studies of double binds as taught, or of the illusion of choice as a persuasion technique. It is practitioner lore. If you want to know whether it works for you, test it: in ten booking moments where the person has already said they want to go ahead, alternate between "Would you like to book a time?" and "Would Tuesday or Thursday be better?", decided in advance, and log how many book.
+There are no controlled studies of double binds as taught, or of the illusion of choice as a persuasion technique. It is practitioner lore. If you want to know whether it works for you, test it: in ten booking moments where the person has already said they want to go ahead, alternate between "Would you like to book a time?" and "Would Tuesday or Thursday be better?", decided in advance, and log how many book. Ten is a small sample: treat a big gap as a hint worth testing again, and a small one as noise.
 
 ## The trust line
 
@@ -214,7 +242,7 @@ People who feel their freedom to choose is threatened push back, often by doing 
     {
       id: 'm07-l5',
       title: 'Presuppose what they have given you',
-      body: `Everything in this module comes down to one judgement: *have they given me this?*
+      body: `Everything in this module comes down to one judgment: *have they given me this?*
 
 ## Signals that license a presupposition
 
@@ -222,15 +250,13 @@ Listen for what the person has already taken for granted themselves.
 
 - "When we get the new system in..." They have presupposed getting it. You can too.
 - "My partner will want to see it." The next step is showing their partner. "Before you show it to them, what do you think they'll ask?" is following, not leading.
-- "I just want it sorted before the baby comes." The timeline is theirs.
+- "I just want it taken care of before the baby comes." The timeline is theirs.
 
 On a call, these signals are all in the words, so write them down as you hear them. Face to face, add what you calibrated in Module 2: the lean, the nod, the hand already on the product.
 
 ## Signals that do not
 
 Interest is not agreement. A question about price is not a decision to pay it. A friend who says "maybe" has not said yes, and "So when you come on Saturday..." will land as a trap.
-
-A presupposition that assumes a sale the person has not agreed to is pressure, and they feel it, even if they could not tell you why. The feeling gets attached to you.
 
 ## When you overreach
 
@@ -240,12 +266,16 @@ You will. Fix it out loud and early:
 
 That one line gives the freedom back. It usually buys more trust than the presupposition would have bought agreement.
 
+## When it is used on you
+
+Ask the Lesson 1 question of any sentence that seems to skip a step: *what has to be true for this to make sense, and did I agree to it?* "When we get you set up next week..." Did you say yes? If not, say so pleasantly: "I haven't decided yet."
+
 ## The shape to aim for
 
 Facts stated plainly. Experiences presupposed freely. Next steps presupposed only when they have pointed at them. And a door left open, every time.`,
       techniques: [
         {
-          name: 'Presupposing signalled steps',
+          name: 'Presupposing signaled steps',
           evidence: 'mixed',
           note: 'Presupposition shifts what people report (Loftus, 1975); assuming a choice they have not made invites reactance (Brehm, 1966). The combination is untested.',
         },
@@ -257,7 +287,7 @@ Facts stated plainly. Experiences presupposed freely. Next steps presupposed onl
       id: 'm07-d1',
       type: 'choice',
       prompt: 'What does this sentence presuppose?',
-      quote: 'Before you sign up, have a look at what other members say.',
+      quote: 'Before you sign up, take a look at what other members say.',
       options: [
         'That they have already read the reviews',
         'That they will sign up',
@@ -268,17 +298,17 @@ Facts stated plainly. Experiences presupposed freely. Next steps presupposed onl
       explain: '"Before you sign up" places signing up in time, so it is assumed. The open question is only whether to look at the reviews first.',
     },
     {
-      id: 'm07-d2',
+      id: 'm07-d17',
       type: 'choice',
-      prompt: 'What did Loftus (1975) find?',
+      prompt: 'Phone call. The prospect said, "I’ll need to show this to my business partner." Which line presupposes only what they have given you?',
       options: [
-        'A question that assumed a barn not in the film made people more likely to report seeing one',
-        'People shown a barn remembered it better when asked about it',
-        'Presuppositions make people more likely to buy',
-        'People can always tell when a question is leading them',
+        '"Before you show it to your partner, what do you think they’ll ask?"',
+        '"When we get you set up next week, I’ll send the login details."',
+        '"Once your partner signs off, we can start on the first."',
+        '"Your partner will obviously love it."',
       ],
       answer: 0,
-      explain: 'The question never said there was a barn; it assumed one, and the assumption reached memory. It says nothing directly about buying.',
+      explain: 'Showing it to the partner is the step they named, so presupposing it is following them. The others presuppose a setup, a sign-off or a reaction nobody has offered you, and "obviously" adds a claim on top.',
     },
     {
       id: 'm07-d3',
@@ -292,24 +322,24 @@ Facts stated plainly. Experiences presupposed freely. Next steps presupposed onl
       id: 'm07-d4',
       type: 'choice',
       prompt: 'Use the negation test. What is still assumed?',
-      quote: 'You didn’t realise how much you’d saved.',
+      quote: 'You didn’t realize how much you’d saved.',
       options: [
-        'That they realised',
+        'That they realized',
         'That they saved a lot',
         'That they saved nothing',
         'Nothing survives the negation',
       ],
       answer: 1,
-      explain: '"Realise" is an awareness predicate. Negating the realising leaves the saving untouched, which is how you know it is presupposed.',
+      explain: '"Realize" is an awareness predicate. Negating the realizing leaves the saving untouched, which is how you know it is presupposed.',
     },
     {
       id: 'm07-d5',
       type: 'choice',
       prompt: 'Which line uses an ordinal presupposition?',
       options: [
-        '"It comes in three colours."',
+        '"It comes in three colors."',
         '"It was the first model they made."',
-        '"I’d recommend the grey one."',
+        '"I’d recommend the gray one."',
         '"The first thing most people notice is how light it feels."',
       ],
       answer: 3,
@@ -319,9 +349,9 @@ Facts stated plainly. Experiences presupposed freely. Next steps presupposed onl
       id: 'm07-d6',
       type: 'multi',
       prompt: 'Tap every awareness predicate.',
-      options: ['realise', 'notice', 'deliver', 'be aware', 'install', 'discover'],
+      options: ['realize', 'notice', 'deliver', 'be aware', 'install', 'discover'],
       answers: [0, 1, 3, 5],
-      explain: 'Realise, notice, be aware and discover assume what follows them is true and only ask whether the person knows it. Deliver and install are plain actions.',
+      explain: 'Realize, notice, be aware and discover assume what follows them is true and only ask whether the person knows it. Deliver and install are plain actions.',
     },
     {
       id: 'm07-d7',
@@ -334,10 +364,10 @@ Facts stated plainly. Experiences presupposed freely. Next steps presupposed onl
     {
       id: 'm07-d8',
       type: 'choice',
-      prompt: 'A customer has just said, "I want this sorted before winter." Which "or" question presupposes only what they have given you?',
+      prompt: 'A customer has just said, "I want this done before winter." Which "or" question presupposes only what they have given you?',
       options: [
         '"Cash or card?"',
-        '"Shall I put you down for the premium or the deluxe?"',
+        '"Should I put you down for the premium or the deluxe?"',
         '"Do you want it or not?"',
         '"Would early or late November suit the install better?"',
       ],
@@ -345,17 +375,18 @@ Facts stated plainly. Experiences presupposed freely. Next steps presupposed onl
       explain: 'They gave you the timeline, so a choice inside it is following them. "Cash or card" and "premium or deluxe" assume a purchase they have not agreed to; "or not" is not a presupposition at all, just a blunt ask.',
     },
     {
-      id: 'm07-d9',
-      type: 'choice',
-      prompt: 'How should a course honestly tag double binds?',
+      id: 'm07-d18',
+      type: 'multi',
+      prompt: 'Tap every illusion of choice (every option leads the same way).',
       options: [
-        'Supported: Loftus proved them',
-        'Mixed: some studies for, some against',
-        'Unproven: no controlled studies of double binds as taught',
-        'Disproven: shown not to work',
+        '"Do you want to start this month or next?"',
+        '"Do you want to go ahead, or leave it for now?"',
+        '"Should we do the call at ten or at two?"',
+        '"Would you rather walk there or take the bus?"',
+        '"Would you like to hear about it, or should I let you look around?"',
       ],
-      answer: 2,
-      explain: 'Loftus tested presuppositions in memory questions, not double binds. Nobody has run a controlled test of double binds as taught, which is different from showing they fail.',
+      answers: [0, 2, 3],
+      explain: 'Starting, the call and getting there are assumed whichever option they pick. The other two include a real no. Illusions of choice and double binds have no controlled studies as persuasion techniques; they are honest only once the whether is already settled.',
     },
     {
       id: 'm07-d10',
@@ -400,7 +431,7 @@ Facts stated plainly. Experiences presupposed freely. Next steps presupposed onl
     {
       id: 'm07-d13',
       type: 'rewrite',
-      prompt: 'They have just said, "I’d like to try it." Rewrite your next line as an "or" choice that presupposes the step they have signalled.',
+      prompt: 'They have just said, "I’d like to try it." Rewrite your next line as an "or" choice that presupposes the step they have signaled.',
       given: 'Do you want to book a test drive?',
       models: [
         'Would Saturday morning or a weekday evening be better for the drive?',
@@ -418,11 +449,11 @@ Facts stated plainly. Experiences presupposed freely. Next steps presupposed onl
       prompt: 'A friend has said they want to get fitter and "might come along sometime". Rewrite this using a time presupposition and an awareness predicate, without assuming they have agreed to a date.',
       given: 'You should come to the gym with me.',
       models: [
-        'Before you come along, have a think about whether mornings or evenings suit you, and you might find it’s easier than you expect with someone else there.',
+        'Before you come along, think about whether mornings or evenings suit you, and you might find it’s easier than you expect with someone else there.',
       ],
       checklist: [
         'One time word (before, when, once) placing the visit in the future',
-        'One awareness predicate (find, notice, realise)',
+        'One awareness predicate (find, notice, realize)',
         'No date or commitment they have not given you',
       ],
     },
@@ -461,7 +492,7 @@ Facts stated plainly. Experiences presupposed freely. Next steps presupposed onl
       id: 'm07-a1',
       kind: 'solo',
       title: 'Presupposition hunt',
-      instructions: `Take three pieces of persuasive writing: an advert, a sales email you received, and something you wrote yourself. For each sentence, ask *what has to be true for this to make sense?*
+      instructions: `Take three pieces of persuasive writing: an ad, a sales email you received, and something you wrote yourself. For each sentence, ask *what has to be true for this to make sense?*
 
 Sort what you find into three piles: **facts**, **experiences** and **next steps**. Circle every presupposed fact that was never actually shown.`,
       reps: 3,
@@ -475,8 +506,8 @@ Sort what you find into three piles: **facts**, **experiences** and **next steps
     {
       id: 'm07-a2',
       kind: 'solo',
-      title: 'Twenty out loud',
-      instructions: `Pick something you sell, or something you want someone to agree to. Say twenty sentences out loud and record them: four each of time, ordinal, awareness predicate, adverb or adjective, and commentary.
+      title: 'Two dozen out loud',
+      instructions: `Pick something you sell, or something you want someone to agree to. Say 24 sentences out loud and record them: four each of time, ordinal, "or" choice, awareness predicate, adverb or adjective, and commentary. Use the formulas from the lessons.
 
 Listen back. Mark each one **E** (presupposes an experience), **S** (a next step) or **F** (a fact). Rewrite every F so the fact is stated plainly instead.`,
       reps: 2,
@@ -488,6 +519,37 @@ Listen back. Mark each one **E** (presupposes an experience), **S** (a next step
       ],
     },
     {
+      id: 'm07-a5',
+      kind: 'chat',
+      title: 'Role-play: the daycare visit',
+      instructions: `Run scenario **The daycare visit** with Claude. Your job: get to a booked trial morning using time, ordinal and "or" presuppositions, but only about steps the parents have signaled.
+
+Run it twice. The second time, every "or" question must come after a yes they actually gave.`,
+      reps: 2,
+      required: true,
+      scenario: 'm07-s1',
+      log: [
+        'Which presupposition moved things forward?',
+        'Where did you presuppose something they had not given you, and how did they react?',
+        'Did the cautious parent ever feel pushed?',
+        'Would they recommend you to a friend tomorrow?',
+      ],
+    },
+    {
+      id: 'm07-a8',
+      kind: 'chat',
+      title: 'Role-play: the roommate and the chore schedule',
+      instructions: `Run scenario **The roommate and the chore schedule**. No selling. Get the whether settled in their words first, then offer choices inside it.`,
+      reps: 1,
+      required: false,
+      scenario: 'm07-s3',
+      log: [
+        'When did they give you the whether?',
+        'Which choice did they pick?',
+        'Did they feel it was their idea? Would they say you were fair?',
+      ],
+    },
+    {
       id: 'm07-a3',
       kind: 'everyday',
       title: 'When, not whether',
@@ -495,7 +557,7 @@ Listen back. Mark each one **E** (presupposes an experience), **S** (a next step
 
 > Thai or the Italian place?
 
-> Do you want to call your mum before dinner or after?
+> Do you want to call your mom before dinner or after?
 
 The rule: only after the whether is settled. Notice how it feels to them. Most people experience a choice offered at that point as helpful.`,
       reps: 5,
@@ -513,11 +575,11 @@ The rule: only after the whether is settled. Notice how it feels to them. Most p
       title: 'Listen for theirs',
       instructions: `For a few days, listen for the presuppositions other people make about themselves:
 
-> When I finally get round to the garden...
+> When I finally get around to the yard...
 
-> Once I've sorted the car out...
+> Once I get the car fixed...
 
-Each one is a step they have already taken for granted. In at least three conversations, use theirs back to them ("When you get round to the garden, where will you start?") and notice how easily they run with it.`,
+Each one is a step they have already taken for granted. In at least three conversations, use theirs back to them ("When you get around to the yard, where will you start?") and notice how easily they run with it.`,
       reps: 3,
       required: false,
       log: [
@@ -525,23 +587,6 @@ Each one is a step they have already taken for granted. In at least three conver
         'What did you say back?',
         'How did they respond?',
         'Did using their assumption feel like help or like a lever? Would they say the same?',
-      ],
-    },
-    {
-      id: 'm07-a5',
-      kind: 'chat',
-      title: 'Role-play: the kitchen showroom',
-      instructions: `Run scenario **The kitchen showroom** with Claude. Your job: get to a measuring visit using time, ordinal and "or" presuppositions, but only about steps the couple have signalled.
-
-Run it twice. The second time, every "or" question must come after a yes they actually gave.`,
-      reps: 2,
-      required: true,
-      scenario: 'm07-s1',
-      log: [
-        'Which presupposition moved things forward?',
-        'Where did you presuppose something they had not given you, and how did they react?',
-        'Did the cautious partner ever feel pushed?',
-        'Would they recommend you to a friend tomorrow?',
       ],
     },
     {
@@ -566,9 +611,9 @@ Write the signal down the moment you hear it, so the log is honest about what th
       id: 'm07-a7',
       kind: 'field',
       title: 'Test the choice',
-      instructions: `The "or" close is unproven, so test it on yourself. Pick ten booking moments where the person has already said they want to go ahead. Before each one, flip a coin: heads, ask "Would you like to book a time?"; tails, ask "Would Tuesday or Thursday be better?"
+      instructions: `The "or" close is unproven, so test it in your own work. Pick ten booking moments where the person has already said they want to go ahead. Before each one, flip a coin: heads, ask "Would you like to book a time?"; tails, ask "Would Tuesday or Thursday be better?"
 
-Log every outcome, including the flat ones, and only look at the totals after all ten.`,
+Log every outcome, including the flat ones, and only look at the totals after all ten. Ten is a hint, not proof: if the gap is big, run ten more.`,
       reps: 10,
       required: false,
       log: [
@@ -578,41 +623,27 @@ Log every outcome, including the flat ones, and only look at the totals after al
         'Did the question feel like a convenience to them or a squeeze?',
       ],
     },
-    {
-      id: 'm07-a8',
-      kind: 'chat',
-      title: 'Role-play: the flatmate and the rota',
-      instructions: `Run scenario **The flatmate and the rota**. No selling. Get the whether settled in their words first, then offer choices inside it.`,
-      reps: 1,
-      required: false,
-      scenario: 'm07-s3',
-      log: [
-        'When did they give you the whether?',
-        'Which choice did they pick?',
-        'Did they feel it was their idea? Would they say you were fair?',
-      ],
-    },
   ],
   scenarios: [
     {
       id: 'm07-s1',
-      title: 'The kitchen showroom',
-      setting: 'In a kitchen showroom on a Saturday. You sell fitted kitchens.',
-      you: 'Get the couple to book a free measuring visit, by presupposing only the steps they signal. Never presuppose that they will buy.',
-      them: 'A couple expecting a baby in five months. One partner is keen and talks about timelines. The other is cautious, has been pressured by two showrooms already, and bristles the moment anyone assumes a decision. Both want the kitchen done before the baby, and the cautious one fears being locked in before they have seen the numbers.',
+      title: 'The daycare visit',
+      setting: 'Face to face, on a tour of a daycare center. You are the center director and handle enrollments.',
+      you: 'Get the parents to book a free trial morning for their daughter, by presupposing only the steps they signal. Never presuppose that they will enroll.',
+      them: 'Two parents touring with their one-year-old. One goes back to work in three months and keeps talking about the start date. The other is cautious: the last daycare asked for a deposit before they had sat down, and they bristle the moment anyone assumes a decision. Both want their daughter happy and settled before the return to work; the cautious one fears being locked in before they have seen the full fees.',
       objections: [
-        'We’re just looking today.',
-        'Every place we go tries to book us in for something.',
-        'Don’t we need to sort the budget first?',
+        'We’re just looking around today.',
+        'The last place wanted a deposit before we’d even sat down.',
+        'Don’t we need to see what the fees come to first?',
       ],
-      focus: ['Time presuppositions', 'Ordinal presuppositions', '"Or" choices', 'Presupposing signalled steps'],
-      win: 'They choose a date for the measuring visit themselves. The cautious partner never says or implies you are pushing. Any price you mention is exact.',
+      focus: ['Time presuppositions', 'Ordinal presuppositions', '"Or" choices', 'Presupposing signaled steps'],
+      win: 'They choose a date for the trial morning themselves. The cautious parent never says or implies you are pushing. Every fee and deposit you mention is exact.',
     },
     {
       id: 'm07-s2',
       title: 'After the good demo',
       setting: 'Video call. You sell scheduling software to small logistics firms.',
-      you: 'Agree a next step (a two-week trial with their team) after a demo that went well, presupposing only what they have signalled.',
+      you: 'Agree on a next step (a two-week trial with their team) after a demo that went well, presupposing only what they have signaled.',
       them: 'An operations lead who said during the demo, "this could fix our handover mess", and meant it. Was burned last year by a vendor who acted as if the deal was done after one call. Will test you by saying "I haven’t said we’re buying." Needs their director’s sign-off for anything paid.',
       objections: [
         'I haven’t said we’re buying.',
@@ -624,16 +655,16 @@ Log every outcome, including the flat ones, and only look at the totals after al
     },
     {
       id: 'm07-s3',
-      title: 'The flatmate and the rota',
+      title: 'The roommate and the chore schedule',
       setting: 'At home, in the kitchen. Everyday persuasion.',
-      you: 'Get your flatmate to agree to a cleaning rota, and to pick their own share of it.',
-      them: 'A friendly flatmate who agrees the flat is a mess and complained about the bathroom last week, but hates being told what to do and digs in when they feel managed. Works late on Tuesdays and Thursdays.',
+      you: 'Get your roommate to agree to a cleaning schedule, and to pick their own share of it.',
+      them: 'A friendly roommate who agrees the apartment is a mess and complained about the bathroom last week, but hates being told what to do and digs in when they feel managed. Works late on Tuesdays and Thursdays.',
       objections: [
         'I do clean, you know.',
-        'A rota feels a bit much for two people.',
+        'A schedule feels a bit much for two people.',
         'Can we talk about this later?',
       ],
-      focus: ['"Or" choices', 'Commentary adverbs', 'Presupposing signalled steps'],
+      focus: ['"Or" choices', 'Commentary adverbs', 'Presupposing signaled steps'],
       win: 'They say yes to the idea in their own words before you offer any choice, then pick their share themselves. They do not feel managed.',
     },
   ],

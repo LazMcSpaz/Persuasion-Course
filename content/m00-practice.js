@@ -1,55 +1,61 @@
 export default {
   id: 'm00',
-  title: 'How to Practise',
+  title: 'How to Practice',
   tagline:
     'Set up the loop that turns reading into skill: drill, role-play, field, log, and a trust check on every rep.',
   part: 'Foundations',
   lessons: [
     {
       id: 'm00-l1',
-      title: 'The loop',
-      body: `You can read every module in this course in a weekend and still freeze on your next sales call. Reading tells you what a skill looks like. Only saying the words, out loud, to people, over and over, makes them come out when you need them.
+      title: 'How the course works',
+      body: `You can read this whole course in a weekend and still freeze on your next sales call. Reading shows you what a skill looks like. Saying the words out loud, to people, many times, is what makes them come out when you need them. So the course is built on reps.
 
-So every module runs the same loop.
+## How a module is laid out
 
-1. **Learn.** Read the lessons. They are short on purpose.
-2. **Drill.** Answer the drills in the app until the patterns are easy to spot and easy to write.
-3. **Role-play.** Copy a scenario card into a Claude chat and run the conversation. Claude plays the other person.
-4. **Field.** Use the technique for real: first in low-stakes everyday talk, then in real sales and calls.
-5. **Log.** Write down what you said, what happened and what you would change.
+Every module has four tabs. Work through them left to right.
 
-Then you go round again with the next technique.
+1. **Learn.** Short lessons. Read one, then say its example lines out loud.
+2. **Drill.** Spot the pattern, pick the better line, fix a weak one. Graded drills mark themselves. For a rewrite, you write your own version, compare it with the examples and check off the checklist.
+3. **Practice.** The assignments. Each says how many reps it needs and has a **Log a rep** button.
+4. **Role-play.** Scenario cards to run with Claude.
 
-## Why the role-plays matter
+## What one rep is
 
-A role-play with Claude costs nothing. You can fail badly, start over and try the same moment five ways in ten minutes. A real buyer gives you one go. Use the chat to find your words, so the field is where you test them rather than invent them.
+A rep is one go at an assignment, logged: one recording, one conversation, one role-play run. You do it, then press **Log a rep** and answer the questions. A go you do not log does not count, because the log is where you learn from it.
 
-Say your lines out loud before you type them. A sentence that reads well can still trip your tongue. When you finish, ask Claude to step out of the role and tell you where it felt pushed and where it warmed up.
+Assignments run from private to public: **solo** (alone, out loud or on paper), **role-play** with Claude, **everyday** (a barista, a friend, a landlord) and **field** (a real sale or call). Get the awkwardness out where it is cheap. Use one new thing per conversation; try five and you will remember none of them.
 
-Claude is not a real customer. It will not show you a face, and it can be more patient or more stubborn than a person would be. The role-play is for reps and words. The field is for reality.
+## Running a role-play
 
-## Everyday before field
+1. On the Role-play tab, copy a scenario card.
+2. Paste it into a new Claude chat. Claude sets the scene and plays the other person.
+3. Play it out. Say each line out loud before you type it. A sentence that reads well can still trip your tongue.
+4. Type **debrief**. Claude steps out of character and scores the outcome and the trust, quotes where you used the techniques, and gives you a better line for your two weakest moments.
+5. Back in the app, log the rep under Practice.
 
-Each module has everyday assignments (a barista, a friend, a landlord) before field ones. A clumsy try with a friend costs nothing. A clumsy try on a big account costs a lot. Get the awkwardness out where it is cheap.
+A role-play costs nothing, so fail freely and try one moment five ways. But Claude is not a customer: there is no face, and it can be more patient or more stubborn than a real person. The chat is where you find your words. The field is where you test them.
 
-Use one new thing per conversation. Trying five techniques at once means you remember none of them and the other person notices all of them.
+## Passing
 
-## How the app unlocks the next module
+A module is **passed**, and the next one opens, when:
 
-A module is **passed**, and the next one opens, when three things are true:
-
-- your graded drills for this module stand at **80% or higher**
-- every rewrite drill is checked off against its examples
+- your graded drills stand at **80% or higher**
+- every rewrite drill is checked off
 - every **required** assignment that is not field work has all its reps logged
 
-**Field work does not hold you back**, because it waits on real conversations turning up. It keeps running while you move on, and the home screen lists what is still open. A module is **mastered** once its required field reps are logged too.
+Field reps wait on real conversations turning up, so they never hold you back. They keep running while you move on, and the module shows **Mastered** once they are logged. Optional assignments are extra reps for when something has not settled. A pass stays passed: redo the drills as often as you like.
 
-Optional assignments never block you. They are there for extra reps when a technique has not settled yet. And once a module is passed it stays passed: run its drills again as often as you like.`,
+## The rest of the app
+
+- **Log**: every rep you have logged, in one place. More on it in the next lesson.
+- **Timer**: a talk timer for the run-on sentence in Module 6.
+- **Review**: drills mixed from the modules you have passed. Ten minutes there now and then keeps old patterns sharp, and beats rereading.
+- **Reference**: every pattern in the course on one page, for looking something up before a call.`,
       techniques: [
         {
           name: 'The practice loop',
           evidence: 'unproven',
-          note: 'No controlled studies of this exact loop. Your log is the test: if the reps are not changing what happens in your conversations, change how you practise.',
+          note: 'No controlled studies of this exact loop. Your log is the test: if the reps are not changing what happens in your conversations, change how you practice.',
         },
       ],
     },
@@ -63,13 +69,13 @@ Every debrief in this course asks two questions:
 - **Did it work?** Did you get the meeting, the sale, the yes?
 - **Would they be glad tomorrow that they talked to you?**
 
-The second question is the trust ledger. A yes that someone regrets the next morning is a refund, a cancelled order or a friend who avoids you. Every log in every module asks some version of it, and you answer it honestly, even when the first answer is a happy one.
+The second question is the trust ledger. A yes that someone regrets the next morning is a refund, a canceled order or a friend who avoids you. Every log in every module asks some version of it, and you answer it honestly, even when the first answer is a happy one.
 
 The same rule runs through the whole course: be vague about **experience** if you like, but always be exact about **facts**. Price, terms, dates and what the thing does are never fuzzy.
 
 ## The field log
 
-Write each entry within the hour, while you still remember the words. Memory tidies conversations up. Within a day you will recall what you meant to say, not what you said.
+Every rep you log under Practice lands on the **Log** page, newest first, and can be filtered by kind. Write each entry within the hour, while you still remember the words. Memory tidies conversations up: within a day you recall what you meant to say, not what you said.
 
 A good entry has:
 
@@ -83,11 +89,13 @@ A useless entry says "went well, good rapport". You cannot learn from that next 
 
 > I said "so reliability matters most", she said "exactly, that's it" and started telling me about the last supplier.
 
+Every week or two, press **Copy as text for a review with Claude** on the Log page, paste it into a Claude chat and read what comes back. It asks what you are doing well, what keeps going wrong and what to practice next. One conversation is a story; twenty are a pattern you can fix.
+
 ## Recording yourself
 
 You cannot hear yourself while you talk. A recording can. Most people find, on first listen, that they talk faster than they thought, fill pauses with "um" and "so", and answer questions nobody asked.
 
-Record **yourself**: practising lines, explaining what you sell, your side of a role-play read aloud. Recording another person needs their permission, and in many places the law requires everyone on a call to agree. When in doubt, record only your own voice, or log the conversation from memory instead.
+Record **yourself**: practicing lines, explaining what you sell, your side of a role-play read aloud. Recording another person needs their permission, and in many places the law requires everyone on a call to agree. When in doubt, record only your own voice, or log the conversation from memory instead.
 
 Your first assignment is a **baseline**: a recording of how you talk now, before any technique. Keep it. In a few modules you will listen to it again, and it is the clearest measure of progress you will get.`,
       techniques: [
@@ -108,28 +116,41 @@ Your first assignment is a **baseline**: a recording of how you talk now, before
     {
       id: 'm00-d1',
       type: 'choice',
-      prompt: 'What order does each module’s practice loop run in?',
+      prompt: 'You have just finished playing a scenario with Claude. What do you do next?',
       options: [
-        'Field, log, learn, drill, role-play',
-        'Learn, role-play, drill, log, field',
-        'Learn, drill, role-play, field, log',
-        'Drill, field, learn, log, role-play',
+        'Close the chat; the practice is done',
+        'Type "debrief" for the scores and better lines, then log the rep under Practice',
+        'Start the scenario again right away without looking back',
+        'Ask Claude to write a script you can read out on your next call',
+      ],
+      answer: 1,
+      explain: 'The debrief is where Claude steps out of the role and tells you what landed and what felt pushed. Logging it is what makes the run count as a rep, and gives you something to compare next time.',
+    },
+    {
+      id: 'm00-d10',
+      type: 'choice',
+      prompt: 'Which of these counts as one rep?',
+      options: [
+        'Reading the lesson twice',
+        'Thinking through what you would say on tomorrow’s call',
+        'One real conversation where you tried the technique, logged within the hour',
+        'A week of trying the technique, logged once at the end',
       ],
       answer: 2,
-      explain: 'Learn the idea, drill until you can spot and write it, rehearse it with Claude, use it for real, then log what happened so the next round is better.',
+      explain: 'A rep is one go, done and logged. Reading and planning are not reps, and a week squashed into one entry loses the exact words you need to learn from.',
     },
     {
       id: 'm00-d2',
       type: 'choice',
-      prompt: 'What opens the next module?',
+      prompt: 'In Module 1 your drills are at 87%, the rewrites are checked off and every required non-field assignment is logged. The field assignment has 1 of 5 reps. What happens?',
       options: [
-        'Reading every lesson and finishing every assignment, optional ones included',
-        'Drills at 80% or higher, rewrites checked off, and the required assignments logged, with field work allowed to run on',
-        'A perfect drill score',
-        'Logging one field conversation',
+        'Module 2 stays locked until all five field reps are logged',
+        'Module 1 is passed and Module 2 opens; the field reps keep running toward Mastered',
+        'You lose the pass if a later drill retry drops you below 80%',
+        'You must redo the drills to 100% first',
       ],
       answer: 1,
-      explain: 'Drills at 80% or more, every rewrite checked off, and the required assignments logged. Field reps keep running toward mastery while you move on, and optional assignments never block you.',
+      explain: 'Field work waits on real conversations, so it never blocks you. The module is passed now and shows Mastered once the field reps are in. A pass stays passed, whatever later retries score.',
     },
     {
       id: 'm00-d3',
@@ -204,9 +225,9 @@ Your first assignment is a **baseline**: a recording of how you talk now, before
       id: 'm00-d8',
       type: 'rewrite',
       prompt: 'Rewrite this log entry so it would be useful a month from now.',
-      given: 'Call with the landlord about the repair. Went OK I think. He was a bit funny about it.',
+      given: 'Called the gym to cancel. Didn’t really go as planned. She was quite pushy.',
       models: [
-        'Phone, landlord, boiler repair. I said "it’s been out for nine days now". He went quiet, then said "I’ve had three tenants on at me this week". I pushed for a date instead of acknowledging that; next time I would say it sounds like a rough week first. Trust: yes, I was polite and exact about the dates.',
+        'Phone, gym, canceling my membership. I said "I’d like to cancel, please" and she asked "can I ask what’s made you want to leave?" I started explaining my budget and ended up agreeing to a three-month pause I did not want. Next time: "I’ve decided, I just need the cancellation confirmed by email." Trust: yes, I was polite and clear, and she had no reason to feel misled.',
       ],
       checklist: [
         'Names the situation in one line',
@@ -245,7 +266,7 @@ Save the file somewhere you will find it again. Name it with today's date.`,
       log: [
         'What did you talk about?',
         'How did it feel to record it?',
-        'Was every fact you said accurate, and would a listener trust it?',
+        'Where did you save it, and what is the file called?',
       ],
     },
     {
@@ -274,7 +295,13 @@ At the end of the week, record a second two minutes on a different topic and sco
       title: 'Your first role-play',
       instructions: `Run scenario **The friendly first call** with Claude. Nothing to use yet: talk as you normally would. The point is to learn how a role-play runs, start to finish.
 
-At the end, ask Claude to step out of the role and tell you one moment it felt listened to and one moment it felt pushed. Then log it as if it were real. Run it twice, and change one thing the second time.`,
+1. Open the scenario card on the Role-play tab and press copy.
+2. Paste it into a new Claude chat and send it. Claude sets the scene and starts in character.
+3. Play the call. Say each line out loud, then type it.
+4. When the call ends, type **debrief**. Read the scores, and ask one more question: where did it feel listened to, and where did it feel pushed?
+5. Come back here and press **Log a rep**.
+
+Run it twice, in two fresh chats, and change one thing the second time.`,
       reps: 2,
       required: true,
       scenario: 'm00-s1',
@@ -288,8 +315,8 @@ At the end, ask Claude to step out of the role and tell you one moment it felt l
     {
       id: 'm00-a4',
       kind: 'chat',
-      title: 'Role-play: asking a favour',
-      instructions: `Run scenario **The shift swap**. It is an everyday ask with no selling, so you can practise the loop without worrying about technique. Say your lines out loud before you type them.`,
+      title: 'Role-play: asking a favor',
+      instructions: `Run scenario **The shift swap**. It is an everyday ask with no selling, so you can practice the loop without worrying about technique. Say your lines out loud before you type them.`,
       reps: 1,
       required: false,
       scenario: 'm00-s2',
@@ -303,7 +330,7 @@ At the end, ask Claude to step out of the role and tell you one moment it felt l
       id: 'm00-a5',
       kind: 'everyday',
       title: 'First log entries',
-      instructions: `Pick three ordinary conversations this week where you wanted something, however small: asking a colleague for a file, booking a table, getting a friend to pick a film. Use no technique.
+      instructions: `Pick three ordinary conversations this week where you wanted something, however small: asking a colleague for a file, booking a table, getting a friend to pick a movie. Use no technique.
 
 Within an hour of each, write a log entry: situation, your words, their response, what you would change, and the trust answer. The habit is the assignment.`,
       reps: 3,
@@ -353,9 +380,9 @@ These entries are your baseline in the field, the way the recording is your base
     {
       id: 'm00-s1',
       title: 'The friendly first call',
-      setting: 'Phone call. You are following up with someone who filled in a form on your website asking for more information.',
-      you: 'Have a natural first conversation, find out what made them get in touch, and agree a sensible next step if there is one.',
-      them: 'A friendly small-business owner who filled in the form late one evening and half forgot about it. Busy but happy to talk for a few minutes. Wants to know if this is worth their time. Fears being trapped in a long sales process.',
+      setting: 'Phone call. You are following up with someone who filled out a form on your website asking for more information.',
+      you: 'Have a natural first conversation, find out what made them get in touch, and agree on a sensible next step if there is one.',
+      them: 'A friendly small-business owner who filled out the form late one evening and half forgot about it. Busy but happy to talk for a few minutes. Wants to know if this is worth their time. Fears being trapped in a long sales process.',
       objections: [
         'Oh right, I’d forgotten I did that.',
         'Can you just email me something?',
@@ -369,7 +396,7 @@ These entries are your baseline in the field, the way the recording is your base
       title: 'The shift swap',
       setting: 'Face to face at work. Everyday persuasion.',
       you: 'Ask a colleague to swap a Saturday shift with you so you can go to a family event.',
-      them: 'A colleague who is generous but has been asked for favours a lot lately and is starting to feel taken for granted. Has no plans that Saturday but values their weekends. Fears becoming the person everyone asks.',
+      them: 'A colleague who is generous but has been asked for favors a lot lately and is starting to feel taken for granted. Has no plans that Saturday but values their weekends. Fears becoming the person everyone asks.',
       objections: [
         'You’re the third person to ask me this month.',
         'What do I get out of it?',

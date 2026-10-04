@@ -14,11 +14,16 @@ export default {
 
 Freedman and Fraser (1966) found that people who agreed to a small request were more likely to agree to a larger one later. Later reviews find the effect real but **modest and variable**: it helps a little, sometimes, and it is not a lever that makes people do things.
 
-One common explanation is that people like to act in line with what they have just done. Having said yes to a small thing, a bigger related yes feels consistent. Whatever the reason, the practical lesson is modest too: a good first step makes the next one a little easier.
+A common explanation, not settled by the study, is that people like to act in line with what they have just done. Whatever the reason, the practical lesson is modest too: a good first step makes the next one a little easier. It will not rescue a weak offer or turn a no into a yes.
 
-## Small steps that are worth taking
+## How to build the ladder
 
-The honest version of foot-in-the-door is a ladder of steps, each of which is **worth doing on its own**, whether or not they ever buy.
+1. Write down the big yes you want.
+2. List the steps a person would naturally take before it.
+3. Keep only steps that are **worth doing on their own**, whether or not they ever buy.
+4. Ask for one step at a time, and let each one end cleanly.
+
+Steps that usually pass the test:
 
 - A fifteen-minute call to see if it fits
 - A sample, a trial, a site visit
@@ -27,7 +32,7 @@ The honest version of foot-in-the-door is a ladder of steps, each of which is **
 
 On the phone:
 
-> Rather than decide anything today, would it be useful if I sent over two case studies from firms your size? Have a look and we'll talk Thursday.
+> Rather than decide anything today, would it be useful if I sent over two case studies from firms your size? Take a look and we'll talk Thursday.
 
 Face to face:
 
@@ -35,11 +40,17 @@ Face to face:
 
 Everyday, with a friend:
 
-> Would you have a quick look at the first page of my application? Just tell me if it reads all right.
+> Would you take a quick look at the first page of my application? Just tell me if it reads all right.
 
 ## Where it turns into a trap
 
-A small yes engineered only to pull a big one out of someone is a manipulation, and people feel it the moment the second request arrives. The test: **if they stopped after this step, would they be better off for having taken it?** If yes, it is a real step. If the only value of the step is to you, drop it.`,
+A small yes engineered only to pull a big one out of someone is a manipulation, and people often feel it when the second request arrives. The test: **if they stopped after this step, would they be better off for having taken it?** If yes, it is a real step. If the only value of the step is to you, drop it.
+
+It also fails when the steps are hidden costs ("just sign to show interest", when the form commits them) or when you pile three small asks into one visit until saying no feels rude.
+
+## When it is used on you
+
+A tiny request from a seller ("can I just take your ZIP code?") is often the first rung. Ask yourself: would I take this step if nothing followed it? If yes, take it. If not, decline the small one, and the big one never arrives.`,
       techniques: [
         {
           name: 'Foot-in-the-door',
@@ -55,7 +66,7 @@ A small yes engineered only to pull a big one out of someone is a manipulation, 
 
 In Module 3 you met the yes set: a string of easy statements the listener agrees with before you lead. A **compliance set** is the same idea aimed at action: a run of easy agreements before a request.
 
-> You've been running the shop for eight years. You've got a good team. And you've said yourself that the till system is what slows Saturdays down. So it's worth seeing what a faster one would do?
+> You've been running the store for eight years. You've got a good team. And you've said yourself that the register system is what slows Saturdays down. So it's worth seeing what a faster one would do?
 
 There are no controlled studies of compliance sets or the yes set as taught. Foot-in-the-door is related, but it involved people actually doing something, not just nodding along. Treat compliance sets as unproven and test them.
 
@@ -63,7 +74,7 @@ There are no controlled studies of compliance sets or the yes set as taught. Foo
 
 A more useful habit is to **check agreement at each stage** of a conversation. Every check is a real question that could get a no, and every yes is a small, honest commitment.
 
-1. After discovery, summarise in their words: "So the main thing is that refunds take a week and customers are complaining. Have I got that right?"
+1. After discovery, summarize in their words: "So the main thing is that refunds take a week and customers are complaining. Have I got that right?"
 2. Before presenting, check the priority: "If we could get refunds down to a day, would that be worth looking at?"
 3. After presenting, check the fit: "How does that match what you'd need?"
 4. Then ask (next lesson).
@@ -93,35 +104,59 @@ If you cannot get a real yes at step 1, you have not understood the problem, and
     {
       id: 'm14-l3',
       title: 'The ask',
-      body: `A surprising number of conversations that should end in a decision end in a hint instead. "So, yeah, let me know." "Have a think." That leaves the other person to do the work of turning your hint into a question, and most people simply don't.
+      body: `A surprising number of conversations that should end in a decision end in a hint instead. "So, yeah, let me know." "Think it over." That leaves the other person to turn your hint into a question, and most people simply don't.
 
-## Ask clearly
+## The recipe
 
-A good ask is one sentence. It names what you are asking for, specifically, and what happens next.
+1. **One sentence: what, and when.**
+2. **Their reason, not yours.**
+3. **Stop talking.**
+4. **Take the answer well, yes or no.**
+
+## 1. One sentence
+
+Name exactly what you are asking for and what happens next.
 
 > Would you like to go ahead with the twelve-month plan, starting on the first?
 
-> Shall I book the installation for the week of the 14th?
+> Should I book the installation for the week of the 14th?
 
 > Can you take the kids on Thursday evenings, so I can do the course?
 
-Not "would you maybe like to think about possibly moving forward at some point". The vagueness you learned in Modules 4 to 6 is for experience. A request is a fact about what you want, and facts are exact.
+Not "would you maybe like to think about possibly moving forward". The vagueness of Modules 4 to 6 is for experience. A request is a fact about what you want, and facts are exact.
 
-## Give a real reason
+## 2. A real reason
 
-Langer, Blank and Chanowitz (1978) found that for a small request, almost any reason helped, even an empty one. For larger requests, only a **real** reason did. A purchase, a contract or a change at home is a larger request. Tie the ask to the reason they gave you:
+Langer, Blank and Chanowitz (1978) found that for a small request almost any reason helped, even an empty one. For larger requests only a **real** reason did. A purchase, a contract or a change at home is a larger request, so tie the ask to the reason *they* gave you:
 
-> Since the busy season starts in March, shall we get it installed in February?
+> Since the busy season starts in March, should we get it installed in February?
 
-## Then stop talking
+## 3. Then stop
 
-After the ask, say nothing. Do not add a discount, a second option, or a nervous joke. Silence after a clear question is not pressure; it is room to think. Filling it is usually the asker's discomfort, not the listener's need.
+Say nothing. No discount, no second option, no nervous joke. Silence after a clear question is room to think; filling it is usually the asker's discomfort. On the phone silence feels longer than it is, so count slowly in your head. Most people answer before five.
 
-On the phone, silence feels longer than it is. Count slowly in your head. Most people answer before five.
+## 4. After the answer
 
-## What the research says
+**After a yes**, confirm the details in one line, say what happens next, and stop selling:
 
-No controlled studies of "ask, then stay silent" as such. Test it on yourself: for each ask, log whether you spoke first or they did, and what they said.`,
+> Great. The technician will come on the 14th between eight and ten, and I'll email the price and terms tonight.
+
+**After a no**, thank them, ask one curious question, and leave a door they can use:
+
+> That's fine, thanks for being straight with me. Can I ask what tipped it?
+
+> Understood. If anything changes before spring, you've got my number.
+
+With a friend: "No problem at all, I'll ask around." Then drop it. Do not re-pitch in the same breath or offer a discount the moment they decline: it tells them your first price was not real and that no is the way to get a better one.
+
+## Common mistakes
+
+- Two asks in one ("go ahead, or would you rather a trial, or...").
+- An ask with no date, so nothing actually happens.
+- Talking over your own silence.
+- Arguing with a no, which costs you the next conversation.
+
+No controlled studies of "ask, then stay silent" as such. Log who spoke first after each ask, and what they said.`,
       techniques: [
         {
           name: 'A clear ask with a real reason',
@@ -138,39 +173,45 @@ No controlled studies of "ask, then stay silent" as such. Test it on yourself: f
     {
       id: 'm14-l4',
       title: 'Given, not extracted',
-      body: `There are two kinds of yes. One is **given**: the person has decided, and the yes is theirs. The other is **extracted**: the person has run out of ways to say no, or wants the conversation to end. On the day, they look the same on a contract.
+      body: `There are two kinds of yes. A **given** yes means the person has decided and the yes is theirs. An **extracted** yes means they have run out of ways to say no, or just want the conversation to end. On the contract, they look the same.
 
-## Reactance
+## Why extracted yeses come undone
 
-Brehm (1966) found that when people feel their freedom to choose is threatened, they push back, often by doing the opposite of what is asked. "You need to decide today." "Everyone in your position signs up." "I'm not leaving until we sort this out." Each line squeezes their freedom, and each invites resistance, now or later.
+Brehm (1966) found that when people feel their freedom to choose is threatened, they push back, often by doing the opposite. "You need to decide today." "Everyone in your position signs up." "I'm not leaving until we sort this out." Each line squeezes their freedom and invites resistance, now or later.
 
-## The trust cost
+Later is the expensive part: a cancellation, a refund request, an unanswered phone, a friend who quietly avoids you. No controlled studies measure that cost in sales, so measure it yourself with this module's one-week check.
 
-An extracted yes tends to come back as a cancellation, a refund, an unanswered phone, a friend who quietly avoids you. There are no controlled studies measuring that cost in sales, but the logic of reactance points the same way, and so does the trust ledger you have kept since Module 0. A yes they regret tomorrow is a no with a delay, and it costs you the referral as well.
+## How to tell them apart
 
-## Signs of each
+An extracted yes sounds like "I guess so", "Fine", "If you think so". A flat voice, a quick change of subject, no questions.
 
-An extracted yes sounds like: "I guess so." "Fine." "If you think so." A flat voice, a quick change of subject, no questions.
+A given yes sounds like questions about next steps, details added unprompted ("we'll need it before the 20th"), and "we" instead of "you". Calibrate against their own baseline (Module 2): flat for this person, not flat by a chart.
 
-A given yes sounds like: questions about next steps, details added unprompted ("we'll need it before the 20th"), and "we" instead of "you".
-
-When you hear the first kind, give them a way out:
+When you hear the first kind, hand the decision back:
 
 > You sound a bit unsure, and that's fine. Do you want to sleep on it? I'll call you Thursday at ten.
 
+> I'd rather you said no than said yes and regretted it. What's the hesitation?
+
 ## "But you're free"
 
-Carpenter (2013) pooled 42 studies and found that adding a phrase reminding people they are free to say no reliably raised compliance with requests. It works because it removes the threat reactance responds to. Pair it with your ask:
+Carpenter (2013) pooled 42 studies and found that adding a phrase reminding people they are free to say no reliably raised compliance with requests. It removes the threat reactance responds to. Put it straight after your ask:
 
-> Would you like to go ahead with it? And it's completely your call, there's no pressure either way.
+> Would you like to go ahead with it? It's completely your call.
+
+> Should we put you down for the demo on Tuesday at two? No obligation either way.
 
 > Could you help me move on Saturday? Totally fine to say no.
 
-It only works when you mean it. If you say "it's your choice" and then argue with their no, you have taught them that your freedom phrase is a trick.
+## Common mistakes
 
-## A rule for every ask
+- **Saying it and not meaning it.** "It's your choice" followed by an argument with their no teaches them that your freedom phrase is a trick, and it stops working.
+- **A freedom phrase welded to pressure.** "No pressure, but I need an answer now" cancels itself.
+- **Deadlines you invented.** If a deadline is real, state it as a fact ("the rate holds until Friday") and leave the choice with them.
 
-If they say no, accept it out loud: "That's fine, thank you for being straight with me." That sentence does more for your next conversation with them than any close.`,
+## When it is used on you
+
+If you notice you are about to say "fine" just to end a conversation, that is your own extracted yes. Say instead: "I'm not ready to decide. I'll get back to you by Friday."`,
       techniques: [
         {
           name: 'Avoiding reactance',
@@ -235,10 +276,10 @@ If they say no, accept it out loud: "That's fine, thank you for being straight w
       type: 'multi',
       prompt: 'Tap every clear ask.',
       options: [
-        '"Shall I book the installation for the week of the 14th?"',
+        '"Should I book the installation for the week of the 14th?"',
         '"So, yeah, let me know what you think at some point."',
         '"Would you like to go ahead with the annual plan from the first?"',
-        '"Maybe have a think and see how you feel."',
+        '"Maybe think it over and see how you feel."',
         '"Can you cover my Thursday shift on the 9th?"',
       ],
       answers: [0, 2, 4],
@@ -250,7 +291,7 @@ If they say no, accept it out loud: "That's fine, thank you for being straight w
       prompt: 'You have just asked clearly for the sale. What next?',
       options: [
         'Offer a small discount in case they hesitate',
-        'Add a second, cheaper option straight away',
+        'Add a second, cheaper option right away',
         'Explain the benefits again',
         'Stop talking and let them answer',
       ],
@@ -260,28 +301,28 @@ If they say no, accept it out loud: "That's fine, thank you for being straight w
     {
       id: 'm14-d6',
       type: 'choice',
-      prompt: 'According to reactance research (Brehm, 1966), what is a likely response to "You really need to decide today"?',
+      prompt: 'Which line is most likely to make a buyer push back?',
       options: [
-        'Pushback, possibly doing the opposite',
-        'Faster agreement, because of urgency',
-        'No effect either way',
-        'Greater trust in the seller',
+        '"You really need to decide today."',
+        '"The rate holds until Friday. Would you like to lock it in?"',
+        '"Would you like to go ahead? It’s your call."',
+        '"Take your time. Should I call you Thursday at ten?"',
       ],
       answer: 0,
-      explain: 'A threat to the freedom to choose provokes pushback. If a deadline is real, state it as a fact and leave the choice with them.',
+      explain: 'It squeezes their freedom to choose, and threats to freedom provoke pushback, often the opposite of what was asked (Brehm, 1966). The Friday line states a real deadline as a fact and leaves the choice with them.',
     },
     {
       id: 'm14-d7',
       type: 'choice',
-      prompt: 'What did Carpenter (2013) find?',
+      prompt: 'Which freedom phrase is used in a way that will keep working?',
       options: [
-        'Telling people they are free to refuse makes them refuse more',
-        'Freedom phrases only work in writing',
-        'Across 42 studies, reminding people they are free to say no reliably raised compliance',
-        'It works only when the request is very small',
+        '"It’s your call." Then, after their no: "Are you sure? Think what you’d save."',
+        '"You’re free to say no, but honestly you’d be crazy to."',
+        '"It’s entirely your call." Then, after their no: "That’s fine, thanks for being straight with me."',
+        '"No pressure at all, but I do need an answer before I leave."',
       ],
       answer: 2,
-      explain: 'A meta-analysis of 42 studies. Removing the threat to freedom removes the reason to push back. It still has to be meant.',
+      explain: 'Reminding people they are free to refuse raised compliance across 42 studies (Carpenter, 2013), because it removes the threat to freedom. The others take the freedom back in the same breath, which teaches the listener the phrase is a trick.',
     },
     {
       id: 'm14-d8',
@@ -289,7 +330,7 @@ If they say no, accept it out loud: "That's fine, thank you for being straight w
       prompt: 'Tap every sign that a yes was extracted rather than given.',
       options: [
         '"I guess so."',
-        'They ask when the engineer can come',
+        'They ask when the technician can come',
         'A flat voice and a quick change of subject',
         'They add, "We’ll need it before the 20th."',
         '"Fine, if you think so."',
@@ -313,28 +354,41 @@ If they say no, accept it out loud: "That's fine, thank you for being straight w
     {
       id: 'm14-d10',
       type: 'choice',
-      prompt: 'For a large request, what did Langer, Blank and Chanowitz (1978) find about reasons?',
+      prompt: 'Which ask gives the kind of reason that helps with a large request?',
       options: [
-        'Any reason at all helps, even an empty one',
-        'Reasons make no difference to large requests',
-        'Only a real reason helped',
-        'Giving a reason makes people suspicious',
+        '"Should we book it, because we need to get it booked?"',
+        '"Since your busy season starts in March, should we get it installed in February?"',
+        '"Should we go ahead? Honestly, it’s a great product."',
+        '"Should we sign today, because I’d love to hit my target?"',
       ],
-      answer: 2,
-      explain: 'Empty reasons helped only with small requests. For a purchase or a real favour, tie the ask to the reason they gave you.',
+      answer: 1,
+      explain: 'Empty reasons helped only with small requests; for larger ones only a real reason did (Langer, Blank & Chanowitz, 1978). The March line uses their reason. The first is empty, the third is praise, and the fourth is your reason, not theirs.',
     },
     {
       id: 'm14-d11',
       type: 'choice',
-      prompt: 'How strong is the evidence for compliance sets (a run of easy agreements before a request)?',
+      prompt: 'Which line is a compliance set rather than a single micro-agreement?',
       options: [
-        'Supported: it is the same as foot-in-the-door',
-        'Unproven: no controlled studies of it as taught',
-        'Supported by Carpenter (2013)',
-        'Refuted by Brehm (1966)',
+        '"You’ve run the store eight years, you’ve got a good team, and you said the register slows Saturdays. So it’s worth seeing a faster one?"',
+        '"So the main thing is that the register slows you down on Saturdays. Have I got that right?"',
+        '"How does that match what you’d need on a Saturday?"',
+        '"Would you like the new register installed on Monday the 3rd?"',
       ],
-      answer: 1,
-      explain: 'Foot-in-the-door involved actually doing something, not nodding along. Compliance sets have not been tested as taught, so test them yourself.',
+      answer: 0,
+      explain: 'A compliance set strings several easy agreements before a request. It has no controlled studies as taught, so treat it as unproven. A micro-agreement checks one thing that could honestly get a no; the last option is the ask itself.',
+    },
+    {
+      id: 'm14-d16',
+      type: 'choice',
+      prompt: 'You asked clearly and they said, "No, not this time." What is the best next line?',
+      options: [
+        '"That’s fine, thanks for being straight with me. Can I ask what tipped it?"',
+        '"Let me just run through the benefits once more."',
+        '"What if I took ten percent off?"',
+        '"OK, but the offer does end on Friday, so..."',
+      ],
+      answer: 0,
+      explain: 'Accept the no out loud, ask one curious question, and leave the door open. A discount right after a no tells them your first price was not real; re-pitching or pushing a deadline turns a clean no into a bad memory.',
     },
     {
       id: 'm14-d12',
@@ -368,9 +422,9 @@ If they say no, accept it out loud: "That's fine, thank you for being straight w
       id: 'm14-d14',
       type: 'rewrite',
       prompt: 'Write three micro-agreements for a sales call, one after discovery, one before presenting, one after presenting.',
-      given: 'You sell a scheduling app to a dental practice whose receptionists spend hours on the phone confirming appointments.',
+      given: 'You sell a scheduling app to a veterinary clinic whose receptionists spend hours on the phone confirming appointments.',
       models: [
-        '1. So the main thing is the receptionists spend most mornings on confirmation calls. Have I got that right? 2. If most of those confirmations happened by text instead, would that be worth looking at? 3. How does that fit with the way your patients like to be contacted?',
+        '1. So the main thing is the receptionists spend most mornings on confirmation calls. Have I got that right? 2. If most of those confirmations happened by text instead, would that be worth looking at? 3. How does that fit with the way your clients like to be contacted about their pets?',
       ],
       checklist: [
         'Each could honestly get a no',
@@ -382,9 +436,9 @@ If they say no, accept it out loud: "That's fine, thank you for being straight w
       id: 'm14-d15',
       type: 'rewrite',
       prompt: 'Write a clear everyday ask with a real reason and a freedom phrase.',
-      given: 'You want your flatmate to take on the bins and the recycling.',
+      given: 'You want your roommate to take on the trash and the recycling.',
       models: [
-        'Could you take over the bins and recycling from next week? I’m doing the cooking most nights now, so it would even things out. Totally fine to say no and we’ll work out something else.',
+        'Could you take over the trash and recycling from next week? I’m doing the cooking most nights now, so it would even things out. Totally fine to say no and we’ll work out something else.',
       ],
       checklist: [
         'Names exactly what and from when',
@@ -400,13 +454,18 @@ If they say no, accept it out loud: "That's fine, thank you for being straight w
       title: 'Your one-sentence ask',
       instructions: `Write the ask for what you sell, or for something you want from someone in your life, as one clear sentence: what, and when. Add a real reason and a freedom phrase.
 
-Record yourself saying it ten times. After each, stay silent for a slow count of five. The silence is the hard part; practise it until it feels normal.`,
+One rep is one session: record yourself saying the ask ten times. After each, stay silent for a slow count of five. The silence is the hard part; practice it until it feels normal.
+
+Then say your reply to a no out loud three times: thank them, ask one curious question, leave a door open.
+
+> That's fine, thanks for being straight with me. Can I ask what tipped it?`,
       reps: 3,
       required: true,
       log: [
         'Your ask, word for word',
         'Where did you hedge or rush, listening back?',
         'Could you hold the five seconds of silence?',
+        'Your reply to a no, word for word',
         'If you were on the receiving end, would this ask feel respectful?',
       ],
     },
@@ -429,7 +488,7 @@ Mark any step whose only value is to you. Replace it or remove it.`,
       id: 'm14-a3',
       kind: 'everyday',
       title: 'Ask plainly, then stop',
-      instructions: `Make five clear everyday requests: a favour, a swap, a change at home, a better table. One sentence, a real reason, a freedom phrase. Then say nothing until they answer.
+      instructions: `Make five clear everyday requests: a favor, a swap, a change at home, a better table. One sentence, a real reason, a freedom phrase. Then say nothing until they answer.
 
 > Could you drive on Saturday? I've done the last three trips. No worries if you can't.
 
@@ -448,7 +507,7 @@ If they say no, thank them out loud.`,
       id: 'm14-a4',
       kind: 'everyday',
       title: 'Have I got that right?',
-      instructions: `In conversations where someone tells you about a problem or a plan, summarise it in their words and ask, "Have I got that right?" Notice what they correct. That correction is usually the most important part.`,
+      instructions: `In conversations where someone tells you about a problem or a plan, summarize it in their words and ask, "Have I got that right?" Notice what they correct. That correction is usually the most important part.`,
       reps: 5,
       required: false,
       log: [
@@ -473,6 +532,21 @@ Run it twice. The second time, cut your ask to one sentence if it was longer.`,
         'Who spoke first after the ask?',
         'Was the yes given or extracted, and how could you tell?',
         'Would they be glad tomorrow that they talked to you?',
+      ],
+    },
+    {
+      id: 'm14-a8',
+      kind: 'chat',
+      title: 'Role-play: the buyer who hates pressure',
+      instructions: `Run scenario **The buyer who hates pressure**. Any push loses them. Use small real steps, a freedom phrase you mean, and a clear ask they can decline easily.`,
+      reps: 2,
+      required: false,
+      scenario: 'm14-s2',
+      log: [
+        'Where did you feel tempted to push?',
+        'What small step did they take?',
+        'Did they leave more relaxed than they arrived?',
+        'Would they be glad tomorrow that they came in?',
       ],
     },
     {
@@ -508,56 +582,42 @@ Compare the yeses you marked "given" with the ones you marked "extracted". This 
         'Do they still trust you?',
       ],
     },
-    {
-      id: 'm14-a8',
-      kind: 'chat',
-      title: 'Role-play: the buyer who hates pressure',
-      instructions: `Run scenario **The buyer who hates pressure**. Any push loses them. Use small real steps, a freedom phrase you mean, and a clear ask they can decline easily.`,
-      reps: 2,
-      required: false,
-      scenario: 'm14-s2',
-      log: [
-        'Where did you feel tempted to push?',
-        'What small step did they take?',
-        'Did they leave more relaxed than they arrived?',
-      ],
-    },
   ],
   scenarios: [
     {
       id: 'm14-s1',
       title: 'The friendly non-decider',
-      setting: 'Phone call. You sell a one-day customer-service training workshop to companies for $2,400.',
+      setting: 'Phone call. You sell a venue-and-catering package for company outings at a lakeside resort: $2,400 for up to sixty people.',
       you: 'Move a warm, chatty buyer from interest to a clear decision, using micro-agreements and one clear ask, without extracting a yes.',
-      them: 'An HR manager at a sixty-person logistics firm. Warm, talkative, agrees with everything in the abstract. Has been "about to book" two other suppliers this year and never did, because she dreads asking her director for budget. Wants the training; fears looking foolish if it disappoints.',
+      them: 'The office manager at a sixty-person logistics firm, organizing this year’s company outing. Warm, talkative, agrees with everything in the abstract. Has been "about to book" two other venues this year and never did, because she dreads asking her director for budget. Wants the day to happen; fears looking foolish in front of the whole company if it disappoints.',
       objections: [
-        'This all sounds great, let me have a think.',
+        'This all sounds great, let me think about it.',
         'I’ll need to run it past my director at some point.',
         'Can you send me some more information?',
       ],
       focus: ['Micro-agreements', 'A clear ask with a real reason', 'Silence after the ask', 'But you’re free'],
-      win: 'She agrees to a specific next step with a date, such as a call with her director next Tuesday, in a voice that sounds like her own decision. If she says no, you accept it warmly.',
+      win: 'She agrees to a specific next step with a date, such as holding the date provisionally and a call with her director next Tuesday at eleven, in a voice that sounds like her own decision. The price was stated exactly. If she says no, you accept it warmly.',
     },
     {
       id: 'm14-s2',
       title: 'The buyer who hates pressure',
-      setting: 'Face to face in a furniture showroom. You sell sofas from $1,200.',
+      setting: 'Face to face in a custom curtains and blinds studio. Curtains for a living room start at $1,200, installed.',
       you: 'Help a wary customer move toward a decision through small real steps, without triggering reactance.',
-      them: 'A retired teacher in her sixties who walked out of another shop last week when the salesman said the discount "ends today". Likes a particular sofa but needs to be sure of the colour in her living room. Any hint of pressure and she will leave politely and not come back.',
+      them: 'A retired teacher in her sixties who walked out of another store last week when the salesman said the discount "ends today". Likes one particular fabric but needs to be sure of the color in her own living room, which faces north. Any hint of pressure and she will leave politely and not come back.',
       objections: [
         'I’m just looking, thank you.',
         'I don’t like being rushed.',
         'I’ll come back another time.',
       ],
       focus: ['Avoiding reactance', 'But you’re free', 'Foot-in-the-door with real steps', 'Given, not extracted'],
-      win: 'She takes fabric samples home or books a time to come back, by her own choice, and leaves saying something like "you’ve been very helpful". You stated every price exactly.',
+      win: 'She takes fabric samples home or books a free measuring visit, by her own choice, and leaves saying something like "you’ve been very helpful". You stated every price exactly.',
     },
     {
       id: 'm14-s3',
-      title: 'The neighbour and the fence',
-      setting: 'Over the garden wall. Everyday persuasion with a neighbour.',
-      you: 'Get your neighbour to agree to share the cost of replacing the falling-down fence between your gardens, starting with a small real step.',
-      them: 'A busy father of three who has lived next door for ten years. Friendly but stretched for money and time. Knows the fence is bad but avoids the topic. Fears a big bill and an awkward argument with a neighbour he likes.',
+      title: 'The neighbor and the fence',
+      setting: 'Across the backyard. Everyday persuasion with a neighbor.',
+      you: 'Get your neighbor to agree to share the cost of replacing the falling-down fence between your yards, starting with a small real step.',
+      them: 'A busy father of three who has lived next door for ten years. Friendly but stretched for money and time. Knows the fence is bad but avoids the topic. Fears a big bill and an awkward argument with a neighbor he likes.',
       objections: [
         'It’s not that bad, is it?',
         'Money’s tight at the moment.',

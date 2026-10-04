@@ -16,11 +16,11 @@ Every true thing you say is a small moment where their mind checks and answers *
 
 - **What is happening now.** What they can see, hear or feel in the moment. "You've just come in out of the cold." On a call: "I can hear you're in the car."
 - **What they have told you.** Their own words, given back. This is backtracking from Module 1, put to a new use. "You mentioned the current supplier is late about once a month."
-- **What is true for nearly everyone.** Plain facts about life. "Moving house is a lot to organise." "Nobody likes finding out about a problem once it's expensive."
+- **What is true for nearly everyone.** Plain facts about life. "Moving is a lot to organize." "Nobody likes finding out about a problem once it's expensive."
 
 The first two are the strongest because they are about *this* person. The third earns its place at the very start of a call, when you know nothing yet.
 
-> You've got a lot on today, and you've still made time for this.
+> You've got a lot going on today, and you've still made time for this.
 
 > You've looked at three of these already this morning.
 
@@ -32,7 +32,21 @@ A truism has to be true, and true to *them*, not just to you. "This is a great t
 
 Keep them short and a little boring. If they have to stop and think about whether it's true, it is not a truism yet, it is a claim.
 
-And keep flattery out. "You're clearly a smart buyer" is not something they can check. It is something they can be suspicious of, and the first thing they wonder is what you want.`,
+And keep flattery out. "You're clearly a smart buyer" is not something they can check. It is something they can be suspicious of, and the first thing they wonder is what you want.
+
+## How to find them
+
+1. **Before the conversation**, write down three things you already know are true: why they called, what they bought last time, the time of day.
+2. **In the first minute**, look and listen for one more: the weather they came in from, the noise behind them on the call, the brochure in their hand.
+3. **As they talk**, collect their facts. Every one is a truism you can hand back later.
+
+> **On a video call:** You're dialing in from home today, and you've got the figures open already.
+
+> **Everyday:** You've had a long week, and it's only Wednesday.
+
+## Hearing them
+
+Salespeople, politicians and your teenager all use truisms. When someone opens with three things you cannot disagree with, notice it. It does not mean what comes next is wrong. It means that is the moment to check it.`,
       techniques: [
         {
           name: 'Truisms',
@@ -52,15 +66,27 @@ Milton Erickson worked this way with his patients. He would describe what was al
 
 Pace about three times, then lead once.
 
-> You've had the old boiler fourteen years. It's been repaired twice this winter. And you said the engineer can't get the parts any more. So it might be worth seeing what a replacement would involve.
+> **In their home:** You've had the old furnace fourteen years. It's been repaired twice this winter. And you said the technician can't get the parts anymore. So it might be worth seeing what a replacement would involve.
 
 Three things they know are true. Then one step they have not taken yet. The lead feels like the obvious next thing, because it starts from where they already stand.
 
 Now lead cold:
 
-> You should replace your boiler.
+> You should replace your furnace.
 
 Same suggestion. Nothing to agree with first, so the first thing they do is weigh it up and look for the flaw.
+
+## The recipe
+
+1. **Decide your lead first.** One small step: a question, a next step, a change of topic.
+2. **Pick three paces that point toward it.** True, checkable, and ideally in their words.
+3. **Say the paces at their speed.** Let each one land; a nod or an "mm" is enough.
+4. **Lead once.** Small, and phrased as the obvious next thing.
+5. **Check they followed.** If not, more pacing and a smaller lead.
+
+> **On a call:** You've got three people sharing one van. You said Fridays are the worst for clashes. And the booking sheet lives on the fridge. Would it help to see how other small teams handle it?
+
+> **Everyday:** We've both been working late all week. The fridge is empty. And neither of us wants to cook. Should we just order takeout and do the grocery shopping tomorrow?
 
 ## What counts as a lead
 
@@ -101,6 +127,15 @@ There are **no controlled studies** of the yes set as it is taught. It is practi
 
 There is a real finding nearby, and it is worth keeping apart. People who agree to a small *request* are more likely to agree to a larger one later (Freedman & Fraser, 1966), and later reviews call that effect real but modest. That is about doing something, not about saying "yes, that's right" to facts. Module 14 covers it. Do not borrow its evidence for the yes set.
 
+## How to build a good one
+
+1. **Pick two or three facts you genuinely need to confirm.** Who decides, how long they have had it, what has changed. Things you would ask anyway.
+2. **Ask them as real checking questions**, at an ordinary speed, and wait for each answer. A statement with "is that right?" on the end works too.
+3. **Make the last step small**, and make it follow from what they confirmed: "Would it be worth ten minutes...?", not "Should we sign you up?"
+4. **If any answer is a no**, good: you have learned something. Pace the correction and drop the ask you planned.
+
+> **Everyday:** You're off on Friday? And the car's free that day? And you said you wanted to see your sister before she moves? Should we drive up together?
+
 ## How to test it on yourself
 
 Run your next ten openings two ways, taking turns: half with three questions they can easily confirm before your ask, half going straight to the ask. Log what happens each time. Ten is not proof. It is better than taking anyone's word for it, including this course's.
@@ -113,7 +148,7 @@ The yes set has a bad name because of the obvious version:
 
 > Would you like to save money? Do you care about your family? Do you want the best for them?
 
-Everyone recognises that. None of it is about *this* person. They are loaded questions, and the listener can feel the trap being set. The moment they notice, they stop agreeing and start resisting.
+Everyone recognizes that. None of it is about *this* person. They are loaded questions, and the listener can feel the trap being set. The moment they notice, they stop agreeing and start resisting.
 
 The good version uses facts about them, asked because you genuinely want to confirm them, at an ordinary speed. If it sounds like a script, it is a bad yes set.`,
       techniques: [
@@ -127,7 +162,7 @@ The good version uses facts about them, asked because you genuinely want to conf
     {
       id: 'm03-l4',
       title: 'Pacing what they feel, think and want',
-      body: `So far you have paced things anyone could check: the weather, the boiler, what they said. You can also pace what is going on inside them: how they feel, what they are weighing up, what they want.
+      body: `So far you have paced things anyone could check: the weather, the furnace, what they said. You can also pace what is going on inside them: how they feel, what they are weighing up, what they want.
 
 This is often the pace that matters most. Someone who feels their worry has been heard will listen to the next thing you say. Someone whose worry has been stepped over spends the rest of the conversation waiting to bring it up again.
 
@@ -147,6 +182,8 @@ You cannot see an inner state, so you pace it from what they have given you:
 
 Each of those comes from something they said or showed you. That is what makes it a pace and not a guess.
 
+**How:** listen for the feeling word or the want ("nervous", "don't want to get it wrong", "just want it to work"). Give it back in their words, not a bigger one: if they said "a bit worried", do not say "terrified". Then pause, and let them add to it.
+
 ## Naming the feeling
 
 When the inner state is a feeling, putting it into words does real work. In brain-scanning research, naming a feeling reduced the brain's alarm response to it (Lieberman and colleagues, 2007). That is the basis for Module 1's "it sounds like that's been frustrating", and here it becomes a pace you can lead from:
@@ -159,7 +196,7 @@ Pace what they are reaching for, too.
 
 > You want the kitchen to be the room people actually sit in.
 
-A pace of what someone wants is a lead waiting to happen. The next step is simply towards it.
+A pace of what someone wants is a lead waiting to happen. The next step is simply toward it.
 
 ## When you are guessing
 
@@ -175,7 +212,7 @@ With no evidence, you are not pacing, you are guessing. A wrong guess about some
     {
       id: 'm03-l5',
       title: 'Pacing objections',
-      body: `An objection is where they are right now. Argue with it straight away and you are leading from a place they are not, so they dig in.
+      body: `An objection is where they are right now. Argue with it right away and you are leading from a place they are not, so they dig in.
 
 Pace it first. Say it back accurately, acknowledge what is true in it, and only then lead, with a small step.
 
@@ -244,10 +281,10 @@ Sometimes pacing an objection properly shows you that they are correct. It reall
       id: 'm03-d3',
       type: 'choice',
       prompt: 'Which part of this is the lead?',
-      quote: 'You’ve had the van eight years. It’s been in the garage three times since spring. And you said you need it every day for work. It might be worth looking at what’s out there.',
+      quote: 'You’ve had the van eight years. It’s been in the shop three times since spring. And you said you need it every day for work. It might be worth looking at what’s out there.',
       options: [
         '"You’ve had the van eight years."',
-        '"It’s been in the garage three times since spring."',
+        '"It’s been in the shop three times since spring."',
         '"You said you need it every day for work."',
         '"It might be worth looking at what’s out there."',
       ],
@@ -261,7 +298,7 @@ Sometimes pacing an objection properly shows you that they are correct. It reall
       options: [
         'Repeat the lead more firmly',
         'Go back to pacing, then try a smaller lead',
-        'Ask for the sale straight away',
+        'Ask for the sale right away',
         'Move on to a different product',
       ],
       answer: 1,
@@ -273,7 +310,7 @@ Sometimes pacing an objection properly shows you that they are correct. It reall
       prompt: 'Why is "Would you like to save money?" a weak start to a yes set?',
       options: [
         'A yes set must use statements, never questions',
-        'It is a loaded question, not a truth about this person, and people recognise the trap',
+        'It is a loaded question, not a truth about this person, and people recognize the trap',
         'Most people do not want to save money',
         'It is too long to say naturally',
       ],
@@ -283,22 +320,22 @@ Sometimes pacing an objection properly shows you that they are correct. It reall
     {
       id: 'm03-d6',
       type: 'choice',
-      prompt: 'What is the evidence for the yes set as it is taught?',
+      prompt: 'Phone call to a café owner about card readers. Which opening is the better yes set?',
       options: [
-        'Freedman & Fraser (1966) showed it works',
-        'There are no controlled studies; it is practitioner lore',
-        'Chartrand & Bargh (1999) showed it works',
-        'It is well established to raise sales',
+        '"Would you like lower fees? Do you want happy customers? So should we get you set up today?"',
+        '"You look after the card reader yourself? And you’re on a two-year contract that ends in May? And you said the fees went up in January? Would it be worth ten minutes to compare?"',
+        '"You’re obviously a smart business owner, right? And smart owners always shop around, don’t they?"',
+        '"Our fees are the lowest in town, aren’t they? So it makes sense to switch, doesn’t it?"',
       ],
       answer: 1,
-      explain: 'Freedman & Fraser studied agreeing to small requests, which is a different thing from saying yes to facts. Chartrand & Bargh studied mimicry. Nobody has tested the yes set itself, so test it yourself.',
+      explain: 'Each question checks a real fact about this person, and the ask at the end is small and follows from them. The others are loaded questions, flattery or your own claims with a tag on, and people feel the trap.',
     },
     {
       id: 'm03-d7',
       type: 'multi',
-      prompt: 'The customer said, "I’m worried my mum won’t manage the new controls." Tap every line that paces an inner state from evidence.',
+      prompt: 'The customer said, "I’m worried my mom won’t manage the new controls." Tap every line that paces an inner state from evidence.',
       options: [
-        '"You’re worried your mum might struggle with the controls."',
+        '"You’re worried your mom might struggle with the controls."',
         '"You’re clearly someone who worries a lot."',
         '"You want it simple enough for her."',
         '"Deep down you’re feeling guilty about her."',
@@ -328,7 +365,7 @@ Sometimes pacing an objection properly shows you that they are correct. It reall
         'Agreeing that it is overpriced',
         'Acknowledging what is true, that it costs more than they planned, without agreeing with the conclusion',
         'Switching the subject to quality',
-        'Offering a discount straight away',
+        'Offering a discount right away',
       ],
       answer: 1,
       explain: 'Agree with the fact, not the conclusion. You stay truthful and on their side without talking down your own product.',
@@ -358,10 +395,10 @@ Sometimes pacing an objection properly shows you that they are correct. It reall
     {
       id: 'm03-d12',
       type: 'rewrite',
-      prompt: 'At a garage. The customer said the car has made a knocking noise since last week, it was last serviced two years ago, and they are driving to Scotland next month. Turn this cold lead into pace, pace, pace, lead.',
+      prompt: 'At an auto repair shop. The customer said the car has made a knocking noise since last week, it was last serviced two years ago, and they are driving to Seattle next month. Turn this cold lead into pace, pace, pace, lead.',
       given: 'You should book the full service.',
       models: [
-        'It’s been knocking since last week. It’s two years since the last service. And you’ve got the drive to Scotland next month. It might be worth doing the full service before you go.',
+        'It’s been knocking since last week. It’s two years since the last service. And you’ve got the drive to Seattle next month. It might be worth doing the full service before you go.',
       ],
       checklist: [
         'Three paces they can verify',
@@ -377,7 +414,7 @@ Sometimes pacing an objection properly shows you that they are correct. It reall
       given: 'First minute of a video call with a prospect you have never met. They booked the call through your website.',
       models: [
         'You’ve made time for this in the middle of the week.',
-        'You booked this through the website, so you’ve had a bit of a look already.',
+        'You booked this through the website, so you’ve taken a look already.',
         'Most people who book a call like this are trying to sort out something that’s been bugging them for a while.',
       ],
       checklist: [
@@ -389,10 +426,10 @@ Sometimes pacing an objection properly shows you that they are correct. It reall
     {
       id: 'm03-d14',
       type: 'rewrite',
-      prompt: 'You want to book a holiday this week. Your partner says this. Pace what they feel, then lead one small step.',
-      given: 'I’m exhausted. I don’t want to think about the holiday.',
+      prompt: 'You want to book a vacation this week. Your partner says this. Pace what they feel, then lead one small step.',
+      given: 'I’m exhausted. I don’t want to think about the vacation.',
       models: [
-        'You’re exhausted, and the last thing you want is one more thing to organise. What if I narrow it down to two and you just pick one?',
+        'You’re exhausted, and the last thing you want is one more thing to organize. What if I narrow it down to two and you just pick one?',
       ],
       checklist: [
         'Paces the feeling in their own words',
@@ -404,7 +441,7 @@ Sometimes pacing an objection properly shows you that they are correct. It reall
     {
       id: 'm03-d15',
       type: 'rewrite',
-      prompt: 'You rent a flat and want the draughty windows fixed. Pace the landlord’s objection, then lead.',
+      prompt: 'You rent an apartment and want the drafty windows fixed. Pace the landlord’s objection, then lead.',
       given: 'I can’t afford to replace the windows this year.',
       models: [
         'Money’s tight this year, and windows are a big job. Could we look at sealing the two worst ones before winter and leave the rest until next year?',
@@ -439,7 +476,7 @@ Then cross out any that are opinions, flattery or claims they would have to take
       id: 'm03-a2',
       kind: 'solo',
       title: 'Pace three, lead one, out loud',
-      instructions: `Choose a lead you want to make: book a demo, try the product, agree a date. Say it out loud preceded by three paces. Record it on your phone.
+      instructions: `Choose a lead you want to make: book a demo, try the product, agree on a date. Say it out loud preceded by three paces. Record it on your phone.
 
 Do five different versions. Listen back and ask of each pace: would *they* nod at this? Ask of each lead: is it the next step, or the whole journey?`,
       reps: 5,
@@ -454,9 +491,9 @@ Do five different versions. Listen back and ask of each pace: would *they* nod a
       id: 'm03-a3',
       kind: 'everyday',
       title: 'Open with what is true',
-      instructions: `In five ordinary conversations (a shop assistant, a neighbour, a colleague), open with two truisms before you ask anything.
+      instructions: `In five ordinary conversations (a store clerk, a neighbor, a colleague), open with two truisms before you ask anything.
 
-> Busy one today. You've got a queue out the door. Have you got these in a larger size?
+> Busy one today. You've got a line out the door. Do you have these in a larger size?
 
 Notice how the person responds compared with how they usually do when you go straight to the question.`,
       reps: 5,
@@ -560,12 +597,12 @@ If pacing it shows you they are right, say so.`,
     {
       id: 'm03-s1',
       title: 'The guarded browser',
-      setting: 'In a showroom. You sell fitted kitchens.',
-      you: 'Open with truisms, pace their situation and what they want, and lead to one small step: booking a home measure.',
-      them: 'A couple in their thirties, three weeks into renovating an old house. The one who walks up to you does the talking and says "just looking" to every salesperson. Their budget is tight and a builder has already let them down. They open up when what you say about them is accurate, and close down at the first line that sounds like a script.',
+      setting: 'In a flooring showroom. You sell and install wood and vinyl floors.',
+      you: 'Open with truisms, pace their situation and what they want, and lead to one small step: booking a free in-home measurement.',
+      them: 'A couple in their thirties, three weeks into renovating an old bungalow. The one who walks up to you does the talking and says "just looking" to every salesperson. Their budget is tight and a contractor has already let them down, so they are afraid of being overcharged and left with a half-finished job. They want floors that will survive a dog and a toddler. They open up when what you say about them is accurate, and close down at the first line that sounds like a script.',
       objections: [
         'We’re just looking.',
-        'Kitchen places always try to upsell you.',
+        'Flooring places always try to upsell you.',
         'We’re not doing anything until the spring.',
       ],
       focus: [
@@ -579,13 +616,13 @@ If pacing it shows you they are right, say so.`,
     {
       id: 'm03-s2',
       title: 'The price objection on video',
-      setting: 'Video call. You sell bookkeeping software to small businesses.',
+      setting: 'Video call. You lease electric vans to small trades businesses. He test-drove one last week.',
       you: 'Pace each objection fully before leading, and find out whether price is the real issue.',
-      them: 'Owner of a three-person plumbing firm. Liked the demo, then said "It’s too expensive." That is the easiest way out of the conversation; the real worry is that learning new software will eat his evenings. Hates being argued with. Respects straight answers.',
+      them: 'Owner of a three-person plumbing company. Liked the test drive, then said "It’s too expensive." That is the easiest way out of the conversation; the real worry is running out of charge between jobs and losing a day’s work, and looking foolish in front of his guys. Hates being argued with. Respects straight answers, including "it won’t suit you".',
       objections: [
         'It’s too expensive for what it is.',
-        'I can do the books in a spreadsheet.',
-        'I haven’t got time to learn something new.',
+        'My diesel van works fine.',
+        'I haven’t got time to be hunting for chargers.',
       ],
       focus: [
         'Pacing objections',
@@ -593,21 +630,21 @@ If pacing it shows you they are right, say so.`,
         'Pacing what they feel',
         'Small leads',
       ],
-      win: 'He names the real worry himself. You never said "but". If the software genuinely does not suit him, you told him so.',
+      win: 'He names the real worry himself. You never said "but", and every figure you gave on range and cost was exact. If the van genuinely does not suit his work, you told him so.',
     },
     {
       id: 'm03-s3',
-      title: 'The landlord and the boiler',
-      setting: 'Phone call. Everyday persuasion. You rent a flat.',
-      you: 'Get the landlord to send an engineer this week, by pacing their position before you lead.',
-      them: 'A landlord with four properties, decent but stretched. Suspects tenants exaggerate, because a previous tenant called an engineer out for nothing. Worried about cost. Responds to facts and to being treated as reasonable.',
+      title: 'The school counselor',
+      setting: 'Phone call to your child’s school. Everyday persuasion.',
+      you: 'Get the school counselor to agree to a meeting this week about your daughter, who has been moved down to a lower math class and has stopped wanting to go to school, by pacing their position before you lead.',
+      them: 'A middle school counselor with two hundred students, fair-minded and overstretched. Gets several calls a week from parents who want their child moved up, and is wary of setting a precedent. Wants to be seen as fair to every family. Responds to facts about the child and to being treated as a professional, and digs in at any hint of being told how to do the job.',
       objections: [
-        'It was working fine last month.',
-        'Engineers charge a fortune just to turn up.',
-        'Can it wait until after the holidays?',
+        'We review placements at the end of the quarter.',
+        'Every parent thinks their child should be in the advanced class.',
+        'Can it wait until parent-teacher conferences?',
       ],
       focus: ['Truisms', 'The yes set (test it)', 'Pacing objections', 'Pace three, lead one'],
-      win: 'They agree a date. You described the boiler’s faults exactly, and they would pick up when you call next time.',
+      win: 'They agree on a meeting date. You described what has happened exactly, made no claim about the placement decision you could not back up, and they would take your call next time.',
     },
   ],
 }

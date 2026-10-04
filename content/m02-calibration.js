@@ -18,28 +18,39 @@ A man who fidgets the whole meeting tells you nothing by fidgeting. A man who ha
 
 ## What the research says
 
-Brief samples of behaviour carry real information. In research on "thin slices", short clips of people's behaviour were enough for observers to predict some real outcomes (Ambady & Rosenthal, 1992). So noticing is worth doing.
+Brief samples of behavior carry real information. In research on "thin slices", short clips of people's behavior were enough for observers to predict some real outcomes (Ambady & Rosenthal, 1992). So noticing is worth doing.
 
 But noticing is not knowing. Across many studies, people detect lies only slightly better than chance (Bond & DePaulo, 2006). Nobody can read a mind from a face, and you will not learn to in this module.
 
 So calibration gives you one honest piece of information: **something just changed**. It does not tell you *what*. You find that out by asking.
 
-## How to build a baseline
+## How to take a baseline in the first two minutes
 
-Use the first minutes of any conversation, while the talk is easy and nothing is at stake.
+1. **Start with easy talk.** Nothing at stake: the drive in, the weather, how their week is going.
+2. **Watch and listen for five things:** how fast and loud they talk, how long they pause before answering, how much they move and what their hands do, how they sit or stand, and the kind of words they use (certain or hedged, "we" or "I").
+3. **Pick the two or three that stand out** for this person. "Talks fast, leans back, says *definitely* a lot." That is enough to hold in your head.
+4. **Do not judge any of it.** You are learning their normal, not deciding what kind of person they are.
+5. **Write it down afterwards** in a line, so you can compare with what changed later.
 
-- How fast do they talk? How loudly?
-- How long do they pause before answering?
-- How much do they move, and what do their hands do?
-- How do they sit or stand when relaxed?
-- What kind of words do they use: certain or hedged, "we" or "I"?
+Easy openers that give you two minutes of relaxed talk:
 
-You are not judging any of it. You are learning their normal, so you can see when they leave it.`,
+> (In a showroom) Did you find us all right? The road construction is a nightmare.
+
+> (On a call) Is now still a good time? Sounds like a busy office.
+
+> (Everyday) How was the trip back?
+
+## Common mistakes
+
+- **Taking a baseline from someone who is not at ease.** If they arrive late, flustered or angry, your first read is of the traffic, not of them. Treat it as provisional and look again once they settle.
+- **Reading one signal.** A single pen tap means little. Several changes together, right after something you said, is worth noticing.
+- **Staring.** Calibration is noticing while you talk normally. If they feel watched, you have lost more than you learned.
+- **Turning it into a verdict.** "He's the defensive type" is a chart in disguise. Keep it to what you saw and heard.`,
       techniques: [
         {
           name: 'Calibrating to a personal baseline',
           evidence: 'mixed',
-          note: 'Brief behaviour carries real information (Ambady & Rosenthal, 1992), but reading meaning from it is unreliable (Bond & DePaulo, 2006). Calibration as taught has no controlled studies.',
+          note: 'Brief behavior carries real information (Ambady & Rosenthal, 1992), but reading meaning from it is unreliable (Bond & DePaulo, 2006). Calibration as taught has no controlled studies.',
         },
       ],
     },
@@ -86,6 +97,12 @@ When you notice a shift, treat it as a question, not an answer.
 
 If you are wrong, they will tell you, and nothing is lost. If you are right, you just found the real objection minutes before they would have raised it, or before they left without raising it at all.
 
+## Common mistakes
+
+- **Quizzing.** Three test questions in a row sounds like an interview. Slip them into ordinary talk.
+- **Sounding like a detective.** "You went a bit quiet there" is curious. "I saw your jaw tighten" is surveillance. Mention the plain, obvious change, lightly.
+- **Acting on the guess instead of asking.** Dropping the price because they paused answers a question nobody asked.
+
 ## What the research says
 
 There are no controlled studies of yes and no signals as taught. Test it yourself: when you notice a shift, write down what you think it means *before* you ask, then log whether you were right. After twenty predictions you will know how good your reading of this kind of person actually is.`,
@@ -112,13 +129,13 @@ There are no controlled studies of yes and no signals as taught. Test it yoursel
 - **Word choice.** This is the richest channel on a call. Listen for shifts:
   - "when we start" becoming "if we went ahead"
   - "definitely" becoming "probably"
-  - "we" becoming "I", or the other way round
+  - "we" becoming "I", or the other way around
   - new hedges: "I guess", "kind of", "I'd have to see"
 - **Background.** Typing, another voice, a door. They may have stopped listening.
 
 Here is what a shift sounds like:
 
-> (Early in the call) "Yeah, we'll need it running by March, the team's really keen."
+> (Early in the call) "Yeah, we'll need it running by March, the team's really excited."
 
 > (After the price) "Right. Yeah. I guess we'd... have to look at it."
 
@@ -136,12 +153,12 @@ You know your partner's "fine" that means fine and the "fine" that does not. Tha
 
 ## What the research says
 
-No controlled studies have tested calibration by voice as taught. The thin-slices research (Ambady & Rosenthal, 1992) suggests short samples of behaviour carry information, but it does not tell you which signals mean what for a given person. Keep a prediction log on your calls the same way you do in person.`,
+No controlled studies have tested calibration by voice as taught. The thin-slices research (Ambady & Rosenthal, 1992) suggests short samples of behavior carry information, but it does not tell you which signals mean what for a given person. Keep a prediction log on your calls the same way you do in person.`,
       techniques: [
         {
           name: 'Calibrating by voice and word choice',
           evidence: 'unproven',
-          note: 'No controlled studies of this as taught. Thin slices (Ambady & Rosenthal, 1992) is related only in showing that brief behaviour carries some information.',
+          note: 'No controlled studies of this as taught. Thin slices (Ambady & Rosenthal, 1992) is related only in showing that brief behavior carries some information.',
         },
       ],
     },
@@ -152,7 +169,7 @@ No controlled studies have tested calibration by voice as taught. The thin-slice
 
 ## It cannot detect lies
 
-People are only slightly better than chance at telling lies from truth (Bond & DePaulo, 2006). A buyer who looks away while giving you their budget is not lying because they looked away. They may be doing sums. They may be shy. They may always look away when talking about money.
+People are only slightly better than chance at telling lies from truth (Bond & DePaulo, 2006). A buyer who looks away while giving you their budget is not lying because they looked away. They may be doing the math. They may be shy. They may always look away when talking about money.
 
 Never accuse anyone on the strength of a signal, out loud or in your head.
 
@@ -188,15 +205,15 @@ That last one is the trust side of this module. If you notice someone getting un
     {
       id: 'm02-d1',
       type: 'choice',
-      prompt: 'What is calibration?',
+      prompt: 'Which of these is calibrating rather than reading from a chart?',
       options: [
-        'Reading body language from a standard chart of meanings',
-        'Learning one person’s normal and noticing change from it',
-        'Detecting when someone is lying',
-        'Copying someone’s posture to build rapport',
+        '"She touched her nose, so she isn’t sure about it."',
+        '"He has fidgeted all meeting, and he went still the moment I mentioned the warranty."',
+        '"Her arms are crossed, so she has closed off."',
+        '"He looked away when he answered, so he is hiding something."',
       ],
       answer: 1,
-      explain: 'Calibration is personal: this person’s baseline, then change from it. Charts read everyone the same, and copying posture is matching, from the last module.',
+      explain: 'Calibration compares this person with their own normal and notes when they changed. The others give a gesture the same meaning for everyone, which is the chart.',
     },
     {
       id: 'm02-d2',
@@ -214,28 +231,28 @@ That last one is the trust side of this module. If you notice someone getting un
     {
       id: 'm02-d3',
       type: 'choice',
-      prompt: 'What did Bond & DePaulo (2006) find?',
+      prompt: 'A buyer glances away while telling you their budget. What can you honestly conclude?',
       options: [
-        'Trained observers can reliably spot lies from the face',
-        'People detect lies only slightly better than chance',
-        'Liars always avoid eye contact',
-        'Lies are easier to detect on the phone',
+        'Their real budget is higher than they said',
+        'They are lying',
+        'Not much yet: compare it with how they usually look when they talk, and if it matters, ask',
+        'They are trying to get you to drop the price',
       ],
-      answer: 1,
-      explain: 'Across many studies, lie detection was only slightly better than a coin toss. Calibration does not change that.',
+      answer: 2,
+      explain: 'People detect lies only slightly better than chance (Bond & DePaulo, 2006). They may be doing the math or always look away when money comes up. A glance is a reason to check, never a verdict.',
     },
     {
       id: 'm02-d4',
       type: 'choice',
-      prompt: 'What is the fair lesson from the "thin slices" research (Ambady & Rosenthal, 1992)?',
+      prompt: 'Your prospect arrives ten minutes late, apologizing, talking fast and checking their phone. What do you make of the first two minutes?',
       options: [
-        'Your first impression of someone is always right',
-        'Brief behaviour carries real information, so noticing is useful, but certainty is not',
-        'You can predict whether someone will buy within thirty seconds',
-        'Body language matters more than words',
+        'This is their baseline: fast, distracted and impatient',
+        'A first read only: they are flustered from being late, so look again once they have settled',
+        'A sign they are not serious about buying',
+        'Nothing; you cannot calibrate someone who is late',
       ],
       answer: 1,
-      explain: 'Short samples of behaviour predicted some outcomes. That makes noticing worthwhile. It does not make your snap judgement reliable about any one person.',
+      explain: 'A baseline is how someone is when they are at ease. Right now you are seeing the traffic. Give them a few minutes of easy talk and take your read again.',
     },
     {
       id: 'm02-d5',
@@ -272,7 +289,7 @@ That last one is the trust side of this module. If you notice someone getting un
       prompt: 'You mention the price. The buyer, who has been chatty, goes quiet and looks at their partner. What do you do?',
       options: [
         'Carry on; they have not objected',
-        'Offer a discount straight away',
+        'Offer a discount right away',
         'Ask: "I noticed you looked at each other when I said the price. Is that a sticking point?"',
         'Decide they cannot afford it and wrap up',
       ],
@@ -330,7 +347,7 @@ That last one is the trust side of this module. If you notice someone getting un
         'They are sitting back in their chair',
       ],
       answer: 2,
-      explain: 'Several signals changing together, straight after a specific thing you said. One gesture, a habit they arrived with, or a posture with no change behind it tells you much less.',
+      explain: 'Several signals changing together, right after a specific thing you said. One gesture, a habit they arrived with, or a posture with no change behind it tells you much less.',
     },
     {
       id: 'm02-d12',
@@ -364,7 +381,7 @@ That last one is the trust side of this module. If you notice someone getting un
     {
       id: 'm02-d14',
       type: 'rewrite',
-      prompt: 'Your friend is usually chatty and has just answered "Sure, fine" to helping you move house on Saturday. Write a line that checks the change without accusing them.',
+      prompt: 'Your friend is usually chatty and has just answered "Sure, fine" to helping you move on Saturday. Write a line that checks the change without accusing them.',
       given: 'Sure, fine.',
       models: [
         'You went a bit quiet there. Honestly, if Saturday’s a pain, just say, I can find someone else.',
@@ -381,7 +398,7 @@ That last one is the trust side of this module. If you notice someone getting un
       prompt: 'Write two opening questions for a video call that will show you this person’s relaxed yes and a harmless no.',
       given: 'Video call with a new prospect, booked through their assistant.',
       models: [
-        'Yes: "Your assistant said you’re based in the Leeds office, is that right?" No: "I’m guessing you haven’t had a chance to look at the deck yet?"',
+        'Yes: "Your assistant said you’re based in the Salt Lake City office, is that right?" No: "I’m guessing you haven’t had a chance to look at the deck yet?"',
       ],
       checklist: [
         'One question with an easy, likely yes',
@@ -427,7 +444,7 @@ Write down what you think each shift means, then keep listening to see whether t
       id: 'm02-a3',
       kind: 'chat',
       title: 'Role-play: the polite couple',
-      instructions: `Run scenario **The polite couple**. Claude will describe tone, pauses and body language in brackets. Use the opening to learn each person's baseline, notice when one of them shifts, and check it with a question.
+      instructions: `Run scenario **The polite couple**. Claude will describe tone, pauses and body language in parentheses. Use the opening to learn each person's baseline, notice when one of them shifts, and check it with a question.
 
 Run it three times. Each time, write down your guess about what the shift means before you ask.`,
       reps: 3,
@@ -458,7 +475,7 @@ Run it three times. Each time, write down your guess about what the shift means 
       id: 'm02-a5',
       kind: 'everyday',
       title: 'Find their yes and no',
-      instructions: `With three people this week (a friend, a colleague, a shop assistant), ask two or three easy questions you already know the answers to, including at least one harmless no.
+      instructions: `With three people this week (a friend, a colleague, a store clerk), ask two or three easy questions you already know the answers to, including at least one harmless no.
 
 Note what their yes and no look and sound like. Notice how different the three people are.`,
       reps: 3,
@@ -516,7 +533,7 @@ Log the prediction and what they told you. Add these to your running count of hi
       title: 'Notice discomfort and ease off',
       instructions: `In five more real conversations, watch specifically for signs that the other person is uncomfortable or feeling pushed. When you see them, ease off out loud:
 
-> No rush on any of this. Would it help to take it away and talk again Thursday?
+> No rush on any of this. Would it help to think it over and talk again Thursday?
 
 Log what happened next, including whether the deal survived.`,
       reps: 5,
@@ -533,13 +550,13 @@ Log what happened next, including whether the deal survived.`,
     {
       id: 'm02-s1',
       title: 'The polite couple',
-      setting: 'In a kitchen showroom. You sell fitted kitchens.',
+      setting: 'In the model home on a new housing development. You are the sales consultant.',
       you: 'Learn each partner’s baseline, notice when one of them shifts, and check it with a question so the real concern comes out.',
-      them: 'A couple in their thirties. One is chatty and enthusiastic about the design. The other is quieter and polite, agrees with everything, and has a real worry about the cost and the six weeks without a kitchen, which shows only in small changes. Claude plays both and describes tone, pauses and body language in brackets.',
+      them: 'A couple in their thirties with a six-year-old, looking at a three-bedroom house. One is chatty and already placing furniture in every room. The other is quieter and polite, agrees with everything, and has a real worry: the mortgage would be a stretch, and moving means their daughter changing schools. It shows only in small changes when price, closing dates or the area come up. Claude plays both and describes tone, pauses and body language in parentheses.',
       objections: [
-        'It all looks lovely.',
+        'It all looks really nice.',
         'We’ll probably need to think about it.',
-        'How long would we be without a kitchen?',
+        'When would we actually close?',
       ],
       focus: ['Finding each person’s baseline', 'Noticing change rather than reading a chart', 'Checking a shift with a question'],
       win: 'The quieter partner names the real worry because you asked about something you noticed, not because you claimed to read them. Both would come back to you.',
@@ -549,7 +566,7 @@ Log what happened next, including whether the deal survived.`,
       title: 'The quiet IT manager',
       setting: 'Phone call. You sell a cybersecurity training service.',
       you: 'Calibrate by voice and word choice alone, and find out what is holding them back.',
-      them: 'An IT manager who agreed to the call because their director asked them to. Speaks evenly and quite slowly. Worried the training will make their own team look bad. Shows it only in voice: longer pauses, a sigh, "we" becoming "they", hedges creeping in. Claude describes only what can be heard on a phone line, in brackets.',
+      them: 'An IT manager who agreed to the call because their director asked them to. Speaks evenly and quite slowly. Worried the training will make their own team look bad. Shows it only in voice: longer pauses, a sigh, "we" becoming "they", hedges creeping in. Claude describes only what can be heard on a phone line, in parentheses.',
       objections: [
         'We already do some of that in-house.',
         'I’d have to run it past my director.',
@@ -563,7 +580,7 @@ Log what happened next, including whether the deal survived.`,
       title: 'The friend who says yes',
       setting: 'Video call with a friend. Everyday persuasion.',
       you: 'Ask a friend to give a short speech at your fortieth birthday, and make sure that if they say yes, they mean it.',
-      them: 'A close friend who hates public speaking but finds it hard to say no to people they love. Says yes quickly but with a flat voice and a pause first, unlike their usual enthusiasm. Claude describes tone and visible reactions in brackets.',
+      them: 'A close friend who hates public speaking but finds it hard to say no to people they love. Says yes quickly but with a flat voice and a pause first, unlike their usual enthusiasm. Claude describes tone and visible reactions in parentheses.',
       objections: [
         'Yeah, sure, of course.',
         'How long would it have to be?',

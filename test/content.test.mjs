@@ -158,3 +158,18 @@ test('the role-play brief carries the card and the debrief', () => {
   assert.match(p, /debrief/)
   assert.match(p, /Trust, 0 to 10/)
 })
+
+test('the pattern reference points at real modules and keeps the house style', async () => {
+  const { reference } = await import('../content/reference.js')
+  const ids = new Set(modules.map((m) => m.id))
+  const names = new Set()
+  for (const g of reference)
+    for (const it of g.items) {
+      assert.ok(ids.has(it.module), `${it.name}: module ${it.module}`)
+      assert.ok(EVIDENCE.has(it.evidence), `${it.name}: evidence`)
+      assert.ok(it.what && it.example, `${it.name}: what and example`)
+      assert.ok(!names.has(it.name), `${it.name} listed twice`)
+      names.add(it.name)
+      for (const s of strings(it)) assert.ok(!/[—–]/.test(s), `long dash in ${it.name}`)
+    }
+})

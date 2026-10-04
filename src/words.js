@@ -7,8 +7,8 @@ export const nominalizations = [
 ]
 
 export const verbs = [
-  'notice', 'discover', 'realise', 'wonder', 'learn', 'feel', 'enjoy', 'find', 'imagine',
-  'understand', 'begin', 'allow', 'appreciate', 'consider', 'explore', 'recognise', 'experience',
+  'notice', 'discover', 'realize', 'wonder', 'learn', 'feel', 'enjoy', 'find', 'imagine',
+  'understand', 'begin', 'allow', 'appreciate', 'consider', 'explore', 'recognize', 'experience',
   'settle', 'remember', 'sense',
 ]
 

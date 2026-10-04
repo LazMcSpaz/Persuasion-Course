@@ -18,6 +18,7 @@ import {
   rolePlayPrompt,
 } from './progress.js'
 import { nominalizations, verbs, linkages, topics, pick } from './words.js'
+import { reference } from '../content/reference.js'
 
 const $app = document.getElementById('app')
 const st = () => store.get()
@@ -26,7 +27,7 @@ const byId = new Map(modules.map((m, i) => [m.id, { m, i }]))
 const KIND = {
   solo: 'On your own',
   everyday: 'Everyday',
-  field: 'In the field',
+  field: 'Real stakes',
   chat: 'Role-play',
 }
 const EVIDENCE = {
@@ -99,10 +100,12 @@ function viewHome() {
       ${bar(fraction(next, s))}
     </a>`
 
+  html += `<div class="row twin"><a class="card mini" href="#/review"><strong>Review</strong><span class="muted">Ten drills from passed modules</span></a><a class="card mini" href="#/reference"><strong>Pattern reference</strong><span class="muted">Every technique on one page</span></a></div>`
+
   if (fieldOpen.length)
     html += `<section class="card">
-      <h2 class="small">Field work running</h2>
-      <p class="muted">These wait on real conversations. Keep logging them as you go on.</p>
+      <h2 class="small">Real-stakes reps running</h2>
+      <p class="muted">These wait on real conversations: a sale of your own, a friend, a group. Keep logging them as you go on.</p>
       <ul class="plain">${fieldOpen
         .map(({ m, a }) => `<li><a href="#/m/${m.id}/practise">${esc(a.title)}</a> <span class="muted">${repsOf(a, s)}/${a.reps}</span></li>`)
         .join('')}</ul>
@@ -132,7 +135,7 @@ function viewHome() {
 const TABS = [
   ['learn', 'Learn'],
   ['drill', 'Drill'],
-  ['practise', 'Practise'],
+  ['practise', 'Practice'],
   ['roleplay', 'Role-play'],
 ]
 
@@ -146,7 +149,7 @@ function moduleHeader(m, i, tab) {
       : hasPassed(m, s)
         ? `<p class="ok">Passed. The next module is open.</p>${
             m.assignments.some((a) => a.required && !assignmentDone(a, s))
-              ? '<p class="muted">Field work still running toward mastery.</p>'
+              ? '<p class="muted">Real-stakes reps still running toward mastery.</p>'
               : ''
           }`
         : `<details class="left"><summary>To pass: ${left.length} thing${left.length === 1 ? '' : 's'} left</summary><ul>${left
@@ -248,7 +251,7 @@ function drillsHtml(m) {
 
 /**
  * Options are shown in an order fixed by the drill's id, so the right
- * answer's position carries no pattern (writers favour the second slot)
+ * answer's position carries no pattern (writers favor the second slot)
  * and stays put between visits. Answers are still stored by original index.
  */
 function orderFor(d) {
@@ -263,8 +266,8 @@ function orderFor(d) {
   return idx
 }
 
-function drillCard(d, n, s) {
-  const head = `<p class="eyebrow">Drill ${n + 1}${d.type === 'rewrite' ? ' · rewrite' : ''}</p>
+function drillCard(d, n, s, result, label) {
+  const head = `<p class="eyebrow">${label ?? `Drill ${n + 1}`}${d.type === 'rewrite' ? ' · rewrite' : ''}</p>
     <p class="prompt">${inline(d.prompt)}</p>
     ${d.quote ? `<blockquote>${inline(d.quote)}</blockquote>` : ''}`
   if (d.type === 'rewrite') {
@@ -286,7 +289,7 @@ function drillCard(d, n, s) {
       </details>
     </div>`
   }
-  const res = s.drills[d.id]
+  const res = result === undefined ? s.drills[d.id] : result
   const answered = !!res
   const multi = d.type === 'multi'
   const right = multi ? d.answers : [d.answer]
@@ -452,7 +455,7 @@ function wirePractise(m) {
 // ── Role-play ────────────────────────────────────────────────────────
 
 function roleplayHtml(m) {
-  return `<p class="muted">Copy a card, paste it into a chat with Claude, and play it out. Type <strong>debrief</strong> at the end for your scores, then log the rep under Practise.</p>
+  return `<p class="muted">Copy a card, paste it into a chat with Claude, and play it out. Type <strong>debrief</strong> at the end for your scores, then log the rep under Practice.</p>
   ${m.scenarios
     .map(
       (sc) => `<div class="card scenario" id="${sc.id}">
@@ -461,7 +464,7 @@ function roleplayHtml(m) {
       <p><span class="muted">Your aim</span><br>${inline(sc.you)}</p>
       <p><span class="muted">Who Claude plays</span><br>${inline(sc.them)}</p>
       <p><span class="muted">Expect</span></p><ul>${sc.objections.map((o) => `<li>${inline(o)}</li>`).join('')}</ul>
-      <p><span class="muted">Practise</span><br>${sc.focus.map(esc).join(' · ')}</p>
+      <p><span class="muted">Practice</span><br>${sc.focus.map(esc).join(' · ')}</p>
       <p><span class="muted">A win</span><br>${inline(sc.win)}</p>
       <div class="row"><button class="button" data-copy="${sc.id}">Copy for Claude</button><a class="button ghost" href="https://claude.ai/new" target="_blank" rel="noopener">Open Claude</a></div>
     </div>`
@@ -523,14 +526,125 @@ function viewLog(kind = 'all') {
               ({ m, a, r }) => `<div class="card"><p class="eyebrow">${esc(m.title)} · ${KIND[a.kind]}</p><h3>${esc(a.title)}</h3>${repHtml(a, r)}</div>`
             )
             .join('')
-        : '<p class="muted">Nothing logged yet. Reps are logged from each module’s Practise tab.</p>'
+        : '<p class="muted">Nothing logged yet. Reps are logged from each module’s Practice tab.</p>'
     }`
   document.getElementById('copylog').onclick = async () => {
     const text = reps
       .map(({ m, a, r }) => [`## ${when(r.at)}: ${a.title} (${m.title}, ${KIND[a.kind]})`, ...a.log.map((q, k) => (r.answers[k] ? `- ${q} ${r.answers[k]}` : '')).filter(Boolean)].join('\n'))
       .join('\n\n')
-    toast((await copyText(`Here is my practice log. Review it: what am I doing well, what patterns do you see in what goes wrong, and what should I practise next?\n\n${text}`)) ? 'Copied.' : 'Copy failed.')
+    toast((await copyText(`Here is my practice log. Review it: what am I doing well, what patterns do you see in what goes wrong, and what should I practice next?\n\n${text}`)) ? 'Copied.' : 'Copy failed.')
   }
+}
+
+// ── Review ───────────────────────────────────────────────────────────
+
+/**
+ * Spaced practice. Graded drills from every passed module, ten at a time,
+ * the ones missed before and the ones not seen for longest first. Answers
+ * here never change a module's score: a pass is a pass.
+ */
+let reviewSet = null
+let reviewAnswers = {}
+
+function pickReview() {
+  const s = st()
+  const now = Date.now()
+  const pool = modules
+    .filter((m) => hasPassed(m, s))
+    .flatMap((m) => m.drills.filter(isAuto).map((d) => ({ d, m })))
+  const weight = ({ d }) => {
+    const r = s.review?.[d.id]
+    if (!r) return 3 + Math.random()
+    const days = (now - Date.parse(r.last)) / 864e5
+    return r.wrong * 2 - r.right * 0.5 + Math.min(days / 3, 4) + Math.random() * 1.5
+  }
+  return pool
+    .map((x) => ({ x, w: weight(x) }))
+    .sort((a, b) => b.w - a.w)
+    .slice(0, 10)
+    .map(({ x }) => x)
+}
+
+function viewReview() {
+  setNav('review')
+  if (!reviewSet) {
+    reviewSet = pickReview()
+    reviewAnswers = {}
+  }
+  const s = st()
+  const done = reviewSet.filter(({ d }) => reviewAnswers[d.id]).length
+  const right = reviewSet.filter(({ d }) => reviewAnswers[d.id]?.correct).length
+  $app.innerHTML = `<header class="hero"><h1>Review</h1>
+    <p class="muted">Ten drills from the modules you have passed, the ones you missed and the ones you have not seen for a while first. Nothing here changes a module’s score.</p></header>
+    ${
+      reviewSet.length
+        ? `<div class="scorebox"><p><strong>${right}</strong> of ${done} right so far, ${reviewSet.length - done} to go</p>
+           <div class="row"><button class="button ghost" data-act="newset">New set</button></div></div>
+           ${reviewSet.map(({ d, m }, n) => drillCard(d, n, s, reviewAnswers[d.id] ?? null, `${esc(m.title)}`)).join('')}`
+        : '<p class="card">Pass your first module and its drills start turning up here.</p>'
+    }`
+  const root = $app
+  const rerender = () => {
+    const y = window.scrollY
+    viewReview()
+    window.scrollTo(0, y)
+  }
+  const record = (d, answer, correct) => {
+    reviewAnswers[d.id] = { answer, correct }
+    commit((x) => {
+      x.review ??= {}
+      const r = x.review[d.id] ?? { right: 0, wrong: 0 }
+      x.review[d.id] = { right: r.right + (correct ? 1 : 0), wrong: r.wrong + (correct ? 0 : 1), last: new Date().toISOString() }
+    })
+    rerender()
+  }
+  root.querySelector('[data-act=newset]')?.addEventListener('click', () => {
+    reviewSet = null
+    viewReview()
+    window.scrollTo(0, 0)
+  })
+  for (const card of root.querySelectorAll('.drill')) {
+    const d = reviewSet.find(({ d }) => d.id === card.dataset.id).d
+    card.addEventListener('click', (e) => {
+      const t = e.target.closest('button')
+      if (!t || reviewAnswers[d.id]) return
+      if (d.type === 'choice' && t.dataset.opt !== undefined) {
+        const k = Number(t.dataset.opt)
+        record(d, k, k === d.answer)
+      }
+      if (d.type === 'multi' && t.dataset.act === 'check') {
+        const ks = [...card.querySelectorAll('input[data-opt]:checked')].map((x) => Number(x.dataset.opt))
+        if (!ks.length) return toast('Tap at least one.')
+        record(d, ks, [...ks].sort().join() === [...d.answers].sort().join())
+      }
+    })
+  }
+}
+
+// ── Reference ────────────────────────────────────────────────────────
+
+function viewReference() {
+  setNav('reference')
+  const s = st()
+  $app.innerHTML = `<header class="hero"><h1>Pattern reference</h1>
+    <p class="muted">Every technique in the course on one page: what it is, a line you could say, and the question that undoes it (which is also how to hear it used on you).</p></header>
+    ${reference
+      .map(
+        (g) => `<h2 class="part">${esc(g.group)}</h2>${g.items
+          .map((it) => {
+            const hit = byId.get(it.module)
+            const open = hit && unlocked(hit.i, modules, s)
+            return `<div class="card ref">
+              <p class="eyebrow">${open ? `<a href="#/m/${it.module}">Module ${hit.i}</a>` : `Module ${hit?.i ?? ''}`} <span class="chip ${it.evidence}">${EVIDENCE[it.evidence]}</span></p>
+              <h3>${esc(it.name)}</h3>
+              <p>${inline(it.what)}</p>
+              <blockquote>${inline(it.example)}</blockquote>
+              ${it.undo ? `<p class="muted"><strong>Undo it:</strong> ${inline(it.undo)}</p>` : ''}
+            </div>`
+          })
+          .join('')}`
+      )
+      .join('')}`
 }
 
 // ── Talk timer ───────────────────────────────────────────────────────
@@ -697,6 +811,8 @@ function route() {
   else if (parts[0] === 'm') viewModule(parts[1], parts[2])
   else if (parts[0] === 'log') viewLog(parts[1])
   else if (parts[0] === 'timer') viewTimer()
+  else if (parts[0] === 'review') viewReview()
+  else if (parts[0] === 'reference') viewReference()
   else if (parts[0] === 'settings') viewSettings()
   else viewHome()
   if (!(parts[0] === 'm' && parts[2] === 'roleplay')) window.scrollTo(0, 0)
